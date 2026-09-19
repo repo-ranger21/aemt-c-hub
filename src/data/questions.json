@@ -1,0 +1,4326 @@
+{
+  "formulas": {
+    "conversion": "lb ÷ 2.2 = kg · 1 g = 1,000 mg · 1 mg = 1,000 mcg",
+    "volume": "Volume (mL) = dose wanted ÷ concentration (per mL)",
+    "weight": "Dose = mg/kg × weight (kg), then check min/max",
+    "percent": "X% = X grams per 100 mL (2% = 20 mg/mL)",
+    "drip": "gtt/min = (volume mL × drip factor) ÷ minutes",
+    "parkland": "4 mL × kg × %TBSA = 24 hr; half in first 8 hr"
+  },
+  "questions": [
+    {
+      "id": "mm-01-1",
+      "kind": "calc",
+      "number": 1,
+      "set": 1,
+      "setTitle": "Conversions & weight",
+      "stem": "Your patient weighs 198 lb. Weight in kg?",
+      "answer": "90 kg",
+      "work": "198 ÷ 2.2 = 90",
+      "formula": "conversion",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-01-2",
+      "kind": "calc",
+      "number": 2,
+      "set": 1,
+      "setTitle": "Conversions & weight",
+      "stem": "Convert 0.5 g to mg.",
+      "answer": "500 mg",
+      "work": "0.5 × 1,000 = 500",
+      "formula": "conversion",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-01-3",
+      "kind": "calc",
+      "number": 3,
+      "set": 1,
+      "setTitle": "Conversions & weight",
+      "stem": "Convert 1,500 mcg to mg.",
+      "answer": "1.5 mg",
+      "work": "1,500 ÷ 1,000 = 1.5",
+      "formula": "conversion",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-01-4",
+      "kind": "calc",
+      "number": 4,
+      "set": 1,
+      "setTitle": "Conversions & weight",
+      "stem": "An infant weighs 8,800 g. Weight in kg?",
+      "answer": "8.8 kg",
+      "work": "8,800 ÷ 1,000 = 8.8",
+      "formula": "conversion",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-01-5",
+      "kind": "calc",
+      "number": 5,
+      "set": 1,
+      "setTitle": "Conversions & weight",
+      "stem": "Convert 2.5 mg to mcg.",
+      "answer": "2,500 mcg",
+      "work": "2.5 × 1,000 = 2,500",
+      "formula": "conversion",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-02-1",
+      "kind": "calc",
+      "number": 6,
+      "set": 2,
+      "setTitle": "Single-step volume",
+      "stem": "Diphenhydramine 50 mg IV. Vial: 50 mg/mL. How many mL?",
+      "answer": "1 mL",
+      "work": "50 ÷ 50 = 1",
+      "formula": "volume",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-02-2",
+      "kind": "calc",
+      "number": 7,
+      "set": 2,
+      "setTitle": "Single-step volume",
+      "stem": "Ondansetron 4 mg IV. Vial: 4 mg/2 mL. How many mL?",
+      "answer": "2 mL",
+      "work": "Concentration 2 mg/mL → 4 ÷ 2 = 2",
+      "formula": "volume",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-02-3",
+      "kind": "calc",
+      "number": 8,
+      "set": 2,
+      "setTitle": "Single-step volume",
+      "stem": "Fentanyl 100 mcg. Vial: 100 mcg/2 mL. How many mL?",
+      "answer": "2 mL",
+      "work": "Concentration 50 mcg/mL → 100 ÷ 50 = 2",
+      "formula": "volume",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-02-4",
+      "kind": "calc",
+      "number": 9,
+      "set": 2,
+      "setTitle": "Single-step volume",
+      "stem": "Midazolam 2.5 mg IN. Vial: 5 mg/mL. How many mL?",
+      "answer": "0.5 mL",
+      "work": "2.5 ÷ 5 = 0.5",
+      "formula": "volume",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-02-5",
+      "kind": "calc",
+      "number": 10,
+      "set": 2,
+      "setTitle": "Single-step volume",
+      "stem": "Lorazepam 4 mg slow IV. Vial: 2 mg/mL. How many mL?",
+      "answer": "2 mL",
+      "work": "4 ÷ 2 = 2",
+      "formula": "volume",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.19A",
+      "ri": {
+        "answer": "1 mL",
+        "work": "2 ÷ 2 = 1",
+        "ref": "2.19A",
+        "stem": "Lorazepam 2 mg IV (RI adult seizure dose). Vial: 2 mg/mL. How many mL?"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-03-1",
+      "kind": "calc",
+      "number": 11,
+      "set": 3,
+      "setTitle": "Weight-based basics",
+      "stem": "Peds atropine 0.02 mg/kg, 15 kg. Dose?",
+      "answer": "0.3 mg",
+      "work": "0.02 × 15 = 0.3",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-03-2",
+      "kind": "calc",
+      "number": 12,
+      "set": 3,
+      "setTitle": "Weight-based basics",
+      "stem": "Peds diphenhydramine 1 mg/kg, 22 kg, 50 mg/mL vial. Dose and volume?",
+      "answer": "22 mg (0.44 mL)",
+      "work": "1 × 22 = 22 mg → 22 ÷ 50 = 0.44 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-03-3",
+      "kind": "calc",
+      "number": 13,
+      "set": 3,
+      "setTitle": "Weight-based basics",
+      "stem": "Peds amiodarone 5 mg/kg (pulseless VF), 18 kg. Dose?",
+      "answer": "90 mg",
+      "work": "5 × 18 = 90",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-03-4",
+      "kind": "calc",
+      "number": 14,
+      "set": 3,
+      "setTitle": "Weight-based basics",
+      "stem": "Peds ondansetron 0.2 mg/kg, 12 kg, 4 mg/2 mL vial. Dose and volume?",
+      "answer": "2.4 mg (1.2 mL)",
+      "work": "0.2 × 12 = 2.4 mg → 2 mg/mL → 1.2 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.07P",
+      "ri": {
+        "answer": "2 mg (1 mL)",
+        "work": "RI uses weight bands: 10–20 kg → 2 mg. 2 mg ÷ 2 mg/mL = 1 mL",
+        "ref": "2.07P",
+        "stem": "RI peds ondansetron: 12 kg child (over 3 months). Dose and volume from 4 mg/2 mL?",
+        "trap": "threshold"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-03-5",
+      "kind": "calc",
+      "number": 15,
+      "set": 3,
+      "setTitle": "Weight-based basics",
+      "stem": "Fentanyl 1 mcg/kg, 70 kg adult, 50 mcg/mL vial. Dose and volume?",
+      "answer": "70 mcg (1.4 mL)",
+      "work": "1 × 70 = 70 mcg → 70 ÷ 50 = 1.4 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.07A",
+      "ri": {
+        "answer": "50 mcg (1 mL)",
+        "work": "1 × 70 = 70 mcg → over the 50 mcg single-dose cap → 50 mcg ÷ 50 = 1 mL",
+        "ref": "2.07A",
+        "stem": "Fentanyl 1 mcg/kg for a 70 kg adult (RI max 50 mcg per dose). Dose and volume from 50 mcg/mL?",
+        "trap": "ceiling"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-04-1",
+      "kind": "calc",
+      "number": 16,
+      "set": 4,
+      "setTitle": "Percent solutions",
+      "stem": "Lidocaine 2%: mg per mL?",
+      "answer": "20 mg/mL",
+      "work": "2% = 2 g/100 mL = 2,000 mg/100 mL = 20 mg/mL",
+      "formula": "percent",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-04-2",
+      "kind": "calc",
+      "number": 17,
+      "set": 4,
+      "setTitle": "Percent solutions",
+      "stem": "Calcium chloride 10%: mg/mL, and mL to give 1 g?",
+      "answer": "100 mg/mL (10 mL)",
+      "work": "10% = 10 g/100 mL = 100 mg/mL → 1,000 ÷ 100 = 10 mL",
+      "formula": "percent",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-04-3",
+      "kind": "calc",
+      "number": 18,
+      "set": 4,
+      "setTitle": "Percent solutions",
+      "stem": "Sodium bicarb 8.4%: 50 mEq in 50 mL. mEq per mL?",
+      "answer": "1 mEq/mL",
+      "work": "50 ÷ 50 = 1",
+      "formula": "percent",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-04-4",
+      "kind": "calc",
+      "number": 19,
+      "set": 4,
+      "setTitle": "Percent solutions",
+      "stem": "D50 (25 g/50 mL). mL to deliver 12.5 g?",
+      "answer": "25 mL",
+      "work": "0.5 g/mL → 12.5 ÷ 0.5 = 25",
+      "formula": "percent",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "09.00",
+      "ri": {
+        "answer": "0.1 g/mL (125 mL)",
+        "work": "25 ÷ 250 = 0.1 g/mL → 12.5 ÷ 0.1 = 125 mL",
+        "ref": "09.00",
+        "stem": "D10 comes as 25 g in 250 mL. g per mL, and mL to deliver 12.5 g?"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-04-5",
+      "kind": "calc",
+      "number": 20,
+      "set": 4,
+      "setTitle": "Percent solutions",
+      "stem": "Epinephrine 1:10,000: mg/mL, and mL to give 1 mg?",
+      "answer": "0.1 mg/mL (10 mL)",
+      "work": "1 mg/10 mL = 0.1 mg/mL → 1 ÷ 0.1 = 10",
+      "formula": "percent",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-05-1",
+      "kind": "calc",
+      "number": 21,
+      "set": 5,
+      "setTitle": "Respiratory",
+      "stem": "DuoNeb: albuterol 2.5 mg/3 mL + ipratropium 0.5 mg/2.5 mL. Total volume?",
+      "answer": "5.5 mL",
+      "work": "3 + 2.5 = 5.5",
+      "formula": "volume",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-05-2",
+      "kind": "calc",
+      "number": 22,
+      "set": 5,
+      "setTitle": "Respiratory",
+      "stem": "Albuterol 2.5 mg given, then repeated twice. Total mg?",
+      "answer": "7.5 mg",
+      "work": "2.5 × 3 = 7.5",
+      "formula": "volume",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-05-3",
+      "kind": "calc",
+      "number": 23,
+      "set": 5,
+      "setTitle": "Respiratory",
+      "stem": "Ipratropium 500 mcg ordered. mg, and volume from 0.5 mg/2.5 mL?",
+      "answer": "0.5 mg (2.5 mL)",
+      "work": "500 ÷ 1,000 = 0.5 mg = one full vial",
+      "formula": "volume",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-05-4",
+      "kind": "calc",
+      "number": 24,
+      "set": 5,
+      "setTitle": "Respiratory",
+      "stem": "Terbutaline 0.25 mg IM. Vial: 1 mg/mL. How many mL?",
+      "answer": "0.25 mL",
+      "work": "0.25 ÷ 1 = 0.25",
+      "formula": "volume",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.04A",
+      "ri": {
+        "answer": "0.15 mg (0.15 mL)",
+        "work": "RI: over 50 or cardiac history → 0.15 mg instead of 0.3 mg",
+        "ref": "2.04A",
+        "stem": "Anaphylaxis in a 62 yo with cardiac history. RI epi dose and volume of 1 mg/mL?",
+        "trap": "age"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-05-5",
+      "kind": "calc",
+      "number": 25,
+      "set": 5,
+      "setTitle": "Respiratory",
+      "stem": "Epinephrine 0.3 mg IM, 1:1,000. How many mL?",
+      "answer": "0.3 mL",
+      "work": "1:1,000 = 1 mg/mL → 0.3 mL",
+      "formula": "volume",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-06-1",
+      "kind": "calc",
+      "number": 26,
+      "set": 6,
+      "setTitle": "Cardiac arrest",
+      "stem": "Epi 1 mg IV in arrest, 1:10,000. How many mL?",
+      "answer": "10 mL",
+      "work": "0.1 mg/mL → 1 ÷ 0.1 = 10",
+      "formula": "weight",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-06-2",
+      "kind": "calc",
+      "number": 27,
+      "set": 6,
+      "setTitle": "Cardiac arrest",
+      "stem": "Amiodarone 300 mg IV. Vial: 150 mg/3 mL. How many mL?",
+      "answer": "6 mL",
+      "work": "50 mg/mL → 300 ÷ 50 = 6",
+      "formula": "weight",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-06-3",
+      "kind": "calc",
+      "number": 28,
+      "set": 6,
+      "setTitle": "Cardiac arrest",
+      "stem": "Second amiodarone dose 150 mg, same vial. How many mL?",
+      "answer": "3 mL",
+      "work": "150 ÷ 50 = 3",
+      "formula": "weight",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-06-4",
+      "kind": "calc",
+      "number": 29,
+      "set": 6,
+      "setTitle": "Cardiac arrest",
+      "stem": "Lidocaine 1.5 mg/kg, 80 kg, lidocaine 2%. Dose and volume?",
+      "answer": "120 mg (6 mL)",
+      "work": "1.5 × 80 = 120 mg → 20 mg/mL → 6 mL",
+      "formula": "weight",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "3.03A",
+      "ri": {
+        "answer": "100 mg (5 mL)",
+        "work": "RI arrest dose is a flat 100 mg (weight is a distractor) → 100 ÷ 20 mg/mL = 5 mL",
+        "ref": "3.03A",
+        "stem": "Adult VF, 80 kg. RI arrest lidocaine dose and volume of 2%?",
+        "trap": "threshold"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-06-5",
+      "kind": "calc",
+      "number": 30,
+      "set": 6,
+      "setTitle": "Cardiac arrest",
+      "stem": "Peds arrest, 14 kg. Epi 0.01 mg/kg of 1:10,000. Dose and volume?",
+      "answer": "0.14 mg (1.4 mL)",
+      "work": "0.01 × 14 = 0.14 mg → ÷ 0.1 = 1.4 mL",
+      "formula": "weight",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-07-1",
+      "kind": "calc",
+      "number": 31,
+      "set": 7,
+      "setTitle": "Bradycardia & tachycardia",
+      "stem": "Atropine 1 mg IV (AHA adult bradycardia dose). Prefill: 1 mg/10 mL. How many mL?",
+      "answer": "10 mL",
+      "work": "0.1 mg/mL → 1 ÷ 0.1 = 10",
+      "formula": "weight",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "ri": {
+        "answer": "0.5–1 mg allowed; 0.5 mg = 5 mL",
+        "work": "RI range is 0.5–1 mg → 0.5 ÷ 0.1 = 5 mL",
+        "ref": "3.05A"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-07-2",
+      "kind": "calc",
+      "number": 32,
+      "set": 7,
+      "setTitle": "Bradycardia & tachycardia",
+      "stem": "Adult atropine: 1 mg doses, max 3 mg (AHA). How many doses?",
+      "answer": "3 doses",
+      "work": "3 ÷ 1 = 3",
+      "formula": "weight",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "ri": {
+        "stem": "RI allows 0.5 mg doses, max 3 mg. How many?",
+        "answer": "6 doses",
+        "work": "3 ÷ 0.5 = 6",
+        "ref": "3.05A"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-07-3",
+      "kind": "calc",
+      "number": 33,
+      "set": 7,
+      "setTitle": "Bradycardia & tachycardia",
+      "stem": "Adenosine 6 mg rapid IVP (AHA first dose). Vial: 6 mg/2 mL. How many mL?",
+      "answer": "2 mL",
+      "work": "3 mg/mL → 6 ÷ 3 = 2",
+      "formula": "weight",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "ri": {
+        "stem": "RI first adenosine dose is 12 mg rapid IVP. How many mL?",
+        "answer": "4 mL",
+        "work": "12 ÷ 3 = 4",
+        "ref": "3.06A"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-07-4",
+      "kind": "calc",
+      "number": 34,
+      "set": 7,
+      "setTitle": "Bradycardia & tachycardia",
+      "stem": "Diltiazem 0.25 mg/kg, 88 kg, 25 mg/5 mL vial. Dose and volume?",
+      "answer": "22 mg (4.4 mL)",
+      "work": "0.25 × 88 = 22 mg → 5 mg/mL → 4.4 mL",
+      "formula": "weight",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "3.06A",
+      "ri": {
+        "answer": "20 mg (4 mL)",
+        "work": "0.25 × 88 = 22 mg → over the 20 mg first-dose cap → 20 ÷ 5 = 4 mL",
+        "ref": "3.06A",
+        "stem": "Diltiazem 0.25 mg/kg for 88 kg (RI first-dose max 20 mg, after med control). Dose and volume from 25 mg/5 mL?",
+        "trap": "ceiling"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-07-5",
+      "kind": "calc",
+      "number": 35,
+      "set": 7,
+      "setTitle": "Bradycardia & tachycardia",
+      "stem": "Second diltiazem 0.35 mg/kg, max 25 mg, 88 kg. What do you push?",
+      "answer": "25 mg (5 mL), cap reached",
+      "work": "0.35 × 88 = 30.8 mg → exceeds 25 mg max → push 25 mg = 5 mL",
+      "formula": "weight",
+      "domain": "cardiology",
+      "trap": "ceiling",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-08-1",
+      "kind": "calc",
+      "number": 36,
+      "set": 8,
+      "setTitle": "Glucose & endocrine",
+      "stem": "Adult dextrose 12.5 g using D50. How many mL?",
+      "answer": "25 mL",
+      "work": "0.5 g/mL → 12.5 ÷ 0.5 = 25",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.10A",
+      "ri": {
+        "answer": "25 g (50 mL/min)",
+        "work": "250 mL × 0.1 g/mL = 25 g → 250 ÷ 5 = 50 mL/min",
+        "ref": "2.10A",
+        "stem": "RI adult hypoglycemia: D10 250 mL over 5 minutes. Grams given and mL/min?"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-08-2",
+      "kind": "calc",
+      "number": 37,
+      "set": 8,
+      "setTitle": "Glucose & endocrine",
+      "stem": "Peds dextrose 0.5 g/kg, 10 kg, using D10. Dose and volume?",
+      "answer": "5 g (50 mL)",
+      "work": "0.5 × 10 = 5 g → D10 = 0.1 g/mL → 50 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.10P",
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-08-3",
+      "kind": "calc",
+      "number": 38,
+      "set": 8,
+      "setTitle": "Glucose & endocrine",
+      "stem": "Peds glucagon 0.1 mg/kg IM, 8 kg, 1 mg/mL. Dose and volume?",
+      "answer": "0.8 mg (0.8 mL)",
+      "work": "0.1 × 8 = 0.8",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-08-4",
+      "kind": "calc",
+      "number": 39,
+      "set": 8,
+      "setTitle": "Glucose & endocrine",
+      "stem": "Peds hypoglycemia: D10 5 mL/kg (0.5 g/kg) for a 16 kg child. Volume and grams?",
+      "answer": "80 mL (8 g)",
+      "work": "5 × 16 = 80 mL → × 0.1 g/mL = 8 g",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.10P",
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-08-5",
+      "kind": "calc",
+      "number": 40,
+      "set": 8,
+      "setTitle": "Glucose & endocrine",
+      "stem": "Thiamine 100 mg slow IV. Vial: 100 mg/mL. How many mL?",
+      "answer": "1 mL",
+      "work": "100 ÷ 100 = 1",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.10A",
+      "ri": {
+        "answer": "2 mL",
+        "work": "200 ÷ 100 = 2",
+        "ref": "2.10A",
+        "stem": "RI thiamine 200 mg before D10. Vial: 100 mg/mL. How many mL?"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-09-1",
+      "kind": "calc",
+      "number": 41,
+      "set": 9,
+      "setTitle": "Allergy & anaphylaxis",
+      "stem": "Peds anaphylaxis (<30 kg): epi 0.15 mg of 1:1,000 IM. How many mL?",
+      "answer": "0.15 mL",
+      "work": "1 mg/mL → 0.15 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.04P",
+      "ri": {
+        "answer": "0.15 mg (0.15 mL)",
+        "work": "15–30 kg → 0.15 mg",
+        "ref": "2.04P",
+        "stem": "RI peds anaphylaxis, 22 kg (15–30 kg band). Epi dose and volume of 1 mg/mL?",
+        "trap": "threshold"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-09-2",
+      "kind": "calc",
+      "number": 42,
+      "set": 9,
+      "setTitle": "Allergy & anaphylaxis",
+      "stem": "Methylprednisolone 2 mg/kg (max 60 mg), 24 kg, 125 mg/2 mL. Dose and volume?",
+      "answer": "48 mg (0.77 mL)",
+      "work": "2 × 24 = 48 (under max) → 62.5 mg/mL → 0.77 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-09-3",
+      "kind": "calc",
+      "number": 43,
+      "set": 9,
+      "setTitle": "Allergy & anaphylaxis",
+      "stem": "Hydrocortisone 2 mg/kg (max 100 mg), 30 kg, 100 mg/2 mL. Dose and volume?",
+      "answer": "60 mg (1.2 mL)",
+      "work": "2 × 30 = 60 (under max) → 50 mg/mL → 1.2 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-09-4",
+      "kind": "calc",
+      "number": 44,
+      "set": 9,
+      "setTitle": "Allergy & anaphylaxis",
+      "stem": "Racemic epi: 0.5 mL of 2.25% in 3 mL NS. mg dose and total volume?",
+      "answer": "11.25 mg (3.5 mL)",
+      "work": "2.25% = 22.5 mg/mL × 0.5 = 11.25 mg; 0.5 + 3 = 3.5 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-09-5",
+      "kind": "calc",
+      "number": 45,
+      "set": 9,
+      "setTitle": "Allergy & anaphylaxis",
+      "stem": "Adult anaphylaxis epi 0.3 mg IM, max 3 doses. Max total mg?",
+      "answer": "0.9 mg",
+      "work": "0.3 × 3 = 0.9",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-10-1",
+      "kind": "calc",
+      "number": 46,
+      "set": 10,
+      "setTitle": "Toxicology",
+      "stem": "Naloxone 2 mg IN. Vial: 2 mg/2 mL. How many mL?",
+      "answer": "2 mL",
+      "work": "1 mg/mL → 2 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-10-2",
+      "kind": "calc",
+      "number": 47,
+      "set": 10,
+      "setTitle": "Toxicology",
+      "stem": "Peds naloxone (<20 kg) 0.1 mg/kg, 14 kg. Dose?",
+      "answer": "1.4 mg",
+      "work": "0.1 × 14 = 1.4",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-10-3",
+      "kind": "calc",
+      "number": 48,
+      "set": 10,
+      "setTitle": "Toxicology",
+      "stem": "Peds activated charcoal 1 g/kg, 26 kg, 50 g/240 mL. Dose and volume?",
+      "answer": "26 g (125 mL)",
+      "work": "26 g × 4.8 mL/g = 124.8 ≈ 125 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "4.18P",
+      "ri": {
+        "answer": "2 mg IN",
+        "work": "≥20 kg uses the fixed 2 mg dose, not 0.1 mg/kg",
+        "ref": "4.18P",
+        "stem": "RI naloxone for a 24 kg child. Dose?",
+        "trap": "threshold"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-10-4",
+      "kind": "calc",
+      "number": 49,
+      "set": 10,
+      "setTitle": "Toxicology",
+      "stem": "Hydroxocobalamin 70 mg/kg (max 5 g), 80 kg. Calculated vs actual?",
+      "answer": "5.6 g calculated → give 5 g",
+      "work": "70 × 80 = 5,600 mg = 5.6 g → capped at 5 g",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": "ceiling",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "4.18/4.20",
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-10-5",
+      "kind": "calc",
+      "number": 50,
+      "set": 10,
+      "setTitle": "Toxicology",
+      "stem": "Peds sodium bicarb 1 mEq/kg, 22 kg, 8.4%. Dose and volume?",
+      "answer": "22 mEq (22 mL)",
+      "work": "1 × 22 = 22 mEq → 1 mEq/mL → 22 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "verify": "Peds bicarb 1 mEq/kg not found in RI protocols",
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-11-1",
+      "kind": "calc",
+      "number": 51,
+      "set": 11,
+      "setTitle": "Seizures & benzodiazepines",
+      "stem": "Peds midazolam 0.2 mg/kg IN (max 4 mg), 18 kg, 5 mg/mL. Dose and volume?",
+      "answer": "3.6 mg (0.72 mL)",
+      "work": "0.2 × 18 = 3.6 (under max) → ÷ 5 = 0.72",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.19P",
+      "ri": {
+        "answer": "1.8 mg (0.36 mL)",
+        "work": "0.1 × 18 = 1.8 (under 2 mg) → ÷ 5 = 0.36 mL",
+        "ref": "2.19P",
+        "stem": "RI peds midazolam 0.1 mg/kg (max 2 mg per dose) for 18 kg. Dose and volume from 5 mg/mL?"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-11-2",
+      "kind": "calc",
+      "number": 52,
+      "set": 11,
+      "setTitle": "Seizures & benzodiazepines",
+      "stem": "Peds diazepam PR 0.5 mg/kg (max 20 mg), 12 kg, 10 mg/2 mL. Dose and volume?",
+      "answer": "6 mg (1.2 mL)",
+      "work": "0.5 × 12 = 6 → 5 mg/mL → 1.2 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-11-3",
+      "kind": "calc",
+      "number": 53,
+      "set": 11,
+      "setTitle": "Seizures & benzodiazepines",
+      "stem": "Peds lorazepam 0.1 mg/kg IV (max 4 mg), 20 kg, 2 mg/mL. Dose and volume?",
+      "answer": "2 mg (1 mL)",
+      "work": "0.1 × 20 = 2 → ÷ 2 = 1",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.19P",
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-11-4",
+      "kind": "calc",
+      "number": 54,
+      "set": 11,
+      "setTitle": "Seizures & benzodiazepines",
+      "stem": "Adult diazepam 5 mg doses, max 20 mg. Total doses allowed?",
+      "answer": "4 doses",
+      "work": "20 ÷ 5 = 4",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.19A",
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-11-5",
+      "kind": "calc",
+      "number": 55,
+      "set": 11,
+      "setTitle": "Seizures & benzodiazepines",
+      "stem": "Peds midazolam max cumulative 1 mg/kg, 15 kg. Max total?",
+      "answer": "15 mg",
+      "work": "1 × 15 = 15",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-12-1",
+      "kind": "calc",
+      "number": 56,
+      "set": 12,
+      "setTitle": "Pain & nausea",
+      "stem": "Acetaminophen 15 mg/kg PO (max 1,000 mg), 68 kg. Calculated vs given?",
+      "answer": "1,020 mg calculated → give 1,000 mg",
+      "work": "15 × 68 = 1,020 → capped at 1,000",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": "ceiling",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-12-2",
+      "kind": "calc",
+      "number": 57,
+      "set": 12,
+      "setTitle": "Pain & nausea",
+      "stem": "Ibuprofen 10 mg/kg PO, 30 kg, 100 mg/5 mL. Dose and volume?",
+      "answer": "300 mg (15 mL)",
+      "work": "10 × 30 = 300 mg → 20 mg/mL → 15 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-12-3",
+      "kind": "calc",
+      "number": 58,
+      "set": 12,
+      "setTitle": "Pain & nausea",
+      "stem": "Fentanyl 1 mcg/kg, 55 kg, 100 mcg/2 mL. Dose and volume?",
+      "answer": "55 mcg (1.1 mL)",
+      "work": "55 mcg → 50 mcg/mL → 1.1 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.07A",
+      "ri": {
+        "answer": "50 mcg (1 mL)",
+        "work": "1 × 55 = 55 → capped at 50 mcg → 50 mcg/mL → 1 mL",
+        "ref": "2.07A",
+        "stem": "Fentanyl 1 mcg/kg for 55 kg (RI max 50 mcg per dose). Dose and volume from 100 mcg/2 mL?",
+        "trap": "ceiling"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-12-4",
+      "kind": "calc",
+      "number": 59,
+      "set": 12,
+      "setTitle": "Pain & nausea",
+      "stem": "Adult fentanyl max 300 mcg; 70 kg patient gets 1 mcg/kg per dose. Full doses?",
+      "answer": "4 doses (280 mcg)",
+      "work": "70 per dose → 300 ÷ 70 = 4.3 → 4 full doses",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": "ceiling",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.07A",
+      "ri": {
+        "answer": "4 doses",
+        "work": "200 ÷ 50 = 4",
+        "ref": "2.07A",
+        "stem": "RI adult fentanyl: max 50 mcg per dose, 200 mcg total. How many full 50 mcg doses?"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-12-5",
+      "kind": "calc",
+      "number": 60,
+      "set": 12,
+      "setTitle": "Pain & nausea",
+      "stem": "Acetaminophen 24-hr max 4,000 mg; patient took 1,000 mg. Remaining?",
+      "answer": "3,000 mg",
+      "work": "4,000 − 1,000 = 3,000",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-13-1",
+      "kind": "calc",
+      "number": 61,
+      "set": 13,
+      "setTitle": "Pediatrics I",
+      "stem": "A child weighs 33 lb. kg?",
+      "answer": "15 kg",
+      "work": "33 ÷ 2.2 = 15",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-13-2",
+      "kind": "calc",
+      "number": 62,
+      "set": 13,
+      "setTitle": "Pediatrics I",
+      "stem": "Same 33 lb child in arrest. Epi 0.01 mg/kg of 1:10,000. Dose and volume?",
+      "answer": "0.15 mg (1.5 mL)",
+      "work": "0.01 × 15 = 0.15 mg → ÷ 0.1 = 1.5 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-13-3",
+      "kind": "calc",
+      "number": 63,
+      "set": 13,
+      "setTitle": "Pediatrics I",
+      "stem": "4 kg infant, atropine 0.02 mg/kg (min 0.1 mg). Calculated vs given?",
+      "answer": "0.08 mg calculated → give 0.1 mg (1 mL of 0.1 mg/mL)",
+      "work": "0.02 × 4 = 0.08 → below the 0.1 mg floor → give 0.1 mg",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": "floor",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-13-4",
+      "kind": "calc",
+      "number": 64,
+      "set": 13,
+      "setTitle": "Pediatrics I",
+      "stem": "15 kg child, amiodarone 5 mg/kg, 150 mg/3 mL. Dose and volume?",
+      "answer": "75 mg (1.5 mL)",
+      "work": "5 × 15 = 75 → 50 mg/mL → 1.5 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-13-5",
+      "kind": "calc",
+      "number": 65,
+      "set": 13,
+      "setTitle": "Pediatrics I",
+      "stem": "15 kg child, lidocaine 1 mg/kg, 2%. Dose and volume?",
+      "answer": "15 mg (0.75 mL)",
+      "work": "15 mg → 20 mg/mL → 0.75 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-14-1",
+      "kind": "calc",
+      "number": 66,
+      "set": 14,
+      "setTitle": "Pediatrics II",
+      "stem": "Peds calcium chloride 20 mg/kg, 12 kg, 10%. Dose and volume?",
+      "answer": "240 mg (2.4 mL)",
+      "work": "20 × 12 = 240 → 100 mg/mL → 2.4 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "verify": "Peds calcium chloride dose not found in RI protocols",
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-14-2",
+      "kind": "calc",
+      "number": 67,
+      "set": 14,
+      "setTitle": "Pediatrics II",
+      "stem": "Peds calcium gluconate 60 mg/kg, 12 kg, 10%. Dose and volume?",
+      "answer": "720 mg (7.2 mL)",
+      "work": "60 × 12 = 720 → 100 mg/mL → 7.2 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "verify": "Peds calcium gluconate dose not found in RI protocols",
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-14-3",
+      "kind": "calc",
+      "number": 68,
+      "set": 14,
+      "setTitle": "Pediatrics II",
+      "stem": "Peds dextrose 0.5 g/kg, 24 kg, D25. Dose and volume?",
+      "answer": "12 g (48 mL)",
+      "work": "0.5 × 24 = 12 g → D25 = 0.25 g/mL → 48 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.10P",
+      "ri": {
+        "answer": "120 mL (12 g)",
+        "work": "5 × 24 = 120 mL → × 0.1 = 12 g",
+        "ref": "2.10P",
+        "stem": "RI peds D10 5 mL/kg for a 24 kg child. Volume and grams?"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-14-4",
+      "kind": "calc",
+      "number": 69,
+      "set": 14,
+      "setTitle": "Pediatrics II",
+      "stem": "Peds naloxone 0.1 mg/kg, 9 kg. Dose?",
+      "answer": "0.9 mg",
+      "work": "0.1 × 9 = 0.9",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-14-5",
+      "kind": "calc",
+      "number": 70,
+      "set": 14,
+      "setTitle": "Pediatrics II",
+      "stem": "Peds glucagon 0.1 mg/kg IM (max 1 mg), 14 kg. Calculated vs given?",
+      "answer": "1.4 mg calculated → give 1 mg",
+      "work": "0.1 × 14 = 1.4 → capped at 1 mg",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": "ceiling",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-15-1",
+      "kind": "calc",
+      "number": 71,
+      "set": 15,
+      "setTitle": "Fluid boluses",
+      "stem": "Peds NS bolus 20 mL/kg, 18 kg. Volume?",
+      "answer": "360 mL",
+      "work": "20 × 18 = 360",
+      "formula": "weight",
+      "domain": "trauma",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-15-2",
+      "kind": "calc",
+      "number": 72,
+      "set": 15,
+      "setTitle": "Fluid boluses",
+      "stem": "Peds fluid max 60 mL/kg, 18 kg. Max total and remaining after first bolus?",
+      "answer": "1,080 mL max (720 mL remaining)",
+      "work": "60 × 18 = 1,080 → 1,080 − 360 = 720",
+      "formula": "weight",
+      "domain": "trauma",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-15-3",
+      "kind": "calc",
+      "number": 73,
+      "set": 15,
+      "setTitle": "Fluid boluses",
+      "stem": "3 kg neonate, 10 mL/kg. Volume?",
+      "answer": "30 mL",
+      "work": "10 × 3 = 30",
+      "formula": "weight",
+      "domain": "trauma",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-15-4",
+      "kind": "calc",
+      "number": 74,
+      "set": 15,
+      "setTitle": "Fluid boluses",
+      "stem": "Adult NS 500 mL bolus given three times. Total?",
+      "answer": "1,500 mL",
+      "work": "500 × 3 = 1,500",
+      "formula": "weight",
+      "domain": "trauma",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-15-5",
+      "kind": "calc",
+      "number": 75,
+      "set": 15,
+      "setTitle": "Fluid boluses",
+      "stem": "4-2-1 maintenance rate, 26 kg child?",
+      "answer": "66 mL/hr",
+      "work": "First 10 kg × 4 = 40, next 10 × 2 = 20, last 6 × 1 = 6 → 66",
+      "formula": "weight",
+      "domain": "trauma",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-16-1",
+      "kind": "calc",
+      "number": 76,
+      "set": 16,
+      "setTitle": "Drip rates",
+      "stem": "500 mL over 60 min, 10 gtt/mL set. gtt/min?",
+      "answer": "83 gtt/min",
+      "work": "(500 × 10) ÷ 60 = 83.3",
+      "formula": "drip",
+      "domain": "operations",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-16-2",
+      "kind": "calc",
+      "number": 77,
+      "set": 16,
+      "setTitle": "Drip rates",
+      "stem": "250 mL over 30 min, 15 gtt/mL set. gtt/min?",
+      "answer": "125 gtt/min",
+      "work": "(250 × 15) ÷ 30 = 125",
+      "formula": "drip",
+      "domain": "operations",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-16-3",
+      "kind": "calc",
+      "number": 78,
+      "set": 16,
+      "setTitle": "Drip rates",
+      "stem": "1,000 mL over 4 hr, 10 gtt/mL set. gtt/min?",
+      "answer": "42 gtt/min",
+      "work": "(1,000 × 10) ÷ 240 = 41.7",
+      "formula": "drip",
+      "domain": "operations",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-16-4",
+      "kind": "calc",
+      "number": 79,
+      "set": 16,
+      "setTitle": "Drip rates",
+      "stem": "100 mL over 20 min, 60 gtt/mL microdrip. gtt/min?",
+      "answer": "300 gtt/min (not countable: run open or switch sets)",
+      "work": "(100 × 60) ÷ 20 = 300 → a microdrip can't realistically run that fast",
+      "formula": "drip",
+      "domain": "operations",
+      "trap": "equipment",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-16-5",
+      "kind": "calc",
+      "number": 80,
+      "set": 16,
+      "setTitle": "Drip rates",
+      "stem": "360 mL bolus over 15 min, 10 gtt/mL set. gtt/min?",
+      "answer": "240 gtt/min (use push-pull or pressure)",
+      "work": "(360 × 10) ÷ 15 = 240",
+      "formula": "drip",
+      "domain": "operations",
+      "trap": "equipment",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-17-1",
+      "kind": "calc",
+      "number": 81,
+      "set": 17,
+      "setTitle": "Infusions over time",
+      "stem": "Amiodarone 150 mg in 100 mL over 10 min. mL/min?",
+      "answer": "10 mL/min",
+      "work": "100 ÷ 10 = 10",
+      "formula": "drip",
+      "domain": "operations",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "3.07A / 09.02",
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-17-2",
+      "kind": "calc",
+      "number": 82,
+      "set": 17,
+      "setTitle": "Infusions over time",
+      "stem": "Hydroxocobalamin 5 g in 250 mL over 15 min. mL/min and mL/hr?",
+      "answer": "16.7 mL/min (1,000 mL/hr)",
+      "work": "250 ÷ 15 = 16.7 → × 60 = 1,000",
+      "formula": "drip",
+      "domain": "operations",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "4.18/4.20",
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-17-3",
+      "kind": "calc",
+      "number": 83,
+      "set": 17,
+      "setTitle": "Infusions over time",
+      "stem": "3% saline 3 mL/kg over 15 min, 70 kg. Volume and mL/min?",
+      "answer": "210 mL (14 mL/min)",
+      "work": "3 × 70 = 210 → ÷ 15 = 14",
+      "formula": "drip",
+      "domain": "operations",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "4.07A",
+      "ri": {
+        "answer": "225 mL (50 gtt/min)",
+        "work": "300 × 0.75 hr = 225 mL → (225 × 10) ÷ 45 = 50 gtt/min",
+        "ref": "4.07A",
+        "stem": "RI adult burn fluids: LR 300 mL/hr. Volume over a 45-min transport, and gtt/min with a 10 gtt/mL set?"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-17-4",
+      "kind": "calc",
+      "number": 84,
+      "set": 17,
+      "setTitle": "Infusions over time",
+      "stem": "Peds D10 5 mL/kg over 5 min for 20 kg. Volume and mL/min?",
+      "answer": "100 mL (20 mL/min)",
+      "work": "5 × 20 = 100 → ÷ 5 = 20",
+      "formula": "drip",
+      "domain": "operations",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.10P",
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-17-5",
+      "kind": "calc",
+      "number": 85,
+      "set": 17,
+      "setTitle": "Infusions over time",
+      "stem": "Push-dose epi 1 mcg/kg (0.1 mL/kg of 10 mcg/mL), 15 kg. Volume and dose?",
+      "answer": "1.5 mL (15 mcg)",
+      "work": "0.1 × 15 = 1.5 mL → × 10 mcg/mL = 15 mcg",
+      "formula": "drip",
+      "domain": "operations",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.20P",
+      "ri": {
+        "answer": "45 mL",
+        "work": "Under 3 months → 10 mL/kg (not 20) → 10 × 4.5 = 45",
+        "ref": "2.20P",
+        "stem": "RI peds shock: 4.5 kg, 2-month-old. LR bolus volume?",
+        "trap": "age"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-18-1",
+      "kind": "calc",
+      "number": 86,
+      "set": 18,
+      "setTitle": "Burns & trauma",
+      "stem": "80 kg, 30% TBSA burns. 24-hr Parkland volume?",
+      "answer": "9,600 mL",
+      "work": "4 × 80 × 30 = 9,600",
+      "formula": "parkland",
+      "domain": "trauma",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "ri": {
+        "answer": "Parkland not used prehospital in RI",
+        "work": "RI 4.07: LR 300 mL/hr adult, 20 mL/kg/hr peds; 1,000 mL (adult) or 20 mL/kg (peds) bolus if hypotensive",
+        "ref": "4.07"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-18-2",
+      "kind": "calc",
+      "number": 87,
+      "set": 18,
+      "setTitle": "Burns & trauma",
+      "stem": "Same patient: first 8-hr volume and hourly rate?",
+      "answer": "4,800 mL (600 mL/hr)",
+      "work": "Half of 9,600 = 4,800 → ÷ 8 = 600",
+      "formula": "parkland",
+      "domain": "trauma",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "ri": {
+        "answer": "Parkland not used prehospital in RI",
+        "work": "RI 4.07: LR 300 mL/hr adult, 20 mL/kg/hr peds; 1,000 mL (adult) or 20 mL/kg (peds) bolus if hypotensive",
+        "ref": "4.07"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-18-3",
+      "kind": "calc",
+      "number": 88,
+      "set": 18,
+      "setTitle": "Burns & trauma",
+      "stem": "Adult rule of nines: both legs plus genitals?",
+      "answer": "37%",
+      "work": "18 + 18 + 1 = 37",
+      "formula": "parkland",
+      "domain": "trauma",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-18-4",
+      "kind": "calc",
+      "number": 89,
+      "set": 18,
+      "setTitle": "Burns & trauma",
+      "stem": "70 kg adult blood volume (70 mL/kg): total and 30% loss?",
+      "answer": "4,900 mL (1,470 mL lost)",
+      "work": "70 × 70 = 4,900 → × 0.3 = 1,470",
+      "formula": "parkland",
+      "domain": "trauma",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-18-5",
+      "kind": "calc",
+      "number": 90,
+      "set": 18,
+      "setTitle": "Burns & trauma",
+      "stem": "22 kg child, 15% TBSA. 24-hr, 8-hr, and hourly rate?",
+      "answer": "1,320 / 660 mL / 82.5 mL/hr",
+      "work": "4 × 22 × 15 = 1,320 → half = 660 → ÷ 8 = 82.5",
+      "formula": "parkland",
+      "domain": "trauma",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "ri": {
+        "answer": "Parkland not used prehospital in RI",
+        "work": "RI 4.07: LR 300 mL/hr adult, 20 mL/kg/hr peds; 1,000 mL (adult) or 20 mL/kg (peds) bolus if hypotensive",
+        "ref": "4.07"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-19-1",
+      "kind": "calc",
+      "number": 91,
+      "set": 19,
+      "setTitle": "Multi-step scenarios",
+      "stem": "176 lb patient, aspirin 324 mg from 81 mg tablets. Tablets?",
+      "answer": "4 tablets",
+      "work": "324 ÷ 81 = 4 (weight doesn't matter: distractor)",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-19-2",
+      "kind": "calc",
+      "number": 92,
+      "set": 19,
+      "setTitle": "Multi-step scenarios",
+      "stem": "Nitro 0.4 mg SL every 5 min × 3. Total?",
+      "answer": "1.2 mg",
+      "work": "0.4 × 3 = 1.2",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-19-3",
+      "kind": "calc",
+      "number": 93,
+      "set": 19,
+      "setTitle": "Multi-step scenarios",
+      "stem": "198 lb patient in VF: amiodarone 300 then 150 mg. Total mg and mL?",
+      "answer": "450 mg (9 mL)",
+      "work": "300 + 150 = 450 → 50 mg/mL → 9 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-19-4",
+      "kind": "calc",
+      "number": 94,
+      "set": 19,
+      "setTitle": "Multi-step scenarios",
+      "stem": "15 kg child in status: midazolam 0.2 mg/kg IN. First dose and remaining cumulative budget?",
+      "answer": "3 mg (0.6 mL); 12 mg remaining",
+      "work": "0.2 × 15 = 3 mg → 0.6 mL; max 1 mg/kg = 15 → 15 − 3 = 12",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.19P",
+      "ri": {
+        "answer": "1.5 mg (0.3 mL); 13.5 mg remaining",
+        "work": "0.1 × 15 = 1.5 mg → ÷ 5 = 0.3 mL; max 1 mg/kg = 15 → 15 − 1.5 = 13.5",
+        "ref": "2.19P",
+        "stem": "15 kg child in status. RI midazolam 0.1 mg/kg. First dose (mg/mL) and remaining cumulative budget?"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-19-5",
+      "kind": "calc",
+      "number": 95,
+      "set": 19,
+      "setTitle": "Multi-step scenarios",
+      "stem": "88 lb anaphylaxis: kg, epi dose, and methylpred 2 mg/kg (max 60 mg)?",
+      "answer": "40 kg; epi 0.3 mg (0.3 mL); methylpred 60 mg",
+      "work": "88 ÷ 2.2 = 40 → over 30 kg so adult epi dose → 2 × 40 = 80 → capped at 60",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": "threshold",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-20-1",
+      "kind": "calc",
+      "number": 96,
+      "set": 20,
+      "setTitle": "Max doses & traps",
+      "stem": "Adult atropine max 3 mg; four 0.5 mg doses given. Remaining?",
+      "answer": "1 mg",
+      "work": "4 × 0.5 = 2 → 3 − 2 = 1",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-20-2",
+      "kind": "calc",
+      "number": 97,
+      "set": 20,
+      "setTitle": "Max doses & traps",
+      "stem": "Adult naloxone max 10 mg; three 2 mg doses given. Remaining?",
+      "answer": "4 mg",
+      "work": "3 × 2 = 6 → 10 − 6 = 4",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-20-3",
+      "kind": "calc",
+      "number": 98,
+      "set": 20,
+      "setTitle": "Max doses & traps",
+      "stem": "Adult lorazepam max 10 mg; initial 4 mg given. 2 mg doses left?",
+      "answer": "3 doses",
+      "work": "10 − 4 = 6 → 6 ÷ 2 = 3",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.19A",
+      "ri": {
+        "answer": "4 doses",
+        "work": "10 − 2 = 8 → 8 ÷ 2 = 4",
+        "ref": "2.19A",
+        "stem": "RI adult lorazepam: 2 mg doses, max 10 mg. After the first 2 mg, how many more doses?"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-20-4",
+      "kind": "calc",
+      "number": 99,
+      "set": 20,
+      "setTitle": "Max doses & traps",
+      "stem": "Midazolam restraint, over 65, max 5 mg. Gave 5 mg IM. Remaining?",
+      "answer": "0 mg",
+      "work": "Geriatric ceiling already reached",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": "age",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "2.25",
+      "ri": {
+        "answer": "5 mg; only in 10 min if SBP >100",
+        "work": "10 − 5 = 5 mg; repeat requires SBP >100",
+        "ref": "2.25",
+        "stem": "RI agitated delirium: midazolam max 10 mg. You gave 5 mg IM. Remaining, and what must be true to repeat?",
+        "trap": "threshold"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "mm-20-5",
+      "kind": "calc",
+      "number": 100,
+      "set": 20,
+      "setTitle": "Max doses & traps",
+      "stem": "110 kg, diltiazem 0.25 mg/kg (max 25 mg). Calculated vs actual volume?",
+      "answer": "27.5 mg calculated → push 25 mg (5 mL)",
+      "work": "0.25 × 110 = 27.5 → capped at 25 → 5 mg/mL → 5 mL",
+      "formula": "weight",
+      "domain": "medical",
+      "trap": "ceiling",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT-C Medication Mathematics Question Bank",
+        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+      },
+      "protocolRef": "3.06A",
+      "ri": {
+        "answer": "27.5 mg calculated → push 20 mg (4 mL)",
+        "work": "0.25 × 110 = 27.5 → capped at 20 → 5 mg/mL → 4 mL",
+        "ref": "3.06A",
+        "stem": "110 kg, diltiazem 0.25 mg/kg (RI first-dose max 20 mg). Calculated vs actual volume?"
+      },
+      "deck": "med-math",
+      "deckTitle": "Med math"
+    },
+    {
+      "id": "ecg-101",
+      "kind": "recall",
+      "number": 101,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "One small box and one large box on ECG paper equal how many seconds?",
+      "answer": "0.04 s and 0.20 s",
+      "work": "5 small boxes make 1 large box: 5 × 0.04 = 0.20 s",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      }
+    },
+    {
+      "id": "ecg-102",
+      "kind": "recall",
+      "number": 102,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "A 6-second strip shows 8 QRS complexes. Heart rate?",
+      "answer": "80/min",
+      "work": "8 × 10 = 80. Works even when irregular",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      }
+    },
+    {
+      "id": "ecg-103",
+      "kind": "recall",
+      "number": 103,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Regular rhythm with 20 small boxes between R waves. Rate?",
+      "answer": "75/min",
+      "work": "1,500 ÷ 20 = 75",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      }
+    },
+    {
+      "id": "ecg-104",
+      "kind": "recall",
+      "number": 104,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Normal PR interval?",
+      "answer": "0.12–0.20 s",
+      "work": "3–5 small boxes",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      }
+    },
+    {
+      "id": "ecg-105",
+      "kind": "recall",
+      "number": 105,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Intrinsic rates of the SA node, AV junction, and ventricles?",
+      "answer": "60–100, 40–60, 20–40",
+      "work": "Lower pacemakers are slower backups",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      }
+    },
+    {
+      "id": "ecg-106",
+      "kind": "recall",
+      "number": 106,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Regular narrow-complex tachycardia at 190 with no visible P waves, abrupt onset.",
+      "answer": "SVT",
+      "work": "P waves hide in the T waves at fast rates; rate above 150 in this text",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      },
+      "strip": {
+        "rate": 190,
+        "regularity": "regular",
+        "pWaves": "absent",
+        "prInterval": null,
+        "qrsWidth": 0.08
+      }
+    },
+    {
+      "id": "ecg-107",
+      "kind": "recall",
+      "number": 107,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Irregularly irregular rhythm, no P waves, wavy baseline.",
+      "answer": "Atrial fibrillation",
+      "work": "Over 100 = rapid ventricular response",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      },
+      "strip": {
+        "rate": 120,
+        "regularity": "irregularly-irregular",
+        "pWaves": "fibrillatory",
+        "prInterval": null,
+        "qrsWidth": 0.08
+      }
+    },
+    {
+      "id": "ecg-108",
+      "kind": "recall",
+      "number": 108,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Sawtooth waves with 4 waves before each QRS.",
+      "answer": "Atrial flutter, 4:1",
+      "work": "Name flutter by its conduction ratio",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      },
+      "strip": {
+        "rate": 75,
+        "regularity": "regular",
+        "pWaves": "sawtooth",
+        "prInterval": null,
+        "qrsWidth": 0.08,
+        "atrialRate": 300,
+        "conductionRatio": 4
+      }
+    },
+    {
+      "id": "ecg-109",
+      "kind": "recall",
+      "number": 109,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Inverted P waves before a narrow QRS, PR 0.10 s, rate 50.",
+      "answer": "Junctional escape rhythm",
+      "work": "Junctional P waves: inverted, buried, or after the QRS; rate 40–60",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      },
+      "strip": {
+        "rate": 50,
+        "regularity": "regular",
+        "pWaves": "inverted",
+        "prInterval": 0.1,
+        "qrsWidth": 0.08
+      }
+    },
+    {
+      "id": "ecg-110",
+      "kind": "recall",
+      "number": 110,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Every P is conducted, PR constant at 0.28 s.",
+      "answer": "First-degree AV block",
+      "work": "PR over 0.20 s, constant",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      },
+      "strip": {
+        "rate": 70,
+        "regularity": "regular",
+        "pWaves": "normal",
+        "prInterval": 0.28,
+        "qrsWidth": 0.08
+      }
+    },
+    {
+      "id": "ecg-111",
+      "kind": "recall",
+      "number": 111,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "PR lengthens each beat until a QRS drops, then repeats.",
+      "answer": "Second-degree type I (Wenckebach)",
+      "work": "Longer, longer, drop",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      },
+      "strip": {
+        "rate": 60,
+        "regularity": "regular",
+        "pWaves": "normal",
+        "prInterval": 0.16,
+        "qrsWidth": 0.08,
+        "droppedBeats": "wenckebach",
+        "conductionRatio": 4
+      }
+    },
+    {
+      "id": "ecg-112",
+      "kind": "recall",
+      "number": 112,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "PR is constant, then a QRS suddenly drops.",
+      "answer": "Second-degree type II",
+      "work": "Unpredictable; can progress to complete block",
+      "domain": "cardiology",
+      "trap": "threshold",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      },
+      "strip": {
+        "rate": 60,
+        "regularity": "regular",
+        "pWaves": "normal",
+        "prInterval": 0.18,
+        "qrsWidth": 0.08,
+        "droppedBeats": "fixed-ratio",
+        "conductionRatio": 4
+      }
+    },
+    {
+      "id": "ecg-113",
+      "kind": "recall",
+      "number": 113,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "P waves march through at 80, wide QRS at 35, no relationship between them.",
+      "answer": "Third-degree (complete) block with ventricular escape",
+      "work": "Independent P and QRS; wide slow escape = ventricular origin",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      },
+      "strip": {
+        "rate": 35,
+        "regularity": "regular",
+        "pWaves": "dissociated",
+        "prInterval": null,
+        "qrsWidth": 0.16,
+        "atrialRate": 80
+      }
+    },
+    {
+      "id": "ecg-114",
+      "kind": "recall",
+      "number": 114,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Every other beat is early, wide, and bizarre with no P wave.",
+      "answer": "Ventricular bigeminy",
+      "work": "A PVC every second beat",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      },
+      "strip": {
+        "rate": 80,
+        "regularity": "irregular",
+        "pWaves": "normal",
+        "prInterval": 0.16,
+        "qrsWidth": 0.08,
+        "droppedBeats": "bigeminy"
+      }
+    },
+    {
+      "id": "ecg-115",
+      "kind": "recall",
+      "number": 115,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Polymorphic VT twisting around the baseline. Rhythm and national first-line drug?",
+      "answer": "Torsades de pointes; magnesium sulfate",
+      "work": "Linked to long QT",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      },
+      "strip": {
+        "rate": 220,
+        "regularity": "irregular",
+        "pWaves": "absent",
+        "prInterval": null,
+        "qrsWidth": 0.14,
+        "polymorphic": true
+      }
+    },
+    {
+      "id": "ecg-116",
+      "kind": "recall",
+      "number": 116,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Organized rhythm on the monitor, no pulse.",
+      "answer": "PEA: start CPR and give epinephrine",
+      "work": "Search for the Hs and Ts",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      },
+      "ri": {
+        "answer": "Epinephrine every 5 min, max 5 doses",
+        "work": "RI non-shockable arrest dosing",
+        "ref": "3.03A"
+      },
+      "strip": {
+        "rate": 80,
+        "regularity": "regular",
+        "pWaves": "normal",
+        "prInterval": 0.16,
+        "qrsWidth": 0.08
+      }
+    },
+    {
+      "id": "ecg-117",
+      "kind": "recall",
+      "number": 117,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Flat line on the monitor. What do you do before calling asystole?",
+      "answer": "Check the patient, confirm in a second lead, check leads and gain",
+      "work": "Loose leads look like asystole",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      },
+      "strip": {
+        "rate": 0,
+        "regularity": "regular",
+        "pWaves": "absent",
+        "prInterval": null,
+        "qrsWidth": 0,
+        "flatline": true
+      }
+    },
+    {
+      "id": "ecg-118",
+      "kind": "recall",
+      "number": 118,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "ST elevation in II, III, aVF. Which wall, which artery, and what extra lead?",
+      "answer": "Inferior wall, usually the RCA; get V4R",
+      "work": "Look for right ventricular involvement",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      },
+      "ri": {
+        "answer": "No nitro if RV infarct; stop nitro and give fluid if BP drops",
+        "work": "Preload dependent",
+        "ref": "3.02"
+      }
+    },
+    {
+      "id": "ecg-119",
+      "kind": "recall",
+      "number": 119,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "ST elevation in V1–V4.",
+      "answer": "Septal and anterior wall: LAD",
+      "work": "The widow-maker territory",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      }
+    },
+    {
+      "id": "ecg-120",
+      "kind": "recall",
+      "number": 120,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Stable adult SVT after vagal maneuvers. Adenosine dosing?",
+      "answer": "6 mg rapid IV push with flush, then 12 mg",
+      "work": "AHA sequence",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      },
+      "ri": {
+        "answer": "12 mg first, may repeat × 1",
+        "work": "RI starts at 12 mg",
+        "ref": "3.06A"
+      }
+    },
+    {
+      "id": "ecg-121",
+      "kind": "recall",
+      "number": 121,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Symptomatic adult bradycardia. Atropine dose and max?",
+      "answer": "1 mg every 3–5 min, max 3 mg",
+      "work": "AHA adult dosing",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      },
+      "ri": {
+        "answer": "0.5–1 mg every 3–5 min, max 3 mg",
+        "work": "RI allows starting at 0.5 mg",
+        "ref": "3.05A"
+      }
+    },
+    {
+      "id": "peds-resus-122",
+      "kind": "recall",
+      "number": 122,
+      "deck": "peds-resus",
+      "deckTitle": "Pediatric resuscitation (AHA 2025)",
+      "set": 0,
+      "setTitle": "Pediatric resuscitation (AHA 2025)",
+      "stem": "Infant CPR: compression depth and hand technique (2025)?",
+      "answer": "About 1.5 in (⅓ AP diameter); heel of 1 hand or 2-thumb encircling",
+      "work": "2-finger technique removed",
+      "domain": "cardiology",
+      "trap": "age",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AHA/AAP 2025 Guidelines Part 6: Pediatric Basic Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001370"
+      }
+    },
+    {
+      "id": "peds-resus-123",
+      "kind": "recall",
+      "number": 123,
+      "deck": "peds-resus",
+      "deckTitle": "Pediatric resuscitation (AHA 2025)",
+      "set": 0,
+      "setTitle": "Pediatric resuscitation (AHA 2025)",
+      "stem": "Two rescuers, child, no advanced airway. Compression-to-ventilation ratio?",
+      "answer": "15:2",
+      "work": "30:2 for a single rescuer or after puberty",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AHA/AAP 2025 Guidelines Part 6: Pediatric Basic Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001370"
+      },
+      "ri": {
+        "answer": "Continuous compressions prioritized; ventilate 20–30/min",
+        "work": "RI emphasizes continuous compressions",
+        "ref": "3.03P"
+      }
+    },
+    {
+      "id": "peds-resus-124",
+      "kind": "recall",
+      "number": 124,
+      "deck": "peds-resus",
+      "deckTitle": "Pediatric resuscitation (AHA 2025)",
+      "set": 0,
+      "setTitle": "Pediatric resuscitation (AHA 2025)",
+      "stem": "Conscious 4-year-old, severe choking. What do you do (2025)?",
+      "answer": "Cycles of 5 back blows and 5 abdominal thrusts",
+      "work": "New in 2025 for children",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AHA/AAP 2025 Guidelines Part 6: Pediatric Basic Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001370"
+      },
+      "ri": {
+        "answer": "Abdominal thrusts (Heimlich) only",
+        "work": "RI 7.02 has not added back blows for children",
+        "ref": "7.02"
+      }
+    },
+    {
+      "id": "peds-resus-125",
+      "kind": "recall",
+      "number": 125,
+      "deck": "peds-resus",
+      "deckTitle": "Pediatric resuscitation (AHA 2025)",
+      "set": 0,
+      "setTitle": "Pediatric resuscitation (AHA 2025)",
+      "stem": "Conscious infant, severe choking?",
+      "answer": "5 back blows, then 5 chest thrusts (heel of hand), repeat",
+      "work": "Never abdominal thrusts in infants",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AHA/AAP 2025 Guidelines Part 6: Pediatric Basic Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001370"
+      }
+    },
+    {
+      "id": "peds-resus-126",
+      "kind": "recall",
+      "number": 126,
+      "deck": "peds-resus",
+      "deckTitle": "Pediatric resuscitation (AHA 2025)",
+      "set": 0,
+      "setTitle": "Pediatric resuscitation (AHA 2025)",
+      "stem": "Rescue breathing rate for a child with a pulse who isn't breathing adequately?",
+      "answer": "1 breath every 2–3 s (20–30/min)",
+      "work": "Reassess pulse every 2 min",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AHA/AAP 2025 Guidelines Part 6: Pediatric Basic Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001370"
+      }
+    },
+    {
+      "id": "peds-resus-127",
+      "kind": "recall",
+      "number": 127,
+      "deck": "peds-resus",
+      "deckTitle": "Pediatric resuscitation (AHA 2025)",
+      "set": 0,
+      "setTitle": "Pediatric resuscitation (AHA 2025)",
+      "stem": "AED for a 5-year-old, but no pediatric attenuator. Use it?",
+      "answer": "Yes: use the adult AED",
+      "work": "A shock beats no shock",
+      "domain": "cardiology",
+      "trap": "equipment",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AHA/AAP 2025 Guidelines Part 6: Pediatric Basic Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001370"
+      }
+    },
+    {
+      "id": "peds-resus-128",
+      "kind": "recall",
+      "number": 128,
+      "deck": "peds-resus",
+      "deckTitle": "Pediatric resuscitation (AHA 2025)",
+      "set": 0,
+      "setTitle": "Pediatric resuscitation (AHA 2025)",
+      "stem": "18 kg child in VF. First and second shock energy?",
+      "answer": "36 J, then 72 J",
+      "work": "2 J/kg then 4 J/kg; max 10 J/kg or adult dose",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001368"
+      }
+    },
+    {
+      "id": "peds-resus-129",
+      "kind": "recall",
+      "number": 129,
+      "deck": "peds-resus",
+      "deckTitle": "Pediatric resuscitation (AHA 2025)",
+      "set": 0,
+      "setTitle": "Pediatric resuscitation (AHA 2025)",
+      "stem": "16 kg child in asystole. Epinephrine dose and volume (0.1 mg/mL)?",
+      "answer": "0.16 mg (1.6 mL)",
+      "work": "0.01 mg/kg; max 1 mg; every 3–5 min",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001368"
+      }
+    },
+    {
+      "id": "peds-resus-130",
+      "kind": "recall",
+      "number": 130,
+      "deck": "peds-resus",
+      "deckTitle": "Pediatric resuscitation (AHA 2025)",
+      "set": 0,
+      "setTitle": "Pediatric resuscitation (AHA 2025)",
+      "stem": "20 kg child in refractory VF. Amiodarone dose?",
+      "answer": "100 mg",
+      "work": "5 mg/kg (max 300 mg first dose)",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001368"
+      }
+    },
+    {
+      "id": "peds-resus-131",
+      "kind": "recall",
+      "number": 131,
+      "deck": "peds-resus",
+      "deckTitle": "Pediatric resuscitation (AHA 2025)",
+      "set": 0,
+      "setTitle": "Pediatric resuscitation (AHA 2025)",
+      "stem": "50 kg teen in refractory VF. Amiodarone first dose?",
+      "answer": "250 mg",
+      "work": "5 × 50 = 250 (under 300 mg cap)",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001368"
+      }
+    },
+    {
+      "id": "peds-resus-132",
+      "kind": "recall",
+      "number": 132,
+      "deck": "peds-resus",
+      "deckTitle": "Pediatric resuscitation (AHA 2025)",
+      "set": 0,
+      "setTitle": "Pediatric resuscitation (AHA 2025)",
+      "stem": "14 kg child in stable SVT after vagal maneuvers. Adenosine first and second doses?",
+      "answer": "1.4 mg, then 2.8 mg",
+      "work": "0.1 mg/kg (max 6), then 0.2 mg/kg (max 12)",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001368"
+      },
+      "ri": {
+        "answer": "2.8 mg first (0.2 mg/kg), after medical control",
+        "work": "RI starts at 0.2 mg/kg",
+        "ref": "3.06P"
+      }
+    },
+    {
+      "id": "peds-resus-133",
+      "kind": "recall",
+      "number": 133,
+      "deck": "peds-resus",
+      "deckTitle": "Pediatric resuscitation (AHA 2025)",
+      "set": 0,
+      "setTitle": "Pediatric resuscitation (AHA 2025)",
+      "stem": "70 kg 13-year-old in SVT. Adenosine first dose?",
+      "answer": "6 mg",
+      "work": "0.1 × 70 = 7 → capped at 6 mg",
+      "domain": "cardiology",
+      "trap": "ceiling",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001368"
+      },
+      "ri": {
+        "answer": "12 mg",
+        "work": "0.2 × 70 = 14 → capped at 12 mg",
+        "ref": "3.06P"
+      }
+    },
+    {
+      "id": "peds-resus-134",
+      "kind": "recall",
+      "number": 134,
+      "deck": "peds-resus",
+      "deckTitle": "Pediatric resuscitation (AHA 2025)",
+      "set": 0,
+      "setTitle": "Pediatric resuscitation (AHA 2025)",
+      "stem": "10 kg child, unstable SVT, no IV. Synchronized cardioversion energy?",
+      "answer": "5–10 J, then 20 J",
+      "work": "0.5–1 J/kg, then 2 J/kg",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001368"
+      },
+      "ri": {
+        "answer": "10 J, then 20 J",
+        "work": "RI uses 1 J/kg, then 2 J/kg",
+        "ref": "3.06P"
+      }
+    },
+    {
+      "id": "peds-resus-135",
+      "kind": "recall",
+      "number": 135,
+      "deck": "peds-resus",
+      "deckTitle": "Pediatric resuscitation (AHA 2025)",
+      "set": 0,
+      "setTitle": "Pediatric resuscitation (AHA 2025)",
+      "stem": "Infant, HR 50, poor perfusion despite good ventilation with oxygen. Next step?",
+      "answer": "Start CPR",
+      "work": "HR under 60 with poor perfusion = compressions",
+      "domain": "cardiology",
+      "trap": "threshold",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001368"
+      }
+    },
+    {
+      "id": "peds-resus-136",
+      "kind": "recall",
+      "number": 136,
+      "deck": "peds-resus",
+      "deckTitle": "Pediatric resuscitation (AHA 2025)",
+      "set": 0,
+      "setTitle": "Pediatric resuscitation (AHA 2025)",
+      "stem": "Pediatric atropine dose limits?",
+      "answer": "0.02 mg/kg; min 0.1 mg, max single 0.5 mg; may repeat once",
+      "work": "For vagal bradycardia or AV block",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001368"
+      }
+    },
+    {
+      "id": "cardiac-137",
+      "kind": "recall",
+      "number": 137,
+      "deck": "cardiac",
+      "deckTitle": "Cardiovascular emergencies",
+      "set": 0,
+      "setTitle": "Cardiovascular emergencies",
+      "stem": "Adult arrest, no advanced airway. Compressions to breaths?",
+      "answer": "30:2",
+      "work": "With an advanced airway: 1 breath every 6 s",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+      },
+      "ri": {
+        "answer": "Continuous compressions; VF/VT gets passive O₂ for 4 cycles, then 10 breaths/min",
+        "work": "RI adult arrest approach",
+        "ref": "3.03A"
+      }
+    },
+    {
+      "id": "cardiac-138",
+      "kind": "recall",
+      "number": 138,
+      "deck": "cardiac",
+      "deckTitle": "Cardiovascular emergencies",
+      "set": 0,
+      "setTitle": "Cardiovascular emergencies",
+      "stem": "How soon should a chest-pain patient get a 12-lead?",
+      "answer": "Within 10 minutes of contact",
+      "work": "Then transmit/notify for STEMI",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+      },
+      "ri": {
+        "answer": "Transmit to the PCI center; scene ≤10 min if STEMI",
+        "work": "RI adds transmission and scene-time goal",
+        "ref": "3.02"
+      }
+    },
+    {
+      "id": "cardiac-139",
+      "kind": "recall",
+      "number": 139,
+      "deck": "cardiac",
+      "deckTitle": "Cardiovascular emergencies",
+      "set": 0,
+      "setTitle": "Cardiovascular emergencies",
+      "stem": "Heart failure patient, SBP 96. Give nitro?",
+      "answer": "No: textbook HF threshold is SBP >100",
+      "work": "Hypotension risk",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+      },
+      "ri": {
+        "answer": "No: RI requires SBP >100",
+        "work": "Same answer here",
+        "ref": "3.01/3.02"
+      }
+    },
+    {
+      "id": "cardiac-140",
+      "kind": "recall",
+      "number": 140,
+      "deck": "cardiac",
+      "deckTitle": "Cardiovascular emergencies",
+      "set": 0,
+      "setTitle": "Cardiovascular emergencies",
+      "stem": "Possible cardiogenic shock. Textbook BP needed before nitro?",
+      "answer": "SBP >90 (and IV access)",
+      "work": "Ch 14 threshold",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+      },
+      "ri": {
+        "answer": "SBP >100",
+        "work": "RI cutoff is higher",
+        "ref": "3.02"
+      }
+    },
+    {
+      "id": "cardiac-141",
+      "kind": "recall",
+      "number": 141,
+      "deck": "cardiac",
+      "deckTitle": "Cardiovascular emergencies",
+      "set": 0,
+      "setTitle": "Cardiovascular emergencies",
+      "stem": "Define a hypertensive emergency.",
+      "answer": "SBP >180, DBP ≥120, or a rapid rise, with organ symptoms",
+      "work": "Head up, IV, rapid transport",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "cardiac-142",
+      "kind": "recall",
+      "number": 142,
+      "deck": "cardiac",
+      "deckTitle": "Cardiovascular emergencies",
+      "set": 0,
+      "setTitle": "Cardiovascular emergencies",
+      "stem": "JVD and swollen ankles without crackles suggest which heart failure?",
+      "answer": "Right-sided",
+      "work": "Fluid backs up into the body",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "cardiac-143",
+      "kind": "recall",
+      "number": 143,
+      "deck": "cardiac",
+      "deckTitle": "Cardiovascular emergencies",
+      "set": 0,
+      "setTitle": "Cardiovascular emergencies",
+      "stem": "Tearing chest pain to the back. What quick check supports dissection?",
+      "answer": "BP in both arms",
+      "work": "A large difference suggests dissection",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "iv-144",
+      "kind": "recall",
+      "number": 144,
+      "deck": "iv",
+      "deckTitle": "Vascular access & IV therapy",
+      "set": 0,
+      "setTitle": "Vascular access & IV therapy",
+      "stem": "Drops per mL in a microdrip vs macrodrip set?",
+      "answer": "60 gtt/mL vs 10–15 gtt/mL",
+      "work": "Micro for small volumes and kids",
+      "domain": "operations",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 13: Vascular Access and Medication Administration (lecture slides)"
+      }
+    },
+    {
+      "id": "iv-145",
+      "kind": "recall",
+      "number": 145,
+      "deck": "iv",
+      "deckTitle": "Vascular access & IV therapy",
+      "set": 0,
+      "setTitle": "Vascular access & IV therapy",
+      "stem": "Is lactated Ringer's isotonic, hypotonic, or hypertonic? D5W?",
+      "answer": "LR isotonic; D5W hypotonic",
+      "work": "3% saline is hypertonic",
+      "domain": "operations",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 13: Vascular Access and Medication Administration (lecture slides)"
+      }
+    },
+    {
+      "id": "iv-146",
+      "kind": "recall",
+      "number": 146,
+      "deck": "iv",
+      "deckTitle": "Vascular access & IV therapy",
+      "set": 0,
+      "setTitle": "Vascular access & IV therapy",
+      "stem": "Swelling and cool skin at the IV site, flow slowing. Problem and fix?",
+      "answer": "Infiltration: stop, remove, restart in the other extremity",
+      "work": "Don't restart below the bad site on the same limb",
+      "domain": "operations",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 13: Vascular Access and Medication Administration (lecture slides)"
+      }
+    },
+    {
+      "id": "iv-147",
+      "kind": "recall",
+      "number": 147,
+      "deck": "iv",
+      "deckTitle": "Vascular access & IV therapy",
+      "set": 0,
+      "setTitle": "Vascular access & IV therapy",
+      "stem": "Proximal tibia IO landmark?",
+      "answer": "Find the tibial tuberosity, then about 2 cm medial",
+      "work": "Flat part of the tibia",
+      "domain": "operations",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 13: Vascular Access and Medication Administration (lecture slides)"
+      }
+    },
+    {
+      "id": "iv-148",
+      "kind": "recall",
+      "number": 148,
+      "deck": "iv",
+      "deckTitle": "Vascular access & IV therapy",
+      "set": 0,
+      "setTitle": "Vascular access & IV therapy",
+      "stem": "Which catheter is larger, 14 or 22 gauge?",
+      "answer": "14 gauge",
+      "work": "Smaller number = bigger catheter",
+      "domain": "operations",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 13: Vascular Access and Medication Administration (lecture slides)"
+      }
+    },
+    {
+      "id": "resp-101",
+      "kind": "recall",
+      "number": 101,
+      "deck": "respiratory",
+      "deckTitle": "Respiratory emergencies",
+      "set": 0,
+      "setTitle": "Respiratory emergencies",
+      "stem": "Pursed-lip breathing, barrel chest, tripod positioning, dyspnea worsening over days.",
+      "answer": "Acute COPD exacerbation",
+      "work": "Chronic bronchitis + emphysema picture",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "resp-102",
+      "kind": "recall",
+      "number": 102,
+      "deck": "respiratory",
+      "deckTitle": "Respiratory emergencies",
+      "set": 0,
+      "setTitle": "Respiratory emergencies",
+      "stem": "Acute bronchospasm, mucus, and edema; wheeze on exhalation; history of asthma.",
+      "answer": "Asthma exacerbation",
+      "work": "Reversible triad: smooth-muscle spasm, mucus, edema",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      },
+      "protocolRef": "2.08A",
+      "ri": {
+        "answer": "Albuterol 2.5-5 mg (initial dose + ipratropium 500 mcg) via SVN, up to 4 doses; methylprednisolone 125 mg IV; epinephrine 0.3 mg IM if in extremis, may repeat every 15 min x2 (med control)",
+        "work": "RI 2.08A adult respiratory distress ladder",
+        "ref": "2.08A"
+      }
+    },
+    {
+      "id": "resp-103",
+      "kind": "recall",
+      "number": 103,
+      "deck": "respiratory",
+      "deckTitle": "Respiratory emergencies",
+      "set": 0,
+      "setTitle": "Respiratory emergencies",
+      "stem": "A \"silent chest\" in an asthma patient means what?",
+      "answer": "Pre-respiratory-arrest, not improvement",
+      "work": "Airflow is too poor to even make a wheeze",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "resp-104",
+      "kind": "recall",
+      "number": 104,
+      "deck": "respiratory",
+      "deckTitle": "Respiratory emergencies",
+      "set": 0,
+      "setTitle": "Respiratory emergencies",
+      "stem": "Patient in respiratory distress not improving after the first nebulizer treatment. Next non-drug step?",
+      "answer": "CPAP at 5-10 cmH2O",
+      "work": "RI 2.08A: consider CPAP for patients not responding to initial therapy",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      },
+      "protocolRef": "2.08A / 7.01"
+    },
+    {
+      "id": "resp-105",
+      "kind": "recall",
+      "number": 105,
+      "deck": "respiratory",
+      "deckTitle": "Respiratory emergencies",
+      "set": 0,
+      "setTitle": "Respiratory emergencies",
+      "stem": "A chronic CO2 retainer on high-flow O2 becomes drowsy with slower breathing. Why, and what do you do?",
+      "answer": "High O2 can blunt hypoxic drive",
+      "work": "Support ventilation; never withhold O2 from a patient who needs it",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "resp-106",
+      "kind": "recall",
+      "number": 106,
+      "deck": "respiratory",
+      "deckTitle": "Respiratory emergencies",
+      "set": 0,
+      "setTitle": "Respiratory emergencies",
+      "stem": "Normal expiration lasts about how much longer than inspiration?",
+      "answer": "About twice as long (I:E ratio)",
+      "work": "Prolonged further in asthma, shortened in tachypnea",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "resp-107",
+      "kind": "recall",
+      "number": 107,
+      "deck": "respiratory",
+      "deckTitle": "Respiratory emergencies",
+      "set": 0,
+      "setTitle": "Respiratory emergencies",
+      "stem": "6 months to 6 years old, barking seal cough, stridor, gradual onset after a cold.",
+      "answer": "Croup",
+      "work": "Viral URI causing upper-airway edema",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      },
+      "protocolRef": "2.08P",
+      "ri": {
+        "answer": "For stridor at rest: nebulized epinephrine (2.25% solution 0.5 mL/3 mL NS, or 1 mg/mL 5 mg), may repeat x1; dexamethasone 0.6 mg/kg PO/IM/IV, max 10 mg",
+        "work": "RI 2.08P pediatric croup",
+        "ref": "2.08P"
+      }
+    },
+    {
+      "id": "resp-108",
+      "kind": "recall",
+      "number": 108,
+      "deck": "respiratory",
+      "deckTitle": "Respiratory emergencies",
+      "set": 0,
+      "setTitle": "Respiratory emergencies",
+      "stem": "Toxic-appearing child, drooling, tripod position, sudden high fever, stridor. What do you avoid?",
+      "answer": "Epiglottitis; avoid airway manipulation and suctioning",
+      "work": "Let secretions drain passively; most can be bag-mask ventilated if obstruction is complete",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "resp-109",
+      "kind": "recall",
+      "number": 109,
+      "deck": "respiratory",
+      "deckTitle": "Respiratory emergencies",
+      "set": 0,
+      "setTitle": "Respiratory emergencies",
+      "stem": "Under 2 years old, winter, first wheezing episode after a cold.",
+      "answer": "Bronchiolitis (RSV)",
+      "work": "Largely supportive care; nebulized epinephrine not typically helpful unless the patient is in extremis",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "resp-110",
+      "kind": "recall",
+      "number": 110,
+      "deck": "respiratory",
+      "deckTitle": "Respiratory emergencies",
+      "set": 0,
+      "setTitle": "Respiratory emergencies",
+      "stem": "Sudden pleuritic chest pain, unilaterally absent breath sounds, hyperresonance to percussion in a tall thin young male.",
+      "answer": "Spontaneous pneumothorax",
+      "work": "Tracheal deviation is a late sign",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "resp-111",
+      "kind": "recall",
+      "number": 111,
+      "deck": "respiratory",
+      "deckTitle": "Respiratory emergencies",
+      "set": 0,
+      "setTitle": "Respiratory emergencies",
+      "stem": "Decreased breath sounds at one lung base, dull to percussion, patient feels better sitting up.",
+      "answer": "Pleural effusion",
+      "work": "Definitive treatment is fluid removal",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "resp-112",
+      "kind": "recall",
+      "number": 112,
+      "deck": "respiratory",
+      "deckTitle": "Respiratory emergencies",
+      "set": 0,
+      "setTitle": "Respiratory emergencies",
+      "stem": "Sudden dyspnea, tachycardia, pleuritic chest pain after a long flight or recent surgery.",
+      "answer": "Pulmonary embolism",
+      "work": "Think DVT source; causes a V/Q mismatch",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "resp-113",
+      "kind": "recall",
+      "number": 113,
+      "deck": "respiratory",
+      "deckTitle": "Respiratory emergencies",
+      "set": 0,
+      "setTitle": "Respiratory emergencies",
+      "stem": "High-pitched sound heard on inspiration from an upper-airway obstruction. Name it, and how does it differ from wheezing?",
+      "answer": "Stridor",
+      "work": "Stridor is upper-airway and inspiratory; wheezing is lower-airway and usually expiratory",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "resp-114",
+      "kind": "recall",
+      "number": 114,
+      "deck": "respiratory",
+      "deckTitle": "Respiratory emergencies",
+      "set": 0,
+      "setTitle": "Respiratory emergencies",
+      "stem": "Target SpO2 range for supplemental oxygen therapy?",
+      "answer": "94-99%",
+      "work": "Avoid pushing to 100%",
+      "domain": "airway",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "eh-101",
+      "kind": "recall",
+      "number": 101,
+      "deck": "endo-heme",
+      "deckTitle": "Endocrine & hematologic emergencies",
+      "set": 0,
+      "setTitle": "Endocrine & hematologic emergencies",
+      "stem": "bG 45 mg/dL, patient awake and alert.",
+      "answer": "Oral glucose 15 g PO",
+      "work": "Recheck bG in 15 minutes; repeat the dose if still ≤60 mg/dL",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      },
+      "protocolRef": "2.10A / 2.10P"
+    },
+    {
+      "id": "eh-102",
+      "kind": "recall",
+      "number": 102,
+      "deck": "endo-heme",
+      "deckTitle": "Endocrine & hematologic emergencies",
+      "set": 0,
+      "setTitle": "Endocrine & hematologic emergencies",
+      "stem": "bG 38 mg/dL, adult, not alert to verbal stimuli, no IV access yet.",
+      "answer": "Glucagon 1 mg IM (or 3 mg IN Baqsimi)",
+      "work": "RI 2.10A: glucagon when IV access cannot be established",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      },
+      "protocolRef": "2.10A"
+    },
+    {
+      "id": "eh-103",
+      "kind": "recall",
+      "number": 103,
+      "deck": "endo-heme",
+      "deckTitle": "Endocrine & hematologic emergencies",
+      "set": 0,
+      "setTitle": "Endocrine & hematologic emergencies",
+      "stem": "Peds hypoglycemia, no IV access. Textbook (national) glucagon dose?",
+      "answer": "0.5 mg IM if under 20 kg, 1 mg IM if 20 kg or more; may repeat in 7-10 min",
+      "work": "Textbook two-tier pediatric glucagon dosing",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      },
+      "protocolRef": "2.10P",
+      "ri": {
+        "answer": "0.1 mg/kg IM, max 1 mg",
+        "work": "RI dosing is weight-based, not the flat two-tier textbook dose",
+        "ref": "2.10P"
+      }
+    },
+    {
+      "id": "eh-104",
+      "kind": "recall",
+      "number": 104,
+      "deck": "endo-heme",
+      "deckTitle": "Endocrine & hematologic emergencies",
+      "set": 0,
+      "setTitle": "Endocrine & hematologic emergencies",
+      "stem": "Adult, symptomatic hypoglycemia, IV access available. Textbook (national) dextrose dose?",
+      "answer": "12.5-25 g of D50 IV push over at least 3 minutes",
+      "work": "Textbook national dosing",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      },
+      "protocolRef": "2.10A",
+      "ri": {
+        "answer": "D10 250 mL (25 g) IV over 5 minutes; may repeat once in 5 minutes if bG <60. RI carries D10 only, no D50 on the truck.",
+        "work": "RI concentration differs from the textbook",
+        "ref": "2.10A"
+      }
+    },
+    {
+      "id": "eh-105",
+      "kind": "recall",
+      "number": 105,
+      "deck": "endo-heme",
+      "deckTitle": "Endocrine & hematologic emergencies",
+      "set": 0,
+      "setTitle": "Endocrine & hematologic emergencies",
+      "stem": "Diabetic ketoacidosis: breath odor and respiratory pattern?",
+      "answer": "Fruity/acetone odor; Kussmaul respirations (deep, rapid)",
+      "work": "Blowing off CO2 to compensate for the metabolic acidosis",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "eh-106",
+      "kind": "recall",
+      "number": 106,
+      "deck": "endo-heme",
+      "deckTitle": "Endocrine & hematologic emergencies",
+      "set": 0,
+      "setTitle": "Endocrine & hematologic emergencies",
+      "stem": "bG 310 mg/dL, warm dry skin, Kussmaul respirations, signs of dehydration, no CHF history. IV fluid?",
+      "answer": "Normal saline 500 mL bolus, repeat as needed, then infuse at 150 mL/hr",
+      "work": "RI 2.10A: bG ≥250 mg/dL row",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      },
+      "protocolRef": "2.10A"
+    },
+    {
+      "id": "eh-107",
+      "kind": "recall",
+      "number": 107,
+      "deck": "endo-heme",
+      "deckTitle": "Endocrine & hematologic emergencies",
+      "set": 0,
+      "setTitle": "Endocrine & hematologic emergencies",
+      "stem": "Type 2 diabetic, bG 640, no ketones, lethargic, severely dehydrated.",
+      "answer": "HHNS",
+      "work": "No ketosis distinguishes it from DKA; fluid deficit can run 10 L or more",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "eh-108",
+      "kind": "recall",
+      "number": 108,
+      "deck": "endo-heme",
+      "deckTitle": "Endocrine & hematologic emergencies",
+      "set": 0,
+      "setTitle": "Endocrine & hematologic emergencies",
+      "stem": "Sickle cell patient, severe joint/back pain, known diagnosis, no fever.",
+      "answer": "Vaso-occlusive crisis",
+      "work": "Analgesia per the age-appropriate Patient Comfort Protocol, plus NS 20 mL/kg IV if dehydrated",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      },
+      "protocolRef": "2.23"
+    },
+    {
+      "id": "eh-109",
+      "kind": "recall",
+      "number": 109,
+      "deck": "endo-heme",
+      "deckTitle": "Endocrine & hematologic emergencies",
+      "set": 0,
+      "setTitle": "Endocrine & hematologic emergencies",
+      "stem": "Sickle cell patient with fever, chest pain, cough, and hypoxia.",
+      "answer": "Acute chest syndrome",
+      "work": "A vaso-occlusive crisis with pulmonary involvement; also treat per respiratory distress",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      },
+      "protocolRef": "2.23"
+    },
+    {
+      "id": "eh-110",
+      "kind": "recall",
+      "number": 110,
+      "deck": "endo-heme",
+      "deckTitle": "Endocrine & hematologic emergencies",
+      "set": 0,
+      "setTitle": "Endocrine & hematologic emergencies",
+      "stem": "Hemophilia A vs B: which clotting factor is low in each?",
+      "answer": "A: factor VIII (more common). B: factor IX.",
+      "work": "Same signs and symptoms in both",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "eh-111",
+      "kind": "recall",
+      "number": 111,
+      "deck": "endo-heme",
+      "deckTitle": "Endocrine & hematologic emergencies",
+      "set": 0,
+      "setTitle": "Endocrine & hematologic emergencies",
+      "stem": "History of Addison’s disease, hypotension not responding to IV fluids.",
+      "answer": "Suspect adrenal insufficiency",
+      "work": "RI 2.03: hydrocortisone 100 mg IV (preferred), or methylprednisolone 125 mg IV, or dexamethasone 10 mg IV",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      },
+      "protocolRef": "2.03"
+    },
+    {
+      "id": "eh-112",
+      "kind": "recall",
+      "number": 112,
+      "deck": "endo-heme",
+      "deckTitle": "Endocrine & hematologic emergencies",
+      "set": 0,
+      "setTitle": "Endocrine & hematologic emergencies",
+      "stem": "Normal nonfasting blood glucose range?",
+      "answer": "70-120 mg/dL",
+      "work": "RI treats bG ≤60 mg/dL as hypoglycemia needing action",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      }
+    },
+    {
+      "id": "eh-113",
+      "kind": "recall",
+      "number": 113,
+      "deck": "endo-heme",
+      "deckTitle": "Endocrine & hematologic emergencies",
+      "set": 0,
+      "setTitle": "Endocrine & hematologic emergencies",
+      "stem": "Type 1 vs type 2 diabetes: which patient can still make some of their own insulin?",
+      "answer": "Type 2",
+      "work": "The pancreas still produces insulin in type 2 (the body is resistant to it); type 1 makes none and is always insulin-dependent",
+      "domain": "medical",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      }
+    }
+  ],
+  "standards": {
+    "primary": "NREMT / national (textbook + AHA)",
+    "secondary": "RI AEMT-C (Statewide Protocols v2026.02)"
+  },
+  "decks": [
+    {
+      "id": "med-math",
+      "title": "Med math"
+    },
+    {
+      "id": "ecg",
+      "title": "ECG & dysrhythmias"
+    },
+    {
+      "id": "peds-resus",
+      "title": "Pediatric resuscitation (AHA 2025)"
+    },
+    {
+      "id": "cardiac",
+      "title": "Cardiovascular emergencies"
+    },
+    {
+      "id": "iv",
+      "title": "Vascular access & IV therapy"
+    },
+    {
+      "id": "respiratory",
+      "title": "Respiratory emergencies"
+    },
+    {
+      "id": "endo-heme",
+      "title": "Endocrine & hematologic emergencies"
+    }
+  ]
+}

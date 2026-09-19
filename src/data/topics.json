@@ -1,0 +1,2069 @@
+[
+  {
+    "id": "shock-triangle",
+    "kind": "topic",
+    "chapter": 14,
+    "title": "Shock = delivery failure",
+    "domain": "trauma",
+    "body": [
+      "Shock is inadequate perfusion, not a BP number.",
+      "Pump fails → cardiogenic. Pipes too wide → distributive. Fluid lost → hypovolemic.",
+      "Something squeezing or blocking the pump → obstructive.",
+      "On any scenario, ask: which part of the system broke?"
+    ],
+    "tags": [
+      "shock",
+      "perfusion"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Chapter 14 - Shock AEMT-C Study Guide",
+      "driveId": "1mbqMGXKPncnEVnbI49YQpOAhzaq2PuCerGAkN63FenA"
+    },
+    "deck": "shock",
+    "deckTitle": "Shock"
+  },
+  {
+    "id": "shock-formulas",
+    "kind": "topic",
+    "chapter": 14,
+    "title": "The plumbing math",
+    "domain": "trauma",
+    "body": [
+      "CO = HR × SV",
+      "BP = CO × SVR",
+      "Pulse pressure = SBP − DBP",
+      "MAP ≈ DBP + ⅓ pulse pressure",
+      "Stroke volume depends on preload, contractility, and afterload."
+    ],
+    "tags": [
+      "shock",
+      "formulas"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Chapter 14 - Shock AEMT-C Study Guide",
+      "driveId": "1mbqMGXKPncnEVnbI49YQpOAhzaq2PuCerGAkN63FenA"
+    },
+    "deck": "shock",
+    "deckTitle": "Shock"
+  },
+  {
+    "id": "shock-compensation",
+    "kind": "topic",
+    "chapter": 14,
+    "title": "Why BP lies",
+    "domain": "trauma",
+    "body": [
+      "Baroreceptors trigger a sympathetic surge: faster rate, stronger squeeze, vasoconstriction.",
+      "Hormones (RAAS, ADH) hold onto fluid; blood is shunted from skin and gut to core organs.",
+      "The body can hide about 25% volume loss behind a normal BP.",
+      "Early signs: tachycardia, anxiety. BP drops late, often past 30% loss.",
+      "Best brain-perfusion indicator: level of consciousness."
+    ],
+    "tags": [
+      "shock",
+      "compensation",
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Chapter 14 - Shock AEMT-C Study Guide",
+      "driveId": "1mbqMGXKPncnEVnbI49YQpOAhzaq2PuCerGAkN63FenA"
+    },
+    "deck": "shock",
+    "deckTitle": "Shock"
+  },
+  {
+    "id": "shock-cellular",
+    "kind": "topic",
+    "chapter": 14,
+    "title": "Cellular collapse",
+    "domain": "trauma",
+    "body": [
+      "No oxygen → anaerobic metabolism → lactic acid.",
+      "ATP runs out → the sodium/potassium pump fails → cells swell and self-digest.",
+      "Acid and CO₂ buildup dilate vessels, undoing compensation.",
+      "End state: multiple-organ dysfunction syndrome (MODS), often hours to days later."
+    ],
+    "tags": [
+      "shock",
+      "pathophysiology"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Chapter 14 - Shock AEMT-C Study Guide",
+      "driveId": "1mbqMGXKPncnEVnbI49YQpOAhzaq2PuCerGAkN63FenA"
+    },
+    "deck": "shock",
+    "deckTitle": "Shock"
+  },
+  {
+    "id": "shock-types-table",
+    "kind": "topic",
+    "chapter": 14,
+    "title": "Telling the types apart",
+    "domain": "trauma",
+    "body": [
+      "Hypovolemic: cool, pale, clammy · tachycardic · flat neck veins.",
+      "Cardiogenic: cool, clammy · brady or tachy · JVD.",
+      "Obstructive: cool, clammy · tachycardic · JVD.",
+      "Distributive: usually warm · rate varies · flat neck veins.",
+      "Discriminators: skin temperature, then neck veins plus lung sounds."
+    ],
+    "tags": [
+      "shock",
+      "assessment",
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Chapter 14 - Shock AEMT-C Study Guide",
+      "driveId": "1mbqMGXKPncnEVnbI49YQpOAhzaq2PuCerGAkN63FenA"
+    },
+    "deck": "shock",
+    "deckTitle": "Shock"
+  },
+  {
+    "id": "shock-distributive",
+    "kind": "topic",
+    "chapter": 14,
+    "title": "Distributive subtypes",
+    "domain": "trauma",
+    "body": [
+      "Septic: infection; skin often warm or hot despite shock.",
+      "Neurogenic: spinal injury; hypotension WITHOUT tachycardia, warm dry skin below the injury.",
+      "Anaphylactic: vasodilation plus bronchospasm; epinephrine is the only reversing treatment."
+    ],
+    "tags": [
+      "shock",
+      "distributive"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Chapter 14 - Shock AEMT-C Study Guide",
+      "driveId": "1mbqMGXKPncnEVnbI49YQpOAhzaq2PuCerGAkN63FenA"
+    },
+    "deck": "shock",
+    "deckTitle": "Shock"
+  },
+  {
+    "id": "shock-obstructive",
+    "kind": "topic",
+    "chapter": 14,
+    "title": "Obstructive subtypes",
+    "domain": "trauma",
+    "body": [
+      "Tamponade: Beck's triad = JVD, muffled heart tones, narrowing pulse pressure.",
+      "Tension pneumo: needs needle decompression; tracheal deviation is late. Be careful with positive pressure.",
+      "PE: 250 mL bolus, recheck BP, repeat if SBP stays under 90."
+    ],
+    "tags": [
+      "shock",
+      "obstructive"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Chapter 14 - Shock AEMT-C Study Guide",
+      "driveId": "1mbqMGXKPncnEVnbI49YQpOAhzaq2PuCerGAkN63FenA"
+    },
+    "deck": "shock",
+    "deckTitle": "Shock"
+  },
+  {
+    "id": "shock-stages",
+    "kind": "topic",
+    "chapter": 14,
+    "title": "Three stages",
+    "domain": "trauma",
+    "body": [
+      "Compensated: BP held, pulse pressure narrowing, up to ~25% loss. Usually recoverable.",
+      "Decompensated: BP falling, >30% loss. Sometimes recoverable.",
+      "Irreversible: terminal.",
+      "You can't tell decompensated from irreversible in the field, so treat everyone aggressively."
+    ],
+    "tags": [
+      "shock",
+      "stages"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Chapter 14 - Shock AEMT-C Study Guide",
+      "driveId": "1mbqMGXKPncnEVnbI49YQpOAhzaq2PuCerGAkN63FenA"
+    },
+    "deck": "shock",
+    "deckTitle": "Shock"
+  },
+  {
+    "id": "shock-management",
+    "kind": "topic",
+    "chapter": 14,
+    "title": "Management sequence",
+    "domain": "trauma",
+    "body": [
+      "Control life-threatening bleeding first, then airway and oxygen.",
+      "Position of comfort (usually supine), vitals with SpO₂ and glucose.",
+      "IV/IO access, keep them warm with blankets (no external heat sources), nothing by mouth.",
+      "Aim for 10 minutes or less on scene; treat en route."
+    ],
+    "tags": [
+      "shock",
+      "treatment"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Chapter 14 - Shock AEMT-C Study Guide",
+      "driveId": "1mbqMGXKPncnEVnbI49YQpOAhzaq2PuCerGAkN63FenA"
+    },
+    "deck": "shock",
+    "deckTitle": "Shock"
+  },
+  {
+    "id": "shock-fluids",
+    "kind": "topic",
+    "chapter": 14,
+    "title": "Fluid rules",
+    "domain": "trauma",
+    "body": [
+      "Adult hypovolemic: 20–30 mL/kg in 250 mL increments until radial pulses return.",
+      "Uncontrolled bleeding: permissive hypotension, just enough to keep a radial pulse.",
+      "Pediatric: 20 mL/kg warmed isotonic crystalloid, reassess, repeat.",
+      "Cardiogenic / tension pneumo: TKO only. Fluid overloads a failing pump.",
+      "Pregnancy: left lateral position; treat the mother aggressively to perfuse the fetus."
+    ],
+    "tags": [
+      "shock",
+      "fluids",
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt"
+    ],
+    "source": {
+      "doc": "Chapter 14 - Shock AEMT-C Study Guide",
+      "driveId": "1mbqMGXKPncnEVnbI49YQpOAhzaq2PuCerGAkN63FenA"
+    },
+    "conflicts": [
+      {
+        "topic": "Fluid targets",
+        "nremt": "20–30 mL/kg in 250 mL increments until radial pulses return",
+        "ri": "LR 500 mL to SBP ≥90–100 or MAP ≥65; penetrating torso without TBI: 250 mL to a radial pulse; max 2 L"
+      },
+      {
+        "topic": "Peds",
+        "nremt": "20 mL/kg warmed crystalloid, repeat",
+        "ri": "LR 20 mL/kg (10 mL/kg under 3 months), max 60 mL/kg"
+      }
+    ],
+    "deck": "shock",
+    "deckTitle": "Shock"
+  },
+  {
+    "id": "shock-traps",
+    "kind": "topic",
+    "chapter": 14,
+    "title": "Exam traps",
+    "domain": "trauma",
+    "body": [
+      "Normal BP does not rule out shock.",
+      "Bradycardia + hypotension: think cardiogenic or neurogenic, then check skin temp.",
+      "Don't wait for late signs (tracheal deviation, cyanosis).",
+      "Check SBP and get IV access before nitro in any possible cardiogenic patient.",
+      "Elderly hypertensive patients can be in shock with SBP above 100.",
+      "RI 4.01A: SBP <110 in a patient over 65 may already be shock."
+    ],
+    "tags": [
+      "shock",
+      "traps",
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Chapter 14 - Shock AEMT-C Study Guide",
+      "driveId": "1mbqMGXKPncnEVnbI49YQpOAhzaq2PuCerGAkN63FenA"
+    },
+    "conflicts": [
+      {
+        "topic": "Nitro in possible cardiogenic shock",
+        "nremt": "SBP >90 and IV access first",
+        "ri": "SBP >100 (3.02)"
+      }
+    ],
+    "deck": "shock",
+    "deckTitle": "Shock"
+  },
+  {
+    "id": "shock-ri-fluids",
+    "kind": "topic",
+    "chapter": 14,
+    "title": "Shock fluids, RI protocol detail",
+    "domain": "trauma",
+    "body": [
+      "Shock = SBP <90, MAP <65, or shock index (HR ÷ SBP) ≥0.6.",
+      "General shock (2.20A): LR 500 mL, repeat to SBP ≥100 or MAP ≥65.",
+      "External hemorrhage (2.21A): control the bleeding first, then LR 500 mL to SBP ≥90 or MAP ≥65, max 2 L.",
+      "Penetrating torso, no TBI: LR 250 mL, repeat only to a radial pulse, SBP ~80, or normal mentation, max 2 L.",
+      "Penetrating torso with TBI: LR 250–500 mL to SBP ≥90 (the brain needs pressure).",
+      "Peds (2.20P/2.21P): LR 20 mL/kg (10 mL/kg under 3 months), max 60 mL/kg.",
+      "Peds hypotension: SBP <70 + (2 × age in years)."
+    ],
+    "tags": [
+      "shock",
+      "fluids",
+      "ri-protocol",
+      "high-yield"
+    ],
+    "scope": [
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "deck": "shock",
+    "deckTitle": "Shock"
+  },
+  {
+    "id": "ecg-conduction",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "title": "Conduction pathway",
+    "domain": "cardiology",
+    "body": [
+      "SA node → atria → AV node (built-in delay) → bundle of His → right/left bundle branches → Purkinje fibers.",
+      "Backup pacemakers get slower the lower you go: SA 60–100, AV junction 40–60, ventricles 20–40 per minute.",
+      "Cell properties: automaticity (fires on its own), excitability, conductivity, contractility.",
+      "Think of it as a relay race: if a runner drops out, the next one down takes over, just slower."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+    }
+  },
+  {
+    "id": "ecg-paper",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "title": "Reading the paper",
+    "domain": "cardiology",
+    "body": [
+      "Small box = 0.04 s. Large box (5 small) = 0.20 s. 5 large boxes = 1 s; 30 large boxes = 6 s.",
+      "6-second strip: count QRS complexes × 10 (works for irregular rhythms).",
+      "Regular rhythms: 1,500 ÷ small boxes between R waves, or 300 ÷ large boxes (300, 150, 100, 75, 60, 50)."
+    ],
+    "tags": [
+      "math"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+    }
+  },
+  {
+    "id": "ecg-normals",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "title": "Normal values",
+    "domain": "cardiology",
+    "body": [
+      "P wave: rounded, upright, about 2 small boxes tall or less; one before every QRS.",
+      "PR interval: 0.12–0.20 s (3–5 small boxes).",
+      "QRS: 0.04–0.12 s in this text; wider means the impulse came from, or spread abnormally through, the ventricles.",
+      "QT: normally less than half the R-to-R interval."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+    },
+    "conflicts": [
+      {
+        "topic": "Narrow vs wide QRS",
+        "nremt": "Adult texts: wide = 0.12 s or more",
+        "ri": "AHA 2025 PALS uses >0.09 s as wide in children (not an RI difference, a peds one)"
+      }
+    ]
+  },
+  {
+    "id": "ecg-steps",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "title": "Reading a strip, same order every time",
+    "domain": "cardiology",
+    "body": [
+      "1. P waves: present? upright? one per QRS?",
+      "2. PR interval: measure each one; constant, long, or changing?",
+      "3. QRS: narrow or wide? same shape?",
+      "4. Rhythm: march out R-to-R and P-to-P (calipers or paper-and-dots).",
+      "5. Rate: atrial (P) and ventricular (R); both should match the pulse.",
+      "Then look at the patient. Treat the patient, not the monitor."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+    }
+  },
+  {
+    "id": "ecg-artifact",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "title": "Artifact",
+    "domain": "cardiology",
+    "body": [
+      "Static that mimics rhythms: loose or dried electrodes, patient movement, shivering, seizures, electrical interference.",
+      "Fix: dry and prep skin, fresh electrodes, still the patient, check cables.",
+      "Never call VF or asystole from the screen alone: check the patient and the leads."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+    }
+  },
+  {
+    "id": "ecg-sinus",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "title": "Sinus rhythms",
+    "domain": "cardiology",
+    "body": [
+      "All share: upright P before each QRS, PR 0.12–0.20, narrow QRS.",
+      "Normal sinus: 60–100, regular.",
+      "Sinus bradycardia: under 60. Sinus tachycardia: 101–150 in this text (look for a cause: pain, fever, hypovolemia).",
+      "Sinus arrhythmia: rate speeds and slows with breathing; normal in the young.",
+      "Sinus arrest/pause: a whole P-QRS-T goes missing; the next beat may come from a new site."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+    }
+  },
+  {
+    "id": "ecg-atrial",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "title": "Atrial rhythms",
+    "domain": "cardiology",
+    "body": [
+      "PAC: early beat with a differently shaped P wave.",
+      "SVT: regular, narrow, 151–250 in this text; P waves often hidden in the T wave; starts and stops abruptly.",
+      "Atrial fibrillation: no P waves, wavy baseline, irregularly irregular. Over 100 = rapid ventricular response.",
+      "Atrial flutter: sawtooth flutter waves; described by ratio (2:1, 3:1, 4:1) or variable.",
+      "Wandering atrial pacemaker: 3 or more P-wave shapes, rate under 100 (MAT if faster)."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+    }
+  },
+  {
+    "id": "ecg-junctional",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "title": "Junctional rhythms",
+    "domain": "cardiology",
+    "body": [
+      "P wave inverted before the QRS, buried in it, or retrograde after it; PR under 0.12 s if you can see it.",
+      "Junctional escape: 40–60. Accelerated junctional: 61–100. Junctional tachycardia: 101–150.",
+      "PJC: early beat with a junctional-looking P wave.",
+      "Analogy: the backup generator (AV junction) kicked in because the main power (SA node) failed."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+    }
+  },
+  {
+    "id": "ecg-blocks",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "title": "AV blocks",
+    "domain": "cardiology",
+    "body": [
+      "1st degree: PR over 0.20 s, constant, every P conducted. A delay, not a block.",
+      "2nd degree type I (Wenckebach): PR gets longer, longer, longer, then a QRS drops. Pattern repeats.",
+      "2nd degree type II: PR stays the same, then a QRS suddenly drops. Can progress to 3rd degree: dangerous.",
+      "3rd degree (complete): P waves and QRS complexes march independently; PR is random. Escape is junctional (narrow, 40–60) or ventricular (wide, 20–40).",
+      "Analogy: the AV node is a doorman. 1st = slow doorman; type I = gets tired then skips one; type II = randomly slams the door; 3rd = door locked, two separate parties."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+    }
+  },
+  {
+    "id": "ecg-bbb",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "title": "Bundle branch block",
+    "domain": "cardiology",
+    "body": [
+      "Supraventricular rhythm (P waves present) with a wide QRS (0.12 s or more).",
+      "Often an R-S-R' (rabbit ears) shape; a 12-lead (V1, V6) tells right from left.",
+      "A new LBBB with chest pain is treated as a possible STEMI and evaluated in context."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+    }
+  },
+  {
+    "id": "ecg-ventricular",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "title": "Ventricular rhythms",
+    "domain": "cardiology",
+    "body": [
+      "PVC: early, wide (>0.12 s), bizarre QRS with no P; T wave points the other way. Patterns: bigeminy, trigeminy, couplets, multifocal, R-on-T.",
+      "V-tach: 3 or more ventricular beats in a row, wide and fast; monomorphic or polymorphic; may or may not have a pulse.",
+      "Torsades de pointes: polymorphic VT that twists around the baseline; linked to long QT.",
+      "V-fib: chaotic, no QRS, no pulse. Defibrillate.",
+      "Idioventricular 20–40 (accelerated 41–100); agonal under 20.",
+      "Asystole: flat line. Confirm in a second lead and check leads/gain before calling it."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+    }
+  },
+  {
+    "id": "ecg-pea",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "title": "Pulseless electrical activity",
+    "domain": "cardiology",
+    "body": [
+      "Any organized rhythm on the monitor with no palpable pulse.",
+      "Treat as cardiac arrest: CPR and epinephrine, and hunt for reversible causes (Hs and Ts)."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+    },
+    "conflicts": [
+      {
+        "topic": "Epinephrine timing",
+        "nremt": "AHA: 1 mg every 3–5 min",
+        "ri": "RI 3.03A: 1 mg every 5 min, max 5 doses for non-shockable rhythms"
+      }
+    ]
+  },
+  {
+    "id": "ecg-pacer",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "title": "Pacemakers and implanted defibrillators",
+    "domain": "cardiology",
+    "body": [
+      "Pacer spikes: vertical lines before the P (atrial), QRS (ventricular), or both (dual chamber).",
+      "Failure to capture: spike with no complex after it. Failure to sense: spikes fire at the wrong time.",
+      "ICD: may shock the patient on its own; you can touch them safely during CPR.",
+      "Don't place defibrillator pads directly over an implanted device."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+    }
+  },
+  {
+    "id": "ecg-12lead",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "title": "12-lead: where's the infarct?",
+    "domain": "cardiology",
+    "body": [
+      "Inferior (II, III, aVF): usually the RCA. Get a right-sided lead (V4R) to check for RV infarct.",
+      "Septal (V1–V2) and anterior (V3–V4): LAD.",
+      "Lateral (I, aVL, V5–V6): circumflex.",
+      "Posterior: ST depression in V1–V3 with tall R waves.",
+      "STEMI: ST elevation in 2 or more contiguous leads (V2–V3: ≥2 mm men, ≥1.5 mm women; ≥1 mm elsewhere)."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+    },
+    "conflicts": [
+      {
+        "topic": "Inferior STEMI and nitro",
+        "nremt": "Textbook: use nitro cautiously with RV involvement",
+        "ri": "RI 3.02: no nitro in RV infarction; if hypotension follows nitro, stop it and give fluid"
+      }
+    ]
+  },
+  {
+    "id": "ecg-treatment",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "title": "Treating the big rhythms",
+    "domain": "cardiology",
+    "body": [
+      "Unstable = hypotension, altered mental status, signs of shock, ischemic chest pain, or acute heart failure.",
+      "Unstable tachycardia: synchronized cardioversion. Unstable bradycardia: atropine, then pacing or pressors.",
+      "Stable regular narrow tachycardia: vagal maneuvers, then adenosine.",
+      "Pulseless VF/VT: defibrillate; epinephrine and amiodarone or lidocaine."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+    },
+    "conflicts": [
+      {
+        "topic": "Adenosine",
+        "nremt": "AHA: 6 mg rapid IV push with flush, then 12 mg",
+        "ri": "RI 3.06A: 12 mg first, may repeat × 1"
+      },
+      {
+        "topic": "Atropine",
+        "nremt": "AHA: 1 mg every 3–5 min, max 3 mg",
+        "ri": "RI 3.05A: 0.5–1 mg every 3–5 min to HR >60, max 3 mg"
+      },
+      {
+        "topic": "AFib with RVR",
+        "nremt": "Textbook: rate control per protocol",
+        "ri": "RI 3.06A: diltiazem only after medical control; max 20 mg first dose"
+      }
+    ]
+  },
+  {
+    "id": "peds-ages",
+    "kind": "topic",
+    "deck": "peds-resus",
+    "deckTitle": "Pediatric resuscitation (AHA 2025)",
+    "title": "Who counts as a child",
+    "domain": "cardiology",
+    "body": [
+      "Infant: under about 1 year (newborns follow neonatal guidelines). Child: 1 year to puberty. Puberty onward: adult BLS.",
+      "Kids rarely arrest from the heart itself: it's usually respiratory failure or shock first, so fix breathing early."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AHA/AAP 2025 Guidelines Part 6: Pediatric Basic Life Support",
+      "url": "https://doi.org/10.1161/CIR.0000000000001370"
+    }
+  },
+  {
+    "id": "peds-cpr",
+    "kind": "topic",
+    "deck": "peds-resus",
+    "deckTitle": "Pediatric resuscitation (AHA 2025)",
+    "title": "High-quality pediatric CPR (2025)",
+    "domain": "cardiology",
+    "body": [
+      "Rate 100–120/min; depth at least ⅓ of the chest (about 1.5 in infants, 2 in children); full recoil.",
+      "Pauses under 10 s; pulse check no longer than 10 s.",
+      "No advanced airway: 30:2 with one rescuer, 15:2 with two (before puberty).",
+      "Advanced airway: continuous compressions, 1 breath every 2–3 s (20–30/min).",
+      "Breathing inadequately but has a pulse: 1 breath every 2–3 s; reassess pulse every 2 min."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AHA/AAP 2025 Guidelines Part 6: Pediatric Basic Life Support",
+      "url": "https://doi.org/10.1161/CIR.0000000000001370"
+    },
+    "conflicts": [
+      {
+        "topic": "Compressions and breaths",
+        "nremt": "15:2 with two rescuers until an advanced airway is placed",
+        "ri": "RI 3.03P: continuous compressions prioritized; ventilate 20–30/min, avoid over-ventilation"
+      }
+    ]
+  },
+  {
+    "id": "peds-hands",
+    "kind": "topic",
+    "deck": "peds-resus",
+    "deckTitle": "Pediatric resuscitation (AHA 2025)",
+    "title": "Hand technique (changed in 2025)",
+    "domain": "cardiology",
+    "body": [
+      "Infants: heel of 1 hand on the sternum, or 2 thumbs with hands encircling the chest.",
+      "The 2-finger technique was removed: it rarely reached proper depth.",
+      "Children: 1 or 2 hands, whichever gets the depth."
+    ],
+    "tags": [
+      "high-yield",
+      "2025-change"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AHA/AAP 2025 Guidelines Part 6: Pediatric Basic Life Support",
+      "url": "https://doi.org/10.1161/CIR.0000000000001370"
+    }
+  },
+  {
+    "id": "peds-fbao",
+    "kind": "topic",
+    "deck": "peds-resus",
+    "deckTitle": "Pediatric resuscitation (AHA 2025)",
+    "title": "Choking (changed in 2025)",
+    "domain": "cardiology",
+    "body": [
+      "Mild (coughing, making sounds): let them cough and watch.",
+      "Infant, severe: 5 back blows, then 5 chest thrusts (heel of hand). No abdominal thrusts.",
+      "Child, severe: 5 back blows, then 5 abdominal thrusts, repeated.",
+      "Goes unresponsive: start CPR with compressions, no pulse check; look in the mouth before breaths. No blind finger sweeps."
+    ],
+    "tags": [
+      "high-yield",
+      "2025-change"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AHA/AAP 2025 Guidelines Part 6: Pediatric Basic Life Support",
+      "url": "https://doi.org/10.1161/CIR.0000000000001370"
+    },
+    "conflicts": [
+      {
+        "topic": "Child with severe choking",
+        "nremt": "AHA 2025: alternate 5 back blows and 5 abdominal thrusts",
+        "ri": "RI 7.02: abdominal thrusts (Heimlich) only"
+      }
+    ]
+  },
+  {
+    "id": "peds-defib",
+    "kind": "topic",
+    "deck": "peds-resus",
+    "deckTitle": "Pediatric resuscitation (AHA 2025)",
+    "title": "Defibrillation in kids",
+    "domain": "cardiology",
+    "body": [
+      "AED on a child under 8: use a pediatric attenuator/pads. None available? An adult AED is still better than no shock.",
+      "Manual: 2 J/kg first, 4 J/kg second, then ≥4 J/kg up to 10 J/kg or the adult dose.",
+      "Pads: largest that fit with 1–2 cm between them; front-back or front-side both OK.",
+      "One shock, then straight back to compressions."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+      "url": "https://doi.org/10.1161/CIR.0000000000001368"
+    },
+    "conflicts": [
+      {
+        "topic": "Energy doses",
+        "nremt": "2 → 4 → ≥4 J/kg (max 10 J/kg)",
+        "ri": "RI 3.03P matches: 2 → 4 → ≥4 J/kg (max 10 J/kg or adult dose)"
+      }
+    ]
+  },
+  {
+    "id": "peds-arrest-drugs",
+    "kind": "topic",
+    "deck": "peds-resus",
+    "deckTitle": "Pediatric resuscitation (AHA 2025)",
+    "title": "Pediatric arrest drugs",
+    "domain": "cardiology",
+    "body": [
+      "Epinephrine 0.01 mg/kg (0.1 mg/mL = 0.1 mL/kg), max 1 mg, every 3–5 min. Non-shockable: give it as early as possible.",
+      "Shock-refractory VF/pVT: amiodarone 5 mg/kg (max 300 mg), up to 3 doses (max 150 mg after the first), or lidocaine 1 mg/kg.",
+      "No routine sodium bicarbonate or calcium (except special cases like hyperkalemia or sodium-channel blocker overdose).",
+      "Reversible causes: the Hs and Ts."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+      "url": "https://doi.org/10.1161/CIR.0000000000001368"
+    },
+    "conflicts": [
+      {
+        "topic": "Amiodarone caps",
+        "nremt": "5 mg/kg, max 300 mg first, 150 mg after, up to 3 doses",
+        "ri": "RI 3.03P: 5 mg/kg, may repeat × 2 (no cap stated)"
+      },
+      {
+        "topic": "Lidocaine",
+        "nremt": "1 mg/kg",
+        "ri": "RI 3.03P: 1 mg/kg (max 100 mg), may repeat × 1 in 10 min"
+      }
+    ]
+  },
+  {
+    "id": "peds-brady",
+    "kind": "topic",
+    "deck": "peds-resus",
+    "deckTitle": "Pediatric resuscitation (AHA 2025)",
+    "title": "Pediatric bradycardia",
+    "domain": "cardiology",
+    "body": [
+      "Bradycardia with poor perfusion often means arrest is coming.",
+      "Oxygenate and ventilate first. HR under 60 with poor perfusion despite that: start CPR.",
+      "Epinephrine 0.01 mg/kg (max 1 mg). Atropine 0.02 mg/kg (min 0.1 mg, max single 0.5 mg, may repeat once) for vagal cause or AV block.",
+      "Consider pacing."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+      "url": "https://doi.org/10.1161/CIR.0000000000001368"
+    },
+    "conflicts": [
+      {
+        "topic": "Atropine",
+        "nremt": "0.02 mg/kg, min 0.1, max 0.5 mg, repeat once",
+        "ri": "RI 3.05P matches"
+      }
+    ]
+  },
+  {
+    "id": "peds-tachy",
+    "kind": "topic",
+    "deck": "peds-resus",
+    "deckTitle": "Pediatric resuscitation (AHA 2025)",
+    "title": "Pediatric tachycardia",
+    "domain": "cardiology",
+    "body": [
+      "Probable sinus tach: P waves present, variable R-R, infant under 220, child under 180. Treat the cause.",
+      "Probable SVT: no normal P waves, fixed R-R, infant ≥220, child ≥180, abrupt start.",
+      "Narrow = 0.09 s or less. Stable SVT: vagal maneuvers, then adenosine 0.1 mg/kg (max 6 mg), then 0.2 mg/kg (max 12 mg).",
+      "Unstable: adenosine if IV is ready, or synchronized cardioversion 0.5–1 J/kg, then 2 J/kg.",
+      "Wide and unstable: cardioversion; get expert consultation before more drugs."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+      "url": "https://doi.org/10.1161/CIR.0000000000001368"
+    },
+    "conflicts": [
+      {
+        "topic": "Adenosine",
+        "nremt": "0.1 mg/kg (max 6 mg), then 0.2 mg/kg (max 12 mg)",
+        "ri": "RI 3.06P: 0.2 mg/kg (max 12 mg), may repeat × 1; AEMT-C needs medical control"
+      },
+      {
+        "topic": "Synchronized cardioversion",
+        "nremt": "0.5–1 J/kg, then 2 J/kg",
+        "ri": "RI 3.06P/3.07P: 1 J/kg, then 2 J/kg"
+      },
+      {
+        "topic": "Wide complex",
+        "nremt": "Expert consultation before additional drugs",
+        "ri": "RI 3.07P: amiodarone 5 mg/kg (max 150 mg) over 20 min, or lidocaine 1 mg/kg"
+      }
+    ]
+  },
+  {
+    "id": "peds-shock",
+    "kind": "topic",
+    "deck": "peds-resus",
+    "deckTitle": "Pediatric resuscitation (AHA 2025)",
+    "title": "Pediatric shock fluids",
+    "domain": "cardiology",
+    "body": [
+      "Isotonic crystalloid; balanced (LR) or normal saline both acceptable.",
+      "Septic shock: 10 or 20 mL/kg boluses with reassessment after each.",
+      "Stop for signs of fluid overload (crackles, liver enlargement, worsening breathing)."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+      "url": "https://doi.org/10.1161/CIR.0000000000001368"
+    },
+    "conflicts": [
+      {
+        "topic": "Bolus size",
+        "nremt": "10 or 20 mL/kg with frequent reassessment",
+        "ri": "RI 2.20P/2.22P: LR 20 mL/kg (10 mL/kg under 3 months), max 60 mL/kg"
+      }
+    ]
+  },
+  {
+    "id": "card-acs",
+    "kind": "topic",
+    "deck": "cardiac",
+    "deckTitle": "Cardiovascular emergencies",
+    "title": "Angina vs heart attack",
+    "domain": "cardiology",
+    "body": [
+      "ACS covers any symptoms of acute myocardial ischemia: angina and MI are treated alike in the field.",
+      "Angina: brief, predictable (stable) or not (unstable), eases with rest or nitro.",
+      "AMI: any time, lasts longer than minutes, may not ease with rest or nitro.",
+      "Women, diabetics, and older adults often present atypically: weakness, nausea, dyspnea, fatigue."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+    },
+    "chapter": 18
+  },
+  {
+    "id": "card-acs-care",
+    "kind": "topic",
+    "deck": "cardiac",
+    "deckTitle": "Cardiovascular emergencies",
+    "title": "Chest pain care",
+    "domain": "cardiology",
+    "body": [
+      "Position of comfort; oxygen only as needed (SpO₂ ≥94%).",
+      "12-lead within 10 minutes of contact; IV access without delaying transport.",
+      "Aspirin chewed; nitroglycerin if no contraindications."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+    },
+    "chapter": 18,
+    "conflicts": [
+      {
+        "topic": "Aspirin dose",
+        "nremt": "Textbook: 160–325 mg chewed",
+        "ri": "RI 3.02: 81 mg × 4 (324 mg) chewed"
+      },
+      {
+        "topic": "Nitro BP cutoff",
+        "nremt": "Textbook: SBP >90 (Ch 14) or >100 (Ch 18, heart failure); expect either on the exam",
+        "ri": "RI 3.02: SBP >100 always"
+      },
+      {
+        "topic": "STEMI",
+        "nremt": "Transport to a PCI center",
+        "ri": "RI 3.02: transmit the 12-lead, scene time ≤10 min, CODE STEMI notification"
+      }
+    ]
+  },
+  {
+    "id": "card-cardiogenic",
+    "kind": "topic",
+    "deck": "cardiac",
+    "deckTitle": "Cardiovascular emergencies",
+    "title": "Cardiogenic shock",
+    "domain": "cardiology",
+    "body": [
+      "The pump can't push enough blood, usually after an MI.",
+      "Clues vs hypovolemic shock: chest pain, JVD, crackles, dysrhythmias, peripheral edema.",
+      "Position of comfort, oxygen to SpO₂ >94%, IV at TKO, keep warm, early ALS."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+    },
+    "chapter": 18
+  },
+  {
+    "id": "card-hf",
+    "kind": "topic",
+    "deck": "cardiac",
+    "deckTitle": "Cardiovascular emergencies",
+    "title": "Heart failure",
+    "domain": "cardiology",
+    "body": [
+      "Left-sided: fluid backs into the lungs: dyspnea, orthopnea, crackles, pink frothy sputum.",
+      "Right-sided: fluid backs into the body: JVD, pedal and dependent edema.",
+      "Sit them up, legs down; oxygen; CPAP; nitro if SBP >100; bring their meds."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+    },
+    "chapter": 18,
+    "conflicts": [
+      {
+        "topic": "Diuretics",
+        "nremt": "Not an AEMT skill in most national curricula",
+        "ri": "RI 3.01: CPAP and nitro first; furosemide is second-tier (transport ≥30 min, patient already on it, SBP ≥100, max 80 mg)"
+      }
+    ]
+  },
+  {
+    "id": "card-htn",
+    "kind": "topic",
+    "deck": "cardiac",
+    "deckTitle": "Cardiovascular emergencies",
+    "title": "Hypertensive emergency",
+    "domain": "cardiology",
+    "body": [
+      "SBP over 180, DBP 120 or higher, or a rapid rise, with signs of organ damage (headache, confusion, chest pain).",
+      "Head elevated, IV access, rapid transport."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+    },
+    "chapter": 18
+  },
+  {
+    "id": "card-aorta",
+    "kind": "topic",
+    "deck": "cardiac",
+    "deckTitle": "Cardiovascular emergencies",
+    "title": "Aortic dissection",
+    "domain": "cardiology",
+    "body": [
+      "Sudden tearing pain in the chest or between the shoulder blades.",
+      "Check BP in both arms; a big difference supports dissection.",
+      "Main cause: uncontrolled hypertension. Rapid transport."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+    },
+    "chapter": 18
+  },
+  {
+    "id": "card-devices",
+    "kind": "topic",
+    "deck": "cardiac",
+    "deckTitle": "Cardiovascular emergencies",
+    "title": "Cardiac devices",
+    "domain": "cardiology",
+    "body": [
+      "Pacemaker and ICD: palpable bump under the skin, usually upper chest.",
+      "Wearable defibrillator vest: can shock on its own; follow its voice prompts.",
+      "LVAD: continuous flow, so the patient may have no palpable pulse; follow RI 3.08 and the device team's instructions."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+    },
+    "chapter": 18
+  },
+  {
+    "id": "card-adult-arrest",
+    "kind": "topic",
+    "deck": "cardiac",
+    "deckTitle": "Cardiovascular emergencies",
+    "title": "Adult cardiac arrest",
+    "domain": "cardiology",
+    "body": [
+      "Push hard and fast, full recoil, minimal interruptions.",
+      "AED as soon as available; no touching during analysis or shock; back to compressions right after.",
+      "Remove medication patches; don't shock in pooled water; shave a hairy chest if pads won't stick."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+    },
+    "chapter": 18,
+    "conflicts": [
+      {
+        "topic": "Ventilation",
+        "nremt": "AHA: 30:2 without an advanced airway; with one, 1 breath every 6 s",
+        "ri": "RI 3.03A: continuous compressions; for VF/VT, passive oxygenation (NRB or BVM) for the first 4 cycles, then 10 breaths/min; advanced airway only after cycle 4"
+      },
+      {
+        "topic": "Pauses",
+        "nremt": "Under 10 s",
+        "ri": "RI: rhythm-check pauses ≤5 s; pre-charge the defibrillator at 1:45 of each 2-min cycle"
+      },
+      {
+        "topic": "Epinephrine",
+        "nremt": "1 mg every 3–5 min",
+        "ri": "RI: every 5 min; max 5 doses non-shockable, 3 shockable"
+      }
+    ]
+  },
+  {
+    "id": "iv-solutions",
+    "kind": "topic",
+    "deck": "iv",
+    "deckTitle": "Vascular access & IV therapy",
+    "title": "IV solutions",
+    "domain": "operations",
+    "body": [
+      "Isotonic (same as blood): normal saline, lactated Ringer's. Used for volume replacement.",
+      "Hypotonic (D5W): water moves into cells.",
+      "Hypertonic (3% saline, blood products, albumin): pulls water into the vessels.",
+      "Analogy: tonicity is water chasing salt."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 13: Vascular Access and Medication Administration (lecture slides)"
+    },
+    "chapter": 13
+  },
+  {
+    "id": "iv-sets",
+    "kind": "topic",
+    "deck": "iv",
+    "deckTitle": "Vascular access & IV therapy",
+    "title": "Administration sets and drip math",
+    "domain": "operations",
+    "body": [
+      "Microdrip: 60 gtt/mL (small volumes, kids, medications). Macrodrip: 10–15 gtt/mL (volume).",
+      "gtt/min = (mL × drip factor) ÷ minutes."
+    ],
+    "tags": [
+      "math"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 13: Vascular Access and Medication Administration (lecture slides)"
+    },
+    "chapter": 13
+  },
+  {
+    "id": "iv-catheters",
+    "kind": "topic",
+    "deck": "iv",
+    "deckTitle": "Vascular access & IV therapy",
+    "title": "Catheter size",
+    "domain": "operations",
+    "body": [
+      "Gauge: the bigger the number, the smaller the catheter.",
+      "Large bore (14–18) for trauma and volume; 20–24 for kids, older adults, and fragile veins."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 13: Vascular Access and Medication Administration (lecture slides)"
+    },
+    "chapter": 13
+  },
+  {
+    "id": "iv-complications",
+    "kind": "topic",
+    "deck": "iv",
+    "deckTitle": "Vascular access & IV therapy",
+    "title": "IV complications",
+    "domain": "operations",
+    "body": [
+      "Infiltration: swelling, cool pale skin, slowed flow. Stop, remove, restart in the other arm.",
+      "Thrombophlebitis: red, warm, tender vein. Stop and restart elsewhere.",
+      "Air embolism, catheter shear, arterial puncture, vasovagal reaction.",
+      "Circulatory overload: crackles, JVD, dyspnea. Slow to TKO, sit them up, notify."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 13: Vascular Access and Medication Administration (lecture slides)"
+    },
+    "chapter": 13
+  },
+  {
+    "id": "iv-io",
+    "kind": "topic",
+    "deck": "iv",
+    "deckTitle": "Vascular access & IV therapy",
+    "title": "Intraosseous access",
+    "domain": "operations",
+    "body": [
+      "Sites: proximal tibia (find the tibial tuberosity, then about 2 cm medial), distal tibia (2–3 cm above the medial malleolus), humeral head, sternum (sternal devices).",
+      "Don't place it in a fractured bone, through infection, or in a bone already used for IO.",
+      "Complications: extravasation, compartment syndrome, dislodgement, infection."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 13: Vascular Access and Medication Administration (lecture slides)"
+    },
+    "chapter": 13,
+    "conflicts": [
+      {
+        "topic": "Who can place it",
+        "nremt": "National AEMT scope includes IO",
+        "ri": "RI AEMT scope (1.07) includes IV and IO access"
+      }
+    ]
+  },
+  {
+    "id": "ph-names",
+    "kind": "topic",
+    "deck": "pharm",
+    "deckTitle": "Principles of pharmacology",
+    "title": "Drug names and schedules",
+    "domain": "medical",
+    "body": [
+      "Chemical name (structure), generic name (official, lowercase), trade name (brand, capitalized).",
+      "Controlled substance schedules I–V: I = no accepted medical use, high abuse; V = lowest abuse potential."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 12: Principles of Pharmacology (lecture slides)"
+    },
+    "chapter": 12
+  },
+  {
+    "id": "ph-receptors",
+    "kind": "topic",
+    "deck": "pharm",
+    "deckTitle": "Principles of pharmacology",
+    "title": "Autonomic receptors",
+    "domain": "medical",
+    "body": [
+      "Alpha-1: vasoconstriction. Beta-1: heart rate and contractility up. Beta-2: bronchodilation.",
+      "Memory hook: 1 heart, 2 lungs.",
+      "Parasympathetic (acetylcholine): slows the heart, makes secretions. Anticholinergics (atropine) block it."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 12: Principles of Pharmacology (lecture slides)"
+    },
+    "chapter": 12
+  },
+  {
+    "id": "ph-routes",
+    "kind": "topic",
+    "deck": "pharm",
+    "deckTitle": "Principles of pharmacology",
+    "title": "Routes, fastest to slowest",
+    "domain": "medical",
+    "body": [
+      "IV/IO fastest; then inhaled, intranasal, IM, subcutaneous, oral.",
+      "Absorption depends on blood flow: a shocky patient absorbs IM and SQ poorly."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 12: Principles of Pharmacology (lecture slides)"
+    },
+    "chapter": 12
+  },
+  {
+    "id": "pa-electrolytes",
+    "kind": "topic",
+    "deck": "pathophys",
+    "deckTitle": "Pathophysiology",
+    "title": "Key electrolytes",
+    "domain": "medical",
+    "body": [
+      "Sodium: water balance. Potassium: heart rhythm (high or low K both cause dysrhythmias).",
+      "Calcium: muscle contraction and clotting. Magnesium: nerve and muscle function."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 8: Pathophysiology (lecture slides)"
+    },
+    "chapter": 8
+  },
+  {
+    "id": "pa-acidbase",
+    "kind": "topic",
+    "deck": "pathophys",
+    "deckTitle": "Pathophysiology",
+    "title": "Acid–base in one card",
+    "domain": "medical",
+    "body": [
+      "Respiratory acidosis: hypoventilation (CO₂ builds). Respiratory alkalosis: hyperventilation.",
+      "Metabolic acidosis: DKA, shock (lactic acid), overdose. Metabolic alkalosis: vomiting, antacids.",
+      "The body compensates: fast deep breathing (Kussmaul) blows off CO₂ in metabolic acidosis."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 8: Pathophysiology (lecture slides)"
+    },
+    "chapter": 8
+  },
+  {
+    "id": "pa-cell",
+    "kind": "topic",
+    "deck": "pathophys",
+    "deckTitle": "Pathophysiology",
+    "title": "Cellular injury",
+    "domain": "medical",
+    "body": [
+      "Hypoxia is the most common cause of cell injury.",
+      "Other causes: chemicals, infection, immune reactions, genetics, nutrition, physical agents.",
+      "Unchecked shock leads to MODS: organ failures cascading hours to days later."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 8: Pathophysiology (lecture slides)"
+    },
+    "chapter": 8
+  },
+  {
+    "id": "md-approach",
+    "kind": "topic",
+    "deck": "medical",
+    "deckTitle": "Medical overview & infectious disease",
+    "title": "Medical patient approach",
+    "domain": "medical",
+    "body": [
+      "Scene size-up and standard precautions first; nature of illness from the scene and bystanders.",
+      "Responsive patient: history drives it (OPQRST, SAMPLE). Unresponsive: rapid full-body exam.",
+      "Choose the destination by capability (stroke, STEMI, trauma centers), not just distance."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 16: Medical Overview (lecture slides)"
+    },
+    "chapter": 16
+  },
+  {
+    "id": "md-infection",
+    "kind": "topic",
+    "deck": "medical",
+    "deckTitle": "Medical overview & infectious disease",
+    "title": "Infectious diseases and PPE",
+    "domain": "medical",
+    "body": [
+      "Airborne (TB, measles): N95 on you; mask the patient if tolerated.",
+      "Droplet (influenza, pertussis, meningitis): surgical mask.",
+      "Bloodborne (HIV, hepatitis B/C): gloves, eye protection; hepatitis B vaccine is available.",
+      "MRSA: contact precautions and hand hygiene."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 16: Medical Overview (lecture slides)"
+    },
+    "chapter": 16
+  },
+  {
+    "id": "resp-fail-points",
+    "kind": "topic",
+    "deck": "respiratory",
+    "deckTitle": "Respiratory emergencies",
+    "title": "Four ways breathing fails",
+    "domain": "airway",
+    "body": [
+      "Upper airway obstruction: foreign body, trauma, inflammation (epiglottitis, croup).",
+      "Lower airway obstruction: bronchospasm, mucus, obstructive lung disease.",
+      "Chest wall impairment: trauma, pneumothorax, hemothorax, neuromuscular disease.",
+      "Neurologic control problems: brainstem injury, stroke, drugs that blunt the respiratory drive."
+    ],
+    "tags": [
+      "pathophysiology",
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+    },
+    "chapter": 17
+  },
+  {
+    "id": "resp-gas-exchange",
+    "kind": "topic",
+    "deck": "respiratory",
+    "deckTitle": "Respiratory emergencies",
+    "title": "Alveoli, surfactant, and the V/Q match",
+    "domain": "airway",
+    "body": [
+      "Type I alveolar cells do the gas exchange; Type II make surfactant and new Type I cells.",
+      "Surfactant lowers surface tension so alveoli stay open; collapsed or fluid-filled alveoli can't exchange gas.",
+      "Chronic hypoxia leads the body to overproduce RBCs (polycythemia); thicker blood strains the right heart (cor pulmonale)."
+    ],
+    "tags": [
+      "pathophysiology"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+    },
+    "chapter": 17
+  },
+  {
+    "id": "resp-hypoxic-drive",
+    "kind": "topic",
+    "deck": "respiratory",
+    "deckTitle": "Respiratory emergencies",
+    "title": "CO2 retention and hypoxic drive",
+    "domain": "airway",
+    "body": [
+      "Chronic CO2 retention makes the brain's CO2-sensing drive less responsive over time.",
+      "Hypoxic drive is a backup: the brain breathes based on low O2 instead of high CO2.",
+      "Heavy supplemental O2 can blunt that backup drive and depress respirations, but never withhold O2 from a patient who needs it; support ventilation instead."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+    },
+    "chapter": 17
+  },
+  {
+    "id": "resp-vent-mechanics",
+    "kind": "topic",
+    "deck": "respiratory",
+    "deckTitle": "Respiratory emergencies",
+    "title": "Hypo/hyperventilation and the I:E ratio",
+    "domain": "airway",
+    "body": [
+      "Hypoventilation traps CO2 and causes respiratory acidosis.",
+      "Hyperventilation (tachypnea without a physiologic O2 demand) drops CO2 and causes respiratory alkalosis; can mimic a panic attack.",
+      "Normal expiration lasts about twice as long as inspiration (I:E ratio); prolonged in asthma, shortened in tachypnea."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+    },
+    "chapter": 17
+  },
+  {
+    "id": "resp-copd",
+    "kind": "topic",
+    "deck": "respiratory",
+    "deckTitle": "Respiratory emergencies",
+    "title": "COPD: chronic bronchitis vs emphysema",
+    "domain": "airway",
+    "body": [
+      "Chronic bronchitis: mucus-gland overgrowth, productive cough 3+ months/year for 2+ years.",
+      "Emphysema: alveolar wall destruction from lost surfactant, irreversible; the most common form of COPD.",
+      "Acute COPD picture: pursed-lip breathing, barrel chest, tripod position, days of worsening dyspnea.",
+      "Dry lungs — pair with pulmonary edema's wet lungs for the breath-sound gut check; treat the patient, not just the sounds."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+    },
+    "chapter": 17
+  },
+  {
+    "id": "resp-asthma",
+    "kind": "topic",
+    "deck": "respiratory",
+    "deckTitle": "Respiratory emergencies",
+    "title": "Asthma: the reversible triad",
+    "domain": "airway",
+    "body": [
+      "Bronchospasm plus mucus production plus airway edema: all three, and all reversible.",
+      "Status asthmaticus: a severe attack that doesn't respond to conventional treatment, a dire emergency.",
+      "A silent chest in an asthmatic isn't improvement, it's a pre-respiratory-arrest sign."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+    },
+    "chapter": 17
+  },
+  {
+    "id": "resp-pulmonary-edema",
+    "kind": "topic",
+    "deck": "respiratory",
+    "deckTitle": "Respiratory emergencies",
+    "title": "Pulmonary edema: wet lungs",
+    "domain": "airway",
+    "body": [
+      "Fluid floods the alveoli and lung tissue, cutting gas exchange.",
+      "Cardiogenic: left heart can't keep up with the right, back-pressure floods into the lungs.",
+      "Noncardiogenic causes: smoke/toxic fume inhalation, chest trauma, high-altitude exposure.",
+      "Classic picture: dyspnea, orthopnea, fatigue, reduced exercise tolerance, crackles."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+    },
+    "chapter": 17
+  },
+  {
+    "id": "resp-pneumo-effusion",
+    "kind": "topic",
+    "deck": "respiratory",
+    "deckTitle": "Respiratory emergencies",
+    "title": "Pneumothorax vs pleural effusion",
+    "domain": "airway",
+    "body": [
+      "Spontaneous pneumothorax: air in the pleural space; tall thin young males at higher risk.",
+      "Sharp pleuritic pain, unilaterally decreased/absent breath sounds, local hyperresonance to percussion; tracheal deviation is a late sign.",
+      "Pleural effusion: fluid outside the lung; decreased breath sounds over the fluid, dull to percussion, patient usually feels better sitting upright."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+    },
+    "chapter": 17
+  },
+  {
+    "id": "resp-pe",
+    "kind": "topic",
+    "deck": "respiratory",
+    "deckTitle": "Respiratory emergencies",
+    "title": "Pulmonary embolism",
+    "domain": "airway",
+    "body": [
+      "A clot (usually from a leg or pelvic vein) lodges in a pulmonary artery and blocks blood flow, a V/Q mismatch.",
+      "Risk factors: immobilization, recent surgery, pregnancy, prior PE, obesity, oral contraceptives, cancer, long-distance travel, sickle cell disease.",
+      "Signs: sudden dyspnea, tachycardia, tachypnea, pleuritic chest pain, hypoxia, sometimes hemoptysis."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+    },
+    "chapter": 17
+  },
+  {
+    "id": "resp-peds-upper-airway",
+    "kind": "topic",
+    "deck": "respiratory",
+    "deckTitle": "Respiratory emergencies",
+    "title": "Croup vs epiglottitis vs bronchiolitis",
+    "domain": "airway",
+    "body": [
+      "Bronchiolitis: under 2 y/o (peak 3-6 mo), viral (RSV), wheeze/crackles, gradual onset, largely supportive care.",
+      "Croup: 6 mo-6 y/o, viral, barking cough plus stridor, gradual onset with cold symptoms.",
+      "Epiglottitis: usually over 2 y/o, bacterial, sudden onset, toxic-appearing, drooling, tripod; avoid airway manipulation and suctioning.",
+      "Always consider a foreign body first in a child who went from eating to short of breath."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+    },
+    "chapter": 17
+  },
+  {
+    "id": "resp-breath-sounds",
+    "kind": "topic",
+    "deck": "respiratory",
+    "deckTitle": "Respiratory emergencies",
+    "title": "Naming abnormal breath sounds",
+    "domain": "airway",
+    "body": [
+      "Crackles (rales): fine, crackling, air moving through fluid in the alveoli.",
+      "Rhonchi: lower-pitched, secretions/mucus in the larger airways.",
+      "Stridor: high-pitched, inspiratory, upper-airway obstruction.",
+      "Wheezing: high-pitched, typically expiratory, bronchoconstriction/inflammation.",
+      "Pleural friction rub: squeaking/grating, inflamed pleural linings rubbing together."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+    },
+    "chapter": 17
+  },
+  {
+    "id": "resp-o2-cpap",
+    "kind": "topic",
+    "deck": "respiratory",
+    "deckTitle": "Respiratory emergencies",
+    "title": "Oxygen targets and CPAP",
+    "domain": "airway",
+    "body": [
+      "Target SpO2 94-99%; avoid pushing to 100%.",
+      "CPAP: for patients not improving on nebulizer therapy, or in cardiogenic pulmonary edema; raises intrathoracic pressure.",
+      "CPAP risk: can drop preload/BP in a hypotensive patient, and can convert a simple pneumothorax into a tension pneumothorax.",
+      "CPAP tends to succeed if the patient's own respiratory rate starts to fall after application, and tends to fail if it keeps climbing."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+    },
+    "chapter": 17
+  },
+  {
+    "id": "eh-glucose-insulin",
+    "kind": "topic",
+    "deck": "endo-heme",
+    "deckTitle": "Endocrine & hematologic emergencies",
+    "title": "Glucose, insulin, and glucagon in one card",
+    "domain": "medical",
+    "body": [
+      "Glucose is the brain's only fuel; without it, brain cells are damaged fast.",
+      "Insulin (beta cells) lets glucose into cells everywhere except the brain, which doesn't need it.",
+      "Glucagon (alpha cells) raises blood glucose by triggering the liver to break down glycogen (glycogenolysis)."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+    },
+    "chapter": 21
+  },
+  {
+    "id": "eh-hypo-vs-hyper",
+    "kind": "topic",
+    "deck": "endo-heme",
+    "deckTitle": "Endocrine & hematologic emergencies",
+    "title": "Hypoglycemia vs DKA vs HHNS at a glance",
+    "domain": "medical",
+    "body": [
+      "Onset: hypoglycemia is minutes; DKA is hours to days; HHNS is days to weeks.",
+      "Skin: hypoglycemia is pale/moist; DKA and HHNS are warm/dry.",
+      "Breath: DKA has a fruity/acetone odor from ketones; HHNS does not (no ketosis).",
+      "Glucose: hypoglycemia under 60 mg/dL; DKA usually over 250 mg/dL; HHNS often over 600 mg/dL.",
+      "Kussmaul respirations (deep, rapid) belong to DKA, blowing off CO2 to fight the acidosis."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+    },
+    "chapter": 21
+  },
+  {
+    "id": "eh-dka-hhns",
+    "kind": "topic",
+    "deck": "endo-heme",
+    "deckTitle": "Endocrine & hematologic emergencies",
+    "title": "DKA and HHNS aren't the same failure",
+    "domain": "medical",
+    "body": [
+      "DKA: usually type 1, no insulin at all, fat gets burned for fuel, ketones build up into metabolic acidosis.",
+      "HHNS: usually type 2, some insulin is still around, enough to prevent ketosis, but glucose and dehydration climb much higher.",
+      "HHNS fluid deficits can run 10 L or more; give fluid more cautiously with a heart-failure or renal history."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+    },
+    "chapter": 21
+  },
+  {
+    "id": "eh-hypoglycemia-mgmt",
+    "kind": "topic",
+    "deck": "endo-heme",
+    "deckTitle": "Endocrine & hematologic emergencies",
+    "title": "Treating low glucose, by route",
+    "domain": "medical",
+    "body": [
+      "Alert, can swallow safely: oral glucose (tablets, gel, juice, non-diet soda, sugar); don't be shy with the amount.",
+      "Altered or can't protect the airway: nothing by mouth; go IV dextrose, or IM/IN glucagon if there's no IV access.",
+      "Glucagon only works if the liver has glycogen stores to draw from; pair it with dextrose when you can."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+    },
+    "chapter": 21
+  },
+  {
+    "id": "eh-sickle-cell",
+    "kind": "topic",
+    "deck": "endo-heme",
+    "deckTitle": "Endocrine & hematologic emergencies",
+    "title": "Sickle cell crisis: five patterns",
+    "domain": "medical",
+    "body": [
+      "Vaso-occlusive: sickled cells jam small vessels causing pain, ischemia, organ damage; the most common presentation.",
+      "Acute chest syndrome: a vaso-occlusive crisis with fever, chest pain, hypoxia, cough; treat as a lung emergency too.",
+      "Aplastic crisis: bone marrow shuts down, worsens baseline anemia; pallor, tachycardia, fatigue.",
+      "Hemolytic crisis: RBCs break down faster than normal, hemoglobin drops fast.",
+      "Splenic sequestration: painful, sudden spleen enlargement; hard, bloated abdomen.",
+      "Pulse oximetry can be unreliable in sickle cell crisis."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+    },
+    "chapter": 21
+  },
+  {
+    "id": "eh-clotting",
+    "kind": "topic",
+    "deck": "endo-heme",
+    "deckTitle": "Endocrine & hematologic emergencies",
+    "title": "Clotting gone two ways",
+    "domain": "medical",
+    "body": [
+      "Hemophilia A (low factor VIII) and B (low factor IX): genetic, same signs, bleeding takes longer to stop.",
+      "Thrombophilia: an increased tendency to clot; recent surgery, immobility, cancer, pregnancy, smoking, long travel all raise risk.",
+      "DIC: clotting factors get consumed treating a triggering illness, then flip to uncontrolled bleeding; high mortality."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+    },
+    "chapter": 21
+  },
+  {
+    "id": "eh-anemia",
+    "kind": "topic",
+    "deck": "endo-heme",
+    "deckTitle": "Endocrine & hematologic emergencies",
+    "title": "Anemia in the field",
+    "domain": "medical",
+    "body": [
+      "Low hemoglobin/RBC count cuts the blood's oxygen-carrying capacity.",
+      "Presents as fatigue, weakness, and sometimes angina-type chest pain from reduced O2 delivery to the heart.",
+      "Iron-deficiency anemia is the most common type; causes range from bleeding to autoimmune RBC destruction."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+    },
+    "chapter": 21
+  },
+  {
+    "id": "eh-adrenal-insufficiency",
+    "kind": "topic",
+    "deck": "endo-heme",
+    "deckTitle": "Endocrine & hematologic emergencies",
+    "title": "Adrenal insufficiency: the hidden shock",
+    "domain": "medical",
+    "body": [
+      "Suspect it with a history of Addison's disease, HIV/AIDS, or chronic (even recently stopped) steroid use.",
+      "Hypotension that resists IV fluids or pressors is the classic tell.",
+      "The adrenal glands can't mount a stress-cortisol response; illness, trauma, or burns can tip a borderline patient into crisis."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+    },
+    "chapter": 21
+  },
+  {
+    "id": "eh-blood-basics",
+    "kind": "topic",
+    "deck": "endo-heme",
+    "deckTitle": "Endocrine & hematologic emergencies",
+    "title": "Blood, in four jobs and three organs",
+    "domain": "medical",
+    "body": [
+      "Plasma carries everything; RBCs carry oxygen; WBCs fight infection; platelets start clots.",
+      "Bone marrow makes blood cells; the liver makes clotting factors and filters blood; the spleen filters and recycles RBCs.",
+      "ABO plus Rh typing is why mismatched transfusions can cause rapid, severe reactions."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+    },
+    "chapter": 21
+  },
+  {
+    "id": "eh-assessment",
+    "kind": "topic",
+    "deck": "endo-heme",
+    "deckTitle": "Endocrine & hematologic emergencies",
+    "title": "Reading the patient before the glucometer",
+    "domain": "medical",
+    "body": [
+      "Warm, dry skin plus Kussmaul respirations plus fruity breath points to hyperglycemia/DKA.",
+      "Moist, pale skin plus rapid weak pulse plus normal-to-rapid shallow breathing points to hypoglycemia.",
+      "Never assume altered mental status is just a known diabetic's baseline; check a blood glucose every time.",
+      "Sickle cell clues on scene: swelling of fingers/toes, jaundice, priapism, pain isolated vs. whole-body."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+    },
+    "chapter": 21
+  }
+]

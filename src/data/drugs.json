@@ -1,0 +1,1613 @@
+[
+  {
+    "id": "acetaminophen",
+    "kind": "drug",
+    "name": "Acetaminophen",
+    "brand": [
+      "Tylenol",
+      "APAP"
+    ],
+    "class": "Analgesic / antipyretic (non-NSAID)",
+    "domain": "medical",
+    "mechanism": "Blocks prostaglandin E2 production in the CNS (COX-3). No anti-inflammatory or antiplatelet effect.",
+    "indications": [
+      "Mild to moderate pain",
+      "Fever",
+      "Pediatric febrile seizures (PR)"
+    ],
+    "contraindications": [
+      "Hypersensitivity",
+      "Liver failure",
+      "Environmental hyperthermia"
+    ],
+    "pearls": [
+      "Overdose is hepatotoxic"
+    ],
+    "supply": null,
+    "scope": [
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "R",
+      "A": "R",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "unverified",
+    "riPearls": [
+      "RI 2.07: 15 mg/kg PO (typical adult 500–1,000 mg), max 1,000 mg single dose",
+      "AEMT-C may give 500–1,000 mg IV as an alternative (optional stock)",
+      "RI 2.19P: 15 mg/kg PR for febrile seizure if temp ≥100.4"
+    ]
+  },
+  {
+    "id": "ibuprofen",
+    "kind": "drug",
+    "name": "Ibuprofen",
+    "brand": [
+      "Advil",
+      "Motrin"
+    ],
+    "class": "NSAID",
+    "domain": "medical",
+    "mechanism": "Inhibits COX, stopping prostaglandins that drive pain, inflammation, and fever.",
+    "indications": [
+      "Mild to moderate pain",
+      "Fever"
+    ],
+    "contraindications": [
+      "NSAID or aspirin allergy",
+      "Peptic ulcer / GI bleed",
+      "Pregnancy",
+      "Major trauma with bleeding risk",
+      "Anticipated surgery"
+    ],
+    "pearls": [
+      "Avoid in chronic kidney disease: prostaglandins keep the kidney's inflow arterioles open"
+    ],
+    "supply": null,
+    "scope": [
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "R",
+      "A": "R",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "unverified",
+    "riPearls": [
+      "RI 2.07: 10 mg/kg PO (typical adult 400–800 mg), peds max 800 mg",
+      "RI: no NSAIDs in pregnancy, renal failure/transplant, active bleeding, suspected ICH, or possible surgery (open/deformed fractures)"
+    ]
+  },
+  {
+    "id": "ketorolac",
+    "kind": "drug",
+    "name": "Ketorolac",
+    "brand": [
+      "Toradol"
+    ],
+    "class": "NSAID",
+    "domain": "medical",
+    "mechanism": "Inhibits COX, stopping prostaglandin synthesis.",
+    "indications": [
+      "Moderate pain",
+      "Renal colic"
+    ],
+    "contraindications": [
+      "NSAID or aspirin allergy",
+      "GI bleed",
+      "Pregnancy",
+      "Trauma with bleeding risk",
+      "CKD"
+    ],
+    "pearls": [
+      "Same kidney caution as ibuprofen"
+    ],
+    "supply": null,
+    "scope": [],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "X"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "out",
+    "riPearls": [
+      "RI: Paramedic only. Not in AEMT-C scope"
+    ]
+  },
+  {
+    "id": "aspirin",
+    "kind": "drug",
+    "name": "Aspirin",
+    "brand": [
+      "ASA",
+      "Bayer"
+    ],
+    "class": "Platelet inhibitor",
+    "domain": "cardiology",
+    "mechanism": "Irreversibly blocks COX, so platelets can't make thromboxane A2 and stop clumping into a coronary clot.",
+    "indications": [
+      "Chest pain suggestive of ACS / AMI"
+    ],
+    "contraindications": [
+      "Hypersensitivity",
+      "Active ulcer disease",
+      "Aspirin-sensitive asthma",
+      "Pediatrics (Reye's syndrome)",
+      "Active bleeding, suspected ICH, or possible surgery (RI 2.07)"
+    ],
+    "pearls": [],
+    "supply": null,
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "R",
+      "A": "R",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "in",
+    "riPearls": [
+      "RI 3.02: 81 mg × 4 (324 mg) chewed",
+      "RI 2.07: 324–650 mg PO for pain; not with active bleeding or possible surgery"
+    ],
+    "conflicts": [
+      {
+        "topic": "Dose",
+        "nremt": "Textbook: 160–325 mg chewed",
+        "ri": "RI 3.02: 81 mg × 4 (324 mg) chewed"
+      }
+    ]
+  },
+  {
+    "id": "fentanyl",
+    "kind": "drug",
+    "name": "Fentanyl citrate",
+    "brand": [
+      "Sublimaze"
+    ],
+    "class": "Opioid analgesic",
+    "domain": "medical",
+    "mechanism": "Synthetic opioid that binds mu receptors in the CNS.",
+    "indications": [
+      "Moderate to severe pain"
+    ],
+    "contraindications": [
+      "Hypersensitivity",
+      "Extreme caution in TBI"
+    ],
+    "pearls": [
+      "Little histamine release: less hypotension and bronchospasm than morphine",
+      "Rapid IV push can cause chest wall rigidity or apnea"
+    ],
+    "supply": "100 mcg / 2 mL (50 mcg/mL)",
+    "scope": [
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "unverified",
+    "conflicts": [
+      {
+        "topic": "Dose cap",
+        "nremt": "Textbook: about 1 mcg/kg",
+        "ri": "RI: 0.5–1 mcg/kg, max 50 mcg per dose, 200 mcg total"
+      }
+    ],
+    "riPearls": [
+      "RI 2.07 (AEMT-C): 0.5–1 mcg/kg IV/IM/IN, max 50 mcg per dose",
+      "Repeat every 10 min to max 200 mcg adult, 150 mcg cumulative peds",
+      "Give IV over 2 minutes; reassess vitals before and 5 min after each dose"
+    ]
+  },
+  {
+    "id": "albuterol",
+    "kind": "drug",
+    "name": "Albuterol",
+    "brand": [
+      "Proventil",
+      "Ventolin"
+    ],
+    "class": "Beta-2 agonist bronchodilator",
+    "domain": "airway",
+    "mechanism": "Stimulates beta-2 receptors, relaxing bronchial smooth muscle.",
+    "indications": [
+      "Bronchospasm: asthma, COPD, reactive airway disease"
+    ],
+    "contraindications": [
+      "Hypersensitivity",
+      "Tachydysrhythmias",
+      "Severe coronary disease"
+    ],
+    "pearls": [
+      "Some beta-1 spillover can cause chest pain or dysrhythmias",
+      "Can be mixed with ipratropium (DuoNeb)"
+    ],
+    "supply": "2.5 mg / 3 mL",
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "R",
+      "A": "R",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "in",
+    "riPearls": [
+      "RI: 2.5–5 mg via SVN, ± ipratropium",
+      "AEMT-C: up to 3 doses in anaphylaxis"
+    ]
+  },
+  {
+    "id": "terbutaline",
+    "kind": "drug",
+    "name": "Terbutaline",
+    "brand": [
+      "Brethine"
+    ],
+    "class": "Beta-2 agonist bronchodilator",
+    "domain": "airway",
+    "mechanism": "Stimulates beta-2 receptors, relaxing bronchial smooth muscle.",
+    "indications": [
+      "Bronchospasm when nebulized treatment fails (second line, IM/SQ)"
+    ],
+    "contraindications": [
+      "Hypersensitivity",
+      "Tachydysrhythmias",
+      "Severe coronary disease"
+    ],
+    "pearls": [
+      "Given IM or SQ, not inhaled"
+    ],
+    "supply": "1 mg/mL",
+    "scope": [],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "X"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "out",
+    "riPearls": [
+      "Not on the RI formulary. Reference only"
+    ]
+  },
+  {
+    "id": "ipratropium",
+    "kind": "drug",
+    "name": "Ipratropium bromide",
+    "brand": [
+      "Atrovent"
+    ],
+    "class": "Anticholinergic bronchodilator",
+    "domain": "airway",
+    "mechanism": "Blocks acetylcholine at lung muscarinic receptors, stopping parasympathetic bronchoconstriction.",
+    "indications": [
+      "Bronchospasm in COPD or asthma",
+      "Combined with albuterol (DuoNeb)"
+    ],
+    "contraindications": [
+      "Hypersensitivity to ipratropium, atropine, or alkaloids"
+    ],
+    "pearls": [
+      "Side effects mostly local: dry mouth, cough",
+      "Minimal heart rate effect"
+    ],
+    "supply": "0.5 mg / 2.5 mL",
+    "scope": [
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "O",
+      "A": "O",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "unverified",
+    "riPearls": []
+  },
+  {
+    "id": "oxygen",
+    "kind": "drug",
+    "name": "Oxygen",
+    "brand": [],
+    "class": "Elemental gas",
+    "domain": "airway",
+    "mechanism": "Reverses hypoxemia so cells keep running aerobic metabolism.",
+    "indications": [
+      "Hypoxemia",
+      "Respiratory insufficiency",
+      "Ischemic chest pain",
+      "Carbon monoxide poisoning"
+    ],
+    "contraindications": [],
+    "pearls": [
+      "Nasal cannula 1–6 L/min",
+      "SVN nebulizers run on 6–8 L/min",
+      "Supports combustion",
+      "Not listed on the RI formulary table; standard at every level"
+    ],
+    "supply": null,
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "R",
+      "A": "R",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "in",
+    "riPearls": []
+  },
+  {
+    "id": "lidocaine",
+    "kind": "drug",
+    "name": "Lidocaine",
+    "brand": [],
+    "class": "Class IB antiarrhythmic (sodium channel blocker)",
+    "domain": "cardiology",
+    "mechanism": "Blocks fast sodium channels in Phase 0, suppressing automaticity in diseased tissue.",
+    "indications": [
+      "Pulseless VF / VT",
+      "Local anesthetic for IO infusion pain"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": "100 mg / 5 mL (20 mg/mL)",
+    "scope": [
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "out",
+    "conflicts": [
+      {
+        "topic": "Arrest dose",
+        "nremt": "AHA: 1–1.5 mg/kg, then 0.5–0.75 mg/kg, max 3 mg/kg",
+        "ri": "RI: flat 100 mg, repeat every 10 min × 2"
+      }
+    ],
+    "riPearls": [
+      "RI 3.03A: arrest 100 mg IV/IO, repeat every 10 min × 2 (alternative to or after amiodarone)",
+      "RI 3.07A: wide complex tachycardia 1–1.5 mg/kg",
+      "RI 3.03P: peds arrest 1 mg/kg (max 100 mg)"
+    ]
+  },
+  {
+    "id": "procainamide",
+    "kind": "drug",
+    "name": "Procainamide",
+    "brand": [],
+    "class": "Class IA antiarrhythmic (sodium channel blocker)",
+    "domain": "cardiology",
+    "mechanism": "Prolongs repolarization and the relative refractory period.",
+    "indications": [
+      "Stable VT",
+      "Rapid atrial fibrillation"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": null,
+    "scope": [],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "X"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "out",
+    "riPearls": [
+      "RI: Paramedic only. Not in AEMT-C scope"
+    ]
+  },
+  {
+    "id": "metoprolol",
+    "kind": "drug",
+    "name": "Metoprolol",
+    "brand": [],
+    "class": "Class II antiarrhythmic (beta-1 blocker)",
+    "domain": "cardiology",
+    "mechanism": "Blocks beta-1 receptors, slowing heart rate and AV node conduction.",
+    "indications": [
+      "Rate control in AFib, flutter, SVT"
+    ],
+    "contraindications": [
+      "Bradycardia",
+      "Cardiogenic shock"
+    ],
+    "pearls": [],
+    "supply": null,
+    "scope": [],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "X"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "out",
+    "riPearls": [
+      "RI: Paramedic only. Not in AEMT-C scope"
+    ]
+  },
+  {
+    "id": "amiodarone",
+    "kind": "drug",
+    "name": "Amiodarone",
+    "brand": [],
+    "class": "Class III antiarrhythmic (potassium channel blocker)",
+    "domain": "cardiology",
+    "mechanism": "Blocks potassium channels in Phase 3, prolonging the action potential. Also has Class I, II, and IV effects.",
+    "indications": [
+      "VF / VT, pulseless or stable"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": "150 mg / 3 mL (50 mg/mL)",
+    "scope": [
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "out",
+    "riPearls": [
+      "RI 3.03A: arrest 300 mg IV/IO, then 150 mg for refractory VF/VT",
+      "RI 3.07A: wide complex tachycardia 150 mg IV over 10 min, may repeat × 1",
+      "RI 3.03P: peds arrest 5 mg/kg, may repeat × 2"
+    ],
+    "conflicts": [
+      {
+        "topic": "Peds arrest",
+        "nremt": "AHA 2025: 5 mg/kg (max 300 mg), up to 3 doses (max 150 mg after the first)",
+        "ri": "RI 3.03P: 5 mg/kg, may repeat × 2"
+      }
+    ]
+  },
+  {
+    "id": "diltiazem",
+    "kind": "drug",
+    "name": "Diltiazem",
+    "brand": [],
+    "class": "Class IV antiarrhythmic (calcium channel blocker)",
+    "domain": "cardiology",
+    "mechanism": "Blocks L-type calcium channels, slowing AV node conduction.",
+    "indications": [
+      "AFib / flutter with rapid ventricular response"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": "25 mg / 5 mL (5 mg/mL)",
+    "scope": [
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "out",
+    "conflicts": [
+      {
+        "topic": "Dosing",
+        "nremt": "AHA: 0.25 mg/kg, then 0.35 mg/kg",
+        "ri": "RI: medical control first; max 20 mg, then max 25 mg only if SBP ≥100"
+      }
+    ],
+    "riPearls": [
+      "RI 3.06A: AEMT-C must contact MEDICAL CONTROL first",
+      "0.25 mg/kg IV, max 20 mg",
+      "If SBP ≥100, may repeat × 1 at 0.35 mg/kg, max 25 mg"
+    ]
+  },
+  {
+    "id": "nitroglycerin",
+    "kind": "drug",
+    "name": "Nitroglycerin",
+    "brand": [],
+    "class": "Vasodilator (organic nitrate)",
+    "domain": "cardiology",
+    "mechanism": "Converts to nitric oxide, dilating veins and arteries. Lowers preload and afterload, so the heart needs less oxygen.",
+    "indications": [
+      "Cardiac chest pain",
+      "Acute pulmonary edema from heart failure"
+    ],
+    "contraindications": [
+      "Hypotension (see standards)",
+      "Hypovolemia",
+      "Head injury",
+      "Right ventricular infarction",
+      "Recent PDE-5 inhibitor (sildenafil, vardenafil, tadalafil)"
+    ],
+    "pearls": [],
+    "supply": null,
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "P",
+      "A": "R",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "in",
+    "conflicts": [
+      {
+        "topic": "BP cutoff",
+        "nremt": "Textbook: SBP >90 in the shock chapter, >100 in the heart failure chapter",
+        "ri": "RI: SBP >100"
+      },
+      {
+        "topic": "PDE-5 window",
+        "nremt": "Textbook: 24–48 hr",
+        "ri": "RI: sildenafil/vardenafil 24 hr, tadalafil 36 hr"
+      }
+    ],
+    "riPearls": [
+      "RI 3.02 (AEMT-C): 0.4 mg SL every 5 min if SBP >100",
+      "EMT level: patient's own nitro if SBP ≥100, max 3 doses",
+      "No sildenafil/vardenafil in 24 hr or tadalafil in 36 hr",
+      "Avoid in right ventricular infarction (preload dependent)",
+      "Under 16 yo without known coronary disease: medical control first"
+    ]
+  },
+  {
+    "id": "furosemide",
+    "kind": "drug",
+    "name": "Furosemide",
+    "brand": [
+      "Lasix"
+    ],
+    "class": "Loop diuretic",
+    "domain": "cardiology",
+    "mechanism": "Blocks sodium, chloride, and potassium reabsorption in the loop of Henle, causing rapid diuresis.",
+    "indications": [
+      "Acute pulmonary edema"
+    ],
+    "contraindications": [
+      "Hypovolemia",
+      "Anuria",
+      "Hypotension",
+      "Hypokalemia"
+    ],
+    "pearls": [],
+    "supply": null,
+    "scope": [
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "out",
+    "riPearls": [
+      "RI 3.01: second-tier only",
+      "Only if transport ≥30 min, patient already takes oral furosemide, and SBP ≥100",
+      "Give the patient's usual daily dose IV, max 80 mg"
+    ]
+  },
+  {
+    "id": "diazepam",
+    "kind": "drug",
+    "name": "Diazepam",
+    "brand": [
+      "Valium"
+    ],
+    "class": "Benzodiazepine",
+    "domain": "medical",
+    "mechanism": "Binds the GABA-A receptor, boosting GABA's effect. Chloride channels open more, the neuron hyperpolarizes, and firing is suppressed.",
+    "indications": [
+      "Seizures",
+      "Sedation / muscle spasm"
+    ],
+    "contraindications": [],
+    "pearls": [
+      "Strongest muscle relaxant in the class",
+      "Only benzo given PR"
+    ],
+    "supply": "10 mg / 2 mL",
+    "scope": [
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "O/C"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "unverified",
+    "riPearls": [
+      "RI carries diazepam OR lorazepam (interchangeable; service picks)",
+      "RI 2.19A: 2.5 mg IV/IN every 5 min, max 10 mg",
+      "RI 2.19P: 0.1 mg/kg IN/IV (max 2.5 mg per dose) or 0.5 mg/kg PR (max 20 mg per dose); total max 10 mg",
+      "Longest half-life: least desirable benzo when others are available; no IM in peds"
+    ]
+  },
+  {
+    "id": "lorazepam",
+    "kind": "drug",
+    "name": "Lorazepam",
+    "brand": [
+      "Ativan"
+    ],
+    "class": "Benzodiazepine",
+    "domain": "medical",
+    "mechanism": "GABA-A enhancement, as with other benzodiazepines.",
+    "indications": [
+      "Seizures",
+      "Sedation"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": "2 mg/mL",
+    "scope": [
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "O/C"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "unverified",
+    "riPearls": [
+      "RI: first-line anticonvulsant when IV/IO access is available",
+      "RI 2.19A: 2 mg IV/IM every 5 min, max 10 mg",
+      "RI 2.19P: 0.1 mg/kg IV (max 2 mg per dose), total max 10 mg",
+      "Heat-sensitive: expires in 6 weeks unrefrigerated"
+    ]
+  },
+  {
+    "id": "midazolam",
+    "kind": "drug",
+    "name": "Midazolam",
+    "brand": [
+      "Versed"
+    ],
+    "class": "Benzodiazepine",
+    "domain": "medical",
+    "mechanism": "GABA-A enhancement, as with other benzodiazepines.",
+    "indications": [
+      "Seizures",
+      "Sedation / restraint"
+    ],
+    "contraindications": [],
+    "pearls": [
+      "Fast onset, short duration, causes anterograde amnesia",
+      "Preferred IN for seizures without IV access"
+    ],
+    "supply": "5 mg/mL",
+    "scope": [
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "unverified",
+    "conflicts": [
+      {
+        "topic": "Peds seizure",
+        "nremt": "Textbook: often 0.2 mg/kg IN",
+        "ri": "RI: 0.1 mg/kg, max 2 mg per dose"
+      }
+    ],
+    "riPearls": [
+      "RI 2.19A: no IV → 2.5–5 mg IM/IN; with IV → 2.5 mg IV/IM/IN every 5 min, max 10 mg",
+      "RI 2.19P: 0.1 mg/kg IV/IM/IN (max 2 mg per dose), cumulative max 1 mg/kg",
+      "RI 2.25: agitated delirium 2.5–5 mg IV or 5 mg IM/IN, repeat in 10 min if SBP >100, max 10 mg"
+    ]
+  },
+  {
+    "id": "activated-charcoal",
+    "kind": "drug",
+    "name": "Activated charcoal",
+    "brand": [],
+    "class": "Adsorbent",
+    "domain": "medical",
+    "mechanism": "Carbon matrix that binds toxins in the GI tract.",
+    "indications": [
+      "Select oral ingestions"
+    ],
+    "contraindications": [],
+    "pearls": [
+      "Does NOT bind cyanide, lithium, iron, lead, or alcohols",
+      "Peds 1 g/kg"
+    ],
+    "supply": "50 g / 240 mL",
+    "scope": [],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "X"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "unverified",
+    "riPearls": [
+      "Not on the RI formulary. Reference only"
+    ]
+  },
+  {
+    "id": "hydroxocobalamin",
+    "kind": "drug",
+    "name": "Hydroxocobalamin",
+    "brand": [
+      "CyanoKit"
+    ],
+    "class": "Cyanide antidote",
+    "domain": "medical",
+    "mechanism": "Binds cyanide to form vitamin B12, which is excreted in urine.",
+    "indications": [
+      "Cyanide poisoning"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": null,
+    "scope": [
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "O"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "out",
+    "riPearls": [
+      "RI 4.18/4.20: if available, 70 mg/kg IV (max 5 g) in 250 mL NS over 15 min; faster in arrest"
+    ]
+  },
+  {
+    "id": "duodote",
+    "kind": "drug",
+    "name": "Atropine + pralidoxime",
+    "brand": [
+      "DuoDote"
+    ],
+    "class": "Nerve agent antidote",
+    "domain": "medical",
+    "mechanism": "Atropine blocks muscarinic sites. Pralidoxime reactivates acetylcholinesterase at nicotinic sites.",
+    "indications": [
+      "Nerve agent / organophosphate poisoning"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": null,
+    "scope": [
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "O/C",
+      "A": "O/C",
+      "AC": "O/C"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "unverified",
+    "riPearls": []
+  },
+  {
+    "id": "naloxone",
+    "kind": "drug",
+    "name": "Naloxone",
+    "brand": [
+      "Narcan"
+    ],
+    "class": "Opioid antagonist",
+    "domain": "medical",
+    "mechanism": "Competitively displaces opioids from their receptors.",
+    "indications": [
+      "Opioid overdose with respiratory depression"
+    ],
+    "contraindications": [],
+    "pearls": [
+      "Ventilate with a BVM first to avoid a violent sympathetic surge"
+    ],
+    "supply": "2 mg / 2 mL",
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "R",
+      "A": "R",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "in",
+    "riPearls": [
+      "RI 4.18A: 0.4–4 mg IN or 0.4 mg IV/IM every 3–5 min to adequate ventilation, max 10 mg",
+      "RI 4.18P: <20 kg → 0.1 mg/kg (max 2 mg); ≥20 kg → 2 mg IN",
+      "Ventilate with a BVM first"
+    ]
+  },
+  {
+    "id": "dextrose",
+    "kind": "drug",
+    "name": "Dextrose",
+    "brand": [],
+    "class": "Carbohydrate",
+    "domain": "medical",
+    "mechanism": "Supplies glucose for ATP production.",
+    "indications": [
+      "Hypoglycemia"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": "D10: 25 g / 250 mL (0.1 g/mL)",
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "R",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "in",
+    "conflicts": [
+      {
+        "topic": "Concentration",
+        "nremt": "Textbook: D50 25 g adult; D10 also taught",
+        "ri": "RI: D10 only; adult 250 mL (25 g), peds 5 mL/kg"
+      }
+    ],
+    "riPearls": [
+      "RI carries D10 only (no D50)",
+      "Treat when bG ≤60 mg/dL and patient can't take oral glucose",
+      "RI 2.10A: D10 250 mL (25 g) IV over 5 min, repeat in 5 min if bG <60",
+      "RI 2.10P: D10 5 mL/kg over 5 min, repeat if bG <60",
+      "Thiamine 200 mg first if alcohol use or malnourished"
+    ]
+  },
+  {
+    "id": "glucagon",
+    "kind": "drug",
+    "name": "Glucagon",
+    "brand": [],
+    "class": "Pancreatic hormone",
+    "domain": "medical",
+    "mechanism": "Triggers the liver to break down glycogen into glucose.",
+    "indications": [
+      "Hypoglycemia without IV access",
+      "Beta-blocker or calcium channel blocker overdose"
+    ],
+    "contraindications": [],
+    "pearls": [
+      "Works in beta-blocker OD because it bypasses beta receptors"
+    ],
+    "supply": "1 mg/mL",
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "R",
+      "A": "R",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "in",
+    "riPearls": [
+      "RI 2.10A: 1 mg IM or 3 mg IN (Baqsimi) if no IV",
+      "RI 2.10P: 0.1 mg/kg IM, max 1 mg",
+      "RI 2.04A: 1–4 mg IV in anaphylaxis on a beta blocker"
+    ]
+  },
+  {
+    "id": "sodium-bicarbonate",
+    "kind": "drug",
+    "name": "Sodium bicarbonate",
+    "brand": [],
+    "class": "Alkalizing agent",
+    "domain": "medical",
+    "mechanism": "Buffers excess hydrogen ions to reverse metabolic acidosis.",
+    "indications": [
+      "Hyperkalemia",
+      "Acidosis in arrest",
+      "TCA overdose"
+    ],
+    "contraindications": [],
+    "pearls": [
+      "8.4% = 1 mEq/mL"
+    ],
+    "supply": "50 mEq / 50 mL",
+    "scope": [
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "out",
+    "riPearls": [
+      "Incompatible with calcium chloride: flush between",
+      "RI 2.25: 50 mEq IV if agitated-delirium patient arrests",
+      "Incompatible with calcium chloride: flush between"
+    ]
+  },
+  {
+    "id": "corticosteroids",
+    "kind": "drug",
+    "name": "Hydrocortisone / methylprednisolone",
+    "brand": [
+      "Solu-Cortef",
+      "Solu-Medrol"
+    ],
+    "class": "Corticosteroid",
+    "domain": "medical",
+    "mechanism": "Synthetic glucocorticoids that dampen inflammation and reduce capillary leak.",
+    "indications": [
+      "Anaphylaxis (adjunct)",
+      "Asthma / COPD exacerbation",
+      "Adrenal insufficiency (hydrocortisone)"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": null,
+    "scope": [
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "out",
+    "riPearls": [
+      "RI 2.04A: methylprednisolone 125 mg IV or hydrocortisone 100 mg IV",
+      "RI 2.04P: 2 mg/kg IV (methylpred max 60 mg, hydrocortisone max 100 mg)",
+      "Onset 1–2 hr: never a substitute for epinephrine"
+    ]
+  },
+  {
+    "id": "oxymetazoline",
+    "kind": "drug",
+    "name": "Oxymetazoline",
+    "brand": [
+      "Afrin"
+    ],
+    "class": "Alpha agonist decongestant",
+    "domain": "medical",
+    "mechanism": "Stimulates alpha receptors for local vasoconstriction.",
+    "indications": [
+      "Active epistaxis"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": null,
+    "scope": [
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
+      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+    },
+    "formulary": {
+      "E": "R",
+      "A": "R",
+      "AC": "R"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "unverified",
+    "riPearls": []
+  },
+  {
+    "id": "epinephrine",
+    "kind": "drug",
+    "name": "Epinephrine",
+    "brand": [],
+    "class": "Sympathomimetic (alpha/beta agonist)",
+    "domain": "cardiology",
+    "mechanism": "Alpha effects constrict vessels; beta effects raise heart rate and contractility and dilate bronchi.",
+    "indications": [
+      "Anaphylaxis",
+      "Cardiac arrest"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": "1 mg/mL IM; 1 mg/10 mL IV",
+    "formulary": {
+      "E": "R",
+      "A": "R",
+      "AC": "R"
+    },
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "in",
+    "conflicts": [
+      {
+        "topic": "Arrest interval",
+        "nremt": "AHA: 1 mg every 3–5 min, no set max",
+        "ri": "RI: every 5 min, max 5 doses (non-shockable) or 3 (shockable)"
+      },
+      {
+        "topic": "Peds arrest",
+        "nremt": "AHA 2025: 0.01 mg/kg, max 1 mg, every 3–5 min",
+        "ri": "RI 3.03P: 0.01 mg/kg every 3–5 min"
+      }
+    ],
+    "riPearls": [
+      "RI 2.04A: 0.3 mg IM (1 mg/mL) lateral thigh, every 5 min, max 3 doses",
+      "Over 50 yo or cardiac history: 0.15 mg",
+      "RI 2.04P: 0.15 mg for 15–30 kg, 0.3 mg for >30 kg",
+      "RI 3.03A: arrest 1 mg (1 mg/10 mL) IV/IO every 5 min; max 5 doses non-shockable, 3 doses shockable",
+      "AEMT (A level) gives IV epi only for non-shockable arrest",
+      "RI 3.03P: peds arrest 0.01 mg/kg of 1 mg/10 mL"
+    ]
+  },
+  {
+    "id": "adenosine",
+    "kind": "drug",
+    "name": "Adenosine",
+    "brand": [],
+    "class": "Antiarrhythmic (AV nodal blocker)",
+    "domain": "cardiology",
+    "mechanism": "Briefly blocks conduction through the AV node, interrupting re-entry circuits.",
+    "indications": [
+      "Regular narrow complex tachycardia (SVT)",
+      "Regular monomorphic wide complex tachycardia"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": "6 mg / 2 mL (3 mg/mL)",
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "R"
+    },
+    "scope": [
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "out",
+    "conflicts": [
+      {
+        "topic": "Dosing",
+        "nremt": "AHA: 6 mg rapid IVP, then 12 mg",
+        "ri": "RI: 12 mg first, may repeat × 1"
+      },
+      {
+        "topic": "Peds dose",
+        "nremt": "AHA 2025: 0.1 mg/kg (max 6 mg), then 0.2 mg/kg (max 12 mg)",
+        "ri": "RI 3.06P: 0.2 mg/kg (max 12 mg) first, with medical control"
+      }
+    ],
+    "riPearls": [
+      "RI 3.06A: 12 mg rapid IV push, may repeat × 1",
+      "RI 3.07A notes: some patients start at a reduced 6 mg",
+      "RI 3.06P: 0.2 mg/kg (max 12 mg) with MEDICAL CONTROL at AEMT-C"
+    ]
+  },
+  {
+    "id": "atropine",
+    "kind": "drug",
+    "name": "Atropine sulfate",
+    "brand": [],
+    "class": "Anticholinergic (parasympatholytic)",
+    "domain": "cardiology",
+    "mechanism": "Blocks vagal (acetylcholine) input to the SA and AV nodes, raising heart rate.",
+    "indications": [
+      "Symptomatic bradycardia"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": "1 mg / 10 mL (0.1 mg/mL)",
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "R"
+    },
+    "scope": [
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "out",
+    "conflicts": [
+      {
+        "topic": "Dosing",
+        "nremt": "AHA: 1 mg every 3–5 min, max 3 mg",
+        "ri": "RI: 0.5–1 mg every 3–5 min, max 3 mg"
+      }
+    ],
+    "riPearls": [
+      "RI 3.05A: 0.5–1 mg IV every 3–5 min to HR >60, max 3 mg",
+      "RI 3.05P: 0.02 mg/kg, min 0.1 mg, max single dose 0.5 mg, may repeat × 1"
+    ]
+  },
+  {
+    "id": "ondansetron",
+    "kind": "drug",
+    "name": "Ondansetron",
+    "brand": [],
+    "class": "Antiemetic (5-HT3 antagonist)",
+    "domain": "medical",
+    "mechanism": "Blocks serotonin receptors in the gut and brainstem vomiting center.",
+    "indications": [
+      "Nausea / vomiting"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": "4 mg / 2 mL (2 mg/mL)",
+    "formulary": {
+      "E": "R",
+      "A": "R",
+      "AC": "R"
+    },
+    "scope": [
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "unverified",
+    "conflicts": [
+      {
+        "topic": "Peds dosing",
+        "nremt": "Textbook: 0.1–0.15 mg/kg",
+        "ri": "RI: weight bands, 2 mg (10–20 kg) or 4 mg (>20 kg)"
+      }
+    ],
+    "riPearls": [
+      "RI 2.07A: 4 mg PO/SL/IV/IM/ODT, may repeat × 1 in 15 min",
+      "RI 2.07P: only >3 months and >10 kg; 10–20 kg → 2 mg, >20 kg → 4 mg (weight bands, not mg/kg)"
+    ]
+  },
+  {
+    "id": "diphenhydramine",
+    "kind": "drug",
+    "name": "Diphenhydramine",
+    "brand": [],
+    "class": "Antihistamine (H1 blocker)",
+    "domain": "medical",
+    "mechanism": "Blocks histamine H1 receptors, easing itch, hives, and flushing.",
+    "indications": [
+      "Allergic reaction / anaphylaxis (adjunct)"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": "50 mg/mL",
+    "formulary": {
+      "E": "R",
+      "A": "R",
+      "AC": "R"
+    },
+    "scope": [
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "unverified",
+    "riPearls": [
+      "RI 2.04A: 50 mg PO/IV/IM",
+      "RI 2.04P: 1 mg/kg (max 50 mg)",
+      "Over 65 yo: consider cetirizine 10 mg PO instead",
+      "Treats rash and itch only: never replaces epinephrine"
+    ]
+  },
+  {
+    "id": "thiamine",
+    "kind": "drug",
+    "name": "Thiamine (vitamin B1)",
+    "brand": [],
+    "class": "Vitamin",
+    "domain": "medical",
+    "mechanism": "Cofactor for glucose metabolism; prevents Wernicke encephalopathy when glucose is given.",
+    "indications": [
+      "Hypoglycemia in patients with alcohol use or malnutrition"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": "100 mg/mL",
+    "formulary": {
+      "E": "X",
+      "A": "O",
+      "AC": "R"
+    },
+    "scope": [
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "unverified",
+    "conflicts": [
+      {
+        "topic": "Dose",
+        "nremt": "Textbook: 100 mg IV/IM",
+        "ri": "RI: 200 mg IV/IM"
+      }
+    ],
+    "riPearls": [
+      "RI 2.10A: 200 mg IV/IM before D10",
+      "Optional at AEMT, required stock at AEMT-C"
+    ]
+  },
+  {
+    "id": "calcium-chloride",
+    "kind": "drug",
+    "name": "Calcium chloride 10%",
+    "brand": [],
+    "class": "Electrolyte",
+    "domain": "cardiology",
+    "mechanism": "Replaces calcium; stabilizes cardiac cell membranes.",
+    "indications": [
+      "Hypocalcemia (e.g., hydrofluoric acid burns)",
+      "Per 3.06A notes, may precede diltiazem depending on BP"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": "1 g / 10 mL (100 mg/mL)",
+    "formulary": {
+      "E": "X",
+      "A": "X",
+      "AC": "R/C"
+    },
+    "scope": [
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "out",
+    "riPearls": [
+      "RI 4.08: 1 g slow IV, may repeat × 1",
+      "Interchangeable with calcium gluconate (service picks)",
+      "Incompatible with sodium bicarbonate"
+    ]
+  },
+  {
+    "id": "nitrous-oxide",
+    "kind": "drug",
+    "name": "Nitrous oxide 50/50",
+    "brand": [],
+    "class": "Inhaled analgesic",
+    "domain": "medical",
+    "mechanism": "Self-administered 50% nitrous oxide / 50% oxygen blend for short-acting analgesia.",
+    "indications": [
+      "Moderate to severe pain"
+    ],
+    "contraindications": [],
+    "pearls": [],
+    "supply": null,
+    "formulary": {
+      "E": "X",
+      "A": "O",
+      "AC": "O"
+    },
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt",
+      "ri-aemt-c"
+    ],
+    "scopeVerified": true,
+    "source": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "protocolSource": {
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+    },
+    "nremtScope": "in",
+    "riPearls": [
+      "RI 2.07: optional at every level if the service carries it"
+    ]
+  }
+]
