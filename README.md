@@ -39,16 +39,16 @@ protocol number.** Cards where the two agree show one answer and no callout.
 | | Count | Notes |
 | --- | --- | --- |
 | Drug cards | 36 | 31 in AEMT-C scope, 13 carry an NREMT/RI conflict |
-| Topic cards | 79 across 10 decks | 17 carry a conflict |
-| Questions | 175 | 44 have an RI alternate, 25 are dosing traps, 12 render a rhythm strip |
+| Topic cards | 102 across 10 decks | 17 carry a conflict. The ECG deck is the deepest at 38 |
+| Questions | 204 | 44 have an RI alternate, 30 are traps, 31 render a rhythm strip |
 
 **Topic decks:** Shock · ECG & dysrhythmias · Pediatric resuscitation (AHA 2025) ·
 Cardiovascular emergencies · Respiratory emergencies · Endocrine & hematologic emergencies ·
 Vascular access & IV therapy · Principles of pharmacology · Pathophysiology ·
 Medical overview & infectious disease
 
-**Question decks:** Med math (100) · ECG · Pediatric resuscitation · Respiratory ·
-Endocrine & hematologic · Cardiovascular · Vascular access
+**Question decks:** Med math (100) · ECG & dysrhythmias (50) · Pediatric resuscitation ·
+Respiratory · Endocrine & hematologic · Cardiovascular · Vascular access
 
 ## Screens
 
@@ -60,8 +60,13 @@ Endocrine & hematologic · Cardiovascular · Vascular access
 - **Drill** — flip cards with Leitner spaced repetition saved on-device. Filter by deck, by
   **Traps only**, or by **NREMT vs RI** to drill just the 44 questions where the answers split.
 
-Rhythm-ID questions draw an original ECG strip as SVG, synthesized at render time from rate,
-regularity, P-wave type, PR interval, and QRS width. Nothing is traced or scanned from a textbook.
+The ECG deck carries a card per rhythm rather than per family, with the five-point criteria
+(rate, rhythm, P wave, PR, QRS), causes, and what the rhythm means for the patient.
+
+Thirty-one questions draw an original ECG strip as SVG, synthesized at render time from rate,
+regularity, P-wave type, PR interval, QRS width, and dropped-beat pattern. Nothing is traced or
+scanned from a textbook. Rhythms the generator cannot draw honestly — ventricular fibrillation
+and ventricular standstill — are asked as text rather than faked with a misleading waveform.
 
 ## Run it
 

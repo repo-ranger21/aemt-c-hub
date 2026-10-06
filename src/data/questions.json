@@ -3064,6 +3064,755 @@
       }
     },
     {
+      "id": "ecg-122",
+      "kind": "recall",
+      "number": 122,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm.",
+      "answer": "Normal sinus rhythm",
+      "work": "Rate 60-100, regular, upright P before every QRS, PR 0.12-0.20, QRS under 0.12. The only rhythm called normal.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 75,
+        "regularity": "regular",
+        "pWaves": "normal",
+        "prInterval": 0.16,
+        "qrsWidth": 0.08
+      }
+    },
+    {
+      "id": "ecg-123",
+      "kind": "recall",
+      "number": 123,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm.",
+      "answer": "Sinus bradycardia",
+      "work": "Everything about it is sinus except the rate is under 60. Normal in athletes and in sleep; only matters if perfusion suffers.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 44,
+        "regularity": "regular",
+        "pWaves": "normal",
+        "prInterval": 0.16,
+        "qrsWidth": 0.08
+      }
+    },
+    {
+      "id": "ecg-124",
+      "kind": "recall",
+      "number": 124,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm.",
+      "answer": "Sinus tachycardia",
+      "work": "101-150, regular, upright P before every QRS. Look for the cause: pain, fever, dehydration, hemorrhage, anxiety, stimulants.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 130,
+        "regularity": "regular",
+        "pWaves": "normal",
+        "prInterval": 0.14,
+        "qrsWidth": 0.08
+      }
+    },
+    {
+      "id": "ecg-125",
+      "kind": "recall",
+      "number": 125,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm, and say which rate method you would use on it.",
+      "answer": "Sinus arrhythmia; use a 6-second strip",
+      "work": "Sinus in every measurement, but the R-to-R varies with breathing. Because the rate is a moving target, count a 6-second strip rather than measuring one R-to-R.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 72,
+        "regularity": "irregular",
+        "pWaves": "normal",
+        "prInterval": 0.16,
+        "qrsWidth": 0.08
+      }
+    },
+    {
+      "id": "ecg-126",
+      "kind": "recall",
+      "number": 126,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm.",
+      "answer": "Accelerated junctional rhythm",
+      "work": "Inverted P before a narrow QRS with a PR under 0.12 marks it junctional. 61-100 makes it accelerated rather than a plain junctional rhythm.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 82,
+        "regularity": "regular",
+        "pWaves": "inverted",
+        "prInterval": 0.1,
+        "qrsWidth": 0.08
+      }
+    },
+    {
+      "id": "ecg-127",
+      "kind": "recall",
+      "number": 127,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm.",
+      "answer": "Junctional tachycardia",
+      "work": "Junctional P-wave signature at 101-150. Above 100 the junctional rhythms are called tachycardia.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 130,
+        "regularity": "regular",
+        "pWaves": "inverted",
+        "prInterval": 0.1,
+        "qrsWidth": 0.08
+      }
+    },
+    {
+      "id": "ecg-128",
+      "kind": "recall",
+      "number": 128,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm. Does it meet this text's definition of junctional bradycardia?",
+      "answer": "Junctional bradycardia, yes",
+      "work": "Junctional signature at under 40. Any rate below 60 is bradycardic, but this text reserves the name junctional bradycardia for a junctional rhythm under 40. At 40-60 it is just a junctional rhythm.",
+      "domain": "cardiology",
+      "trap": "threshold",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 34,
+        "regularity": "regular",
+        "pWaves": "inverted",
+        "prInterval": 0.1,
+        "qrsWidth": 0.08
+      }
+    },
+    {
+      "id": "ecg-129",
+      "kind": "recall",
+      "number": 129,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm.",
+      "answer": "Ventricular tachycardia",
+      "work": "Wide QRS over 0.12, rate 101-250, regular R-to-R, no usable P waves. Three or more ventricular beats in a row.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 180,
+        "regularity": "regular",
+        "pWaves": "absent",
+        "prInterval": null,
+        "qrsWidth": 0.16
+      }
+    },
+    {
+      "id": "ecg-130",
+      "kind": "recall",
+      "number": 130,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm.",
+      "answer": "Idioventricular rhythm",
+      "work": "Wide bizarre QRS with no P waves, under 40. The ventricles are the last pacemaker still firing.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 32,
+        "regularity": "regular",
+        "pWaves": "absent",
+        "prInterval": null,
+        "qrsWidth": 0.16
+      }
+    },
+    {
+      "id": "ecg-131",
+      "kind": "recall",
+      "number": 131,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm.",
+      "answer": "Agonal rhythm",
+      "work": "Ventricular in origin and under 20. The complexes widen and flatten as electrical activity dies out.",
+      "domain": "cardiology",
+      "trap": "threshold",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 14,
+        "regularity": "irregular",
+        "pWaves": "absent",
+        "prInterval": null,
+        "qrsWidth": 0.18
+      }
+    },
+    {
+      "id": "ecg-132",
+      "kind": "recall",
+      "number": 132,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Wide QRS, no P waves, rate about 70. Is this ventricular tachycardia?",
+      "answer": "No. Accelerated idioventricular rhythm",
+      "work": "Same wide ventricular look, but 41-100 is accelerated idioventricular. VT does not start until 101.",
+      "domain": "cardiology",
+      "trap": "threshold",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 70,
+        "regularity": "regular",
+        "pWaves": "absent",
+        "prInterval": null,
+        "qrsWidth": 0.16
+      }
+    },
+    {
+      "id": "ecg-133",
+      "kind": "recall",
+      "number": 133,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm, including the conduction ratio.",
+      "answer": "Atrial flutter, 2:1 conduction",
+      "work": "Sawtooth flutter waves at about 300 with every second one conducted gives a ventricular rate near 150. At that rate it is easily mistaken for SVT; look for the sawtooth between the QRS complexes.",
+      "domain": "cardiology",
+      "trap": "threshold",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 150,
+        "regularity": "regular",
+        "pWaves": "sawtooth",
+        "prInterval": null,
+        "qrsWidth": 0.08,
+        "atrialRate": 300,
+        "conductionRatio": 2
+      }
+    },
+    {
+      "id": "ecg-134",
+      "kind": "recall",
+      "number": 134,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm, including the ventricular response.",
+      "answer": "Atrial fibrillation with a slow ventricular response",
+      "work": "No P waves, wavy fibrillatory baseline, irregularly irregular. Under 60 makes it slow rather than controlled.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 48,
+        "regularity": "irregularly-irregular",
+        "pWaves": "fibrillatory",
+        "prInterval": null,
+        "qrsWidth": 0.08
+      }
+    },
+    {
+      "id": "ecg-135",
+      "kind": "recall",
+      "number": 135,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm.",
+      "answer": "Second-degree AV block, type I (Wenckebach), 3:2",
+      "work": "The PR stretches further each beat until a QRS drops, then resets to its shortest. Two conducted beats for every three P waves.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 60,
+        "regularity": "regular",
+        "pWaves": "normal",
+        "prInterval": 0.16,
+        "qrsWidth": 0.08,
+        "droppedBeats": "wenckebach",
+        "conductionRatio": 3
+      }
+    },
+    {
+      "id": "ecg-136",
+      "kind": "recall",
+      "number": 136,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm, including the ratio.",
+      "answer": "Second-degree AV block, type II, 3:2",
+      "work": "The PR never changes, then a QRS drops. Three P waves for every two conducted beats. The more P waves per QRS, and the more the ratio varies, the more serious the block.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 50,
+        "regularity": "regular",
+        "pWaves": "normal",
+        "prInterval": 0.18,
+        "qrsWidth": 0.08,
+        "droppedBeats": "fixed-ratio",
+        "conductionRatio": 3
+      }
+    },
+    {
+      "id": "ecg-137",
+      "kind": "recall",
+      "number": 137,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm. Two findings.",
+      "answer": "Sinus bradycardia with a first-degree AV block",
+      "work": "Rate under 60 with upright P waves is sinus bradycardia. The PR is over 0.20 and constant with nothing dropped, which adds the first-degree block. Name both.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 48,
+        "regularity": "regular",
+        "pWaves": "normal",
+        "prInterval": 0.32,
+        "qrsWidth": 0.08
+      }
+    },
+    {
+      "id": "ecg-138",
+      "kind": "recall",
+      "number": 138,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm, and say where the escape is coming from.",
+      "answer": "Third-degree heart block with a junctional escape",
+      "work": "P waves and QRS complexes march independently with no relationship. The escape QRS is narrow, so it is coming from the junction rather than ventricular tissue.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 45,
+        "regularity": "regular",
+        "pWaves": "dissociated",
+        "prInterval": null,
+        "qrsWidth": 0.08,
+        "atrialRate": 90
+      }
+    },
+    {
+      "id": "ecg-139",
+      "kind": "recall",
+      "number": 139,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Regular, narrow, rate just under 150, with P waves visible. SVT or sinus tachycardia?",
+      "answer": "Sinus tachycardia",
+      "work": "This text puts sinus tachycardia at 101-150 and SVT at 151 and above. Visible upright P waves before each QRS settle it.",
+      "domain": "cardiology",
+      "trap": "threshold",
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 148,
+        "regularity": "regular",
+        "pWaves": "normal",
+        "prInterval": 0.14,
+        "qrsWidth": 0.08
+      }
+    },
+    {
+      "id": "ecg-140",
+      "kind": "recall",
+      "number": 140,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Wide QRS, no P waves, regular, rate 150. What is this and what should you assume?",
+      "answer": "Monomorphic ventricular tachycardia; assume VT until proven otherwise",
+      "work": "A regular wide-complex tachycardia is VT until something proves otherwise. Treating it as SVT with aberrancy and being wrong is the costlier mistake.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 150,
+        "regularity": "regular",
+        "pWaves": "absent",
+        "prInterval": null,
+        "qrsWidth": 0.15
+      }
+    },
+    {
+      "id": "ecg-141",
+      "kind": "recall",
+      "number": 141,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Chaotic wavy line, no identifiable QRS, no measurable rate, no pulse. Rhythm, and what does coarse versus fine tell you?",
+      "answer": "Ventricular fibrillation; coarse means more cells still responding",
+      "work": "Many ventricular sites firing at once, so nothing depolarizes in an organized way. Coarse VF has taller waves and more viable cells. Fine VF has lower amplitude and fewer. CPR and defibrillation immediately.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      }
+    },
+    {
+      "id": "ecg-142",
+      "kind": "recall",
+      "number": 142,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Regular P waves at about 70 with no QRS complexes anywhere on the strip. Rhythm?",
+      "answer": "Ventricular standstill",
+      "work": "The atria are depolarizing normally but the ventricles are doing nothing: atrial rate 60-100, ventricular rate zero, no pulse. Can follow third-degree block, massive MI, or ventricular rupture.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      }
+    },
+    {
+      "id": "ecg-143",
+      "kind": "recall",
+      "number": 143,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "A PVC lands on the T wave of the previous complex. What is that called and why does it matter?",
+      "answer": "R-on-T phenomenon; it can trigger VT or VF",
+      "work": "The T wave is the vulnerable period of repolarization, when some cells can be restimulated and others cannot. A stimulus there can tip the rhythm into VT or VF.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      }
+    },
+    {
+      "id": "ecg-144",
+      "kind": "recall",
+      "number": 144,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Name the PVC findings that make them dangerous.",
+      "answer": "More than six a minute, multifocal, couplets, runs of VT, R-on-T, or a patient who is unstable",
+      "work": "Isolated unifocal PVCs in a stable patient usually need nothing. Those six findings mark enough ventricular irritability to warn of a lethal rhythm.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      }
+    },
+    {
+      "id": "ecg-145",
+      "kind": "recall",
+      "number": 145,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "A premature complex is followed by a pause. How do you tell a compensatory pause from a noncompensatory one, and what does each mean?",
+      "answer": "Measure R-to-R around the early beat: at least 2x the underlying R-to-R is compensatory, under 2x is noncompensatory",
+      "work": "Measure from the R before the early beat to the R after it. Compensatory means the SA node ignored the interruption and kept its own schedule. Noncompensatory means the SA node reset itself, which suggests increased irritability.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      }
+    },
+    {
+      "id": "ecg-146",
+      "kind": "recall",
+      "number": 146,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Name the three ECG findings of Wolff-Parkinson-White.",
+      "answer": "PR under 0.12 s, QRS often over 0.12 s, and a delta wave",
+      "work": "The bundle of Kent bypasses the AV node, so the normal delay never happens and the PR is short. The delta wave is the slurred upstroke where the ventricle depolarized early through the accessory path.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      }
+    },
+    {
+      "id": "ecg-147",
+      "kind": "recall",
+      "number": 147,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "What is the difference between an escape beat and a premature beat?",
+      "answer": "An escape beat is late and rescues a gap; a premature beat is early and signals irritability",
+      "work": "A premature beat is an irritable site jumping ahead of schedule. An escape beat is a backup site firing after the expected beat failed to arrive, which is protective. The complex that ends a sinus arrest is an escape beat.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      }
+    },
+    {
+      "id": "ecg-148",
+      "kind": "recall",
+      "number": 148,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "A pause appears on a sinus strip. How do you tell sinus exit block from sinus arrest?",
+      "answer": "Measure the pause: exit block divides evenly into two or more full cycles, arrest does not",
+      "work": "In exit block the SA node fired on time but the impulse was blocked, so the underlying rhythm stays on schedule and the pause equals exactly two or more cycles. In sinus arrest the node never fired, so the pause does not divide evenly and runs longer.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      }
+    },
+    {
+      "id": "ecg-149",
+      "kind": "recall",
+      "number": 149,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Atrial flutter with a 4:1 ratio and a ventricular rate of 70. What is the atrial rate, and name the other way to get it.",
+      "answer": "280; or count flutter waves in a 6-second strip and multiply by 10",
+      "work": "Multiply the ratio by the ventricular rate: 4 x 70 = 280. That shortcut only works when the ratio is constant, so for a variable ratio count F waves on a 6-second strip instead.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      }
+    },
+    {
+      "id": "ecg-150",
+      "kind": "recall",
+      "number": 150,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "A junctional complex can put the P wave in three places. Name them and what each tells you.",
+      "answer": "Inverted before the QRS (high junction), buried in the QRS (mid), inverted after the QRS (low)",
+      "work": "The impulse travels backward to the atria, so where it starts decides when the atria depolarize relative to the ventricles. High gives an inverted P with a short PR, mid gives simultaneous depolarization and no visible P, low gives a retrograde P after the QRS.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      }
+    },
+    {
       "id": "peds-resus-122",
       "kind": "recall",
       "number": 122,

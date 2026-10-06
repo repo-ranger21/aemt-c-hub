@@ -9,7 +9,7 @@ import { RhythmStrip } from '../components/RhythmStrip';
 import { color, space, type } from '../theme';
 
 const SESSION = 20;
-const TRAP_NAMES = { ceiling: 'Max dose', floor: 'Minimum dose', threshold: 'Weight/age cutoff', age: 'Age modifier', equipment: 'Equipment limit' };
+const TRAP_NAMES = { ceiling: 'Max dose', floor: 'Minimum dose', threshold: 'Cutoff value', age: 'Age modifier', equipment: 'Equipment limit' };
 
 type Mode = 'due' | 'traps' | 'ri';
 

@@ -476,41 +476,18 @@
     }
   },
   {
-    "id": "ecg-sinus",
+    "id": "ecg-nsr",
     "kind": "topic",
     "deck": "ecg",
     "deckTitle": "ECG & dysrhythmias",
-    "title": "Sinus rhythms",
+    "chapter": 3,
+    "title": "Normal sinus rhythm",
     "domain": "cardiology",
     "body": [
-      "All share: upright P before each QRS, PR 0.12–0.20, narrow QRS.",
-      "Normal sinus: 60–100, regular.",
-      "Sinus bradycardia: under 60. Sinus tachycardia: 101–150 in this text (look for a cause: pain, fever, hypovolemia).",
-      "Sinus arrhythmia: rate speeds and slows with breathing; normal in the young.",
-      "Sinus arrest/pause: a whole P-QRS-T goes missing; the next beat may come from a new site."
-    ],
-    "tags": [],
-    "scope": [
-      "nremt-aemt",
-      "ri-aemt-c"
-    ],
-    "source": {
-      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
-    }
-  },
-  {
-    "id": "ecg-atrial",
-    "kind": "topic",
-    "deck": "ecg",
-    "deckTitle": "ECG & dysrhythmias",
-    "title": "Atrial rhythms",
-    "domain": "cardiology",
-    "body": [
-      "PAC: early beat with a differently shaped P wave.",
-      "SVT: regular, narrow, 151–250 in this text; P waves often hidden in the T wave; starts and stops abruptly.",
-      "Atrial fibrillation: no P waves, wavy baseline, irregularly irregular. Over 100 = rapid ventricular response.",
-      "Atrial flutter: sawtooth flutter waves; described by ratio (2:1, 3:1, 4:1) or variable.",
-      "Wandering atrial pacemaker: 3 or more P-wave shapes, rate under 100 (MAT if faster)."
+      "Rate 60-100 and regular. An upright P before every QRS, and all the P waves look alike.",
+      "PR 0.12-0.20 s and constant. QRS 0.04-0.12 s, all the same size and shape.",
+      "P-to-P and R-to-R are both regular and equal to each other.",
+      "The only rhythm called normal. Everything else is a dysrhythmia, which just means 'not NSR' and not necessarily dangerous."
     ],
     "tags": [
       "high-yield"
@@ -520,21 +497,23 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
     }
   },
   {
-    "id": "ecg-junctional",
+    "id": "ecg-sinus-brady",
     "kind": "topic",
     "deck": "ecg",
     "deckTitle": "ECG & dysrhythmias",
-    "title": "Junctional rhythms",
+    "chapter": 3,
+    "title": "Sinus bradycardia",
     "domain": "cardiology",
     "body": [
-      "P wave inverted before the QRS, buried in it, or retrograde after it; PR under 0.12 s if you can see it.",
-      "Junctional escape: 40–60. Accelerated junctional: 61–100. Junctional tachycardia: 101–150.",
-      "PJC: early beat with a junctional-looking P wave.",
-      "Analogy: the backup generator (AV junction) kicked in because the main power (SA node) failed."
+      "Identical to NSR in every way except the rate is under 60.",
+      "Upright P before every QRS, PR 0.12-0.20, QRS 0.04-0.12, regular.",
+      "Normal in athletes and during sleep.",
+      "Causes: vomiting, infection, sudden cold exposure, digitalis, morphine, sedatives.",
+      "Only matters when perfusion suffers: pale cool clammy skin, dizziness, falling BP, chest pain, confusion."
     ],
     "tags": [],
     "scope": [
@@ -542,22 +521,22 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
     }
   },
   {
-    "id": "ecg-blocks",
+    "id": "ecg-sinus-tach",
     "kind": "topic",
     "deck": "ecg",
     "deckTitle": "ECG & dysrhythmias",
-    "title": "AV blocks",
+    "chapter": 3,
+    "title": "Sinus tachycardia",
     "domain": "cardiology",
     "body": [
-      "1st degree: PR over 0.20 s, constant, every P conducted. A delay, not a block.",
-      "2nd degree type I (Wenckebach): PR gets longer, longer, longer, then a QRS drops. Pattern repeats.",
-      "2nd degree type II: PR stays the same, then a QRS suddenly drops. Can progress to 3rd degree: dangerous.",
-      "3rd degree (complete): P waves and QRS complexes march independently; PR is random. Escape is junctional (narrow, 40–60) or ventricular (wide, 20–40).",
-      "Analogy: the AV node is a doorman. 1st = slow doorman; type I = gets tired then skips one; type II = randomly slams the door; 3rd = door locked, two separate parties."
+      "Rate 101-150, regular, upright P before every QRS, PR and QRS normal.",
+      "As the rate climbs the P wave hides in the previous T wave and just makes the T look lumpy.",
+      "The cause is almost always something else: pain, fever, anemia, dehydration, hemorrhage, exercise, fear, anxiety, atropine, caffeine, nicotine, cocaine.",
+      "Treat the cause, not the number. Past 150 with no visible P waves, start thinking SVT."
     ],
     "tags": [
       "high-yield"
@@ -567,7 +546,635 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-sinus-arrhythmia",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 3,
+    "title": "Sinus arrhythmia",
+    "domain": "cardiology",
+    "body": [
+      "A sinus rhythm that speeds up when the patient breathes in and slows when they breathe out.",
+      "P waves upright and identical, PR 0.12-0.20, QRS normal. Only the R-to-R varies.",
+      "The longest R-to-R stays under twice the shortest, which is what separates it from a true pause.",
+      "Use a 6-second strip for the rate, since it is a moving target. Overall 60-100.",
+      "Normal in infants and children. In an adult it can hint at a diseased SA node or coronary disease."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-sinus-arrest",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 3,
+    "title": "Sinus arrest and sinus exit block",
+    "domain": "cardiology",
+    "body": [
+      "A whole P-QRS-T goes missing, leaving a pause.",
+      "Exit block: the SA node fired but the impulse was blocked on the way out. The pause equals exactly two or more full cycles, so the underlying rhythm stays on schedule.",
+      "Sinus arrest: the SA node never fired at all. The pause does not divide evenly and runs longer than two cycles.",
+      "Whatever escapes to end the pause may be atrial, junctional, or ventricular, so the rhythm afterward may not match the rhythm before.",
+      "Causes: MI, ischemia, hypoxia, calcium channel blockers, beta blockers, digitalis."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-pac",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 3,
+    "title": "Premature atrial complex",
+    "domain": "cardiology",
+    "body": [
+      "A single early beat from an atrial site outside the SA node. One complex, not a rhythm.",
+      "Its P wave differs in size or shape from the others, or hides in the previous T wave. PR and QRS stay normal.",
+      "A pause follows. Noncompensatory (under twice the underlying R-to-R) means the SA node reset itself; compensatory (at least twice) means it ignored the early beat.",
+      "Causes: pain, fever, fear, anxiety, excitement, exercise, digitalis, atropine, nicotine, caffeine.",
+      "Harmless by itself, but frequent PACs can trigger PAT or SVT.",
+      "Always name the underlying rhythm too: 'sinus rhythm with a PAC'."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-wap",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 3,
+    "title": "Wandering atrial pacemaker",
+    "domain": "cardiology",
+    "body": [
+      "The pacemaker site wanders among three or more sites above the bundle of His.",
+      "P waves change shape from beat to beat. Some may be inverted, buried, or missing, and the PR varies with them.",
+      "Irregular, rate 60-100. The same picture above 100 is multifocal atrial tachycardia.",
+      "Causes: heart or lung disease, MI, drug toxicity.",
+      "Rarely lethal, but it marks irritable atrial tissue that can progress."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-svt",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 3,
+    "title": "SVT, PAT, and PSVT",
+    "domain": "cardiology",
+    "body": [
+      "Regular, 151-250 or faster, narrow QRS, P waves usually buried in the preceding T wave.",
+      "PAT/PSVT is the same rhythm when you actually catch it starting, often kicked off by a PAC.",
+      "If you did not see it begin, call it SVT. That is the only difference between the names.",
+      "Under 151 with visible upright P waves it is sinus tachycardia instead.",
+      "At that rate the ventricles never fill, so cardiac output drops. Coronary arteries fill between beats, so the heart also starves itself.",
+      "Symptoms: weakness, dizziness, palpitations, a flip-flopping chest. Causes: caffeine, nicotine, street drugs."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-aflutter",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 3,
+    "title": "Atrial flutter",
+    "domain": "cardiology",
+    "body": [
+      "One irritable atrial site fires 250-350 times a minute, producing sawtooth flutter waves instead of P waves.",
+      "The AV node blocks most of them, so the ventricles answer only a fraction.",
+      "Name the ratio: 4:1, 3:1, 2:1. A constant ratio gives a regular rhythm; a changing ratio is a variable conduction ratio and reads irregular.",
+      "QRS stays 0.04-0.12 s.",
+      "The ventricular rate names it: under 60 slow, 60-100 controlled, 101-150 rapid.",
+      "Atrial rate two ways: count F waves in a 6-second strip and multiply by 10, or multiply the ratio by the ventricular rate.",
+      "Causes: heart disease, MI, medication toxicity."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-afib",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 3,
+    "title": "Atrial fibrillation",
+    "domain": "cardiology",
+    "body": [
+      "Every atrial cell firing at once, 350-500 or more a minute, with no organized depolarization.",
+      "No P waves and no PR interval, just a wavy fibrillatory baseline.",
+      "The giveaway is an irregularly irregular R-to-R. QRS stays narrow.",
+      "The ventricular rate names it: under 60 slow, 101-150 rapid ventricular response, over 150 uncontrolled.",
+      "The atria never fully empty, so blood pools and clots form. That is where the stroke risk comes from.",
+      "Causes: severe heart disease, valve disease, MI, stress, alcohol, caffeine.",
+      "Common in the elderly and usually not lethal. Do not confuse it with ventricular fibrillation, which is."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-wpw",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 3,
+    "title": "Wolff-Parkinson-White",
+    "domain": "cardiology",
+    "body": [
+      "An extra congenital pathway, the bundle of Kent, bypasses the AV node.",
+      "Three findings together: PR under 0.12 s, QRS often over 0.12 s, and a delta wave.",
+      "The delta wave is a slurred upstroke on the R wave, made by the ventricle depolarizing early through the accessory path.",
+      "Skipping the AV node is what shortens the PR, since the normal delay never happens.",
+      "Often silent and found on a routine ECG. It turns dangerous if the rate climbs to 200-300."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-junctional-pwaves",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 4,
+    "title": "Junctional P waves: three positions",
+    "domain": "cardiology",
+    "body": [
+      "When the SA node and atria fail, the AV junction takes over at its inherent 40-60.",
+      "The impulse has to travel backward (retrograde) to reach the atria, and where it starts decides where the P wave lands.",
+      "High in the junction: inverted P before the QRS, PR under 0.12 s.",
+      "Mid-junction: atria and ventricles depolarize together, so the P is buried in the QRS and there is no PR at all.",
+      "Low in the junction: the atria fire after the ventricles, so an inverted retrograde P follows the QRS.",
+      "QRS stays 0.04-0.12 s either way, because the trip down to the ventricles still uses the normal path."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-junctional-rhythm",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 4,
+    "title": "Junctional rhythm and junctional bradycardia",
+    "domain": "cardiology",
+    "body": [
+      "A junctional rhythm runs at the junction's inherent 40-60.",
+      "This text reserves the name 'junctional bradycardia' for under 40. Any rate under 60 is bradycardic, but only a junctional rhythm under 40 earns that label.",
+      "P inverted, buried, or retrograde. PR under 0.12 s when visible. QRS normal. Regular.",
+      "Causes: heart disease, digitalis, sedatives, calcium channel blockers, beta blockers."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-junctional-fast",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 4,
+    "title": "Accelerated junctional and junctional tachycardia",
+    "domain": "cardiology",
+    "body": [
+      "Same junctional P-wave signature, just a faster site.",
+      "61-100 is accelerated junctional. 101-150 is junctional tachycardia.",
+      "PR under 0.12 s if a P is visible, QRS 0.04-0.12 s, regular.",
+      "Causes: heart failure, acute coronary syndrome, COPD."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-pjc",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 4,
+    "title": "Premature junctional complex",
+    "domain": "cardiology",
+    "body": [
+      "One early beat from the junction, carrying the junctional P-wave signature.",
+      "Usually followed by a complete compensatory pause: measured around the PJC, the R-to-R is at least twice the underlying R-to-R.",
+      "Causes: pain, fever, fear, anxiety, excitement, exercise, digitalis, atropine, nicotine, caffeine, amphetamines.",
+      "Not lethal alone. Count its R wave in the rate, and name the underlying rhythm."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-block-1",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 5,
+    "title": "First-degree AV block",
+    "domain": "cardiology",
+    "body": [
+      "PR over 0.20 s, constant, and every P still conducts. Nothing is dropped.",
+      "A delay rather than a true block: the impulse is just slow between the atria and the bundle of His.",
+      "Rate and rhythm belong to whatever the underlying rhythm is.",
+      "Usually benign on its own, but worth watching for progression."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-block-2a",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 5,
+    "title": "Second-degree type I (Wenckebach)",
+    "domain": "cardiology",
+    "body": [
+      "The PR stretches a little further each beat until one QRS drops, then the cycle starts over.",
+      "The PR right after the dropped beat is back to its shortest. That reset is the signature.",
+      "P waves all alike and P-to-P regular. R-to-R irregular because of the drop.",
+      "Look for grouped beating: clusters of beats separated by pauses.",
+      "Generally the more benign of the two second-degree blocks."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-block-2b",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 5,
+    "title": "Second-degree type II (Mobitz II)",
+    "domain": "cardiology",
+    "body": [
+      "The PR stays constant, then a QRS drops with no warning.",
+      "The underlying PR may be normal or prolonged, but it never lengthens before the drop.",
+      "P-to-P is always regular. R-to-R is regular or irregular depending on whether the ratio holds.",
+      "QRS widens if the block sits low in the bundle branches.",
+      "Name the ratio, like 3:1 or 4:1. More P waves per QRS, or a ratio that varies, means a more serious block.",
+      "Can progress to complete block. At a ventricular rate of 40 or less, perfusion fails.",
+      "Causes: MI, heart disease, drug toxicity."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-block-3",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 5,
+    "title": "Third-degree (complete) heart block",
+    "domain": "cardiology",
+    "body": [
+      "The atria and ventricles beat independently. Nothing crosses the AV junction.",
+      "P waves march at their own regular rate, QRS at its own regular rate, with no relationship between the two.",
+      "The PR appears to change constantly because there is no true PR at all.",
+      "Key discriminator: nothing is dropped. Second-degree blocks drop beats; third-degree never does.",
+      "Atrial rate usually 60-100. The ventricular escape usually runs 20-40.",
+      "A narrow QRS means the escape came from the junction. A wide one means it came from ventricular tissue, which is slower and less reliable.",
+      "Life threatening. Causes: MI, severe heart disease."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-pvc",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 6,
+    "title": "Premature ventricular complex",
+    "domain": "cardiology",
+    "body": [
+      "One early beat from below the bundle of His. Wide and bizarre, over 0.12 s, often deflecting opposite the underlying QRS.",
+      "No P wave of its own, and the T wave points opposite the QRS.",
+      "Usually a complete compensatory pause: measured around the PVC, the R-to-R equals twice the underlying R-to-R.",
+      "Unifocal PVCs all look alike. Multifocal ones differ in shape and mean more irritability.",
+      "Frequency names them: bigeminy every other beat, trigeminy every third, quadrigeminy every fourth, a couplet is two in a row, three or more is a run of VT.",
+      "Not every PVC makes a pulse, so count the pulse rather than trusting the monitor.",
+      "Warning signs: more than six a minute, multifocal, couplets, runs, or R-on-T."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-ront",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 6,
+    "title": "R-on-T phenomenon",
+    "domain": "cardiology",
+    "body": [
+      "A PVC lands on the previous T wave, during repolarization.",
+      "That is the vulnerable period, when some cells have recovered enough to fire again and others have not.",
+      "A strong enough stimulus there can tip the rhythm into VT or VF."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-vtach",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 6,
+    "title": "Ventricular tachycardia",
+    "domain": "cardiology",
+    "body": [
+      "Three or more PVCs in a row. Usually a single site, 101-250, wide QRS over 0.12 s, with a very regular R-to-R.",
+      "P waves, if visible at all, belong to the underlying rhythm. PR and P-to-P are not measurable.",
+      "Under 30 seconds is unsustained, or a run. Over 30 seconds is sustained.",
+      "The same wide look at 41-100 is accelerated idioventricular rhythm, not VT.",
+      "May have a pulse or not. Pulseless VT is treated as cardiac arrest.",
+      "Causes: MI, advanced heart disease, severe ischemia, electrical shock, epinephrine, digitalis."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-torsades",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 6,
+    "title": "Torsades de pointes",
+    "domain": "cardiology",
+    "body": [
+      "A polymorphic VT whose QRS amplitude swells and shrinks, twisting around the baseline. The name means 'twisting of the points'.",
+      "Rate often 120-240, most commonly 170-190. Wide QRS, usually regular R-to-R.",
+      "Typically preceded by a long QT, meaning more than half the R-to-R of that complex.",
+      "Telling it apart from ordinary VT matters because the treatment differs.",
+      "Causes: low magnesium, a long QT, and QT-prolonging drugs such as methadone."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-vfib",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 6,
+    "title": "Ventricular fibrillation",
+    "domain": "cardiology",
+    "body": [
+      "Many ventricular sites firing chaotically at once. No P waves, no QRS, no measurable rate.",
+      "Only a chaotic wavy line. The ventricles quiver instead of contracting, so there is no pulse.",
+      "Coarse VF has taller waves and more cells still responding. Fine VF has lower amplitude and fewer.",
+      "CPR and defibrillation immediately.",
+      "Causes: severe heart disease, electrical shock, drug toxicity, hypoxia, severe electrolyte imbalance."
+    ],
+    "tags": [
+      "high-yield"
+    ],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-idioventricular",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 6,
+    "title": "Idioventricular, accelerated idioventricular, and agonal",
+    "domain": "cardiology",
+    "body": [
+      "The ventricles are the last pacemaker standing. No P waves, no PR, wide bizarre QRS over 0.12 s.",
+      "Under 40 is idioventricular. 41-100 is accelerated idioventricular. Under 20 is agonal, the dying heart.",
+      "R-to-R may be irregular. The complexes get wider and flatter as the heart fails.",
+      "Lethal. Seen in acute cardiopulmonary events and at the end stage of advanced heart disease."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-standstill",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 6,
+    "title": "Ventricular standstill and asystole",
+    "domain": "cardiology",
+    "body": [
+      "Ventricular standstill: P waves present and regular, but no QRS at all. Atrial rate 60-100, ventricular rate zero.",
+      "Asystole: no electrical activity anywhere, a flat line.",
+      "Neither produces a pulse, and both need treatment immediately.",
+      "Standstill can follow third-degree block, a massive MI, or ventricular rupture.",
+      "Before calling asystole, check the patient, confirm in a second lead, and check the leads and the gain."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-escape",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 7,
+    "title": "Escape beats",
+    "domain": "cardiology",
+    "body": [
+      "A late beat from a backup site when the SA node pauses or the rate falls. The heart's safety net, not irritability.",
+      "That is the mirror image of a premature beat: early beats mean an irritable site jumping the queue, late beats mean a backup site rescuing a gap.",
+      "Named by where it comes from: atrial (upright P, PR 0.12-0.20), junctional (inverted, buried, or retrograde P), ventricular (wide, P usually hidden).",
+      "The complex that ends a sinus arrest or exit block is an escape beat.",
+      "If the backup site has to keep firing, a single escape beat becomes an escape rhythm."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+    }
+  },
+  {
+    "id": "ecg-aberrant",
+    "kind": "topic",
+    "deck": "ecg",
+    "deckTitle": "ECG & dysrhythmias",
+    "chapter": 7,
+    "title": "Aberrantly conducted complexes",
+    "domain": "cardiology",
+    "body": [
+      "A beat that starts above the bundle of His but takes an abnormal route through the bundle branches.",
+      "One ventricle depolarizes later than the other, so for that one beat the QRS looks like a bundle branch block.",
+      "Usually wide, and it may deflect opposite the underlying rhythm or be narrower or shorter than its neighbors.",
+      "Individual complexes, not whole rhythms. Hard to separate from a PVC or a true BBB."
+    ],
+    "tags": [],
+    "scope": [
+      "nremt-aemt",
+      "ri-aemt-c"
+    ],
+    "source": {
+      "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
     }
   },
   {
@@ -578,9 +1185,12 @@
     "title": "Bundle branch block",
     "domain": "cardiology",
     "body": [
-      "Supraventricular rhythm (P waves present) with a wide QRS (0.12 s or more).",
-      "Often an R-S-R' (rabbit ears) shape; a 12-lead (V1, V6) tells right from left.",
-      "A new LBBB with chest pain is treated as a possible STEMI and evaluated in context."
+      "Not a true block. One bundle branch is interrupted, so its ventricle depolarizes late.",
+      "Two separate depolarizations show up as one notched or widened QRS over 0.12 s. The notch is the classic 'rabbit ears'.",
+      "Rate, rhythm, P waves and PR all come from the underlying rhythm. The block does not change any of them.",
+      "Name the underlying rhythm first: 'sinus rhythm with a bundle branch block'.",
+      "A 12-lead showing V1 and V6 is what tells right from left.",
+      "Causes: heart disease, MI. A new left bundle branch block with chest pain is worked up as a possible STEMI."
     ],
     "tags": [],
     "scope": [
@@ -589,33 +1199,8 @@
     ],
     "source": {
       "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
-    }
-  },
-  {
-    "id": "ecg-ventricular",
-    "kind": "topic",
-    "deck": "ecg",
-    "deckTitle": "ECG & dysrhythmias",
-    "title": "Ventricular rhythms",
-    "domain": "cardiology",
-    "body": [
-      "PVC: early, wide (>0.12 s), bizarre QRS with no P; T wave points the other way. Patterns: bigeminy, trigeminy, couplets, multifocal, R-on-T.",
-      "V-tach: 3 or more ventricular beats in a row, wide and fast; monomorphic or polymorphic; may or may not have a pulse.",
-      "Torsades de pointes: polymorphic VT that twists around the baseline; linked to long QT.",
-      "V-fib: chaotic, no QRS, no pulse. Defibrillate.",
-      "Idioventricular 20–40 (accelerated 41–100); agonal under 20.",
-      "Asystole: flat line. Confirm in a second lead and check leads/gain before calling it."
-    ],
-    "tags": [
-      "high-yield"
-    ],
-    "scope": [
-      "nremt-aemt",
-      "ri-aemt-c"
-    ],
-    "source": {
-      "doc": "Introduction to Basic Cardiac Dysrhythmias (text + lecture slides)"
-    }
+    },
+    "chapter": 5
   },
   {
     "id": "ecg-pea",
@@ -625,8 +1210,11 @@
     "title": "Pulseless electrical activity",
     "domain": "cardiology",
     "body": [
-      "Any organized rhythm on the monitor with no palpable pulse.",
-      "Treat as cardiac arrest: CPR and epinephrine, and hunt for reversible causes (Hs and Ts)."
+      "Any organized rhythm on the monitor with no palpable pulse. The older name was electromechanical dissociation.",
+      "It usually looks bradycardic, and the QRS may be wide or narrow. Almost any rhythm can present this way.",
+      "Only touching the patient finds it, because the monitor looks fine.",
+      "Treat as cardiac arrest: CPR and epinephrine, and hunt the reversible causes.",
+      "Common causes: hypovolemia, hypoxia, cardiac tamponade, tension pneumothorax, or muscle too damaged to contract."
     ],
     "tags": [],
     "scope": [
@@ -642,7 +1230,8 @@
         "nremt": "AHA: 1 mg every 3–5 min",
         "ri": "RI 3.03A: 1 mg every 5 min, max 5 doses for non-shockable rhythms"
       }
-    ]
+    ],
+    "chapter": 7
   },
   {
     "id": "ecg-pacer",
