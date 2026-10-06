@@ -8,16 +8,24 @@ const CODE: Record<FormularyCode, string> = {
   R: 'Required', O: 'Optional', C: 'Choice', 'O/C': 'Optional (choice)', 'R/C': 'Required (choice)', P: "Patient's own", X: 'Not in scope',
 };
 
-const NATIONAL: Record<DrugCard['nremtScope'], string | null> = {
-  in: 'Within the national AEMT scope: expect it on the NREMT.',
-  out: 'Beyond the national AEMT scope: unlikely on the NREMT AEMT exam. Know it for RI AEMT-C.',
-  unverified: null,
-};
+// What the two scopes together mean for this drug. A drug can be outside the
+// national AEMT scope and still outside RI's AEMT-C scope — saying "know it for
+// RI AEMT-C" in that case would be wrong.
+function scopeNote(drug: DrugCard): string | null {
+  const riCarries = drug.scope.some((s) => s.startsWith('ri-'));
+  if (drug.nremtScope === 'in') return 'Within the national AEMT scope: expect it on the NREMT.';
+  if (drug.nremtScope === 'out') {
+    return riCarries
+      ? 'Beyond the national AEMT scope: unlikely on the NREMT AEMT exam, but RI carries it at your level.'
+      : 'Outside the national AEMT scope and outside your RI AEMT-C scope. Here for recognition only — you would not carry or give it.';
+  }
+  return riCarries ? null : 'Not carried at any RI level. Here for recognition only.';
+}
 
 export default function DrugDetail({ drug, onBack }: { drug: DrugCard; onBack: () => void }) {
   const general = drug.pearls;
   const ri = drug.riPearls;
-  const national = NATIONAL[drug.nremtScope];
+  const national = scopeNote(drug);
 
   return (
     <ScrollView contentContainerStyle={styles.wrap}>

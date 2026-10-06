@@ -1,7 +1,8 @@
 // AEMT-C Hub content schema. Flat JSON, bundled in the app, fully offline.
 
 // ri-aemt / ri-aemt-c come from the RI formulary (09.00). nremt-aemt marks textbook/national-only content.
-export type Scope = 'nremt-aemt' | 'ri-aemt' | 'ri-aemt-c';
+// 'reference' = carried at no level you practice under; kept for recognition only.
+export type Scope = 'nremt-aemt' | 'ri-aemt' | 'ri-aemt-c' | 'reference';
 // Formulary codes: R required, O optional, C choice, O/C, R/C, P patient's own supply, X not in scope
 export type FormularyCode = 'R' | 'O' | 'C' | 'O/C' | 'R/C' | 'P' | 'X';
 export type Domain = 'airway' | 'cardiology' | 'trauma' | 'medical' | 'operations';
