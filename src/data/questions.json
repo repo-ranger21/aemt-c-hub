@@ -3779,7 +3779,8 @@
       "source": {
         "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
       },
-      "protocolRef": "2.08A / 7.01"
+      "protocolRef": "2.08A / 7.01",
+      "verify": "2.08A states a flat 5-10 cmH2O for asthma/COPD/RAD, but the dedicated CPAP procedure (7.01) specifies 3-5 cmH2O for asthma/COPD and reserves 5-10 cmH2O for pulmonary edema, near-drowning, aspiration, or pneumonia. The two RI protocols disagree for this exact indication — confirm which OEMS intends as authoritative before testing on this number."
     },
     {
       "id": "resp-105",
