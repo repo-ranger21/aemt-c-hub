@@ -42,3 +42,6 @@ yarn-error.*
 
 # source textbook/protocol PDFs and slides — not ours to redistribute
 /docs
+
+# Claude Code personal overrides (.claude/settings.json is shared and committed)
+.claude/settings.local.json

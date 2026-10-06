@@ -1,0 +1,53 @@
+name: Content error
+description: A dose, scope marking, or fact on a card is wrong
+title: "[content] "
+labels: ["content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for catching this. A wrong dose in a study app is worth fixing fast.
+
+        This repo is exam-prep material, not a clinical reference. If you are looking
+        for what to actually do on a call, use your agency's protocols.
+  - type: input
+    id: card
+    attributes:
+      label: Which card?
+      description: The `id` from the JSON if you have it, otherwise the card title and deck.
+      placeholder: "adenosine — or question eh-103 — or 'AV blocks' in the ECG deck"
+    validations:
+      required: true
+  - type: dropdown
+    id: standard
+    attributes:
+      label: Which side is wrong?
+      options:
+        - NREMT / national (the blue answer)
+        - RI AEMT-C (the gold callout)
+        - Both
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What the card says now
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: What it should say
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: >
+        RI protocol number (like 3.06A), AHA guideline part, or textbook chapter.
+        Required: a correction without a source cannot be acted on.
+      placeholder: "RI Statewide EMS Protocols v2026.02, 3.06A"
+    validations:
+      required: true
