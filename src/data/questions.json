@@ -3610,9 +3610,9 @@
       "deckTitle": "ECG & dysrhythmias",
       "set": 0,
       "setTitle": "ECG & dysrhythmias",
-      "stem": "Chaotic wavy line, no identifiable QRS, no measurable rate, no pulse. Rhythm, and what does coarse versus fine tell you?",
-      "answer": "Ventricular fibrillation; coarse means more cells still responding",
-      "work": "Many ventricular sites firing at once, so nothing depolarizes in an organized way. Coarse VF has taller waves and more viable cells. Fine VF has lower amplitude and fewer. CPR and defibrillation immediately.",
+      "stem": "Identify this rhythm. What does the wave amplitude tell you?",
+      "answer": "Coarse ventricular fibrillation; taller waves mean more cells still responding",
+      "work": "Many ventricular sites firing at once, so nothing depolarizes in an organized way: no P waves, no QRS, no measurable rate, no pulse. Coarse VF has higher amplitude and more viable myocardium. CPR and defibrillation immediately.",
       "domain": "cardiology",
       "trap": null,
       "scope": [
@@ -3621,6 +3621,14 @@
       ],
       "source": {
         "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 0,
+        "regularity": "irregularly-irregular",
+        "pWaves": "absent",
+        "prInterval": null,
+        "qrsWidth": 0,
+        "chaotic": "coarse"
       }
     },
     {
@@ -3631,7 +3639,7 @@
       "deckTitle": "ECG & dysrhythmias",
       "set": 0,
       "setTitle": "ECG & dysrhythmias",
-      "stem": "Regular P waves at about 70 with no QRS complexes anywhere on the strip. Rhythm?",
+      "stem": "Identify this rhythm.",
       "answer": "Ventricular standstill",
       "work": "The atria are depolarizing normally but the ventricles are doing nothing: atrial rate 60-100, ventricular rate zero, no pulse. Can follow third-degree block, massive MI, or ventricular rupture.",
       "domain": "cardiology",
@@ -3642,6 +3650,44 @@
       ],
       "source": {
         "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 0,
+        "regularity": "regular",
+        "pWaves": "normal",
+        "prInterval": null,
+        "qrsWidth": 0,
+        "ventricularStandstill": true,
+        "atrialRate": 70
+      }
+    },
+    {
+      "id": "ecg-151",
+      "kind": "recall",
+      "number": 151,
+      "deck": "ecg",
+      "deckTitle": "ECG & dysrhythmias",
+      "set": 0,
+      "setTitle": "ECG & dysrhythmias",
+      "stem": "Identify this rhythm, and say what it suggests about how long the patient has been down.",
+      "answer": "Fine ventricular fibrillation; lower amplitude suggests a longer downtime",
+      "work": "Same chaotic, complex-free trace as coarse VF but with much lower amplitude, meaning fewer cells are still able to respond. It tends to appear later in an arrest. Treatment does not change: CPR and defibrillation. Do not mistake the low amplitude for asystole — check a second lead and the gain.",
+      "domain": "cardiology",
+      "trap": null,
+      "scope": [
+        "nremt-aemt",
+        "ri-aemt-c"
+      ],
+      "source": {
+        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+      },
+      "strip": {
+        "rate": 0,
+        "regularity": "irregularly-irregular",
+        "pWaves": "absent",
+        "prInterval": null,
+        "qrsWidth": 0,
+        "chaotic": "fine"
       }
     },
     {

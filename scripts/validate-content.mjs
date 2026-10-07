@@ -174,7 +174,14 @@ for (const q of questions) {
   if (q.strip) {
     const s = q.strip;
     const at = `${where} strip`;
-    if (s.flatline !== true) {
+    if (s.chaotic !== undefined && s.chaotic !== 'coarse' && s.chaotic !== 'fine') {
+      fail(at, `chaotic "${s.chaotic}" must be "coarse" or "fine"`);
+    }
+    if (s.ventricularStandstill !== undefined && typeof s.ventricularStandstill !== 'boolean') {
+      fail(at, 'ventricularStandstill must be a boolean');
+    }
+    // flatline, chaotic and standstill each ignore the beat-by-beat fields.
+    if (s.flatline !== true && !s.chaotic && s.ventricularStandstill !== true) {
       if (!(typeof s.rate === 'number' && s.rate > 0)) fail(at, 'rate must be a positive number');
       if (!REGULARITY.has(s.regularity)) fail(at, `regularity "${s.regularity}" is not valid`);
       if (!P_WAVES.has(s.pWaves)) fail(at, `pWaves "${s.pWaves}" is not valid`);

@@ -40,7 +40,7 @@ protocol number.** Cards where the two agree show one answer and no callout.
 | --- | --- | --- |
 | Drug cards | 36 | 31 in AEMT-C scope, 13 carry an NREMT/RI conflict |
 | Topic cards | 102 across 10 decks | 17 carry a conflict. The ECG deck is the deepest at 38 |
-| Questions | 204 | 44 have an RI alternate, 30 are traps, 31 render a rhythm strip |
+| Questions | 205 | 44 have an RI alternate, 30 are traps, 34 render a rhythm strip |
 
 **Topic decks:** Shock · ECG & dysrhythmias · Pediatric resuscitation (AHA 2025) ·
 Cardiovascular emergencies · Respiratory emergencies · Endocrine & hematologic emergencies ·
@@ -63,10 +63,11 @@ Respiratory · Endocrine & hematologic · Cardiovascular · Vascular access
 The ECG deck carries a card per rhythm rather than per family, with the five-point criteria
 (rate, rhythm, P wave, PR, QRS), causes, and what the rhythm means for the patient.
 
-Thirty-one questions draw an original ECG strip as SVG, synthesized at render time from rate,
+Thirty-four questions draw an original ECG strip as SVG, synthesized at render time from rate,
 regularity, P-wave type, PR interval, QRS width, and dropped-beat pattern. Nothing is traced or
-scanned from a textbook. Rhythms the generator cannot draw honestly — ventricular fibrillation
-and ventricular standstill — are asked as text rather than faked with a misleading waveform.
+scanned from a textbook. Ventricular fibrillation is generated as a chaotic trace with no organized
+complex at all, in coarse and fine amplitudes; ventricular standstill draws P waves marching with
+nothing following them.
 
 ## Run it
 

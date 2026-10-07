@@ -102,6 +102,12 @@ export interface RhythmStripParams {
   conductionRatio?: number;      // P waves per group, for wenckebach / fixed-ratio (default 4)
   polymorphic?: boolean;         // torsades-style twisting amplitude/axis
   flatline?: boolean;            // asystole: ignores every other field
+  // Ventricular fibrillation: a chaotic trace with no organized complex at all.
+  // Like flatline, it ignores rate, pWaves, prInterval and qrsWidth.
+  chaotic?: 'coarse' | 'fine';
+  // Ventricular standstill: atria still depolarizing, ventricles silent.
+  // P waves march at atrialRate (or rate); no QRS is drawn.
+  ventricularStandstill?: boolean;
   seconds?: number;              // strip duration, default 6
   seed?: number;                 // override the deterministic seed derived from the params
 }

@@ -104,11 +104,17 @@ function buildBigeminy(params: RhythmStripParams): { pTimes: number[]; qrsEvents
   return { pTimes, qrsEvents };
 }
 
-type Continuous = 'flat' | 'sawtooth' | 'fibrillatory' | null;
+type Continuous = 'flat' | 'sawtooth' | 'fibrillatory' | 'chaotic' | null;
 
 function buildEvents(params: RhythmStripParams, rnd: () => number): { pTimes: number[]; qrsEvents: QrsEvent[]; continuous: Continuous } {
   const seconds = params.seconds ?? 6;
   if (params.flatline) return { pTimes: [], qrsEvents: [], continuous: 'flat' };
+  // VF has no complexes to place — the whole trace is the waveform.
+  if (params.chaotic) return { pTimes: [], qrsEvents: [], continuous: 'chaotic' };
+  // Ventricular standstill: P waves keep marching, nothing follows them.
+  if (params.ventricularStandstill) {
+    return { pTimes: buildRegularPTimes(params.atrialRate ?? params.rate, seconds), qrsEvents: [], continuous: null };
+  }
 
   const wide = params.qrsWidth > 0.1;
 
@@ -154,6 +160,14 @@ function sampleWaveform(
   const noiseAmp = params.flatline ? 0.04 : 0.015;
   const seeds = [rnd() * 100, rnd() * 100, rnd() * 100];
 
+  // VF: four incommensurate components under a slow envelope, so the trace never
+  // repeats and never resolves into anything you could call a complex. Coarse and
+  // fine differ in amplitude, which is the distinction that matters clinically.
+  const vfAmp = params.chaotic === 'fine' ? 0.17 : 0.60;
+  const vfFreq = [4.3, 6.7, 9.1, 12.3].map((f, i) => f + (rnd() - 0.5) * 1.6 * (i + 1));
+  const vfPhase = [rnd(), rnd(), rnd(), rnd()].map((x) => x * Math.PI * 2);
+  const vfEnvPhase = rnd() * Math.PI * 2;
+
   for (let i = 0; i < n; i++) {
     const t = i * DT;
     let v =
@@ -166,6 +180,16 @@ function sampleWaveform(
       const period = 60 / (params.atrialRate ?? 300);
       const phase = (t % period) / period;
       v += (phase < 0.5 ? phase * 2 : (1 - phase) * 2 - 1) * 0.16;
+    }
+    if (events.continuous === 'chaotic') {
+      const envelope = 0.6 + 0.5 * Math.sin(2 * Math.PI * 0.62 * t + vfEnvPhase) * Math.sin(2 * Math.PI * 0.23 * t + vfEnvPhase * 0.5);
+      v +=
+        vfAmp *
+        envelope *
+        (Math.sin(2 * Math.PI * vfFreq[0] * t + vfPhase[0]) * 0.58 +
+          Math.sin(2 * Math.PI * vfFreq[1] * t + vfPhase[1]) * 0.34 +
+          Math.sin(2 * Math.PI * vfFreq[2] * t + vfPhase[2]) * 0.22 +
+          Math.sin(2 * Math.PI * vfFreq[3] * t + vfPhase[3]) * 0.12);
     }
     if (events.continuous === 'fibrillatory') {
       v +=
