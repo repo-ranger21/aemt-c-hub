@@ -69,21 +69,93 @@ scanned from a textbook. Ventricular fibrillation is generated as a chaotic trac
 complex at all, in coarse and fine amplitudes; ventricular standstill draws P waves marching with
 nothing following them.
 
-## Run it
+## Getting started
+
+Commands are PowerShell on Windows; they are the same on macOS and Linux.
+
+### Before you start
+
+| | |
+| --- | --- |
+| **Node.js 22.13 or newer** | Expo SDK 57 requires it. Check with `node --version`. Get it from [nodejs.org](https://nodejs.org). |
+| **Expo Go on your phone** | Free, from the App Store or Google Play. The app runs inside it — nothing to compile. |
+| **Same Wi-Fi** | Phone and computer must be on one network. Step 5 covers what to do when they can't be. |
+
+No Xcode, no Android Studio, and no Mac. Everything here runs in Expo Go.
+
+### 1. Get the code
+
+```powershell
+git clone https://github.com/repo-ranger21/aemt-c-hub.git
+cd aemt-c-hub
+```
+
+Working from a zip instead? Unzip it, then `cd` into the folder.
+
+### 2. Install dependencies
 
 ```powershell
 npm install
+```
+
+Takes a minute or two. A few `npm audit` warnings are normal and come from build tooling, not
+from anything that ships in the app. Do not run `npm audit fix --force` — it upgrades packages
+past what Expo SDK 57 expects and breaks the build. Use `npx expo install --fix` if you ever
+need to correct versions.
+
+### 3. Check it before running it
+
+```powershell
+npm run check
+```
+
+Runs the typecheck and the content validator. It should finish with `Content is valid.` plus a
+few warnings, which are open questions rather than failures. If this passes, nothing is broken
+before you even start the app.
+
+### 4. Start the dev server
+
+```powershell
 npx expo start
 ```
 
-Scan the QR code with Expo Go on your phone. Phone and computer need to be on the same Wi-Fi;
-otherwise use `npx expo start --tunnel`.
+A QR code appears in the terminal, along with a `exp://` URL. Leave this window running — it is
+the server your phone talks to. `Ctrl+C` stops it.
 
-Checks before you commit:
+### 5. Open it on your phone
+
+**Android** — open Expo Go and tap *Scan QR code*.
+
+**iPhone** — point the built-in Camera app at the QR code and tap the banner that appears.
+Expo Go on iOS only opens a project when the app and the CLI are signed in to the **same Expo
+account**. If nothing happens, run `npx expo login` in the terminal and sign in to the same
+account inside Expo Go.
+
+The terminal also prints platform-specific instructions under the QR code. With an emulator or
+simulator installed, press `a` for Android or `i` for iOS instead of scanning.
+
+First load takes a few seconds while the bundle transfers. After that it is instant, and the app
+works with no signal at all — every card ships inside it.
+
+### If it will not connect
+
+| Symptom | Fix |
+| --- | --- |
+| Phone cannot reach the server | `npx expo start --tunnel`. Routes around the network instead of relying on the LAN. Reloads are slower, so use it only when you need it. |
+| iPhone scans but nothing opens | `npx expo login`, then sign in to the same account in Expo Go. |
+| Stale or strange behaviour after a pull | `npx expo start --clear` to clear the bundler cache. |
+| `npx expo` errors on an old Node | `node --version` must be 22.13 or newer. |
+| Changed JSON but the app looks the same | Shake the phone and tap *Reload*, or press `r` in the terminal. |
+
+### Everyday loop
 
 ```powershell
-npm run check      # typecheck + content validation
+npx expo start     # leave running while you work
+npm run check      # before every commit
 ```
+
+Saving a file reloads the app on your phone automatically. Content edits in `src/data/` show up
+the same way, so you can write a card and read it on the phone a second later.
 
 ## Build an installable app
 
