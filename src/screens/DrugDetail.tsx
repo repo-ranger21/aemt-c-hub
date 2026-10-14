@@ -2,6 +2,7 @@ import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import type { DrugCard, FormularyCode } from '../types';
 import { Bullets, Button, Section } from '../components/Ui';
 import { ConflictList, RiCallout } from '../components/Standards';
+import { isCarried } from '../data';
 import { color, space, type } from '../theme';
 
 const CODE: Record<FormularyCode, string> = {
@@ -12,14 +13,19 @@ const CODE: Record<FormularyCode, string> = {
 // national AEMT scope and still outside RI's AEMT-C scope — saying "know it for
 // RI AEMT-C" in that case would be wrong.
 function scopeNote(drug: DrugCard): string | null {
-  const riCarries = drug.scope.some((s) => s.startsWith('ri-'));
-  if (drug.nremtScope === 'in') return 'Within the national AEMT scope: expect it on the NREMT.';
-  if (drug.nremtScope === 'out') {
+  const riCarries = isCarried(drug.formulary.A) || isCarried(drug.formulary.AC);
+  // A drug can be in the national scope and carried at no RI level — the Model
+  // authorises "Parenteral analgesia for pain" at AEMT, but RI stocks ketorolac
+  // nowhere. Saying only "expect it on the NREMT" would leave a student thinking
+  // they carry it.
+  if (drug.national.status === 'in') {
     return riCarries
-      ? 'Beyond the national AEMT scope: unlikely on the NREMT AEMT exam, but RI carries it at your level.'
-      : 'Outside the national AEMT scope and outside your RI AEMT-C scope. Here for recognition only — you would not carry or give it.';
+      ? 'Within the national AEMT scope: expect it on the NREMT.'
+      : 'Within the national AEMT scope (expect it on the NREMT), but NOT carried at any RI level.';
   }
-  return riCarries ? null : 'Not carried at any RI level. Here for recognition only.';
+  return riCarries
+    ? 'Beyond the national AEMT scope: unlikely on the NREMT AEMT exam, but RI carries it at your level.'
+    : 'Outside the national AEMT scope and outside your RI AEMT-C scope. Here for recognition only — you would not carry or give it.';
 }
 
 export default function DrugDetail({ drug, onBack }: { drug: DrugCard; onBack: () => void }) {
@@ -38,7 +44,7 @@ export default function DrugDetail({ drug, onBack }: { drug: DrugCard; onBack: (
         <Text style={[type.body, { color: color.muted }]}>{drug.class}</Text>
       </View>
 
-      {national ? <Text style={[type.body, { color: drug.nremtScope === 'in' ? color.national : color.muted }]}>{national}</Text> : null}
+      {national ? <Text style={[type.body, { color: drug.national.status === 'in' ? color.national : color.muted }]}>{national}</Text> : null}
 
       <Section title="How it works"><Text style={type.body}>{drug.mechanism}</Text></Section>
       <Section title="Indications"><Bullets items={drug.indications} /></Section>

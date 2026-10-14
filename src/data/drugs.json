@@ -25,10 +25,16 @@
     ],
     "supply": null,
     "scope": [
+      "nremt-aemt",
       "ri-aemt",
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "in",
+      "basis": "sop-guidelines",
+      "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Oral over-the-counter (OTC) analgesics for pain or fever\""
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -42,7 +48,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "unverified",
     "riPearls": [
       "RI 2.07: 15 mg/kg PO (typical adult 500–1,000 mg), max 1,000 mg single dose",
       "AEMT-C may give 500–1,000 mg IV as an alternative (optional stock)",
@@ -76,10 +81,16 @@
     ],
     "supply": null,
     "scope": [
+      "nremt-aemt",
       "ri-aemt",
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "in",
+      "basis": "sop-guidelines",
+      "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Oral over-the-counter (OTC) analgesics for pain or fever\""
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -93,7 +104,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "unverified",
     "riPearls": [
       "RI 2.07: 10 mg/kg PO (typical adult 400–800 mg), peds max 800 mg",
       "RI: no NSAIDs in pregnancy, renal failure/transplant, active bleeding, suspected ICH, or possible surgery (open/deformed fractures)"
@@ -125,9 +135,15 @@
     ],
     "supply": null,
     "scope": [
-      "reference"
+      "nremt-aemt"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "in",
+      "basis": "sop-guidelines",
+      "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Parenteral analgesia for pain\"",
+      "note": "Category is in national scope; agent is locally determined. RI carries it at no level."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -141,7 +157,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "out",
     "riPearls": [
       "RI: Paramedic only. Not in AEMT-C scope"
     ]
@@ -175,6 +190,11 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "in",
+      "basis": "sop-guidelines",
+      "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Oral aspirin for chest pain of suspected ischemic origin\""
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -188,7 +208,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "in",
     "riPearls": [
       "RI 3.02: 81 mg × 4 (324 mg) chewed",
       "RI 2.07: 324–650 mg PO for pain; not with active bleeding or possible surgery"
@@ -224,9 +243,16 @@
     ],
     "supply": "100 mcg / 2 mL (50 mcg/mL)",
     "scope": [
+      "nremt-aemt",
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "in",
+      "basis": "sop-guidelines",
+      "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Parenteral analgesia for pain\"",
+      "note": "The row authorises the category; which agent is medical-director approved. RI carries it only at AEMT-C."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -240,7 +266,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "unverified",
     "conflicts": [
       {
         "topic": "Dose cap",
@@ -284,6 +309,11 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "in",
+      "basis": "sop-guidelines",
+      "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Inhaled – beta agonist/bronchodilator and anticholinergic for dyspnea and wheezing\""
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -297,7 +327,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "in",
     "riPearls": [
       "RI: 2.5–5 mg via SVN, ± ipratropium",
       "AEMT-C: up to 3 doses in anaphylaxis"
@@ -329,6 +358,11 @@
       "reference"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -342,7 +376,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "out",
     "riPearls": [
       "Not on the RI formulary. Reference only"
     ]
@@ -370,10 +403,17 @@
     ],
     "supply": "0.5 mg / 2.5 mL",
     "scope": [
+      "nremt-aemt",
       "ri-aemt",
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "in",
+      "basis": "sop-guidelines",
+      "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Inhaled – beta agonist/bronchodilator and anticholinergic for dyspnea and wheezing\"",
+      "note": "The row names the anticholinergic explicitly alongside the beta agonist."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -387,7 +427,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "unverified",
     "riPearls": []
   },
   {
@@ -418,6 +457,11 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "in",
+      "basis": "curriculum-condition",
+      "citation": "NHTSA EMS Education Standards 2021 (amended 24 Feb 2025), Airway Management, Respiration and Ventilation, p. 35, AEMT column: \"Supplemental oxygen therapy\""
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -431,7 +475,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "in",
     "riPearls": []
   },
   {
@@ -453,6 +496,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null,
+      "note": "\"Cardiac rhythms (C,C)\" appears only in the Paramedic column (Standards p. 39)."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -466,7 +515,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "out",
     "conflicts": [
       {
         "topic": "Arrest dose",
@@ -499,6 +547,11 @@
       "reference"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -512,7 +565,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "out",
     "riPearls": [
       "RI: Paramedic only. Not in AEMT-C scope"
     ]
@@ -538,6 +590,11 @@
       "reference"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -551,7 +608,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "out",
     "riPearls": [
       "RI: Paramedic only. Not in AEMT-C scope"
     ]
@@ -574,6 +630,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null,
+      "note": "As lidocaine."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -587,7 +649,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "out",
     "riPearls": [
       "RI 3.03A: arrest 300 mg IV/IO, then 150 mg for refractory VF/VT",
       "RI 3.07A: wide complex tachycardia 150 mg IV over 10 min, may repeat × 1",
@@ -619,6 +680,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null,
+      "note": "As lidocaine."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -632,7 +699,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "out",
     "conflicts": [
       {
         "topic": "Dosing",
@@ -673,6 +739,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "in",
+      "basis": "sop-guidelines",
+      "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Sublingual nitroglycerin for chest pain of suspected ischemic origin\"",
+      "note": "A separate row limits EMT to the patient’s own prescribed supply, which is why RI codes EMT as P."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -686,7 +758,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "in",
     "conflicts": [
       {
         "topic": "BP cutoff",
@@ -732,6 +803,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null,
+      "note": "Pulmonary edema is an AEMT condition (Standards p. 44); the drug is not nationally authorised."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -745,7 +822,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "out",
     "riPearls": [
       "RI 3.01: second-tier only",
       "Only if transport ≥30 min, patient already takes oral furosemide, and SBP ≥100",
@@ -776,6 +852,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null,
+      "note": "As midazolam."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -789,7 +871,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "unverified",
     "riPearls": [
       "RI carries diazepam OR lorazepam (interchangeable; service picks)",
       "RI 2.19A: 2.5 mg IV/IN every 5 min, max 10 mg",
@@ -818,6 +899,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null,
+      "note": "As midazolam."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -831,7 +918,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "unverified",
     "riPearls": [
       "RI: first-line anticonvulsant when IV/IO access is available",
       "RI 2.19A: 2 mg IV/IM every 5 min, max 10 mg",
@@ -863,6 +949,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null,
+      "note": "Seizure is an AEMT condition (Standards p. 42); benzodiazepines appear in no national medication row."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -876,7 +968,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "unverified",
     "conflicts": [
       {
         "topic": "Peds seizure",
@@ -911,6 +1002,12 @@
       "reference"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null,
+      "note": "Absent from §V; largely withdrawn from practice."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -924,7 +1021,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "unverified",
     "riPearls": [
       "Not on the RI formulary. Reference only"
     ]
@@ -949,6 +1045,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null,
+      "note": "Cyanide antidote; federal guidance in CHEMM, but not a national AEMT medication."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -962,7 +1064,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "out",
     "riPearls": [
       "RI 4.18/4.20: if available, 70 mg/kg IV (max 5 g) in 250 mL NS over 15 min; faster in arrest"
     ]
@@ -984,10 +1085,17 @@
     "pearls": [],
     "supply": null,
     "scope": [
+      "nremt-aemt",
       "ri-aemt",
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "in",
+      "basis": "sop-guidelines",
+      "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Use of auto-injector antidotes for chemical/hazardous material exposures\"",
+      "note": "Marked at every level, EMR through Paramedic."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -1001,7 +1109,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "unverified",
     "riPearls": []
   },
   {
@@ -1028,6 +1135,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "in",
+      "basis": "sop-guidelines",
+      "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Use of opioid antagonist auto-injector for suspected opioid overdose\"",
+      "note": "Also \"Intranasal - opioid antagonist for suspected opioid overdose\", same table."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -1041,7 +1154,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "in",
     "riPearls": [
       "RI 4.18A: 0.4–4 mg IN or 0.4 mg IV/IM every 3–5 min to adequate ventilation, max 10 mg",
       "RI 4.18P: <20 kg → 0.1 mg/kg (max 2 mg); ≥20 kg → 2 mg IN",
@@ -1068,6 +1180,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "in",
+      "basis": "curriculum-condition",
+      "citation": "NHTSA EMS Education Standards 2021 (amended 24 Feb 2025), Medicine / Endocrine Disorders, p. 40, AEMT column: \"Diabetic emergencies (C,F)\"",
+      "note": "IV route approved at AEMT in the Model’s §V \"Intravenous\" row."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -1081,7 +1199,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "in",
     "conflicts": [
       {
         "topic": "Concentration",
@@ -1120,6 +1237,11 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "in",
+      "basis": "curriculum-condition",
+      "citation": "NHTSA EMS Education Standards 2021 (amended 24 Feb 2025), Medicine / Endocrine Disorders, p. 40, AEMT column: \"Diabetic emergencies (C,F)\""
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -1133,7 +1255,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "in",
     "riPearls": [
       "RI 2.10A: 1 mg IM or 3 mg IN (Baqsimi) if no IV",
       "RI 2.10P: 0.1 mg/kg IM, max 1 mg",
@@ -1162,6 +1283,11 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -1175,7 +1301,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "out",
     "riPearls": [
       "Incompatible with calcium chloride: flush between",
       "RI 2.25: 50 mEq IV if agitated-delirium patient arrests",
@@ -1205,6 +1330,11 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -1218,7 +1348,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "out",
     "riPearls": [
       "RI 2.04A: methylprednisolone 125 mg IV or hydrocortisone 100 mg IV",
       "RI 2.04P: 2 mg/kg IV (methylpred max 60 mg, hydrocortisone max 100 mg)",
@@ -1246,6 +1375,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "common-formulary",
+      "citation": null,
+      "note": "Epistaxis is an AEMT condition (Standards p. 39), but §V marks the topical route Paramedic-only."
+    },
     "source": {
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
@@ -1259,7 +1394,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "unverified",
     "riPearls": []
   },
   {
@@ -1288,6 +1422,11 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "in",
+      "basis": "sop-guidelines",
+      "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Use of epinephrine (auto-injector) for anaphylaxis (supplied and carried by the EMS agency)\""
+    },
     "source": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1296,7 +1435,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "in",
     "conflicts": [
       {
         "topic": "Arrest interval",
@@ -1342,6 +1480,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null,
+      "note": "As lidocaine."
+    },
     "source": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1350,7 +1494,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "out",
     "conflicts": [
       {
         "topic": "Dosing",
@@ -1392,6 +1535,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null,
+      "note": "As lidocaine. Distinct from the DuoDote auto-injector row."
+    },
     "source": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1400,7 +1549,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "out",
     "conflicts": [
       {
         "topic": "Dosing",
@@ -1437,6 +1585,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "common-formulary",
+      "citation": null,
+      "note": "No antiemetic row in the Model’s §V; paramedic-level by convention."
+    },
     "source": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1445,7 +1599,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "unverified",
     "conflicts": [
       {
         "topic": "Peds dosing",
@@ -1482,6 +1635,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "common-formulary",
+      "citation": null,
+      "note": "Anaphylaxis is an AEMT condition (Standards p. 41) but §V authorises only the epinephrine auto-injector."
+    },
     "source": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1490,7 +1649,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "unverified",
     "riPearls": [
       "RI 2.04A: 50 mg PO/IV/IM",
       "RI 2.04P: 1 mg/kg (max 50 mg)",
@@ -1522,6 +1680,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "common-formulary",
+      "citation": null,
+      "note": "Alcohol withdrawal is an AEMT condition (Standards p. 44); the drug appears in no national source."
+    },
     "source": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1530,7 +1694,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "unverified",
     "conflicts": [
       {
         "topic": "Dose",
@@ -1567,6 +1730,11 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "out",
+      "basis": "beyond-aemt",
+      "citation": null
+    },
     "source": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1575,7 +1743,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "out",
     "riPearls": [
       "RI 4.08: 1 g slow IV, may repeat × 1",
       "Interchangeable with calcium gluconate (service picks)",
@@ -1607,6 +1774,12 @@
       "ri-aemt-c"
     ],
     "scopeVerified": true,
+    "national": {
+      "status": "in",
+      "basis": "sop-guidelines",
+      "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Inhaled – monitor patient administered (i.e., nitrous oxide)\"",
+      "note": "The only drug the Model names by name."
+    },
     "source": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1615,7 +1788,6 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "nremtScope": "in",
     "riPearls": [
       "RI 2.07: optional at every level if the service carries it"
     ]

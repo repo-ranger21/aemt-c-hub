@@ -18,7 +18,12 @@ const DOMAINS = new Set(['airway', 'cardiology', 'trauma', 'medical', 'operation
 const TRAPS = new Set(['ceiling', 'floor', 'threshold', 'age', 'equipment']);
 const FORMULARY = new Set(['R', 'O', 'C', 'O/C', 'R/C', 'P', 'X']);
 const FORMULAS = new Set(['conversion', 'volume', 'weight', 'percent', 'drip', 'parkland']);
-const NREMT_SCOPE = new Set(['in', 'out', 'unverified']);
+const NATIONAL_STATUS = new Set(['in', 'out']);
+const NATIONAL_BASIS = new Set(['sop-guidelines', 'curriculum-condition', 'common-formulary', 'beyond-aemt']);
+// A basis that rests on a federal document must quote one; a basis that rests on
+// convention must not, because no federal source enumerates AEMT medications.
+const BASIS_NEEDS_CITATION = new Set(['sop-guidelines', 'curriculum-condition']);
+const AUTHORITY = new Set(['standing-order', 'medical-control', 'both']);
 const REGULARITY = new Set(['regular', 'irregular', 'irregularly-irregular']);
 const P_WAVES = new Set(['normal', 'inverted', 'absent', 'sawtooth', 'fibrillatory', 'dissociated']);
 const DROPPED = new Set(['wenckebach', 'fixed-ratio', 'bigeminy']);
@@ -91,7 +96,24 @@ for (const d of drugs) {
     if (!Array.isArray(d[field])) fail(where, `${field} must be an array`);
   }
   if (!isTextList(d.indications)) fail(where, 'needs at least one indication');
-  if (!NREMT_SCOPE.has(d.nremtScope)) fail(where, `nremtScope "${d.nremtScope}" must be in, out, or unverified`);
+  const n = d.national;
+  if (!n || typeof n !== 'object') {
+    fail(where, 'missing national');
+  } else {
+    if (!NATIONAL_STATUS.has(n.status)) fail(where, `national.status "${n.status}" must be in or out`);
+    if (!NATIONAL_BASIS.has(n.basis)) fail(where, `national.basis "${n.basis}" is not a valid basis`);
+    if (BASIS_NEEDS_CITATION.has(n.basis) && !isText(n.citation)) {
+      fail(where, `basis "${n.basis}" rests on a federal document but citation is missing`);
+    }
+    // The rule that makes a fabricated citation a build failure rather than a
+    // judgement call: if the claim rests on convention, it cannot carry a source.
+    if (!BASIS_NEEDS_CITATION.has(n.basis) && isText(n.citation)) {
+      fail(where, `basis "${n.basis}" has no federal source — citation must be null`);
+    }
+    if (n.basis === 'beyond-aemt' && n.status === 'in') {
+      fail(where, 'basis "beyond-aemt" cannot have status "in"');
+    }
+  }
 
   // Formulary and scope have to agree, or the "My AEMT-C scope" filter lies.
   const f = d.formulary;
@@ -109,8 +131,28 @@ for (const d of drugs) {
     if (expected.sort().join() !== declared.slice().sort().join()) {
       fail(where, `scope [${declared}] does not match formulary A=${f.A} AC=${f.AC}, which implies [${expected}]`);
     }
-    if (d.nremtScope === 'in' && !d.scope.includes('nremt-aemt')) {
-      fail(where, 'nremtScope is "in" but scope omits nremt-aemt');
+    if (d.national?.status === 'in' && !d.scope.includes('nremt-aemt')) {
+      fail(where, 'national.status is "in" but scope omits nremt-aemt');
+    }
+    if (d.national?.status === 'out' && d.scope.includes('nremt-aemt')) {
+      fail(where, 'scope claims nremt-aemt but national.status is "out"');
+    }
+
+    // riAuthority is optional, but when present it has to be answerable against
+    // a numbered protocol and can only be set for a level that actually carries.
+    if (d.riAuthority) {
+      const a = d.riAuthority;
+      for (const lvl of ['A', 'AC']) {
+        if (a[lvl] !== null && a[lvl] !== undefined && !AUTHORITY.has(a[lvl])) {
+          fail(where, `riAuthority.${lvl} = "${a[lvl]}" is not a valid authority`);
+        }
+        if (a[lvl] && !carried(f[lvl])) {
+          fail(where, `riAuthority.${lvl} is set but formulary.${lvl}="${f[lvl]}" is not carried`);
+        }
+      }
+      if ((a.A || a.AC) && !isText(a.protocolRef)) {
+        fail(where, 'riAuthority sets a level but has no protocolRef to check it against');
+      }
     }
     // A drug nobody carries is reference-only, and has to say so rather than
     // sitting on an empty array that reads as missing data.

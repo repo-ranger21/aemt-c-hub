@@ -3,7 +3,10 @@
 // ri-aemt / ri-aemt-c come from the RI formulary (09.00). nremt-aemt marks textbook/national-only content.
 // 'reference' = carried at no level you practice under; kept for recognition only.
 export type Scope = 'nremt-aemt' | 'ri-aemt' | 'ri-aemt-c' | 'reference';
-// Formulary codes: R required, O optional, C choice, O/C, R/C, P patient's own supply, X not in scope
+// Formulary codes, RIDOH appendix 09.00: R required, O optional, P patient's own
+// supply, X not in scope. 'C' is Choice — the agency medical director picks among
+// interchangeable options in a class (appendix 09.01), NOT online medical control.
+// Authority to give lives in RiAuthority, read off the numbered protocol.
 export type FormularyCode = 'R' | 'O' | 'C' | 'O/C' | 'R/C' | 'P' | 'X';
 export type Domain = 'airway' | 'cardiology' | 'trauma' | 'medical' | 'operations';
 export type Trap = 'ceiling' | 'floor' | 'threshold' | 'age' | 'equipment';
@@ -21,6 +24,37 @@ export interface Conflict {
   topic: string;
   nremt: string;
   ri: string;
+}
+
+// How a national-scope claim is supported. No federal document enumerates the
+// AEMT formulary: the Education Standards name conditions and defer medications
+// to local authority ("Specific medication classes to be determined locally",
+// p. 34); the Scope of Practice Model's interpretive guidelines are "illustrative
+// and NOT all-inclusive" (p. 32); the NREMT examination specifications contain no
+// drug list. So a claim carries the kind of evidence behind it, not just in/out.
+export type NationalBasis =
+  | 'sop-guidelines'       // named in Scope of Practice Model §V, p. 36 — the strongest source
+  | 'curriculum-condition' // Education Standards name the CONDITION at AEMT
+  | 'common-formulary'     // convention across state formularies; no federal source
+  | 'beyond-aemt';         // Paramedic-level
+
+export interface NationalScope {
+  status: 'in' | 'out';
+  basis: NationalBasis;
+  // Quotes a medication row or a CONDITION, never a drug the documents don't name.
+  // Always null when basis is 'common-formulary' or 'beyond-aemt'.
+  citation: string | null;
+  note?: string;
+}
+
+// Standing order vs contact. Not derivable from a formulary code: appendix 09.00
+// says what is stocked, the numbered protocol says who authorises giving it.
+export type Authority = 'standing-order' | 'medical-control' | 'both';
+
+export interface RiAuthority {
+  A: Authority | null;
+  AC: Authority | null;
+  protocolRef: string | null;  // e.g. "2.10P"
 }
 
 interface Base {
@@ -44,9 +78,26 @@ export interface DrugCard extends Base {
   supply: string | null;
   formulary: { E: FormularyCode; A: FormularyCode; AC: FormularyCode };
   scopeVerified: boolean;
-  nremtScope: 'in' | 'out' | 'unverified'; // national AEMT scope of practice
+  national: NationalScope;   // national AEMT scope, with the evidence behind it
+  riAuthority?: RiAuthority; // standing order vs medical control, per level
   conflicts?: Conflict[];
   protocolSource?: Source; // RI protocol the doses were checked against
+}
+
+// Procedures rather than medications — manual defibrillation, synchronized
+// cardioversion, TCP, 12-lead acquisition. Not in appendix 09.00, so there is no
+// formulary code to derive a level from: the protocol authorises them by level.
+export interface SkillCard extends Base {
+  kind: 'skill';
+  name: string;
+  category: 'electrical' | 'airway' | 'vascular' | 'diagnostic';
+  indications: string[];
+  settings?: string[];   // joules, rate, mA
+  pitfalls: string[];
+  riLevels: ('E' | 'A' | 'AC')[];
+  national: NationalScope;
+  riAuthority?: RiAuthority;
+  conflicts?: Conflict[];
 }
 
 export interface TopicCard extends Base {
