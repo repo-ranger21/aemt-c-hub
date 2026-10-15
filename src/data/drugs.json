@@ -1112,15 +1112,21 @@
     ],
     "class": "Benzodiazepine",
     "domain": "medical",
-    "mechanism": "Binds the GABA-A receptor, boosting GABA's effect. Chloride channels open more, the neuron hyperpolarizes, and firing is suppressed.",
+    "mechanism": "Benzodiazepine acting on the limbic system, thalamus and hypothalamus to produce calming. Unlike the phenothiazines it has no peripheral autonomic blocking action and produces no extrapyramidal effects.",
     "indications": [
-      "Seizures",
-      "Sedation / muscle spasm"
+      "Adjunct in status epilepticus",
+      "Acute alcohol withdrawal — agitation, tremor, impending or acute delirium tremens",
+      "Skeletal muscle spasm from local pathology, trauma or spasticity"
     ],
-    "contraindications": [],
+    "contraindications": [
+      "Known hypersensitivity to diazepam",
+      "Acute narrow-angle glaucoma",
+      "Open-angle glaucoma, unless the patient is on appropriate therapy"
+    ],
     "pearls": [
-      "Strongest muscle relaxant in the class",
-      "Only benzo given PR"
+      "Labelled for status epilepticus as an adjunct — unlike midazolam, where the seizure use is off-label",
+      "The glaucoma contraindication splits: narrow-angle is absolute, open-angle is permitted if treated",
+      "RI stocks it as the optional interchangeable alternative to lorazepam (appendix 09.01), so your service carries one or the other"
     ],
     "supply": "10 mg / 2 mL",
     "scope": [
@@ -1134,8 +1140,8 @@
       "note": "As midazolam."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: DIAZEPAM injection, solution",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c57af2a2-aa9a-4dac-a200-e0d845005d05"
     },
     "formulary": [
       {
@@ -1170,13 +1176,23 @@
     ],
     "class": "Benzodiazepine",
     "domain": "medical",
-    "mechanism": "GABA-A enhancement, as with other benzodiazepines.",
+    "mechanism": "Binds the GABA-benzodiazepine receptor complex with relatively high and specific affinity, which the label presumes to be the basis of its action — enhancing GABA-mediated inhibition throughout the brain.",
     "indications": [
-      "Seizures",
-      "Sedation"
+      "Status epilepticus"
     ],
-    "contraindications": [],
-    "pearls": [],
+    "contraindications": [
+      "Known sensitivity to benzodiazepines",
+      "Sensitivity to the vehicle — polyethylene glycol, propylene glycol or benzyl alcohol",
+      "Acute narrow-angle glaucoma",
+      "Sleep apnea syndrome",
+      "Severe respiratory insufficiency, except where the patient is mechanically ventilated",
+      "Intra-arterial administration"
+    ],
+    "pearls": [
+      "The vehicle is a contraindication in its own right — polyethylene glycol, propylene glycol and benzyl alcohol, which matters for neonates and small children",
+      "Intra-arterial administration is contraindicated outright; the vehicle can cause arterial spasm and gangrene",
+      "Sleep apnea and severe respiratory insufficiency are listed contraindications, not cautions — the narrowest respiratory profile of the three benzodiazepines on this list"
+    ],
     "supply": "2 mg/mL",
     "scope": [
       "ri-aemt-c"
@@ -1189,8 +1205,8 @@
       "note": "As midazolam."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: ATIVAN (lorazepam) injection",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fc0e987-61c9-40c4-b0d5-fcea07c8733e"
     },
     "formulary": [
       {
@@ -1225,15 +1241,21 @@
     ],
     "class": "Benzodiazepine",
     "domain": "medical",
-    "mechanism": "GABA-A enhancement, as with other benzodiazepines.",
+    "mechanism": "Short-acting benzodiazepine CNS depressant. Water-soluble in the vial and lipophilic at physiologic pH, which is why it crosses into the CNS quickly and wears off quickly.",
     "indications": [
-      "Seizures",
-      "Sedation / restraint"
+      "Sedation, anxiolysis and amnesia before or during a procedure",
+      "Continuous infusion for sedation of intubated and mechanically ventilated patients",
+      "Prehospital / RI protocol use (off-label on this SPL): seizure termination and acute agitation"
     ],
-    "contraindications": [],
+    "contraindications": [
+      "Known hypersensitivity to midazolam",
+      "Acute narrow-angle glaucoma",
+      "Open-angle glaucoma only if the patient is on appropriate therapy"
+    ],
     "pearls": [
-      "Fast onset, short duration, causes anterograde amnesia",
-      "Preferred IN for seizures without IV access"
+      "Seizure use is NOT on this label — diazepam and lorazepam are labelled for status epilepticus, midazolam is not, even though RI carries it as Required at AEMT-C",
+      "Boxed Warning: respiratory depression and respiratory arrest. The label was written around a monitored setting with resuscitation immediately available",
+      "Risk compounds with opioids — the combination is the subject of a class-wide Boxed Warning"
     ],
     "supply": "5 mg/mL",
     "scope": [
@@ -1247,8 +1269,8 @@
       "note": "Seizure is an AEMT condition (Standards p. 42); benzodiazepines appear in no national medication row."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: MIDAZOLAM HYDROCHLORIDE injection, solution",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d9305142-417d-4d8c-9a23-f9a1b6771cac"
     },
     "formulary": [
       {
@@ -1329,12 +1351,18 @@
     ],
     "class": "Cyanide antidote",
     "domain": "medical",
-    "mechanism": "Binds cyanide to form vitamin B12, which is excreted in urine.",
+    "mechanism": "Cyanide binds cytochrome a3 and arrests cellular respiration, which is why a high dose kills within minutes. Hydroxocobalamin binds the cyanide ion to form cyanocobalamin — vitamin B12 — which the kidney excretes.",
     "indications": [
-      "Cyanide poisoning"
+      "Known or suspected cyanide poisoning"
     ],
     "contraindications": [],
-    "pearls": [],
+    "pearls": [
+      "The label lists NO contraindications — in suspected cyanide poisoning there is nothing to weigh it against",
+      "Deep red colour causes transient chromaturia and erythema in over 5% of patients. The skin stays discoloured, and the label advises avoiding direct sun while it does, for photosensitivity",
+      "Label §5.5: the red colour interferes with colorimetric lab determinations — clinical chemistry, hematology, coagulation and urine parameters. Warn the receiving facility",
+      "Label §5.7: a blood cyanide level is not required to treat and must not delay treatment, though a pretreatment sample is useful for documentation",
+      "Serious reactions are allergic reactions, renal injury and raised blood pressure; monitor pressure during infusion"
+    ],
     "supply": null,
     "scope": [
       "ri-aemt-c"
@@ -1347,8 +1375,8 @@
       "note": "Cyanide antidote; federal guidance in CHEMM, but not a national AEMT medication."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: CYANOKIT (hydroxocobalamin) injection, powder, lyophilized",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b"
     },
     "formulary": [
       {
@@ -1380,12 +1408,18 @@
     ],
     "class": "Nerve agent antidote",
     "domain": "medical",
-    "mechanism": "Atropine blocks muscarinic sites. Pralidoxime reactivates acetylcholinesterase at nicotinic sites.",
+    "mechanism": "Two drugs, two receptor families. Atropine competitively blocks excess acetylcholine at muscarinic receptors — smooth muscle, cardiac muscle, secretory glands, autonomic ganglia and CNS. Pralidoxime reactivates the acetylcholinesterase the organophosphate has inhibited, which is what restores function at the nicotinic sites atropine cannot reach.",
     "indications": [
-      "Nerve agent / organophosphate poisoning"
+      "Poisoning by organophosphorus nerve agents and organophosphorus insecticides, in adults and pediatric patients over 41 kg (90 lb)"
     ],
     "contraindications": [],
-    "pearls": [],
+    "pearls": [
+      "The label lists NO contraindications. Against a life-threatening nerve agent exposure there is nothing on the other side of the scale",
+      "Atropine handles the muscarinic signs — the wet ones. Pralidoxime is what reaches the nicotinic signs, the fasciculations and weakness, by freeing the enzyme itself",
+      "Pralidoxime works best before the inhibited enzyme ages; delay costs effect, which is the argument for the auto-injector",
+      "Weight floor of 41 kg (90 lb) is on the label, so this kit is not a pediatric solution",
+      "Appendix 09.01 lists DuoDote and the Mark-1 NAAK as interchangeable, and the national Scope of Practice Model marks auto-injector antidotes at every level including EMR"
+    ],
     "supply": null,
     "scope": [
       "nremt-aemt",
@@ -1400,8 +1434,8 @@
       "note": "Marked at every level, EMR through Paramedic."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: DUODOTE (atropine and pralidoxime chloride) kit; federal guidance at ASPR CHEMM (chemm.hhs.gov)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=241f42a0-1a33-40e8-8221-201767d999e5"
     },
     "formulary": [
       {
@@ -1442,13 +1476,18 @@
     ],
     "class": "Opioid antagonist",
     "domain": "medical",
-    "mechanism": "Competitively displaces opioids from their receptors.",
+    "mechanism": "Opioid antagonist that prevents or reverses the effects of opioids — respiratory depression, sedation and hypotension. It also reverses the psychotomimetic and dysphoric effects of agonist-antagonists such as pentazocine.",
     "indications": [
-      "Opioid overdose with respiratory depression"
+      "Complete or partial reversal of opioid depression, including respiratory depression, from natural and synthetic opioids",
+      "Reversal of mixed agonist-antagonists — nalbuphine, pentazocine, butorphanol, cyclazocine"
     ],
-    "contraindications": [],
+    "contraindications": [
+      "Known hypersensitivity to naloxone or any ingredient"
+    ],
     "pearls": [
-      "Ventilate with a BVM first to avoid a violent sympathetic surge"
+      "Hypersensitivity is the only contraindication on the label — the real constraint is the dose, not whether to give it",
+      "Titrate to respiration, not to consciousness. Abrupt complete reversal in an opioid-dependent patient precipitates acute withdrawal",
+      "The antagonist can outlast or be outlasted by the opioid; a patient who wakes can go back down, which is why transport still matters"
     ],
     "supply": "2 mg / 2 mL",
     "scope": [
@@ -1464,8 +1503,8 @@
       "note": "Also \"Intranasal - opioid antagonist for suspected opioid overdose\", same table."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: NALOXONE HYDROCHLORIDE injection",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b1303f15-c48b-a44d-b28a-72f370094e02"
     },
     "formulary": [
       {
