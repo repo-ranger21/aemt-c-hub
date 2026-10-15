@@ -1259,9 +1259,10 @@
         "doc": "AEMT-C Medication Mathematics Question Bank",
         "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
       },
-      "verify": "Peds bicarb 1 mEq/kg not found in RI protocols",
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "4.18",
+      "note": "Found in RI v2026.02 protocol 4.18: sodium bicarbonate 1 mEq/kg IV for suspected tricyclic antidepressant or other sodium-channel-blocker toxicity when seizures are present or the QRS is > 0.09 sec, repeat every five minutes as indicated. RI requires MEDICAL CONTROL authorization for this dose at the AEMT-C level (protocol 4.18, Pediatric Toxicological Emergencies). The arithmetic is the same nationally; the permission is not."
     },
     {
       "id": "mm-11-1",
@@ -1652,9 +1653,10 @@
         "doc": "AEMT-C Medication Mathematics Question Bank",
         "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
       },
-      "verify": "Peds calcium chloride dose not found in RI protocols",
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "4.18",
+      "note": "Found in RI v2026.02 protocol 4.18: calcium chloride 20 mg/kg IV for suspected beta-blocker or calcium-channel-blocker toxicity, may repeat x1. Given alongside glucagon 0.1 mg/kg IV (max 5 mg). RI requires MEDICAL CONTROL authorization for this dose at the AEMT-C level (protocol 4.18, Pediatric Toxicological Emergencies). The arithmetic is the same nationally; the permission is not."
     },
     {
       "id": "mm-14-2",
@@ -1676,9 +1678,10 @@
         "doc": "AEMT-C Medication Mathematics Question Bank",
         "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
       },
-      "verify": "Peds calcium gluconate dose not found in RI protocols",
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "4.18",
+      "note": "Found in RI v2026.02 protocol 4.18: calcium gluconate 60 mg/kg IV, the alternative to calcium chloride 20 mg/kg for beta-blocker or calcium-channel-blocker toxicity, may repeat x1. Appendix 09.01 lists the two as interchangeable. RI requires MEDICAL CONTROL authorization for this dose at the AEMT-C level (protocol 4.18, Pediatric Toxicological Emergencies). The arithmetic is the same nationally; the permission is not."
     },
     {
       "id": "mm-14-3",
@@ -4575,7 +4578,8 @@
         "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
       },
       "protocolRef": "2.08A / 7.01",
-      "verify": "2.08A states a flat 5-10 cmH2O for asthma/COPD/RAD, but the dedicated CPAP procedure (7.01) specifies 3-5 cmH2O for asthma/COPD and reserves 5-10 cmH2O for pulmonary edema, near-drowning, aspiration, or pneumonia. The two RI protocols disagree for this exact indication — confirm which OEMS intends as authoritative before testing on this number."
+      "verify": "UNRESOLVED IN v2026.02 (re-checked 15 Oct 2026): 2.08A states 5-10 cmH2O for asthma/COPD/RAD; procedure 7.01 step 6 states 3-5 cmH2O for asthma or COPD and reserves 5-10 for pulmonary edema, near-drowning, aspiration or pneumonia. The two RI documents disagree for the same indication. Needs OEMS clarification — this is not a lookup failure.",
+      "note": "RI v2026.02 gives two different pressures for this exact indication. Protocol 2.08A (Respiratory Distress — Asthma/COPD/RAD) says \"consider continuous positive airway pressure (CPAP) at 5-10 cmH2O\". Procedure 7.01 step 6 says to titrate upward from zero to a maximum \"3-5 cmH20 for asthma or COPD\", reserving the higher range for pulmonary edema, near-drowning, aspiration and pneumonia. Know both numbers: 2.08A = 5-10 cmH2O, 7.01 = 3-5 cmH2O for asthma/COPD. Which one your service treats as authoritative is a question for your medical director, and it is a fair thing to ask in class. On the national exam, CPAP pressure is not tested to a RI-specific number."
     },
     {
       "id": "resp-105",

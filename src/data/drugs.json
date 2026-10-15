@@ -1622,7 +1622,13 @@
       "Incompatible with calcium chloride: flush between",
       "RI 2.25: 50 mEq IV if agitated-delirium patient arrests",
       "Incompatible with calcium chloride: flush between"
-    ]
+    ],
+    "riAuthority": {
+      "A": null,
+      "AC": "both",
+      "protocolRef": "4.18",
+      "note": "Medical Control required at AEMT-C for toxicology (4.18), crush injury and hyperkalemia (4.09), and the dialysis protocol. Standing order in cardiac arrest per 2.25. At Paramedic level the same orders read \"consider\", with no contact required."
+    }
   },
   {
     "id": "corticosteroids",
@@ -2191,7 +2197,13 @@
       "RI 4.08: 1 g slow IV, may repeat × 1",
       "Interchangeable with calcium gluconate (service picks)",
       "Incompatible with sodium bicarbonate"
-    ]
+    ],
+    "riAuthority": {
+      "A": null,
+      "AC": "medical-control",
+      "protocolRef": "4.18",
+      "note": "Medical Control required at AEMT-C everywhere it is given in v2026.02: beta-blocker/CCB toxicity (4.18), crush injury and hyperkalemia (4.09), and the dialysis protocol. At Paramedic level the same orders read \"consider\", with no contact required."
+    }
   },
   {
     "id": "nitrous-oxide",

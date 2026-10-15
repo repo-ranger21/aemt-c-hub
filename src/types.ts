@@ -71,12 +71,16 @@ export interface NationalScope {
 
 // Standing order vs contact. Not derivable from a formulary code: appendix 09.00
 // says what is stocked, the numbered protocol says who authorises giving it.
+// 'both' means it varies by indication, not that it escalates at a threshold —
+// sodium bicarbonate at AEMT-C needs Medical Control for toxicology, hyperkalemia
+// and crush, but is a standing order in cardiac arrest. The note says which.
 export type Authority = 'standing-order' | 'medical-control' | 'both';
 
 export interface RiAuthority {
   A: Authority | null;
   AC: Authority | null;
-  protocolRef: string | null;  // e.g. "2.10P"
+  protocolRef: string | null;  // the primary protocol, e.g. "4.18"
+  note?: string;               // required reading when authority is 'both'
 }
 
 interface Base {
