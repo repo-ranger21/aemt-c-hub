@@ -222,13 +222,20 @@
     "id": "shock-management",
     "kind": "topic",
     "chapter": 14,
-    "title": "Management sequence",
+    "title": "Shock recognition and management (RI 2.20A)",
     "domain": "trauma",
     "body": [
-      "Control life-threatening bleeding first, then airway and oxygen.",
-      "Position of comfort (usually supine), vitals with SpO₂ and glucose.",
-      "IV/IO access, keep them warm with blankets (no external heat sources), nothing by mouth.",
-      "Aim for 10 minutes or less on scene; treat en route."
+      "RI 2.20A is one protocol covering SIX shock states: undifferentiated, hypovolemic, obstructive, cardiogenic, septic and neurogenic.",
+      "General recognition: restlessness, confusion, pale and cool clammy skin, a weak rapid pulse, and hypotension — SBP < 90 or MAP < 65.",
+      "The third trigger is the one people forget: a SHOCK INDEX (heart rate ÷ systolic BP) of ≥ 0.6. That fires before the pressure falls, which is the whole point of calculating it.",
+      "Hypovolemic: a history of volume loss — vomiting, diarrhea, bleeding.",
+      "Obstructive: chest trauma, JVD, absent breath sounds, narrow pulse pressure, DVT history or pulmonary embolus risk factors.",
+      "Cardiogenic: STEMI, heart failure, dysrhythmias, bradycardia or tachycardia.",
+      "Neurogenic: spinal cord injury with hypotension, and warm dry skin with a normal or BRADYCARDIC rate — the opposite of the tachycardia you expect in shock.",
+      "Septic: fever, warm skin, tachycardia, tachypnea, a possible source of infection.",
+      "Management: routine patient care; keep the patient supine if tolerated; maintain and promote NORMOTHERMIA with blankets and by raising the ambient temperature; transport to the nearest appropriate facility.",
+      "Suspected OBSTRUCTIVE shock is managed by its cause, not by this protocol — RI sends you to the etiology-specific protocol, giving the Multiple Trauma Protocol for a suspected tension pneumothorax as the example.",
+      "If adrenal insufficiency is suspected, run the Adrenal Insufficiency Protocol alongside this one."
     ],
     "tags": [
       "shock",
@@ -239,24 +246,28 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "Chapter 14 - Shock AEMT-C Study Guide",
-      "driveId": "1mbqMGXKPncnEVnbI49YQpOAhzaq2PuCerGAkN63FenA"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
     "deck": "shock",
-    "deckTitle": "Shock"
+    "deckTitle": "Shock",
+    "protocolRef": "2.20A"
   },
   {
     "id": "shock-fluids",
     "kind": "topic",
     "chapter": 14,
-    "title": "Fluid rules",
+    "title": "Shock fluids: which fluid, how much, to what target",
     "domain": "trauma",
     "body": [
-      "Adult hypovolemic: 20–30 mL/kg in 250 mL increments until radial pulses return.",
-      "Uncontrolled bleeding: permissive hypotension, just enough to keep a radial pulse.",
-      "Pediatric: 20 mL/kg warmed isotonic crystalloid, reassess, repeat.",
-      "Cardiogenic / tension pneumo: TKO only. Fluid overloads a failing pump.",
-      "Pregnancy: left lateral position; treat the mother aggressively to perfuse the fetus."
+      "WHICH FLUID (RI 1.01 §14): 0.9% saline is the fluid of choice for keep-vein-open purposes and limited boluses. Lactated Ringer's is the fluid of choice for SIGNIFICANT fluid resuscitation in shock and burn injury, unless a protocol directs otherwise.",
+      "HOW MUCH (RI 2.20A): lactated Ringer's 500 mL IV, repeated to reach the target, to a MAXIMUM OF 2 LITRES.",
+      "THE TARGET is a number, not \"looks better\": SBP ≥ 100 or MAP ≥ 65. Note the gap — you RECOGNISE shock below SBP 90, but you RESUSCITATE to 100.",
+      "Past 2 litres, fluid is no longer the answer and vasopressors enter the protocol — push-dose epinephrine 10–20 mcg IV every 3–5 minutes is the first of several options listed, at levels above AEMT.",
+      "KVO rates are specified: 20–30 mL/hour for adults, 10–20 mL/hour for pediatrics.",
+      "Hemorrhagic shock has its OWN protocol (2.21A) rather than being managed here — bleeding control changes the arithmetic.",
+      "An intermittent needle therapy device (saline lock) may replace an infusing IV when appropriate.",
+      "RI states plainly that IO access is interchangeable with IV throughout these protocols, and that any reference to the IV route includes the IO route."
     ],
     "tags": [
       "shock",
@@ -267,23 +278,12 @@
       "nremt-aemt"
     ],
     "source": {
-      "doc": "Chapter 14 - Shock AEMT-C Study Guide",
-      "driveId": "1mbqMGXKPncnEVnbI49YQpOAhzaq2PuCerGAkN63FenA"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "conflicts": [
-      {
-        "topic": "Fluid targets",
-        "nremt": "20–30 mL/kg in 250 mL increments until radial pulses return",
-        "ri": "LR 500 mL to SBP ≥90–100 or MAP ≥65; penetrating torso without TBI: 250 mL to a radial pulse; max 2 L"
-      },
-      {
-        "topic": "Peds",
-        "nremt": "20 mL/kg warmed crystalloid, repeat",
-        "ri": "LR 20 mL/kg (10 mL/kg under 3 months), max 60 mL/kg"
-      }
-    ],
     "deck": "shock",
-    "deckTitle": "Shock"
+    "deckTitle": "Shock",
+    "protocolRef": "2.20A"
   },
   {
     "id": "shock-traps",
@@ -1637,12 +1637,18 @@
     "kind": "topic",
     "deck": "cardiac",
     "deckTitle": "Cardiovascular emergencies",
-    "title": "Chest pain care",
+    "title": "Chest pain, ACS and STEMI care (RI 3.02)",
     "domain": "cardiology",
     "body": [
-      "Position of comfort; oxygen only as needed (SpO₂ ≥94%).",
-      "12-lead within 10 minutes of contact; IV access without delaying transport.",
-      "Aspirin chewed; nitroglycerin if no contraindications."
+      "Recognition is broader than chest pain: any anginal equivalent counts — fatigue, nausea, dyspnea, dizziness. RI names these as common presentations IN WOMEN.",
+      "STEMI criteria, and the thresholds differ by sex: ST elevation in ≥ 2 contiguous leads of ≥ 2 mm in MALES or ≥ 1.5 mm in FEMALES in V2–V3, and/or ≥ 1 mm in other contiguous chest or limb leads.",
+      "Posterior MI is the one you miss by not looking for it: ST DEPRESSION > 1 mm in V1–V3 with a dominant R wave (R/S ratio > 1) in V2 and upright T waves.",
+      "New-onset left bundle branch block must be evaluated in context — it is not automatically a STEMI.",
+      "Aspirin 81 mg × 4 orally, chewed, unless allergic or unable to swallow safely. That is 324 mg.",
+      "A patient prescribed nitroglycerin with an SBP ≥ 100 may take 0.3/0.4 mg SL of THEIR OWN supply, repeatable every 5 minutes to a maximum of 3 doses while the SBP stays ≥ 100.",
+      "Acquire a multi-lead (≥ 12-lead) ECG and TRANSMIT it to medical control at the nearest PCI-capable facility for help with interpretation.",
+      "If the ECG suggests STEMI, three things happen together: limit on-scene time to ≤ 10 MINUTES, triage to the nearest PCI-capable facility, and give immediate CODE STEMI notification with the patient's name, date of birth and ID number if available.",
+      "If the first ECG is not diagnostic but suspicion stays high, obtain SERIAL ECGs rather than settling for the first one."
     ],
     "tags": [
       "high-yield"
@@ -1652,26 +1658,11 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
     "chapter": 18,
-    "conflicts": [
-      {
-        "topic": "Aspirin dose",
-        "nremt": "Textbook: 160–325 mg chewed",
-        "ri": "RI 3.02: 81 mg × 4 (324 mg) chewed"
-      },
-      {
-        "topic": "Nitro BP cutoff",
-        "nremt": "Textbook: SBP >90 (Ch 14) or >100 (Ch 18, heart failure); expect either on the exam",
-        "ri": "RI 3.02: SBP >100 always"
-      },
-      {
-        "topic": "STEMI",
-        "nremt": "Transport to a PCI center",
-        "ri": "RI 3.02: transmit the 12-lead, scene time ≤10 min, CODE STEMI notification"
-      }
-    ]
+    "protocolRef": "3.02"
   },
   {
     "id": "card-cardiogenic",
@@ -1700,12 +1691,18 @@
     "kind": "topic",
     "deck": "cardiac",
     "deckTitle": "Cardiovascular emergencies",
-    "title": "Heart failure",
+    "title": "Acute decompensated heart failure and pulmonary edema (RI 3.01)",
     "domain": "cardiology",
     "body": [
-      "Left-sided: fluid backs into the lungs: dyspnea, orthopnea, crackles, pink frothy sputum.",
-      "Right-sided: fluid backs into the body: JVD, pedal and dependent edema.",
-      "Sit them up, legs down; oxygen; CPAP; nitro if SBP >100; bring their meds."
+      "Recognition: respiratory distress, dyspnea on exertion, orthopnea, BILATERAL crackles, jugular venous distention, peripheral edema, diaphoresis, hypotension or shock, and chest pain or discomfort.",
+      "Position first: sit the patient upright as tolerated and as the blood pressure allows.",
+      "CPAP up to 10 cmH2O for respiratory distress, crackles, or an SpO2 < 92% — gated on an SBP ≥ 90. This is available at the EMT level, which surprises people.",
+      "Aspirin 81 mg × 4 chewed, as in ACS.",
+      "Nitroglycerin 0.4 mg SL (tablet, lingual spray or powder) every 5 minutes while the SBP is > 100. Note the threshold is 100, not 90.",
+      "A specific and unusual standing order: if transport is ≥ 30 minutes, the patient already takes ORAL furosemide, and they are normotensive (SBP ≥ 100), you may give their own daily dose as FUROSEMIDE IV (maximum 80 mg) instead of the oral route they normally use.",
+      "Midazolam 1–2 mg IV for CPAP mask compliance requires MEDICAL CONTROL authorization.",
+      "Two off-ramps: chest pain or discomfort routes to the Chest Pain / ACS / STEMI Protocol, and hypotension or signs of cardiogenic shock route to the age-appropriate General Shock and Hypotension Protocol.",
+      "At the Paramedic level the drug changes shape — a nitroglycerin IV infusion starting at 100 mcg/minute, titrated rapidly downward as symptoms improve or the MAP drops 30%, discontinued if the SBP falls below 100."
     ],
     "tags": [],
     "scope": [
@@ -1713,16 +1710,11 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
     "chapter": 18,
-    "conflicts": [
-      {
-        "topic": "Diuretics",
-        "nremt": "Not an AEMT skill in most national curricula",
-        "ri": "RI 3.01: CPAP and nitro first; furosemide is second-tier (transport ≥30 min, patient already on it, SBP ≥100, max 80 mg)"
-      }
-    ]
+    "protocolRef": "3.01"
   },
   {
     "id": "card-htn",
@@ -1794,12 +1786,17 @@
     "kind": "topic",
     "deck": "cardiac",
     "deckTitle": "Cardiovascular emergencies",
-    "title": "Adult cardiac arrest",
+    "title": "Adult cardiac arrest, the RI scene rules (3.03A)",
     "domain": "cardiology",
     "body": [
-      "Push hard and fast, full recoil, minimal interruptions.",
-      "AED as soon as available; no touching during analysis or shock; back to compressions right after.",
-      "Remove medication patches; don't shock in pooled water; shave a hairy chest if pads won't stick."
+      "Airway: a blindly inserted airway device — i-Gel, King airway, laryngeal mask — SHALL be the initial advanced airway of choice in every adult arrest. Not an endotracheal tube.",
+      "Continuous waveform capnography confirming advanced airway placement is MANDATORY, and must be monitored and documented. RI uses the word mandatory.",
+      "The scene rule that defines RI practice: regardless of how close the hospital is, run the resuscitation AT THE SCENE for a minimum of 30 MINUTES before moving the patient to the ambulance or transporting.",
+      "That 30-minute rule has exactly three exceptions: a concern for EMS personnel safety, a confirmed pregnancy beyond 20 weeks gestation, or a traumatic etiology for the arrest.",
+      "After 30 minutes, four findings argue for staying and continuing on scene: organized electrical activity, a shockable rhythm, an EtCO2 ≥ 20 mmHg, or signs of life such as purposeful movement or eye opening during CPR.",
+      "BLS crews should request ALS if available rather than transporting early.",
+      "On ROSC, move to the age-appropriate Post Cardiac Arrest Care Protocol.",
+      "Destination is not simply the nearest hospital: a patient with STEMI, hemodynamic instability (MAP < 65 or SBP < 90), or electrical instability (recurrent VF/VT, or bradycardia recurring despite pacing or drugs) goes to a PCI-capable facility."
     ],
     "tags": [
       "high-yield"
@@ -1809,39 +1806,27 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
     "chapter": 18,
-    "conflicts": [
-      {
-        "topic": "Ventilation",
-        "nremt": "AHA: 30:2 without an advanced airway; with one, 1 breath every 6 s",
-        "ri": "RI 3.03A: continuous compressions; for VF/VT, passive oxygenation (NRB or BVM) for the first 4 cycles, then 10 breaths/min; advanced airway only after cycle 4"
-      },
-      {
-        "topic": "Pauses",
-        "nremt": "Under 10 s",
-        "ri": "RI: rhythm-check pauses ≤5 s; pre-charge the defibrillator at 1:45 of each 2-min cycle"
-      },
-      {
-        "topic": "Epinephrine",
-        "nremt": "1 mg every 3–5 min",
-        "ri": "RI: every 5 min; max 5 doses non-shockable, 3 shockable"
-      }
-    ]
+    "protocolRef": "3.03A"
   },
   {
     "id": "iv-solutions",
     "kind": "topic",
     "deck": "iv",
     "deckTitle": "Vascular access & IV therapy",
-    "title": "IV solutions",
+    "title": "IV fluids: what RI carries and when",
     "domain": "operations",
     "body": [
-      "Isotonic (same as blood): normal saline, lactated Ringer's. Used for volume replacement.",
-      "Hypotonic (D5W): water moves into cells.",
-      "Hypertonic (3% saline, blood products, albumin): pulls water into the vessels.",
-      "Analogy: tonicity is water chasing salt."
+      "RI names a fluid of choice for each job, and they are different fluids. 0.9% saline for keep-vein-open purposes and LIMITED boluses; lactated Ringer's for SIGNIFICANT fluid resuscitation in shock and burn injury, unless a protocol says otherwise.",
+      "KVO rates are specified: 20–30 mL/hour for adults, 10–20 mL/hour for pediatrics.",
+      "Pediatric maintenance fluid is the 4-2-1 rule, stated in RI 1.01 §15: 4 mL/kg for the first 10 kg, plus 2 mL/kg for the second 10 kg, plus 1 mL/kg for every additional kg.",
+      "Dextrose 10% is carried as a premixed 10% solution yielding 10 g per 100 mL (appendix 09.02) — which is the 0.1 g/mL you use in every peds glucose calculation.",
+      "Appendix 09.02 \"Standard Concentrations for IV Admixtures\" is the authority for what a mixed bag should read, and it also names which level may carry each and whether a pump is required.",
+      "An intermittent needle therapy device — a saline lock — may be placed instead of an infusing IV when appropriate.",
+      "IO access is interchangeable with IV throughout the RI protocols, and any reference to the IV route of medication administration includes the IO route."
     ],
     "tags": [
       "high-yield"
@@ -1851,9 +1836,12 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 13: Vascular Access and Medication Administration (lecture slides)"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "chapter": 13
+    "chapter": 13,
+    "protocolRef": "1.01 / 09.02",
+    "note": "Reframed from tonicity physiology to RI fluid selection. The previous card taught isotonic/hypotonic/hypertonic and the \"water chasing salt\" analogy — that is A&P mechanism, and no public-domain source available this session states it (OpenStax A&P 2e is CC BY-NC-SA and therefore unusable here). What RI DOES state is which fluid to hang for which job, at what rate, which is the operationally useful half. The tonicity explanation is deferred to Tier 3."
   },
   {
     "id": "iv-sets",
@@ -1930,9 +1918,15 @@
     "title": "Intraosseous access",
     "domain": "operations",
     "body": [
-      "Sites: proximal tibia (find the tibial tuberosity, then about 2 cm medial), distal tibia (2–3 cm above the medial malleolus), humeral head, sternum (sternal devices).",
-      "Don't place it in a fractured bone, through infection, or in a bone already used for IO.",
-      "Complications: extravasation, compartment syndrome, dislodgement, infection."
+      "IO is indicated when a patient needs rapid vascular access and peripheral IV access is unavailable, or when secondary access is needed in a critically ill or injured patient.",
+      "In cardiac arrest, an IO placed SUPERIOR TO THE DIAPHRAGM may be used as the PRIMARY vascular access — not a fallback. And placing it must not interrupt chest compressions.",
+      "Every medication in the RI protocols that is routinely given IV can be given IO.",
+      "Sites follow the DEVICE, not a memorised landmark: use the FDA-approved insertion sites for the device you carry, which may include the proximal or distal tibia, the proximal humerus, or the sternum. RI directs you to the manufacturer's recommendations for both use and anatomic placement.",
+      "Spring-loaded devices for STERNAL placement are the one exception RI excludes outright.",
+      "Confirming placement: the device generally stands without support and infused fluid does not infiltrate. Aspirating marrow confirms placement, but NOT aspirating marrow proves nothing either way.",
+      "An awake, alert patient gets intramedullary anesthesia — 2% cardiac lidocaine pushed slowly through the device, 20–50 mg for an adult and 0.5 mg/kg for a child.",
+      "Flush 10 mL of normal saline before first use, and flush again after every medication. Continuous resuscitation fluid needs a pressure infuser bag; vasopressors need an infusion pump.",
+      "Document the device size and type, number of attempts, anatomic location, whether anesthetic was used, and any complications."
     ],
     "tags": [],
     "scope": [
@@ -1940,27 +1934,35 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 13: Vascular Access and Medication Administration (lecture slides)"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
     "chapter": 13,
     "conflicts": [
       {
         "topic": "Who can place it",
-        "nremt": "National AEMT scope includes IO",
-        "ri": "RI AEMT scope (1.07) includes IV and IO access"
+        "nremt": "Pending re-verification against the National EMS Scope of Practice Model — ems.gov is currently refusing automated requests, so this half is not asserted",
+        "ri": "RI 1.07 Advanced EMT Scope of Practice lists \"Establishing intravenous and intraosseous vascular access\" and \"Administration medications via the IV/IO route\""
       }
-    ]
+    ],
+    "protocolRef": "7.44",
+    "note": "Rebuilt from RI procedure 7.44, with the scope line verified verbatim against RI 1.07. Three corrections to the previous card: the specific centimetre landmarks are not RI figures — RI defers to the device manufacturer's FDA-approved insertion sites; the arrest point that an IO above the diaphragm can serve as PRIMARY access was missing; and the contraindication list (fractured bone, infection, previously used bone) and complication list are not stated in 7.44, so they are replaced with what RI does state and need their own source before returning. Procedure number: RI v2026.02 numbers this inconsistently — one table of contents lists IO as 07.45 and another as 07.44, while the procedure page itself is headed 7.44. The page heading is used here. The national half of the conflict is unverified because ems.gov blocks automated requests; the Scope of Practice Model needs a browser fetch."
   },
   {
     "id": "ph-names",
     "kind": "topic",
     "deck": "pharm",
     "deckTitle": "Principles of pharmacology",
-    "title": "Drug names and schedules",
+    "title": "Controlled substance schedules",
     "domain": "medical",
     "body": [
-      "Chemical name (structure), generic name (official, lowercase), trade name (brand, capitalized).",
-      "Controlled substance schedules I–V: I = no accepted medical use, high abuse; V = lowest abuse potential."
+      "Schedule I: high potential for abuse, NO currently accepted medical use in the United States, and a lack of accepted safety for use under medical supervision. That third clause is why nothing in Schedule I is carried on an ambulance.",
+      "Schedule II: high potential for abuse, but a currently accepted medical use — possibly with severe restrictions — and abuse may lead to severe psychological or physical dependence. Fentanyl is listed here, as DEA code 9801 (21 CFR 1308.12).",
+      "Schedule III: abuse potential less than I and II, accepted medical use, and abuse may lead to moderate or low physical dependence or high psychological dependence.",
+      "Schedule IV: low abuse potential relative to Schedule III, accepted medical use, limited dependence relative to Schedule III. All three EMS benzodiazepines are listed here — diazepam 2765, lorazepam 2885, midazolam 2884 (21 CFR 1308.14).",
+      "Schedule V: low abuse potential relative to Schedule IV, accepted medical use, limited dependence relative to Schedule IV.",
+      "The pattern to hold: abuse potential falls as the number rises, and every schedule except I has an accepted medical use. The statute requires all three findings to be made before a substance is placed in a schedule.",
+      "Note the split: the STATUTE (21 U.S.C. 812(b)) sets the test for each schedule; the REGULATION (21 CFR 1308) lists which substances are actually in them. A drug can be rescheduled by regulation without the statute changing."
     ],
     "tags": [],
     "scope": [
@@ -1968,9 +1970,11 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 12: Principles of Pharmacology (lecture slides)"
+      "doc": "21 U.S.C. § 812(b) — Controlled Substances Act, findings required for each schedule",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title21/html/USCODE-2023-title21-chap13-subchapI-partB-sec812.htm"
     },
-    "chapter": 12
+    "chapter": 12,
+    "note": "Findings sourced to 21 U.S.C. 812(b). The individual substance placements were verified in 21 CFR 1308 via the eCFR API — fentanyl 9801 under 1308.12 (Schedule II), diazepam 2765 / lorazepam 2885 / midazolam 2884 under 1308.14 (Schedule IV): https://www.ecfr.gov/current/title-21/chapter-II/subchapter-A/part-1308 . Morphine was dropped: it did not match in the CFR pull and is not on the RI formulary. The card was previously titled \"Drug names and schedules\"; the chemical/generic/trade naming bullet is gone because no source available this session states it — it needs an FDA or USP citation before it returns."
   },
   {
     "id": "ph-receptors",
@@ -2089,12 +2093,17 @@
     "kind": "topic",
     "deck": "medical",
     "deckTitle": "Medical overview & infectious disease",
-    "title": "Medical patient approach",
+    "title": "Routine patient care, the RI sequence",
     "domain": "medical",
     "body": [
-      "Scene size-up and standard precautions first; nature of illness from the scene and bystanders.",
-      "Responsive patient: history drives it (OPQRST, SAMPLE). Unresponsive: rapid full-body exam.",
-      "Choose the destination by capability (stroke, STEMI, trauma centers), not just distance."
+      "Approach the scene cautiously and assess scene safety first. If a hazard is identified, request assistance and use PPE as indicated; if the scene is unsafe, STAGE until the hazards or threats are mitigated.",
+      "Use standard precautions for every patient contact. RI defines these as gloves, gowns, mask, and eye protection or a face shield, chosen by the anticipated degree of exposure — then institute transmission-based precautions on top as indicated.",
+      "Hand hygiene before AND after each patient contact, for every patient, no exceptions.",
+      "Bring all necessary equipment to the patient rather than making trips back to the truck.",
+      "Use the Major Incident Protocol when the patient count or resource need calls for it.",
+      "Determine whether the patient meets pediatric or adult criteria by age — that single decision routes you to the A or P half of nearly every protocol that follows. RI defines a pediatric patient as under 16 years of age.",
+      "At or below 36 kg / 80 lb, use a pediatric dosing device (Broselow, Handtevy or other). If using the Broselow tape and the patient is taller than the tape, keep dosing by weight until age 16 or a total body weight of 50 kg. Some special-needs patients stay on pediatric protocols regardless of age.",
+      "Destination is chosen by capability, not distance: RI 1.01 Table 2 names the Point of Entry facilities — ACS-verified Level 1 trauma (Rhode Island Hospital, Hasbro for pediatrics), ABA-verified burn centers, comprehensive versus primary stroke centers and acute stroke ready hospitals, and the primary PCI-capable hospitals."
     ],
     "tags": [],
     "scope": [
@@ -2102,22 +2111,25 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 16: Medical Overview (lecture slides)"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "chapter": 16
+    "chapter": 16,
+    "protocolRef": "1.01"
   },
   {
     "id": "md-infection",
     "kind": "topic",
     "deck": "medical",
     "deckTitle": "Medical overview & infectious disease",
-    "title": "Infectious diseases and PPE",
+    "title": "Transmission-based precautions (RI Table 1)",
     "domain": "medical",
     "body": [
-      "Airborne (TB, measles): N95 on you; mask the patient if tolerated.",
-      "Droplet (influenza, pertussis, meningitis): surgical mask.",
-      "Bloodborne (HIV, hepatitis B/C): gloves, eye protection; hepatitis B vaccine is available.",
-      "MRSA: contact precautions and hand hygiene."
+      "CONTACT: standard precautions plus gloves for patient contact and for touching the patient's environment or belongings, gowns and gloves changed after every patient, surfaces and reusable equipment cleaned and disinfected, and strict hand washing. Applies to norovirus, rotavirus, enterovirus, C. difficile, acute diarrhea of unknown cause, RSV, adenovirus, multidrug-resistant organisms including MRSA and VRE, scabies and head lice, and undressed or inadequately contained wound drainage.",
+      "DROPLET: standard precautions plus a surgical mask for any clinician in the back of the ambulance or within 3 feet of the patient, AND a surgical mask or non-rebreather on the patient. Applies to influenza, parainfluenza, RSV, bronchiolitis, meningitis, mumps, pertussis, and upper respiratory infections including unidentified ones.",
+      "AIRBORNE: standard precautions plus an N95 respirator OR a powered air purifying respirator (PAPR). Applies to tuberculosis or symptoms consistent with pulmonary TB — night sweats, fever, hemoptysis, unexplained weight loss — plus measles, varicella, disseminated shingles, vesicular rash, SARS-CoV-2 and Mpox.",
+      "Some pathogens need a COMBINATION: RI gives varicella as the example, requiring standard plus airborne plus contact precautions together.",
+      "C. difficile and acute diarrhea of unknown cause require SOAP AND WATER hand hygiene specifically — alcohol gel does not kill the spores. This is the detail most often missed."
     ],
     "tags": [
       "high-yield"
@@ -2127,9 +2139,12 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 16: Medical Overview (lecture slides)"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "chapter": 16
+    "chapter": 16,
+    "protocolRef": "1.01",
+    "note": "Rebuilt from RI 1.01 Table 1, which is more specific than the previous card: the droplet row requires masking the PATIENT as well as the clinician, airborne permits a PAPR as an alternative to N95 and includes SARS-CoV-2 and Mpox, MRSA is a contact organism rather than its own category, and the C. difficile soap-and-water rule was absent entirely. The previous card's bloodborne/hepatitis-B-vaccine bullet is not in RI Table 1 — that is OSHA 29 CFR 1910.1030 territory and needs its own citation before it returns."
   },
   {
     "id": "resp-fail-points",
@@ -2404,10 +2419,13 @@
     "title": "Oxygen targets and CPAP",
     "domain": "airway",
     "body": [
-      "Target SpO2 94-99%; avoid pushing to 100%.",
-      "CPAP: for patients not improving on nebulizer therapy, or in cardiogenic pulmonary edema; raises intrathoracic pressure.",
-      "CPAP risk: can drop preload/BP in a hypotensive patient, and can convert a simple pneumothorax into a tension pneumothorax.",
-      "CPAP tends to succeed if the patient's own respiratory rate starts to fall after application, and tends to fail if it keeps climbing."
+      "OXYGEN TARGET (RI 1.01): titrate to the LOWEST concentration that maintains an SpO2 of 94–99%. More is not better — the target has a ceiling as well as a floor.",
+      "CPAP INDICATIONS (procedure 7.01): acute decompensated heart failure and cardiogenic pulmonary edema; and respiratory distress or hypoxic respiratory failure associated with asthma, COPD, pneumonia or near-drowning.",
+      "CPAP CONTRAINDICATIONS (7.01), worth memorising as a list: respiratory arrest or agonal breathing; inability to maintain the airway; GCS < 8 or inability to follow commands; vomiting or active upper GI hemorrhage; facial fractures or deformities preventing a mask seal; pneumothorax.",
+      "Technique (7.01): start at ZERO pressure and titrate upward based on pathology and the patient's response, to a maximum of 10 cmH2O.",
+      "In heart failure specifically (RI 3.01), CPAP up to 10 cmH2O is indicated for respiratory distress, crackles, or SpO2 < 92% — provided the SBP is ≥ 90.",
+      "CPAP is first-line for cardiogenic pulmonary edema, and 7.01 states it has been shown to reduce the need for endotracheal intubation.",
+      "If the patient fights the mask, RI 3.01 and 2.08A both allow midazolam 1–2 mg IV for mask compliance — but only with MEDICAL CONTROL authorization."
     ],
     "tags": [],
     "scope": [
@@ -2415,21 +2433,35 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "chapter": 17
+    "chapter": 17,
+    "protocolRef": "2.08A / 7.01",
+    "conflicts": [
+      {
+        "topic": "CPAP pressure for asthma / COPD",
+        "nremt": "Protocol 2.08A (Respiratory Distress — Asthma/COPD/RAD) states CPAP \"at 5-10 cmH2O\"",
+        "ri": "Procedure 7.01 states a maximum of 10 cmH2O, specifying \"5-10 cmH20 for pulmonary edema, near drowning, aspiration, pneumonia, 3-5 cmH20 for asthma or COPD\""
+      }
+    ],
+    "note": "UNRESOLVED CONTRADICTION INSIDE RI v2026.02, carried deliberately rather than smoothed over — the same one flagged on question resp-104. For the identical indication (asthma/COPD), protocol 2.08A says 5-10 cmH2O while procedure 7.01 says 3-5 cmH2O and reserves 5-10 for pulmonary edema, near-drowning, aspiration and pneumonia. Both figures were grepped verbatim. This needs OEMS clarification; it is not a lookup failure. The conflicts block is used here to hold two RI documents against each other rather than national-vs-RI."
   },
   {
     "id": "eh-glucose-insulin",
     "kind": "topic",
     "deck": "endo-heme",
     "deckTitle": "Endocrine & hematologic emergencies",
-    "title": "Glucose, insulin, and glucagon in one card",
+    "title": "Insulin and glucagon: the two directions",
     "domain": "medical",
     "body": [
-      "Glucose is the brain's only fuel; without it, brain cells are damaged fast.",
-      "Insulin (beta cells) lets glucose into cells everywhere except the brain, which doesn't need it.",
-      "Glucagon (alpha cells) raises blood glucose by triggering the liver to break down glycogen (glycogenolysis)."
+      "INSULIN (NIDDK): a hormone made by the pancreas that helps glucose get INTO your cells to be used for energy. Glucose comes from food, and the body also makes its own.",
+      "Diabetes is one of two failures of that single step — the body \"doesn't make enough, or any, insulin, or doesn't use insulin properly.\" Either way glucose stays in the blood instead of entering cells.",
+      "TYPE 1: the immune system attacks and destroys the pancreatic cells that make insulin, so the body makes little or none. Usually diagnosed in children and young adults, but it can appear at any age. These patients \"need to take insulin every day to stay alive\" — which is why a missed dose is a genuine emergency rather than an oversight.",
+      "TYPE 2: the cells do not use insulin properly. The pancreas may still be making insulin, just not enough to overcome that. Same end result, different mechanism.",
+      "GLUCAGON runs the other direction — it raises blood glucose by mobilising the liver's glycogen stores. RI 2.10A carries it for the hypoglycemic patient who cannot safely swallow: glucagon 1 mg (1 unit) IM, or glucagon nasal powder (Baqsimi) 3 mg IN.",
+      "The catch worth knowing: glucagon only works if there IS glycogen to mobilise. In starvation, chronic alcohol use, or prolonged hypoglycemia the stores are already empty, and the FDA label for glucagon says so outright. A patient who does not respond is not a patient who needs a second dose — they need dextrose.",
+      "That is why RI routes by capability rather than by drug preference: awake and able to swallow gets oral glucose, not alert or vomiting gets glucagon at the EMT level, and the advanced levels go to D10W because it works regardless of liver stores."
     ],
     "tags": [
       "high-yield"
@@ -2439,23 +2471,28 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      "doc": "NIDDK (NIH) — What Is Diabetes?",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes"
     },
-    "chapter": 21
+    "chapter": 21,
+    "protocolRef": "2.10A"
   },
   {
     "id": "eh-hypo-vs-hyper",
     "kind": "topic",
     "deck": "endo-heme",
     "deckTitle": "Endocrine & hematologic emergencies",
-    "title": "Hypoglycemia vs DKA vs HHNS at a glance",
+    "title": "Low versus high: telling the two diabetic emergencies apart",
     "domain": "medical",
     "body": [
-      "Onset: hypoglycemia is minutes; DKA is hours to days; HHNS is days to weeks.",
-      "Skin: hypoglycemia is pale/moist; DKA and HHNS are warm/dry.",
-      "Breath: DKA has a fruity/acetone odor from ketones; HHNS does not (no ketosis).",
-      "Glucose: hypoglycemia under 60 mg/dL; DKA usually over 250 mg/dL; HHNS often over 600 mg/dL.",
-      "Kussmaul respirations (deep, rapid) belong to DKA, blowing off CO2 to fight the acidosis."
+      "ONSET is the first discriminator. NIDDK: hypoglycemia symptoms \"tend to come on quickly and can vary from person to person.\" CDC on DKA: it \"usually develops slowly,\" with early thirst and urination before anything dramatic. Fast and scattered means low; slow and building means high.",
+      "SKIN is the second. RI 2.10A recognition gives hypoglycemia as \"anxiety, altered mental status, diaphoresis, seizures, tachycardia\" — diaphoretic, sweaty. DKA it gives as \"warm dry skin.\" Wet and confused versus dry and confused.",
+      "SEVERE HYPOGLYCEMIA (NIDDK) is defined by what the patient can no longer do: \"You may lose consciousness, have a seizure.\" It \"needs to be treated right away.\"",
+      "Hypoglycemia can also happen during SLEEP and stay low for several hours — which is how a patient ends up found down in the morning with no witnessed onset at all.",
+      "THE 15-15 APPROACH (NIDDK) for the awake patient: 15 to 20 grams of glucose or fast carbohydrate, then recheck. Their examples: four glucose tablets, one tube of glucose gel, or half a cup (4 oz) of fruit juice — specifically NOT low-calorie or reduced-sugar, which is the trap in a diabetic household.",
+      "RI 2.10A uses the same structure: 15 g oral glucose solution, recheck in 15 minutes, repeat if still low.",
+      "DKA's objective anchors, for contrast: acetone odor on the breath and an EtCO2 ≤ 29 mmHg (RI 2.10A), against hyperglycemia the CDC pins at > 250 mg/dL with acidosis and ketones.",
+      "If you cannot get a glucose reading at all, RI says treat on presentation — the patient's mental status and ability to take oral glucose decide the route, not a number you do not have."
     ],
     "tags": [
       "high-yield"
@@ -2465,21 +2502,39 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      "doc": "NIDDK (NIH) — Low Blood Glucose (Hypoglycemia)",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/low-blood-glucose-hypoglycemia"
     },
-    "chapter": 21
+    "chapter": 21,
+    "protocolRef": "2.10A",
+    "conflicts": [
+      {
+        "topic": "What number counts as hypoglycemia",
+        "nremt": "NIDDK defines low blood glucose as below the patient's target or less than 70 mg/dL, and that 70 figure is what the national material teaches",
+        "ri": "RI 2.10A does not act at 70. Its treatment table triggers at a blood glucose of 60 mg/dL or less, and classifies 60–249 mg/dL as \"recheck if condition changes\" — no treatment"
+      }
+    ],
+    "note": "Retitled from \"Hypoglycemia vs DKA vs HHNS at a glance\". HHNS is dropped for the same reason as on eh-dka-hhns — no public-domain source carries it, and RI contains no instance of HHNS, HHS, or hyperosmolar. The card now contrasts the two emergencies RI actually names.\n\nThe 70-versus-60 divergence is real and worth the conflicts entry: a student who learns 70 from national material and then reads RI 2.10A will find a protocol that does nothing until 60."
   },
   {
     "id": "eh-dka-hhns",
     "kind": "topic",
     "deck": "endo-heme",
     "deckTitle": "Endocrine & hematologic emergencies",
-    "title": "DKA and HHNS aren't the same failure",
+    "title": "DKA: mechanism, field recognition, and the HHS gap",
     "domain": "medical",
     "body": [
-      "DKA: usually type 1, no insulin at all, fat gets burned for fuel, ketones build up into metabolic acidosis.",
-      "HHNS: usually type 2, some insulin is still around, enough to prevent ketosis, but glucose and dehydration climb much higher.",
-      "HHNS fluid deficits can run 10 L or more; give fluid more cautiously with a heart-failure or renal history."
+      "MECHANISM (CDC): without enough insulin, blood sugar cannot get into the cells to be used as energy. The liver falls back on breaking down FAT for fuel, and that process produces acids called ketones. Produced too fast, they build to dangerous levels. The patient is starving at the cellular level while drowning in sugar.",
+      "Most common in type 1 diabetes, but type 2 patients develop it too — so \"they are type 2\" does not rule it out.",
+      "DKA is sometimes the FIRST noticeable sign of diabetes in someone never diagnosed. No history of diabetes is not a reason to drop it off your list.",
+      "EARLY (CDC): very thirsty, urinating much more than usual. These are the osmotic diuresis showing up before anything dramatic does.",
+      "LATER, AND FAST (CDC): fast deep breathing, dry skin and mouth, flushed face, fruity-smelling breath, headache, muscle stiffness or aches, profound tiredness, nausea and vomiting, stomach pain. The abdominal pain is worth holding onto — DKA is on the differential for the vomiting patient with belly pain.",
+      "RI FIELD RECOGNITION (2.10A), stated differently and worth knowing in its own words: \"warm dry skin, tachycardia, rapid shallow breathing, hypotension/shock, acetone odor on breath, EtCO2 ≤29 mmHg.\"",
+      "That EtCO2 ≤ 29 mmHg is the number to carry. It is the capnography signature of blowing off CO2 to compensate for a metabolic acidosis, and it is the one objective DKA finding RI gives you that does not depend on smelling anything.",
+      "NUMBERS (CDC): check ketones once blood sugar is 250 mg/dL or above. Emergency care if the sugar STAYS at 300 mg/dL or above, the breath smells fruity, vomiting prevents keeping anything down, breathing is difficult, or several DKA signs appear together.",
+      "The MMWR case definition is tighter still: uncontrolled hyperglycemia (> 250 mg/dL), metabolic acidosis, AND raised ketones — all three, not any one.",
+      "PRECIPITANTS (CDC): illness; a missed insulin dose, clogged pump, or wrong dose; heart attack or stroke; physical injury such as a crash; alcohol or drug use; and certain medicines including some diuretics and corticosteroids. Two of those — MI and stroke — mean DKA can be the presentation of a second emergency you have not found yet.",
+      "WHAT RI DOES ABOUT IT: nothing DKA-specific. Protocol 2.10A routes by blood glucose and mental status only, and its treatment arm exists to raise a LOW sugar. There is no prehospital standing order for hyperglycemia at any RI level — the care is routine patient care and transport."
     ],
     "tags": [],
     "scope": [
@@ -2487,21 +2542,41 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      "doc": "CDC — Diabetic Ketoacidosis (Diabetes), with the case definition from MMWR \"Trends in Diabetic Ketoacidosis Hospitalizations and In-Hospital Mortality — United States, 2000–2014\"",
+      "url": "https://www.cdc.gov/diabetes/about/diabetic-ketoacidosis.html"
     },
-    "chapter": 21
+    "chapter": 21,
+    "protocolRef": "2.10A",
+    "conflicts": [
+      {
+        "topic": "Hyperosmolar hyperglycemic state (HHS / HHNS)",
+        "nremt": "Nationally, HHS is taught and tested as a distinct hyperglycemic emergency, separate from DKA",
+        "ri": "RI v2026.02 does not contain the terms HHNS, HHS, or hyperosmolar anywhere. Protocol 2.10A names hypoglycemia and diabetic ketoacidosis in recognition and nothing else, and branches on glucose and mental status rather than on which hyperglycemic syndrome is present"
+      },
+      {
+        "topic": "Breathing pattern in DKA",
+        "nremt": "CDC describes \"fast, deep breathing\" — the classic Kussmaul pattern of respiratory compensation",
+        "ri": "RI 2.10A recognition says \"rapid shallow breathing\". The two public sources describe the same sign differently; CDC and the classic teaching say deep, RI says shallow"
+      }
+    ],
+    "note": "Tier 2 specimen. Sourced to CDC for mechanism, symptom progression and thresholds, and to RI 2.10A for field recognition — two independent public-domain authorities that agree on substance.\n\nHHS/HHNS is deliberately NOT described. It has no usable public-domain source: NIDDK has no page (zero hits for \"ketoacidosis\" across every NIDDK and NHLBI page that resolves), CDC has only incidental MMWR and COVID-era ED-utilization mentions, RI returns zero hits for HHNS/HHS/hyperosmolar, and the MedlinePlus health topics link out to /ency/ (A.D.A.M. Medical Encyclopedia, copyrighted) and to Mayo Clinic. Describing HHS would mean citing a source that does not state it. The card teaches the verifiable fact instead — that RI never branches on the distinction — and the conflicts block carries it as a national-vs-RI divergence.\n\nSecond conflict recorded rather than smoothed: CDC says \"fast, deep breathing\" and RI 2.10A says \"rapid shallow breathing\" for the same sign. Both quoted verbatim. Kussmaul respirations are classically deep, so RI's wording is the outlier, but it is what the protocol says and a student reading 2.10A will see it."
   },
   {
     "id": "eh-hypoglycemia-mgmt",
     "kind": "topic",
     "deck": "endo-heme",
     "deckTitle": "Endocrine & hematologic emergencies",
-    "title": "Treating low glucose, by route",
+    "title": "Treating low glucose: RI routes the dose by mental status",
     "domain": "medical",
     "body": [
-      "Alert, can swallow safely: oral glucose (tablets, gel, juice, non-diet soda, sugar); don't be shy with the amount.",
-      "Altered or can't protect the airway: nothing by mouth; go IV dextrose, or IM/IN glucagon if there's no IV access.",
-      "Glucagon only works if the liver has glycogen stores to draw from; pair it with dextrose when you can."
+      "RI 2.10A does not route by glucose number alone — it routes by bG AND whether the patient can safely swallow. That is the structure of the table.",
+      "bG ≤ 60 and the patient is AWAKE AND ALERT: oral glucose solution, 15 g PO. Recheck in 15 minutes. Repeat the dose if the bG is still ≤ 60. Same at every level, EMT through Paramedic.",
+      "bG ≤ 60 and the patient is NOT alert to verbal stimuli, or is nauseated or vomiting — at the EMT level: glucagon 1 mg (1 unit) IM, or glucagon nasal powder (Baqsimi) 3 mg IN. No oral anything.",
+      "Same patient at the advanced level: thiamine 200 mg IV/IM FIRST, then D10W 250 mL (25 g) IV over 5 minutes, repeatable in 5 minutes if the bG is still < 60.",
+      "If IV access cannot be established at the advanced level, fall back to the same glucagon 1 mg IM or Baqsimi 3 mg IN.",
+      "bG 60–249: recheck only if the condition changes. No treatment.",
+      "Thiamine before dextrose is not ritual — it is on the 50% dextrose federal label as a contraindication in alcohol withdrawal, because glucose without thiamine can precipitate Wernicke encephalopathy. RI reserves thiamine for patients with a history of alcohol abuse or who appear malnourished.",
+      "Recognition split: hypoglycemia shows anxiety, altered mental status, diaphoresis, seizures, tachycardia. DKA shows warm DRY skin, tachycardia, rapid shallow breathing, hypotension or shock, an acetone odour, and an EtCO2 ≤ 29 mmHg."
     ],
     "tags": [],
     "scope": [
@@ -2509,24 +2584,28 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "chapter": 21
+    "chapter": 21,
+    "protocolRef": "2.10A"
   },
   {
     "id": "eh-sickle-cell",
     "kind": "topic",
     "deck": "endo-heme",
     "deckTitle": "Endocrine & hematologic emergencies",
-    "title": "Sickle cell crisis: five patterns",
+    "title": "Sickle cell crisis (RI 2.23)",
     "domain": "medical",
     "body": [
-      "Vaso-occlusive: sickled cells jam small vessels causing pain, ischemia, organ damage; the most common presentation.",
-      "Acute chest syndrome: a vaso-occlusive crisis with fever, chest pain, hypoxia, cough; treat as a lung emergency too.",
-      "Aplastic crisis: bone marrow shuts down, worsens baseline anemia; pallor, tachycardia, fatigue.",
-      "Hemolytic crisis: RBCs break down faster than normal, hemoglobin drops fast.",
-      "Splenic sequestration: painful, sudden spleen enlargement; hard, bloated abdomen.",
-      "Pulse oximetry can be unreliable in sickle cell crisis."
+      "Sickle cell crisis occurs in patients with sickle cell disease, a family of diseases that includes the hemolytic anemia known as sickle cell anemia.",
+      "The usual presentation is ACUTE PAIN — sharp, intense, stabbing or throbbing — anywhere, but most often in the joints, lower back, legs, arms, abdomen or chest.",
+      "It is not only pain. Patients may present with stroke, priapism, acute chest syndrome (fever, chest pain, hypoxemia, respiratory symptoms), skin ulcerations, or ocular manifestations.",
+      "In young children, add three more: dactylitis (swollen digits), splenic sequestration (enlarged spleen, pallor, hypotension) and aplastic crisis (bone marrow shutdown, noticed as pallor).",
+      "Suspected stroke goes to the Ischemic Stroke Protocol, not this one.",
+      "Consider supplemental oxygen; consider analgesia per the age-appropriate Patient Comfort Protocol; and normal saline 20 mL/kg IV if the patient appears dehydrated.",
+      "Transport to the nearest appropriate facility, and consider a Pediatric Specialty Care Hospital for children.",
+      "RI's own note explains the mechanism: most manifestations are secondary to VASCULAR OCCLUSION and inflammation. Crises can be precipitated by physical and environmental factors — treat any precipitant you can identify."
     ],
     "tags": [
       "high-yield"
@@ -2536,9 +2615,11 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "chapter": 21
+    "chapter": 21,
+    "protocolRef": "2.23"
   },
   {
     "id": "eh-clotting",
@@ -2548,9 +2629,14 @@
     "title": "Clotting gone two ways",
     "domain": "medical",
     "body": [
-      "Hemophilia A (low factor VIII) and B (low factor IX): genetic, same signs, bleeding takes longer to stop.",
-      "Thrombophilia: an increased tendency to clot; recent surgery, immobility, cancer, pregnancy, smoking, long travel all raise risk.",
-      "DIC: clotting factors get consumed treating a triggering illness, then flip to uncontrolled bleeding; high mortality."
+      "TOO MUCH (NHLBI): venous thromboembolism is \"a condition that occurs when a blood clot forms in a vein.\" VTE is the umbrella covering two presentations — deep vein thrombosis, where the clot forms in a deep vein, usually in the leg, and pulmonary embolism, where it reaches the lung.",
+      "TOO LITTLE (NHLBI): thrombocytopenia \"develops when the platelet count in your blood is too low.\" Platelets are what stop bleeding when you are injured, so a low count means trouble stopping it.",
+      "Where that bleeding shows: \"inside your body, underneath your skin, or on the surface of your skin.\" The internal one is the one you will miss.",
+      "NHLBI's own emergency criterion is a field-usable rule: call 911 for \"bleeding that does not stop when you apply pressure.\" And they note a patient \"may not have serious bleeding until your platelet count is very low\" — so a normal-looking patient is not reassurance.",
+      "RI appendix 09.04, the Blood Thinner Chart, splits the drugs by the same two mechanisms. ANTIPLATELETS: aspirin (salicylate), clopidogrel (Plavix), prasugrel (Effient), ticagrelor (Brilinta), dipyridamole (Persantine, Aggrenox).",
+      "ANTICOAGULANTS: warfarin (Coumadin), heparin, enoxaparin (Lovenox), dabigatran (Pradaxa), rivaroxaban (Xarelto), apixaban (Eliquis), fondaparinux (Arixtra).",
+      "The distinction is not academic. Antiplatelets stop platelets clumping; anticoagulants interrupt the clotting cascade. RI protocols ask you to \"attempt to obtain information related to use of antiplatelet or anticoagulants\" because the answer changes what the receiving facility can do.",
+      "VTE closes the loop back to shock and arrest: RI 2.20A lists \"history of DVT, risk factors for pulmonary embolus\" among the obstructive shock findings, and pulmonary embolism is the second T — Thrombosis — in RI 3.03A's reversible causes of cardiac arrest."
     ],
     "tags": [],
     "scope": [
@@ -2558,9 +2644,12 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      "doc": "NHLBI (NIH) — Venous Thromboembolism, and Platelet Disorders: Thrombocytopenia",
+      "url": "https://www.nhlbi.nih.gov/health/venous-thromboembolism"
     },
-    "chapter": 21
+    "chapter": 21,
+    "protocolRef": "09.04",
+    "note": "Built from two NHLBI health topics — Venous Thromboembolism for the clotting side and Platelet Disorders: Thrombocytopenia (https://www.nhlbi.nih.gov/health/thrombocytopenia) for the bleeding side — plus RI appendix 09.04. The NHLBI landing pages are thin; only what they state directly is used here. Hemophilia was not included: NHLBI returns 404 at /health/hemophilia and RI contains no instance of it."
   },
   {
     "id": "eh-anemia",
@@ -2570,9 +2659,13 @@
     "title": "Anemia in the field",
     "domain": "medical",
     "body": [
-      "Low hemoglobin/RBC count cuts the blood's oxygen-carrying capacity.",
-      "Presents as fatigue, weakness, and sometimes angina-type chest pain from reduced O2 delivery to the heart.",
-      "Iron-deficiency anemia is the most common type; causes range from bleeding to autoimmune RBC destruction."
+      "WHAT IT IS (NHLBI): anemia \"develops when your blood produces a lower-than-normal amount of healthy red blood cells,\" so \"your body does not get enough oxygen-rich blood.\" The problem is carrying capacity, not saturation.",
+      "THE FIELD TRAP, and the reason this card exists. RI procedure 7.16 states it outright: \"Patients with anemia have a reduced level of functional Hb, however this limited amount of functional Hb may be well saturated with oxygen, so the patient may have a normal SpO2 in spite of having a reduced oxygen carrying capacity and potential hypoxia.\"",
+      "Read that again as a number problem: SpO2 is a PERCENTAGE of the hemoglobin you have. Halve the hemoglobin and the percentage does not move. A 100% reading on half the carrying capacity is still half the oxygen.",
+      "TYPES (NHLBI): iron-deficiency, vitamin B12-deficiency, hemolytic, and aplastic. Onset can be sudden or gradual, and causes include diet, medicines the patient takes, or another medical condition. It can also be chronic — a patient can live at a hemoglobin that would alarm you.",
+      "RI names anemia among the underlying causes to consider for a tachycardic patient (protocol 3.06A), alongside sepsis and dehydration. A heart rate that will not settle has a reason, and this is one of them.",
+      "The sickle cell connection is RI's own: protocol 2.23 describes sickle cell disease as \"a family of diseases including a hemolytic anemia known as sickle cell anemia.\" Your sickle cell patient IS an anemia patient, with all of the above applying.",
+      "Other things 7.16 says will fool the oximeter, worth holding together: poor perfusion or vasoconstriction in shock, hypothermia, irregular rhythms or tachycardia, nail polish or prosthetic nails, and external light. The device reports confidence it has not earned."
     ],
     "tags": [],
     "scope": [
@@ -2580,21 +2673,29 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      "doc": "NHLBI (NIH) — Anemia: What Is Anemia?",
+      "url": "https://www.nhlbi.nih.gov/health/anemia"
     },
-    "chapter": 21
+    "chapter": 21,
+    "protocolRef": "7.16",
+    "note": "The central pearl is quoted verbatim from RI procedure 7.16 (Pulse Oximetry) rather than paraphrased, because the mechanism is easy to garble and the protocol states it precisely. NHLBI supplies the definition and the type list; the landing page is thin, so nothing beyond what it states is asserted."
   },
   {
     "id": "eh-adrenal-insufficiency",
     "kind": "topic",
     "deck": "endo-heme",
     "deckTitle": "Endocrine & hematologic emergencies",
-    "title": "Adrenal insufficiency: the hidden shock",
+    "title": "Adrenal insufficiency (RI 2.03)",
     "domain": "medical",
     "body": [
-      "Suspect it with a history of Addison's disease, HIV/AIDS, or chronic (even recently stopped) steroid use.",
-      "Hypotension that resists IV fluids or pressors is the classic tell.",
-      "The adrenal glands can't mount a stress-cortisol response; illness, trauma, or burns can tip a borderline patient into crisis."
+      "Who: a history of adrenal insufficiency or Addison's disease, HIV/AIDS, or sepsis.",
+      "The history that is easy to miss: LONG-TERM STEROID USE for asthma, COPD, rheumatoid arthritis or organ transplant, and the use of antifungal agents. Ask the medication list, not just the diagnosis list.",
+      "Presentation: hypotension, nausea, vomiting, dehydration, abdominal pain. It looks like undifferentiated shock, which is why RI 2.20A tells you to think of it.",
+      "Maintain and promote normothermia with blankets and by raising the ambient temperature.",
+      "Check a blood glucose and treat per the age-appropriate Diabetic Emergencies Protocol — these patients go low.",
+      "Manage the hypotension per the age-appropriate General Shock and Hypotension Protocol.",
+      "The definitive drug is a steroid: hydrocortisone 100 mg IV is PREFERRED (2 mg/kg, 100 mg maximum for pediatrics), or methylprednisolone 125 mg IV (2 mg/kg, max 60 mg peds), or dexamethasone 10 mg IV (0.3 mg/kg, max 10 mg peds).",
+      "Note the pediatric maxima run in the opposite order to the adult doses: hydrocortisone caps at 100 mg but methylprednisolone caps at 60 mg."
     ],
     "tags": [
       "high-yield"
@@ -2604,9 +2705,11 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "chapter": 21
+    "chapter": 21,
+    "protocolRef": "2.03"
   },
   {
     "id": "eh-blood-basics",
