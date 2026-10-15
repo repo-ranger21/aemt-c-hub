@@ -599,7 +599,9 @@
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "riPearls": []
+    "riPearls": [
+      "RI 1.01: for possible cardiac etiology and/or SpO2 < 94%, titrate to the lowest concentration that maintains SpO2 94–99%"
+    ]
   },
   {
     "id": "lidocaine",
@@ -1903,13 +1905,17 @@
     "brand": [],
     "class": "Sympathomimetic (alpha/beta agonist)",
     "domain": "cardiology",
-    "mechanism": "Alpha effects constrict vessels; beta effects raise heart rate and contractility and dilate bronchi.",
+    "mechanism": "Acts on both alpha- and beta-adrenergic receptors. Alpha-1 vasoconstriction raises pressure and reverses mucosal edema; beta-1 raises rate and contractility; beta-2 relaxes bronchial smooth muscle and stabilises mast cells.",
     "indications": [
       "Anaphylaxis",
       "Cardiac arrest"
     ],
     "contraindications": [],
-    "pearls": [],
+    "pearls": [
+      "The label lists NO contraindications. In anaphylaxis there is nothing to weigh against it — delay is the danger, not the drug",
+      "1:1,000 is the IM concentration; 1:10,000 is the IV/arrest concentration. RI codes them as separate formulary rows, and mixing them up is the classic drug error",
+      "Nebulised 2.25% racemic epinephrine for croup is a third preparation entirely, carried only at AEMT-C in RI"
+    ],
     "supply": "1 mg/mL IM; 1 mg/10 mL IV",
     "formulary": [
       {
@@ -1958,8 +1964,8 @@
       "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Use of epinephrine (auto-injector) for anaphylaxis (supplied and carried by the EMS agency)\""
     },
     "source": {
-      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
-      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+      "doc": "DailyMed SPL: EPIPEN / EPIPEN Jr (epinephrine) injection",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7560c201-9246-487c-a13b-6295db04274a"
     },
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
@@ -1993,13 +1999,21 @@
     "brand": [],
     "class": "Antiarrhythmic (AV nodal blocker)",
     "domain": "cardiology",
-    "mechanism": "Briefly blocks conduction through the AV node, interrupting re-entry circuits.",
+    "mechanism": "Slows conduction through the AV node and can interrupt re-entry pathways running through it, restoring sinus rhythm in paroxysmal supraventricular tachycardia.",
     "indications": [
       "Regular narrow complex tachycardia (SVT)",
       "Regular monomorphic wide complex tachycardia"
     ],
-    "contraindications": [],
-    "pearls": [],
+    "contraindications": [
+      "Second- or third-degree AV block, except with a functioning artificial pacemaker",
+      "Sinus node disease — sick sinus syndrome or symptomatic bradycardia — except with a functioning artificial pacemaker",
+      "Known hypersensitivity to adenosine"
+    ],
+    "pearls": [
+      "The label says to AVOID it in bronchoconstriction or bronchospasm such as asthma, where it can cause bronchoconstriction through mast cell degranulation. That sits in Warnings rather than Contraindications, but it is the asthma question you ask before pushing",
+      "New rhythm disturbances at the moment of conversion occur in 55% of patients — PACs, PVCs, brief AFib, sinus bradycardia, varying AV block. Transient asystole and, rarely, VF have been reported, including fatal cases",
+      "The half-life is seconds, which is why it goes in as a rapid push followed immediately by a flush, and why the alarming pause self-resolves"
+    ],
     "supply": "6 mg / 2 mL (3 mg/mL)",
     "formulary": [
       {
@@ -2025,8 +2039,8 @@
       "note": "As lidocaine."
     },
     "source": {
-      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
-      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+      "doc": "DailyMed SPL: ADENOSINE injection, solution",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d28ff4f3-baf4-4640-ae00-f0eb065417be"
     },
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
@@ -2057,12 +2071,17 @@
     "brand": [],
     "class": "Anticholinergic (parasympatholytic)",
     "domain": "cardiology",
-    "mechanism": "Blocks vagal (acetylcholine) input to the SA and AV nodes, raising heart rate.",
+    "mechanism": "Competitively blocks acetylcholine at muscarinic receptors — smooth muscle, cardiac muscle, secretory glands, peripheral autonomic ganglia and the CNS. Removing vagal tone from the SA and AV nodes speeds the rate.",
     "indications": [
       "Symptomatic bradycardia"
     ],
     "contraindications": [],
-    "pearls": [],
+    "pearls": [
+      "The federal label lists NO contraindications. The limits on atropine are limits of EFFECT, not of safety, which is a distinction worth holding",
+      "It works at the AV node and above. In infranodal block — Mobitz II, or third-degree block with a wide QRS — the escape focus is below the node and atropine has nothing to act on. Pace rather than waiting on a second dose",
+      "A transplanted heart is denervated, so there is no vagal tone to block and atropine does nothing",
+      "Same molecule as the atropine half of DuoDote, used against a different problem: there, excess acetylcholine from organophosphate poisoning"
+    ],
     "supply": "1 mg / 10 mL (0.1 mg/mL)",
     "formulary": [
       {
@@ -2088,8 +2107,8 @@
       "note": "As lidocaine. Distinct from the DuoDote auto-injector row."
     },
     "source": {
-      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
-      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+      "doc": "DailyMed SPL: ATROPINE SULFATE injection, USP",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4a4fa6e8-0e0a-0e76-e054-00144ff8d46c"
     },
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
@@ -2114,12 +2133,19 @@
     "brand": [],
     "class": "Antiemetic (5-HT3 antagonist)",
     "domain": "medical",
-    "mechanism": "Blocks serotonin receptors in the gut and brainstem vomiting center.",
+    "mechanism": "Selective 5-HT3 receptor antagonist. The label notes the mechanism is not fully characterised and is explicit that it is NOT a dopamine-receptor antagonist.",
     "indications": [
       "Nausea / vomiting"
     ],
-    "contraindications": [],
-    "pearls": [],
+    "contraindications": [
+      "Known hypersensitivity, including anaphylaxis, to ondansetron or any component",
+      "Concomitant apomorphine — profound hypotension and loss of consciousness have been reported"
+    ],
+    "pearls": [
+      "Apomorphine is a true contraindication on the label, not an interaction caution — profound hypotension and loss of consciousness",
+      "Not a dopamine antagonist, so it does not carry the extrapyramidal side effects of the older antiemetics",
+      "Dose-dependent QT prolongation is the reason the 32 mg single IV dose was withdrawn; keep it in mind in a patient already prolonged"
+    ],
     "supply": "4 mg / 2 mL (2 mg/mL)",
     "formulary": [
       {
@@ -2146,8 +2172,8 @@
       "note": "No antiemetic row in the Model’s §V; paramedic-level by convention."
     },
     "source": {
-      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
-      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+      "doc": "DailyMed SPL: ONDANSETRON HYDROCHLORIDE injection",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=438c3d28-8bed-50f0-e063-6394a90a18e4"
     },
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
@@ -2172,12 +2198,20 @@
     "brand": [],
     "class": "Antihistamine (H1 blocker)",
     "domain": "medical",
-    "mechanism": "Blocks histamine H1 receptors, easing itch, hives, and flushing.",
+    "mechanism": "Antihistamine that competes with histamine for receptor sites on effector cells, with anticholinergic (drying) and sedative effects of its own.",
     "indications": [
       "Allergic reaction / anaphylaxis (adjunct)"
     ],
-    "contraindications": [],
-    "pearls": [],
+    "contraindications": [
+      "Neonates and premature infants",
+      "Nursing mothers",
+      "Use as a local anesthetic"
+    ],
+    "pearls": [
+      "It competes with histamine rather than displacing it — which is why it cannot undo the histamine already bound, and why it is an adjunct to epinephrine in anaphylaxis, never a substitute",
+      "The neonate and premature-infant contraindication is absolute on the label, and extends to nursing mothers",
+      "The anticholinergic load is the side-effect profile: dry mouth, urinary retention, sedation, and delirium in the elderly"
+    ],
     "supply": "50 mg/mL",
     "formulary": [
       {
@@ -2215,8 +2249,8 @@
       "note": "Anaphylaxis is an AEMT condition (Standards p. 41) but §V authorises only the epinephrine auto-injector."
     },
     "source": {
-      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
-      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+      "doc": "DailyMed SPL: DIPHENHYDRAMINE HYDROCHLORIDE injection",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5bbbd6e5-4d0a-4380-bbd3-3313ff26cda0"
     },
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
@@ -2236,12 +2270,18 @@
     "brand": [],
     "class": "Vitamin",
     "domain": "medical",
-    "mechanism": "Cofactor for glucose metabolism; prevents Wernicke encephalopathy when glucose is given.",
+    "mechanism": "Water-soluble vitamin B1. The body cannot store it long, and without it the enzymes of aerobic glucose metabolism stall — which is why a thiamine-deficient patient given glucose can decompensate.",
     "indications": [
       "Hypoglycemia in patients with alcohol use or malnutrition"
     ],
-    "contraindications": [],
-    "pearls": [],
+    "contraindications": [
+      "History of sensitivity to thiamine or any ingredient"
+    ],
+    "pearls": [
+      "The partner drug to dextrose: the 50% dextrose label contraindicates use in alcohol withdrawal precisely because glucose without thiamine can precipitate Wernicke encephalopathy",
+      "Labelled for thiamine deficiency and beriberi, dry (nervous system) or wet (cardiovascular)",
+      "Sensitivity is the only contraindication on the label; the WARNINGS section is where the rare anaphylactoid reaction to IV administration sits"
+    ],
     "supply": "100 mg/mL",
     "formulary": [
       {
@@ -2268,8 +2308,8 @@
       "note": "Alcohol withdrawal is an AEMT condition (Standards p. 44); the drug appears in no national source."
     },
     "source": {
-      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
-      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+      "doc": "DailyMed SPL: THIAMINE HYDROCHLORIDE injection, solution",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=06446e9a-0e85-0623-e063-6294a90ac403"
     },
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
@@ -2294,13 +2334,23 @@
     "brand": [],
     "class": "Electrolyte",
     "domain": "cardiology",
-    "mechanism": "Replaces calcium; stabilizes cardiac cell membranes.",
+    "mechanism": "Supplies ionic calcium, essential to the functional integrity of nerve and muscle and to myocardial contractility. In hyperkalemia it does not lower potassium — it raises the threshold potential back away from the resting potential, stabilising the membrane.",
     "indications": [
-      "Hypocalcemia (e.g., hydrofluoric acid burns)",
-      "Per 3.06A notes, may precede diltiazem depending on BP"
+      "Hypocalcemia, including hydrofluoric acid burns",
+      "Hyperkalemia — to stabilise the myocardium",
+      "Calcium channel blocker or beta blocker toxicity"
     ],
-    "contraindications": [],
-    "pearls": [],
+    "contraindications": [
+      "Cardiac resuscitation in the presence of ventricular fibrillation",
+      "Patients at risk of existing digitalis toxicity",
+      "Not recommended in asystole or electromechanical dissociation"
+    ],
+    "pearls": [
+      "The VF contraindication is specific and easy to miss: contraindicated for cardiac resuscitation while VF is present",
+      "Digitalis toxicity is the other hard stop — calcium worsens digoxin-induced arrhythmia",
+      "Sclerosing. Extravasation causes tissue necrosis and sloughing, so confirm the line and flush between this and sodium bicarbonate, which it precipitates with",
+      "Interchangeable with calcium gluconate per RI appendix 09.01; the gluconate is gentler on a peripheral vein"
+    ],
     "supply": "1 g / 10 mL (100 mg/mL)",
     "formulary": [
       {
@@ -2325,8 +2375,8 @@
       "citation": null
     },
     "source": {
-      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
-      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
+      "doc": "DailyMed SPL: CALCIUM CHLORIDE injection, 10%",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3089499b-142d-482e-889d-1db4da7b1152"
     },
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
@@ -2351,12 +2401,28 @@
     "brand": [],
     "class": "Inhaled analgesic",
     "domain": "medical",
-    "mechanism": "Self-administered 50% nitrous oxide / 50% oxygen blend for short-acting analgesia.",
+    "mechanism": "RI 7.41 states the exact mechanism is unknown. Its effects occur in the pain centres of the brain and spinal cord, thought to involve release of endogenous opioid peptides and serotonin activating descending inhibitory pathways, plus a GABA effect producing drowsiness. Onset 30–60 seconds, peak at 2–5 minutes.",
     "indications": [
       "Moderate to severe pain"
     ],
-    "contraindications": [],
-    "pearls": [],
+    "contraindications": [
+      "Altered mental status",
+      "Acute intoxication or drug use",
+      "Pregnancy, except during delivery",
+      "Blunt or penetrating chest trauma, or pneumothorax",
+      "Craniofacial injury, traumatic brain injury, or raised intracranial pressure",
+      "Undifferentiated abdominal pain",
+      "Diving emergencies — decompression illness",
+      "Respiratory distress",
+      "Maxillofacial abnormality, facial trauma or burns",
+      "Status post retinal surgery"
+    ],
+    "pearls": [
+      "N2O diffuses out of blood INTO closed gas spaces — bowel, middle ear, pneumothorax — and expands them. That single property explains most of the contraindication list",
+      "Self-administered by the patient, so the patient must be able to understand and follow directions. The patient holds the mask, not the clinician — if they get too sedated the mask falls away, which is the built-in safety",
+      "Delivered as a 50/50 blend with oxygen in EMS, so it is never a hypoxic mixture",
+      "Among the few medications the national Scope of Practice Model names outright, at AEMT and Paramedic"
+    ],
     "supply": null,
     "formulary": [
       {
@@ -2384,7 +2450,7 @@
       "note": "The only drug the Model names by name."
     },
     "source": {
-      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+      "doc": "RI Statewide EMS Protocols v2026.02, procedure 7.41 Nitrous Oxide (N2O) Administration; national scope per NHTSA Scope of Practice Model 2019 §V, p. 36, \"Inhaled – monitor patient administered (i.e., nitrous oxide)\"",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
     "protocolSource": {
