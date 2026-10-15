@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { BackHandler, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Platform, Pressable, StyleSheet, Text, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import Today from './src/screens/Today';
@@ -10,6 +10,9 @@ import Drill from './src/screens/Drill';
 import { loadReviews, saveReviews, type ReviewMap } from './src/lib/review';
 import type { DrugCard } from './src/types';
 import { color, space } from './src/theme';
+
+// Platform-safe BackHandler wrapper for Web vs Android/iOS
+const BackHandler = Platform.OS !== 'web' ? require('react-native').BackHandler : null;
 
 type Tab = 'today' | 'drugs' | 'topics' | 'drill';
 const TABS: { id: Tab; label: string }[] = [
@@ -26,8 +29,9 @@ export default function App() {
 
   useEffect(() => { loadReviews().then(setReviews); }, []);
 
-  // Android back closes a drug card before leaving the app.
+  // Android back closes a drug card before leaving the app (guarded for web).
   useEffect(() => {
+    if (Platform.OS === 'web' || !BackHandler) return;
     const sub = BackHandler.addEventListener('hardwareBackPress', () => {
       if (drug) { setDrug(null); return true; }
       return false;
