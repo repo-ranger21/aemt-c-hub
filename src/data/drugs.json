@@ -608,13 +608,22 @@
     "brand": [],
     "class": "Class IB antiarrhythmic (sodium channel blocker)",
     "domain": "cardiology",
-    "mechanism": "Blocks fast sodium channels in Phase 0, suppressing automaticity in diseased tissue.",
+    "mechanism": "Class IB antiarrhythmic. In Purkinje fibers it attenuates phase 4 diastolic depolarization and decreases automaticity, shortening action potential duration and the effective refractory period. It suppresses the irritable tissue without much effect on healthy myocardium.",
     "indications": [
-      "Pulseless VF / VT",
-      "Local anesthetic for IO infusion pain"
+      "Acute management of ventricular arrhythmias, such as those occurring with acute myocardial infarction or during cardiac manipulation",
+      "Prehospital protocol use (separate from cardiac SPL): Intraosseous (IO) analgesia prior to fluid infusion in conscious patients"
     ],
-    "contraindications": [],
-    "pearls": [],
+    "contraindications": [
+      "Known hypersensitivity to amide-type local anesthetics",
+      "Wolff-Parkinson-White syndrome",
+      "Stokes-Adams syndrome",
+      "Severe sinoatrial, atrioventricular or intraventricular block without an artificial pacemaker"
+    ],
+    "pearls": [
+      "The WPW contraindication is on the federal label and was missing from this card entirely",
+      "Amide-type cross-sensitivity is the allergy question to ask — lidocaine, bupivacaine, ropivacaine all share it; the ester anesthetics do not",
+      "The IO-infusion-pain use is a different product label; this card is the cardiac arrhythmia label only"
+    ],
     "supply": "100 mg / 5 mL (20 mg/mL)",
     "scope": [
       "ri-aemt-c"
@@ -627,8 +636,8 @@
       "note": "\"Cardiac rhythms (C,C)\" appears only in the Paramedic column (Standards p. 39)."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: LIDOCAINE HYDROCHLORIDE injection, solution (Hospira) — cardiac arrhythmia label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ad1ef0a8-88db-4648-c098-d009eaeb4e5b"
     },
     "formulary": [
       {
@@ -678,13 +687,19 @@
     "brand": [],
     "class": "Class IA antiarrhythmic (sodium channel blocker)",
     "domain": "cardiology",
-    "mechanism": "Prolongs repolarization and the relative refractory period.",
+    "mechanism": "Class IA antiarrhythmic. Lengthens the effective refractory period of the atria and, less so, the His-Purkinje system and ventricles, and slows conduction velocity. Its effect on the AV node is mixed — a direct slowing action set against a weaker vagolytic effect that can speed AV conduction.",
     "indications": [
-      "Stable VT",
-      "Rapid atrial fibrillation"
+      "Documented, life-threatening ventricular arrhythmias such as sustained ventricular tachycardia"
     ],
-    "contraindications": [],
-    "pearls": [],
+    "contraindications": [
+      "Complete heart block — suppresses nodal and ventricular pacemakers, with a hazard of asystole",
+      "Known hypersensitivity to procainamide or procaine"
+    ],
+    "pearls": [
+      "Boxed Warning. The label restricts it to arrhythmias that are life-threatening in the physician’s judgement, explicitly because of proarrhythmic effects — the CAST trial showed excess mortality treating non-life-threatening ventricular arrhythmias",
+      "Complete heart block is hard to see behind a wide-complex tachycardia. If the rate slows during treatment with no AV conduction appearing, stop the drug",
+      "Long-term use is associated with a lupus-like syndrome and agranulocytosis — not a field concern, but it is why this drug fell out of favour"
+    ],
     "supply": null,
     "scope": [
       "reference"
@@ -696,8 +711,8 @@
       "citation": null
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: PROCAINAMIDE HYDROCHLORIDE injection",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1ec3b767-66bb-4634-877e-71f70d501da0"
     },
     "formulary": [
       {
@@ -727,15 +742,24 @@
     "brand": [],
     "class": "Class II antiarrhythmic (beta-1 blocker)",
     "domain": "cardiology",
-    "mechanism": "Blocks beta-1 receptors, slowing heart rate and AV node conduction.",
+    "mechanism": "Beta-1 selective (cardioselective) adrenergic blocker, slowing rate and AV conduction. The label is explicit that the selectivity is not absolute — at higher plasma concentrations it also blocks beta-2 receptors in bronchial and vascular smooth muscle. No intrinsic sympathomimetic activity.",
     "indications": [
-      "Rate control in AFib, flutter, SVT"
+      "Definite or suspected acute myocardial infarction in hemodynamically stable patients, to reduce cardiovascular mortality",
+      "Prehospital / RI Paramedic protocol use (off-label on IV SPL): Rate control in atrial fibrillation or atrial flutter with rapid ventricular response"
     ],
     "contraindications": [
-      "Bradycardia",
-      "Cardiogenic shock"
+      "Heart rate < 45 beats/min",
+      "Second- or third-degree heart block without a functioning pacemaker",
+      "Significant first-degree heart block — PR interval ≥ 0.24 sec",
+      "Systolic blood pressure < 100 mmHg",
+      "Decompensated cardiac failure",
+      "Hypersensitivity to metoprolol or to another beta blocker — cross-sensitivity occurs"
     ],
-    "pearls": [],
+    "pearls": [
+      "The thresholds are numeric and testable: HR < 45, SBP < 100, PR ≥ 0.24 sec. The PR cutoff was missing from this card",
+      "Cardioselective is relative, not absolute — enough drug reaches beta-2 to matter in a patient with reactive airways",
+      "Rate control in AFib or SVT is a common off-label use; this IV label covers acute MI only"
+    ],
     "supply": null,
     "scope": [
       "reference"
@@ -747,8 +771,8 @@
       "citation": null
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: METOPROLOL TARTRATE injection",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=05946833-9d66-4832-a0d8-b91b1ff01b8b"
     },
     "formulary": [
       {
@@ -778,12 +802,21 @@
     "brand": [],
     "class": "Class III antiarrhythmic (potassium channel blocker)",
     "domain": "cardiology",
-    "mechanism": "Blocks potassium channels in Phase 3, prolonging the action potential. Also has Class I, II, and IV effects.",
+    "mechanism": "Nominally a class III antiarrhythmic, but it carries electrophysiologic characteristics of all four Vaughan Williams classes — sodium channel block at rapid pacing frequencies, noncompetitive antisympathetic action, and prolongation of the cardiac action potential.",
     "indications": [
-      "VF / VT, pulseless or stable"
+      "Initiation and prophylaxis of frequently recurring ventricular fibrillation and hemodynamically unstable ventricular tachycardia, in patients refractory to other therapy"
     ],
-    "contraindications": [],
-    "pearls": [],
+    "contraindications": [
+      "Known hypersensitivity to any component, including iodine",
+      "Cardiogenic shock",
+      "Marked sinus bradycardia",
+      "Second- or third-degree AV block without a functioning pacemaker"
+    ],
+    "pearls": [
+      "The iodine hypersensitivity is easy to miss and sits in the label’s contraindications — worth asking about shellfish and contrast reactions",
+      "All four Vaughan Williams classes in one molecule, which is why the side-effect profile reaches so far beyond rhythm",
+      "The label reserves it for arrhythmias refractory to other therapy, not as a first move"
+    ],
     "supply": "150 mg / 3 mL (50 mg/mL)",
     "scope": [
       "ri-aemt-c"
@@ -796,8 +829,8 @@
       "note": "As lidocaine."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: NEXTERONE (amiodarone hydrochloride) injection, solution",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e9108958-b8d7-4fba-87c3-9a32990de551"
     },
     "formulary": [
       {
@@ -847,12 +880,24 @@
     "brand": [],
     "class": "Class IV antiarrhythmic (calcium channel blocker)",
     "domain": "cardiology",
-    "mechanism": "Blocks L-type calcium channels, slowing AV node conduction.",
+    "mechanism": "Non-dihydropyridine calcium channel blocker. Inhibits calcium influx during depolarization in cardiac and vascular smooth muscle, slowing AV nodal conduction time and prolonging AV nodal refractoriness. Use-dependent — it works harder the faster the node is firing.",
     "indications": [
-      "AFib / flutter with rapid ventricular response"
+      "Temporary control of rapid ventricular rate in atrial fibrillation or atrial flutter",
+      "Rapid conversion of paroxysmal supraventricular tachycardia to sinus rhythm"
     ],
-    "contraindications": [],
-    "pearls": [],
+    "contraindications": [
+      "Atrial fibrillation or flutter with an accessory bypass tract, such as WPW syndrome",
+      "Ventricular tachycardia",
+      "Sick sinus syndrome, or second- or third-degree AV block without a functioning ventricular pacemaker",
+      "Severe hypotension or cardiogenic shock",
+      "Concomitant administration with IV beta-blockers",
+      "Demonstrated hypersensitivity to the drug"
+    ],
+    "pearls": [
+      "The two that kill: AFib with an accessory pathway, and any wide-complex tachycardia that might be VT. Blocking the AV node in pre-excited AFib pushes conduction down the bypass tract and can degenerate into VF",
+      "Both of those were absent from this card, which previously listed no contraindications at all",
+      "IV beta-blockers are a listed contraindication, not merely a caution — two AV nodal blockers together is the mechanism of the harm"
+    ],
     "supply": "25 mg / 5 mL (5 mg/mL)",
     "scope": [
       "ri-aemt-c"
@@ -865,8 +910,8 @@
       "note": "As lidocaine."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: DILTIAZEM HYDROCHLORIDE in sodium chloride injection",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8bae87a5-2137-467e-a1ad-79b2bc075e07"
     },
     "formulary": [
       {
@@ -916,19 +961,23 @@
     "brand": [],
     "class": "Vasodilator (organic nitrate)",
     "domain": "cardiology",
-    "mechanism": "Converts to nitric oxide, dilating veins and arteries. Lowers preload and afterload, so the heart needs less oxygen.",
+    "mechanism": "Forms free radical nitric oxide, which activates guanylate cyclase and raises cyclic GMP in smooth muscle. Myosin light chains dephosphorylate and the vessel relaxes — venous capacitance first, dropping preload, so the ventricle has less to pump against and needs less oxygen.",
     "indications": [
-      "Cardiac chest pain",
-      "Acute pulmonary edema from heart failure"
+      "Acute relief of an attack of angina pectoris due to coronary artery disease",
+      "Acute prophylaxis of angina pectoris"
     ],
     "contraindications": [
-      "Hypotension (see standards)",
-      "Hypovolemia",
-      "Head injury",
-      "Right ventricular infarction",
-      "Recent PDE-5 inhibitor (sildenafil, vardenafil, tadalafil)"
+      "PDE-5 inhibitors — avanafil, sildenafil, tadalafil, vardenafil. Severe hypotension, syncope or myocardial ischemia can follow",
+      "Soluble guanylate cyclase stimulators such as riociguat",
+      "Severe anemia — large doses can oxidize hemoglobin to methemoglobin",
+      "Hypotension or hypovolemia",
+      "Right ventricular infarction, where the ventricle is preload-dependent"
     ],
-    "pearls": [],
+    "pearls": [
+      "The card listed three PDE-5 drugs; the label names four and adds riociguat, a pulmonary hypertension drug that is easy to miss on a med list",
+      "Severe anemia is a label contraindication via methemoglobin, and was absent here",
+      "This is the sublingual label — the formulation RI carries at EMT (patient’s own supply), AEMT and AEMT-C. Infusion and transdermal are different labels and different scope"
+    ],
     "supply": null,
     "scope": [
       "nremt-aemt",
@@ -943,8 +992,8 @@
       "note": "A separate row limits EMT to the patient’s own prescribed supply, which is why RI codes EMT as P."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: NITROSTAT (nitroglycerin) sublingual tablet",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5265648f-3062-48a2-a4e3-fea1207807a8"
     },
     "formulary": [
       {
@@ -1003,17 +1052,19 @@
     ],
     "class": "Loop diuretic",
     "domain": "cardiology",
-    "mechanism": "Blocks sodium, chloride, and potassium reabsorption in the loop of Henle, causing rapid diuresis.",
+    "mechanism": "Loop diuretic. Inhibits reabsorption of sodium and chloride in the proximal and distal tubules and the loop of Henle, producing rapid diuresis. The venodilatory effect arrives before the diuresis does.",
     "indications": [
-      "Acute pulmonary edema"
+      "Edema associated with congestive heart failure, where oral therapy is not feasible or the situation is an emergency"
     ],
     "contraindications": [
-      "Hypovolemia",
       "Anuria",
-      "Hypotension",
-      "Hypokalemia"
+      "History of hypersensitivity to furosemide"
     ],
-    "pearls": [],
+    "pearls": [
+      "The label’s contraindications are only anuria and hypersensitivity. Hypovolemia, hypotension and hypokalemia are cautions that were sitting in the contraindications field",
+      "Parenteral therapy is reserved for patients who cannot take oral or who are in an emergency — the label says so directly",
+      "Cirrhotic and chronic renal edema are on the label but are not prehospital presentations, so they are left off this card"
+    ],
     "supply": null,
     "scope": [
       "ri-aemt-c"
@@ -1026,8 +1077,8 @@
       "note": "Pulmonary edema is an AEMT condition (Standards p. 44); the drug is not nationally authorised."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: FUROSEMIDE injection",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d5b9f12e-d1e9-42de-90f2-c9ba33a86457"
     },
     "formulary": [
       {
