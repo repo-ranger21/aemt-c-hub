@@ -1309,14 +1309,20 @@
     "brand": [],
     "class": "Adsorbent",
     "domain": "medical",
-    "mechanism": "Carbon matrix that binds toxins in the GI tract.",
+    "mechanism": "A porous carbon matrix that adsorbs poison in the stomach, reducing absorption. It also works long after ingestion by interrupting enterohepatic and enterovascular recirculation of the poison (NLM PubChem, CID 5462310).",
     "indications": [
-      "Select oral ingestions"
+      "Emergency use to adsorb swallowed poisons"
     ],
-    "contraindications": [],
+    "contraindications": [
+      "Persons who are not fully conscious",
+      "After ingestion of corrosives — alkalies such as lye, or strong acids — unless directed by a health professional",
+      "After ingestion of petroleum distillates such as kerosene, gasoline, paint thinner, cleaning fluid or furniture polish, or turpentine, unless directed by a health professional"
+    ],
     "pearls": [
-      "Does NOT bind cyanide, lithium, iron, lead, or alcohols",
-      "Peds 1 g/kg"
+      "The label’s own wording is \"do not use in persons who are not fully conscious\" — the risk is aspiration of a charcoal slurry into an unprotected airway",
+      "It does not adsorb everything. General toxicology, not from this label: pesticides and petroleum, heavy metals including iron and lithium, acids and alkalis, alcohols, and solvents including cyanide pass straight through",
+      "The label also says not to give it until after the patient has vomited, unless a health professional directs otherwise",
+      "Carried at no RI level and absent from the RI protocols entirely — this card is for recognition, not for use"
     ],
     "supply": "50 g / 240 mL",
     "scope": [
@@ -1330,8 +1336,8 @@
       "note": "Absent from §V; largely withdrawn from practice."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: ACTIDOSE AQUA (activated charcoal) suspension — OTC Drug Facts label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c85dc235-3f42-4361-9bd2-1aaff798ad75"
     },
     "formulary": [],
     "protocolSource": {
@@ -1547,12 +1553,21 @@
     "brand": [],
     "class": "Carbohydrate",
     "domain": "medical",
-    "mechanism": "Supplies glucose for ATP production.",
+    "mechanism": "Restores blood glucose and supplies carbohydrate calories, giving the cell substrate for ATP production.",
     "indications": [
-      "Hypoglycemia"
+      "Insulin-induced hypoglycemia, including hyperinsulinemia and insulin shock"
     ],
-    "contraindications": [],
-    "pearls": [],
+    "contraindications": [
+      "Intracranial or intraspinal hemorrhage — concentrated dextrose can worsen cerebral edema by shifting fluid across the blood-brain barrier",
+      "Severe dehydration — risk of worsening a hyperosmolar state",
+      "Alcohol withdrawal — can precipitate Wernicke encephalopathy or cardiomyopathy in a thiamine-deficient patient",
+      "Known hypersensitivity to dextrose"
+    ],
+    "pearls": [
+      "The Wernicke contraindication is why thiamine goes first in a patient with alcohol use or malnutrition — it is on the federal label, not just protocol folklore",
+      "Concentrated dextrose is sclerosing: extravasation causes tissue damage, so confirm the line before pushing",
+      "This is the 50% label. RI carries D10 at AEMT and AEMT-C and D5 at Paramedic only — the contraindications are properties of concentrated dextrose and carry across"
+    ],
     "supply": "D10: 25 g / 250 mL (0.1 g/mL)",
     "scope": [
       "nremt-aemt",
@@ -1567,8 +1582,8 @@
       "note": "IV route approved at AEMT in the Model’s §V \"Intravenous\" row."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: DEXTROSE (dextrose monohydrate) injection, solution — 50% label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8cf6943f-16e8-4521-863c-09bb0b55e2a9"
     },
     "formulary": [
       {
@@ -1620,14 +1635,19 @@
     "brand": [],
     "class": "Pancreatic hormone",
     "domain": "medical",
-    "mechanism": "Triggers the liver to break down glycogen into glucose.",
+    "mechanism": "Raises blood glucose by acting on liver glycogen, converting it to glucose. The label is specific that it acts ONLY on liver glycogen. Parenterally it also relaxes smooth muscle of the stomach, duodenum, small bowel and colon.",
     "indications": [
-      "Hypoglycemia without IV access",
-      "Beta-blocker or calcium channel blocker overdose"
+      "Severe hypoglycemia in patients with diabetes mellitus",
+      "Prehospital / RI protocol use (off-label on the hypoglycemia SPL): Beta-blocker or calcium channel blocker toxicity and beta-blocked refractory anaphylaxis"
     ],
-    "contraindications": [],
+    "contraindications": [
+      "Known hypersensitivity to glucagon",
+      "Known pheochromocytoma — glucagon can provoke catecholamine release"
+    ],
     "pearls": [
-      "Works in beta-blocker OD because it bypasses beta receptors"
+      "It only works if there is liver glycogen to mobilize. In starvation, adrenal insufficiency or chronic hypoglycemia the stores are already empty and glucagon will not raise the sugar",
+      "Caution with insulinoma: the label warns an initial glucose rise can make the tumour release insulin, dropping the patient into rebound hypoglycemia",
+      "Type 1 patients get less of a glucose rise than stable type 2 patients — the label says so, and supplementary carbohydrate matters once they can swallow"
     ],
     "supply": "1 mg/mL",
     "scope": [
@@ -1642,8 +1662,8 @@
       "citation": "NHTSA EMS Education Standards 2021 (amended 24 Feb 2025), Medicine / Endocrine Disorders, p. 40, AEMT column: \"Diabetic emergencies (C,F)\""
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: GLUCAGON kit (glucagon for injection)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=789ab694-3ad8-a122-e053-2991aa0a9ab3"
     },
     "formulary": [
       {
@@ -1675,15 +1695,22 @@
     "brand": [],
     "class": "Alkalizing agent",
     "domain": "medical",
-    "mechanism": "Buffers excess hydrogen ions to reverse metabolic acidosis.",
+    "mechanism": "Dissociates to sodium and bicarbonate. The bicarbonate buffers excess hydrogen ion, raises plasma bicarbonate and blood pH, and reverses the clinical manifestations of acidosis.",
     "indications": [
+      "Metabolic acidosis — including cardiac arrest, circulatory insufficiency from shock or severe dehydration, severe renal disease, uncontrolled diabetes and severe primary lactic acidosis",
       "Hyperkalemia",
-      "Acidosis in arrest",
-      "TCA overdose"
+      "Alkalinization in drug toxicity — tricyclic antidepressant and sodium-channel-blocker overdose"
     ],
-    "contraindications": [],
+    "contraindications": [
+      "Patients losing chloride through vomiting or continuous gastrointestinal suction",
+      "Patients on diuretics known to produce a hypochloremic alkalosis",
+      "Alkalosis",
+      "Hypocalcemia, where alkalosis can precipitate tetany"
+    ],
     "pearls": [
-      "8.4% = 1 mEq/mL"
+      "Sodium load matters: the label warns to use it with great care, if at all, in congestive heart failure, severe renal insufficiency, or edema with sodium retention",
+      "Raising pH drives potassium back into cells — the reason it works in hyperkalemia, and the reason it can unmask hypocalcemic tetany",
+      "Incompatible with calcium chloride: flush the line between them or they precipitate"
     ],
     "supply": "50 mEq / 50 mL",
     "scope": [
@@ -1696,8 +1723,8 @@
       "citation": null
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: SODIUM BICARBONATE injection, USP",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a26d709b-b294-4b02-9a88-7e840f099a33"
     },
     "formulary": [
       {
@@ -1718,8 +1745,7 @@
     },
     "riPearls": [
       "Incompatible with calcium chloride: flush between",
-      "RI 2.25: 50 mEq IV if agitated-delirium patient arrests",
-      "Incompatible with calcium chloride: flush between"
+      "RI 2.25: 50 mEq IV if agitated-delirium patient arrests"
     ],
     "riAuthority": {
       "A": null,
