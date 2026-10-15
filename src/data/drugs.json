@@ -9,19 +9,20 @@
     ],
     "class": "Analgesic / antipyretic (non-NSAID)",
     "domain": "medical",
-    "mechanism": "Blocks prostaglandin E2 production in the CNS (COX-3). No anti-inflammatory or antiplatelet effect.",
+    "mechanism": "Analgesic and antipyretic acting centrally. The FDA label states the precise mechanism is not established, only that it is thought to be primarily central — it is not an anti-inflammatory and does not affect platelets.",
     "indications": [
       "Mild to moderate pain",
-      "Fever",
-      "Pediatric febrile seizures (PR)"
+      "Moderate to severe pain, alongside an opioid",
+      "Fever"
     ],
     "contraindications": [
-      "Hypersensitivity",
-      "Liver failure",
-      "Environmental hyperthermia"
+      "Known hypersensitivity to acetaminophen",
+      "Severe hepatic impairment or severe active liver disease"
     ],
     "pearls": [
-      "Overdose is hepatotoxic"
+      "No effect on platelet aggregation or small-vessel hemostasis — the label is explicit, which is why it is the analgesic of choice when bleeding is a concern",
+      "Overdose is hepatotoxic; the ceiling matters more than the single dose",
+      "Antipyretics lower a fever driven by the hypothalamus. They do not treat environmental hyperthermia — cool the patient"
     ],
     "supply": null,
     "scope": [
@@ -36,8 +37,8 @@
       "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Oral over-the-counter (OTC) analgesics for pain or fever\""
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: OFIRMEV (acetaminophen) injection, solution",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9a38f63a-8852-6dab-e053-2a95a90a90d6"
     },
     "formulary": [
       {
@@ -105,20 +106,20 @@
     ],
     "class": "NSAID",
     "domain": "medical",
-    "mechanism": "Inhibits COX, stopping prostaglandins that drive pain, inflammation, and fever.",
+    "mechanism": "NSAID with analgesic and antipyretic activity. The label describes the mode of action as not completely understood, but probably prostaglandin synthetase (COX) inhibition.",
     "indications": [
       "Mild to moderate pain",
       "Fever"
     ],
     "contraindications": [
-      "NSAID or aspirin allergy",
-      "Peptic ulcer / GI bleed",
-      "Pregnancy",
-      "Major trauma with bleeding risk",
-      "Anticipated surgery"
+      "Known hypersensitivity to ibuprofen",
+      "Asthma, urticaria or allergic-type reaction after aspirin or another NSAID",
+      "In the setting of coronary artery bypass graft (CABG) surgery"
     ],
     "pearls": [
-      "Avoid in chronic kidney disease: prostaglandins keep the kidney's inflow arterioles open"
+      "The aspirin/NSAID cross-reaction is a contraindication in its own right, not a caution — severe and rarely fatal anaphylactoid reactions are reported",
+      "Prostaglandins hold the kidney’s afferent arterioles open; blocking them drops perfusion in chronic kidney disease and hypovolemia",
+      "RI layers further restrictions on top of the label — see the protocol detail below"
     ],
     "supply": null,
     "scope": [
@@ -133,8 +134,8 @@
       "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Oral over-the-counter (OTC) analgesics for pain or fever\""
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: IBUPROFEN tablet, film coated",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a7756b22-73cf-4262-aa8e-0577ddecd03b"
     },
     "formulary": [
       {
@@ -239,18 +240,23 @@
     ],
     "class": "Platelet inhibitor",
     "domain": "cardiology",
-    "mechanism": "Irreversibly blocks COX, so platelets can't make thromboxane A2 and stop clumping into a coronary clot.",
+    "mechanism": "The acetyl group binds a serine residue on COX-1, irreversibly inactivating the enzyme. Arachidonic acid can no longer become thromboxane A2, so the platelet cannot aggregate — for its whole 7–10 day lifespan.",
     "indications": [
-      "Chest pain suggestive of ACS / AMI"
+      "Chest pain suggestive of acute coronary syndrome",
+      "Reducing risk of death and MI in chronic coronary artery disease",
+      "Reducing risk of death and recurrent stroke after ischemic stroke or TIA"
     ],
     "contraindications": [
-      "Hypersensitivity",
-      "Active ulcer disease",
-      "Aspirin-sensitive asthma",
-      "Pediatrics (Reye's syndrome)",
-      "Active bleeding, suspected ICH, or possible surgery (RI 2.07)"
+      "Hypersensitivity to NSAIDs",
+      "The syndrome of asthma, rhinitis and nasal polyps — may cause severe urticaria, angioedema or bronchospasm",
+      "Active ulcer disease or active bleeding",
+      "Pediatric patients (Reye’s syndrome)"
     ],
-    "pearls": [],
+    "pearls": [
+      "Irreversible is the point: the platelet has no nucleus and cannot make new COX-1, so effect lasts the platelet’s lifespan, not the drug’s half-life",
+      "The extended-release label carries a Limitation of Use — use immediate-release aspirin where rapid onset is needed, such as acute MI. Chewed, not swallowed whole",
+      "Aspirin-sensitive asthma travels with nasal polyps and rhinitis; ask about all three"
+    ],
     "supply": null,
     "scope": [
       "nremt-aemt",
@@ -264,8 +270,8 @@
       "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Oral aspirin for chest pain of suspected ischemic origin\""
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: DURLAZA (acetylsalicylic acid) capsule, extended release",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37"
     },
     "formulary": [
       {
@@ -316,17 +322,18 @@
     ],
     "class": "Opioid analgesic",
     "domain": "medical",
-    "mechanism": "Synthetic opioid that binds mu receptors in the CNS.",
+    "mechanism": "Opioid agonist. The label puts it plainly: its principal actions of therapeutic value are analgesia and sedation.",
     "indications": [
-      "Moderate to severe pain"
+      "Moderate to severe pain",
+      "Short-duration analgesia around anesthesia, and as an opioid analgesic supplement"
     ],
     "contraindications": [
-      "Hypersensitivity",
-      "Extreme caution in TBI"
+      "Hypersensitivity to fentanyl, including anaphylaxis"
     ],
     "pearls": [
-      "Little histamine release: less hypotension and bronchospasm than morphine",
-      "Rapid IV push can cause chest wall rigidity or apnea"
+      "Hypersensitivity is the only contraindication the federal label lists — everything else in practice is a caution, dosed down rather than withheld",
+      "Little histamine release compared with morphine: less hypotension and less bronchospasm",
+      "Rapid IV push can cause chest wall rigidity and apnea — give it slowly"
     ],
     "supply": "100 mcg / 2 mL (50 mcg/mL)",
     "scope": [
@@ -341,8 +348,8 @@
       "note": "The row authorises the category; which agent is medical-director approved. RI carries it only at AEMT-C."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: FENTANYL CITRATE injection, solution",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bfa8018a-4cbc-434b-e09e-782872b0340a"
     },
     "formulary": [
       {
@@ -1716,12 +1723,19 @@
     ],
     "class": "Alpha agonist decongestant",
     "domain": "medical",
-    "mechanism": "Stimulates alpha receptors for local vasoconstriction.",
+    "mechanism": "Adrenergic alpha-agonist (NLM RxClass, MED-RT mechanism of action). Alpha-1 stimulation constricts the nasal mucosal vessels, shrinking swollen membranes and slowing bleeding from them.",
     "indications": [
-      "Active epistaxis"
+      "Epistaxis (RI protocol use — not an FDA-labelled indication)",
+      "Temporary relief of nasal and sinus congestion (the labelled indication)"
     ],
-    "contraindications": [],
-    "pearls": [],
+    "contraindications": [
+      "No contraindications section exists on the OTC label — treat known hypersensitivity as the practical limit"
+    ],
+    "pearls": [
+      "The OTC Drug Facts label has no Clinical Pharmacology or Contraindications section, so mechanism here is cited to RxClass rather than to a federal label that does not contain it",
+      "Epistaxis is the RI indication; the label itself only claims decongestion. Vasoconstriction is the same action either way",
+      "Rebound congestion follows repeated use — a discharge concern, not a field one"
+    ],
     "supply": null,
     "scope": [
       "ri-aemt",
@@ -1735,8 +1749,8 @@
       "note": "Epistaxis is an AEMT condition (Standards p. 39), but §V marks the topical route Paramedic-only."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: NASAL (oxymetazoline hydrochloride) spray — OTC label (indications); mechanism from NLM RxClass MED-RT has_MoA",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8913f6d1-3764-4f9c-8695-b788ef1bbe79"
     },
     "formulary": [
       {
