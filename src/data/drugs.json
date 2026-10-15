@@ -179,20 +179,19 @@
     ],
     "class": "NSAID",
     "domain": "medical",
-    "mechanism": "Inhibits COX, stopping prostaglandin synthesis.",
+    "mechanism": "NSAID with analgesic activity. The label describes the mechanism as not completely understood but probably prostaglandin synthetase inhibition, and notes it has no sedative or anxiolytic properties. Peak analgesic effect at 2–3 hours.",
     "indications": [
-      "Moderate pain",
-      "Renal colic"
+      "Short-term (≤5 days) management of moderately severe acute pain requiring analgesia at the opioid level"
     ],
     "contraindications": [
-      "NSAID or aspirin allergy",
-      "GI bleed",
-      "Pregnancy",
-      "Trauma with bleeding risk",
-      "CKD"
+      "Hypersensitivity to ketorolac",
+      "Active peptic ulcer disease, recent GI bleeding or perforation — or any history of either",
+      "Asthma, urticaria or allergic-type reaction after aspirin or another NSAID"
     ],
     "pearls": [
-      "Same kidney caution as ibuprofen"
+      "The label carries a Boxed Warning; the GI contraindication covers a past history, not just active bleeding, which is stricter than most NSAIDs",
+      "No sedation and no anxiolysis — an opioid-level analgesic that leaves the patient alert, which is its whole appeal",
+      "Prostaglandins hold the kidney’s afferent arterioles open; the same renal caution as ibuprofen applies"
     ],
     "supply": null,
     "scope": [
@@ -206,8 +205,8 @@
       "note": "Category is in national scope; agent is locally determined. RI carries it at no level."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: KETOROLAC TROMETHAMINE injection, solution",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7a7c8579-d423-4699-9435-69c4d127c654"
     },
     "formulary": [
       {
@@ -391,18 +390,17 @@
     ],
     "class": "Beta-2 agonist bronchodilator",
     "domain": "airway",
-    "mechanism": "Stimulates beta-2 receptors, relaxing bronchial smooth muscle.",
+    "mechanism": "Beta-adrenergic agonist. Stimulates adenyl cyclase, raising cyclic AMP inside the cell, which relaxes bronchial smooth muscle. Preferential for beta-2 receptors, the predominant receptor in bronchial smooth muscle.",
     "indications": [
-      "Bronchospasm: asthma, COPD, reactive airway disease"
+      "Relief of bronchospasm in reversible obstructive airway disease (asthma)"
     ],
     "contraindications": [
-      "Hypersensitivity",
-      "Tachydysrhythmias",
-      "Severe coronary disease"
+      "History of hypersensitivity to any component"
     ],
     "pearls": [
-      "Some beta-1 spillover can cause chest pain or dysrhythmias",
-      "Can be mixed with ipratropium (DuoNeb)"
+      "Beta-2 selectivity is preferential, not absolute — the label notes 10–50% of receptors in the human heart are beta-2, which is why tachycardia, tremor and chest tightness follow a dose",
+      "Tachydysrhythmia and severe coronary disease are cautions to weigh, not label contraindications",
+      "Routinely combined with ipratropium; RI authorises both at AEMT"
     ],
     "supply": "2.5 mg / 3 mL",
     "scope": [
@@ -417,8 +415,8 @@
       "citation": "NHTSA Scope of Practice Model 2019 (DOT HS 812 666), §V Medical Director Approved Medications, p. 36, AEMT column: \"Inhaled – beta agonist/bronchodilator and anticholinergic for dyspnea and wheezing\""
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: ALBUTEROL SULFATE inhalation solution",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d4c532be-1f41-60d3-e053-2995a90a98be"
     },
     "formulary": [
       {
@@ -451,17 +449,18 @@
     ],
     "class": "Beta-2 agonist bronchodilator",
     "domain": "airway",
-    "mechanism": "Stimulates beta-2 receptors, relaxing bronchial smooth muscle.",
+    "mechanism": "Beta-adrenergic agonist with a preferential effect on beta-2 receptors, relaxing bronchial smooth muscle. Given subcutaneously rather than inhaled, so it reaches a patient too tight to move air through a nebulizer.",
     "indications": [
-      "Bronchospasm when nebulized treatment fails (second line, IM/SQ)"
+      "Prevention and reversal of bronchospasm in asthma, and reversible bronchospasm with bronchitis or emphysema, in patients 12 years and older"
     ],
     "contraindications": [
-      "Hypersensitivity",
-      "Tachydysrhythmias",
-      "Severe coronary disease"
+      "Hypersensitivity to sympathomimetic amines or any component",
+      "Prolonged tocolysis beyond 48–72 hours, and maintenance tocolysis outpatient or at home — the subject of a Boxed Warning"
     ],
     "pearls": [
-      "Given IM or SQ, not inhaled"
+      "The tocolysis Boxed Warning is the headline on this label and was missing from this card entirely",
+      "Subcutaneous, not inhaled — the reason to reach for it is a patient moving too little air for a nebulizer to work",
+      "Carried at no RI level, so it is here for recognition rather than for use"
     ],
     "supply": "1 mg/mL",
     "scope": [
@@ -474,8 +473,8 @@
       "citation": null
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: TERBUTALINE SULFATE injection, solution",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f4b177e-4d7d-4255-afeb-522c7d4594c6"
     },
     "formulary": [],
     "protocolSource": {
@@ -495,17 +494,19 @@
     ],
     "class": "Anticholinergic bronchodilator",
     "domain": "airway",
-    "mechanism": "Blocks acetylcholine at lung muscarinic receptors, stopping parasympathetic bronchoconstriction.",
+    "mechanism": "Anticholinergic (parasympatholytic). Antagonises acetylcholine at muscarinic receptors on bronchial smooth muscle, preventing the rise in intracellular calcium that would otherwise constrict the airway. It blocks vagally-mediated reflex bronchoconstriction rather than stimulating relaxation.",
     "indications": [
-      "Bronchospasm in COPD or asthma",
-      "Combined with albuterol (DuoNeb)"
+      "Bronchospasm with COPD, including chronic bronchitis and emphysema (the labelled indication is maintenance)",
+      "Acute bronchospasm alongside a beta agonist — the prehospital use, authorised at AEMT by the national Scope of Practice Model and by RI"
     ],
     "contraindications": [
-      "Hypersensitivity to ipratropium, atropine, or alkaloids"
+      "Hypersensitivity to ipratropium bromide or any component",
+      "Hypersensitivity to atropine or any of its derivatives"
     ],
     "pearls": [
-      "Side effects mostly local: dry mouth, cough",
-      "Minimal heart rate effect"
+      "Different lever from albuterol: albuterol pushes the muscle to relax, ipratropium stops the signal telling it to squeeze — which is why they are given together rather than one instead of the other",
+      "Minimal cardiac effect compared with a beta agonist; side effects are mostly local — dry mouth, cough",
+      "The atropine cross-sensitivity is a contraindication in its own right, worth asking about"
     ],
     "supply": "0.5 mg / 2.5 mL",
     "scope": [
@@ -521,8 +522,8 @@
       "note": "The row names the anticholinergic explicitly alongside the beta agonist."
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: ATROVENT HFA (ipratropium bromide) aerosol, metered",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884"
     },
     "formulary": [
       {
@@ -550,19 +551,19 @@
     "brand": [],
     "class": "Elemental gas",
     "domain": "airway",
-    "mechanism": "Reverses hypoxemia so cells keep running aerobic metabolism.",
+    "mechanism": "Raises the oxygen available to the blood so tissue can keep making ATP aerobically. It corrects hypoxemia; it does nothing for a patient whose problem is ventilation or perfusion rather than oxygen content.",
     "indications": [
-      "Hypoxemia",
+      "Hypoxemia from any cause — COPD, pneumonia, severe asthma, heart failure",
       "Respiratory insufficiency",
-      "Ischemic chest pain",
       "Carbon monoxide poisoning"
     ],
     "contraindications": [],
     "pearls": [
-      "Nasal cannula 1–6 L/min",
-      "SVN nebulizers run on 6–8 L/min",
-      "Supports combustion",
-      "Not listed on the RI formulary table; standard at every level"
+      "Titrate to the patient rather than running high flow by reflex — oxygen corrects hypoxemia, and a patient who is already saturated gains nothing from more of it",
+      "Fire risk: no smoking, no flammable material near a patient on oxygen",
+      "Secure cylinders upright. A falling tank that loses its valve becomes a projectile",
+      "Nasal cannula 1–6 L/min; a nebulizer needs 6–8 L/min to aerosolize properly",
+      "Not listed in RI appendix 09.00 at all — it is carried as equipment at every level, not as a formulary medication"
     ],
     "supply": null,
     "scope": [
@@ -577,8 +578,8 @@
       "citation": "NHTSA EMS Education Standards 2021 (amended 24 Feb 2025), Airway Management, Respiration and Ventilation, p. 35, AEMT column: \"Supplemental oxygen therapy\""
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "MedlinePlus health topic: Oxygen Therapy (NLM, public domain); AEMT competency per NHTSA National EMS Education Standards 2021, Airway Management, p. 35, \"Supplemental oxygen therapy\"",
+      "url": "https://medlineplus.gov/oxygentherapy.html"
     },
     "formulary": [
       {
@@ -1647,14 +1648,22 @@
     ],
     "class": "Corticosteroid",
     "domain": "medical",
-    "mechanism": "Synthetic glucocorticoids that dampen inflammation and reduce capillary leak.",
+    "mechanism": "Synthetic glucocorticoid. Potent anti-inflammatory that also modifies the body’s immune response, damping the inflammatory cascade and the capillary leak behind it.",
     "indications": [
-      "Anaphylaxis (adjunct)",
-      "Asthma / COPD exacerbation",
+      "Severe or incapacitating allergic conditions, when oral therapy is not feasible",
+      "Asthma or COPD exacerbation",
       "Adrenal insufficiency (hydrocortisone)"
     ],
-    "contraindications": [],
-    "pearls": [],
+    "contraindications": [
+      "Systemic fungal infections",
+      "Known hypersensitivity to the product or its constituents",
+      "The 40 mg methylprednisolone presentation contains lactose from cow’s milk — contraindicated with known or suspected milk hypersensitivity"
+    ],
+    "pearls": [
+      "Onset is 1–2 hours. It is never a substitute for epinephrine in anaphylaxis — give epinephrine first and treat this as the follow-on",
+      "RI appendix 09.00 codes three agents separately: dexamethasone is Choice at AEMT-C while hydrocortisone and methylprednisolone are Required, so what your service stocks varies",
+      "The cow’s-milk contraindication is presentation-specific, not drug-wide — worth knowing which vial you carry"
+    ],
     "supply": null,
     "scope": [
       "ri-aemt-c"
@@ -1666,8 +1675,8 @@
       "citation": null
     },
     "source": {
-      "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
-      "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
+      "doc": "DailyMed SPL: METHYLPREDNISOLONE SODIUM SUCCINATE injection, powder, for solution",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ae524bdb-9fd0-49f9-802d-465a374c175b"
     },
     "formulary": [
       {
