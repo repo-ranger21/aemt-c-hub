@@ -1235,29 +1235,29 @@
       "number": 51,
       "set": 11,
       "setTitle": "Seizures & benzodiazepines",
-      "stem": "Peds midazolam 0.2 mg/kg IN (max 4 mg), 18 kg, 5 mg/mL. Dose and volume?",
+      "stem": "An order reads midazolam 0.2 mg/kg IN for an 18 kg child in a seizure. Vial 5 mg/mL. Dose and volume?",
       "answer": "3.6 mg (0.72 mL)",
-      "work": "0.2 × 18 = 3.6 (under max) → ÷ 5 = 0.72",
+      "work": "0.2 × 18 = 3.6 mg → 3.6 ÷ 5 = 0.72 mL",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "protocolRef": "2.19P",
       "ri": {
+        "stem": "RI 2.19P for the same 18 kg child. Midazolam dose and volume from 5 mg/mL?",
         "answer": "1.8 mg (0.36 mL)",
-        "work": "0.1 × 18 = 1.8 (under 2 mg) → ÷ 5 = 0.36 mL",
-        "ref": "2.19P",
-        "stem": "RI peds midazolam 0.1 mg/kg (max 2 mg per dose) for 18 kg. Dose and volume from 5 mg/mL?"
+        "work": "RI 2.19P: midazolam 0.1 mg/kg IV/IM/IN [2 mg maximum single dose via any route] → 0.1 × 18 = 1.8 mg, under the cap → 1.8 ÷ 5 = 0.36 mL",
+        "ref": "2.19P"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "note": "The 0.2 mg/kg figure is presented as a given order, not attributed to a dosing authority: no national source available this session states it. RI 2.19P states 0.1 mg/kg with a 2 mg single-dose cap, which is what the ri block cites."
     },
     {
       "id": "mm-11-2",
@@ -1265,22 +1265,23 @@
       "number": 52,
       "set": 11,
       "setTitle": "Seizures & benzodiazepines",
-      "stem": "Peds diazepam PR 0.5 mg/kg (max 20 mg), 12 kg, 10 mg/2 mL. Dose and volume?",
+      "stem": "Pediatric diazepam 0.5 mg/kg PR (maximum 20 mg single dose) for a 12 kg child, 10 mg/2 mL. Dose and volume?",
       "answer": "6 mg (1.2 mL)",
-      "work": "0.5 × 12 = 6 → 5 mg/mL → 1.2 mL",
+      "work": "0.5 × 12 = 6 mg, under the 20 mg maximum → 10 ÷ 2 = 5 mg/mL → 6 ÷ 5 = 1.2 mL",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "2.19P",
+      "note": "RI 2.19P states the PR single-dose maximum as 20 mg in the AEMT-C block and 10 mg in the Paramedic block — an internal inconsistency in v2026.02. The AEMT-C figure is used here, since that is the reader's level. At 12 kg the dose is 6 mg, below either ceiling, so the arithmetic is unaffected either way."
     },
     {
       "id": "mm-11-3",
@@ -1288,23 +1289,23 @@
       "number": 53,
       "set": 11,
       "setTitle": "Seizures & benzodiazepines",
-      "stem": "Peds lorazepam 0.1 mg/kg IV (max 4 mg), 20 kg, 2 mg/mL. Dose and volume?",
+      "stem": "Pediatric lorazepam 0.1 mg/kg IV (maximum 2 mg single dose) for a 20 kg child, 2 mg/mL. Dose and volume?",
       "answer": "2 mg (1 mL)",
-      "work": "0.1 × 20 = 2 → ÷ 2 = 1",
+      "work": "0.1 × 20 = 2 mg, exactly at the 2 mg single-dose maximum → 2 ÷ 2 = 1 mL",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "protocolRef": "2.19P",
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "note": "Cap corrected: the previous card stated a 4 mg maximum. RI 2.19P states \"LORAZEPAM 0.1 mg/kg IV [2 mg maximum single dose]\". At 20 kg the calculated dose lands exactly on the real cap, so the old answer was right by coincidence while the stated ceiling was wrong."
     },
     {
       "id": "mm-11-4",
@@ -1312,23 +1313,23 @@
       "number": 54,
       "set": 11,
       "setTitle": "Seizures & benzodiazepines",
-      "stem": "Adult diazepam 5 mg doses, max 20 mg. Total doses allowed?",
+      "stem": "RI adult seizure protocol gives diazepam 2.5 mg IV/IN, repeating every 5 minutes to a maximum of 10 mg. How many doses does that allow?",
       "answer": "4 doses",
-      "work": "20 ÷ 5 = 4",
+      "work": "10 ÷ 2.5 = 4 doses",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "protocolRef": "2.19A",
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "note": "Rebuilt against RI 2.19A, which states \"DIAZEPAM 2.5 mg IV/IN (may repeat every 5 minutes to a maximum of 10 mg)\". The previous card used 5 mg doses to a 20 mg maximum; neither figure appears in RI v2026.02 and no national source available this session states them."
     },
     {
       "id": "mm-11-5",
@@ -1336,22 +1337,23 @@
       "number": 55,
       "set": 11,
       "setTitle": "Seizures & benzodiazepines",
-      "stem": "Peds midazolam max cumulative 1 mg/kg, 15 kg. Max total?",
-      "answer": "15 mg",
-      "work": "1 × 15 = 15",
+      "stem": "RI 2.19P lets pediatric midazolam repeat to a cumulative 1 mg/kg. For a 15 kg child, what is the cumulative ceiling, and how many 2 mg single doses does that represent?",
+      "answer": "15 mg (7.5 doses of 2 mg)",
+      "work": "1 × 15 = 15 mg cumulative → 15 ÷ 2 = 7.5 single doses at the 2 mg per-dose cap",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "2.19P",
+      "note": "RI 2.19P states the cumulative midazolam ceiling as 1 mg/kg in the AEMT-C block and 10 mg in the Paramedic block — a second internal inconsistency in protocol 2.19P. At 15 kg the AEMT-C rule (15 mg) exceeds the Paramedic rule (10 mg), so the lower certification level would permit more drug. Flagged for OEMS clarification; the AEMT-C figure is used here."
     },
     {
       "id": "mm-12-1",
@@ -1359,9 +1361,9 @@
       "number": 56,
       "set": 12,
       "setTitle": "Pain & nausea",
-      "stem": "Acetaminophen 15 mg/kg PO (max 1,000 mg), 68 kg. Calculated vs given?",
-      "answer": "1,020 mg calculated → give 1,000 mg",
-      "work": "15 × 68 = 1,020 → capped at 1,000",
+      "stem": "Acetaminophen 15 mg/kg PO (maximum 1,000 mg single dose) for a 72 kg adult. Calculated dose versus what you give?",
+      "answer": "1,080 mg calculated → give 1,000 mg",
+      "work": "15 × 72 = 1,080 mg, over the 1,000 mg single-dose maximum → give 1,000 mg",
       "formula": "weight",
       "domain": "medical",
       "trap": "ceiling",
@@ -1370,11 +1372,12 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "2.07A"
     },
     {
       "id": "mm-12-2",
@@ -1382,22 +1385,22 @@
       "number": 57,
       "set": 12,
       "setTitle": "Pain & nausea",
-      "stem": "Ibuprofen 10 mg/kg PO, 30 kg, 100 mg/5 mL. Dose and volume?",
-      "answer": "300 mg (15 mL)",
-      "work": "10 × 30 = 300 mg → 20 mg/mL → 15 mL",
+      "stem": "Ibuprofen 10 mg/kg PO (maximum 800 mg) for a 25 kg child, suspension 100 mg/5 mL. Dose and volume?",
+      "answer": "250 mg (12.5 mL)",
+      "work": "10 × 25 = 250 mg, under the 800 mg maximum → 100 ÷ 5 = 20 mg/mL → 250 ÷ 20 = 12.5 mL",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "2.07P"
     },
     {
       "id": "mm-12-3",
@@ -1405,26 +1408,25 @@
       "number": 58,
       "set": 12,
       "setTitle": "Pain & nausea",
-      "stem": "Fentanyl 1 mcg/kg, 55 kg, 100 mcg/2 mL. Dose and volume?",
-      "answer": "55 mcg (1.1 mL)",
-      "work": "55 mcg → 50 mcg/mL → 1.1 mL",
+      "stem": "Fentanyl 1 mcg/kg for a 65 kg adult, 100 mcg/2 mL vial. Dose and volume?",
+      "answer": "65 mcg (1.3 mL)",
+      "work": "1 × 65 = 65 mcg → 100 ÷ 2 = 50 mcg/mL → 65 ÷ 50 = 1.3 mL",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "protocolRef": "2.07A",
       "ri": {
+        "stem": "Same 65 kg adult under RI 2.07A, single-dose cap 50 mcg. Dose and volume?",
         "answer": "50 mcg (1 mL)",
-        "work": "1 × 55 = 55 → capped at 50 mcg → 50 mcg/mL → 1 mL",
+        "work": "1 × 65 = 65 mcg exceeds the 50 mcg single-dose maximum → give 50 mcg → 50 ÷ 50 = 1 mL",
         "ref": "2.07A",
-        "stem": "Fentanyl 1 mcg/kg for 55 kg (RI max 50 mcg per dose). Dose and volume from 100 mcg/2 mL?",
         "trap": "ceiling"
       },
       "deck": "med-math",
@@ -1436,29 +1438,23 @@
       "number": 59,
       "set": 12,
       "setTitle": "Pain & nausea",
-      "stem": "Adult fentanyl max 300 mcg; 70 kg patient gets 1 mcg/kg per dose. Full doses?",
-      "answer": "4 doses (280 mcg)",
-      "work": "70 per dose → 300 ÷ 70 = 4.3 → 4 full doses",
+      "stem": "RI 2.07A caps fentanyl at 50 mcg per dose and 200 mcg in total. How many full doses does that allow?",
+      "answer": "4 doses",
+      "work": "200 ÷ 50 = 4 full doses",
       "formula": "weight",
       "domain": "medical",
-      "trap": "ceiling",
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "protocolRef": "2.07A",
-      "ri": {
-        "answer": "4 doses",
-        "work": "200 ÷ 50 = 4",
-        "ref": "2.07A",
-        "stem": "RI adult fentanyl: max 50 mcg per dose, 200 mcg total. How many full 50 mcg doses?"
-      },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "note": "Rebuilt against RI 2.07A, which states \"maximum single dose 50 mcg ... may repeat every 10 minutes to a maximum of 200 mcg\". The previous card used a 300 mcg total; 300 mcg is the fentanyl VIAL quantity in RI appendix 09.00, not a dose ceiling, so the old stem read a supply figure as a dose limit."
     },
     {
       "id": "mm-12-5",
@@ -1466,19 +1462,18 @@
       "number": 60,
       "set": 12,
       "setTitle": "Pain & nausea",
-      "stem": "Acetaminophen 24-hr max 4,000 mg; patient took 1,000 mg. Remaining?",
-      "answer": "3,000 mg",
-      "work": "4,000 − 1,000 = 3,000",
+      "stem": "Acetaminophen has a 4,000 mg ceiling in 24 hours. The patient reports already taking 1,500 mg today. How much is left in the window?",
+      "answer": "2,500 mg",
+      "work": "4,000 − 1,500 = 2,500 mg",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "deck": "med-math",
       "deckTitle": "Med math"
@@ -1489,19 +1484,18 @@
       "number": 61,
       "set": 13,
       "setTitle": "Pediatrics I",
-      "stem": "A child weighs 33 lb. kg?",
-      "answer": "15 kg",
-      "work": "33 ÷ 2.2 = 15",
+      "stem": "A child's weight is given as 44 lb. Convert to kilograms.",
+      "answer": "20 kg",
+      "work": "44 ÷ 2.2 = 20 kg",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "deck": "med-math",
       "deckTitle": "Med math"
@@ -1512,19 +1506,18 @@
       "number": 62,
       "set": 13,
       "setTitle": "Pediatrics I",
-      "stem": "Same 33 lb child in arrest. Epi 0.01 mg/kg of 1:10,000. Dose and volume?",
-      "answer": "0.15 mg (1.5 mL)",
-      "work": "0.01 × 15 = 0.15 mg → ÷ 0.1 = 1.5 mL",
+      "stem": "That same 44 lb child goes into cardiac arrest. Epinephrine 0.01 mg/kg of 1:10,000 (0.1 mg/mL). Dose and volume?",
+      "answer": "0.2 mg (2 mL)",
+      "work": "44 lb = 20 kg → 0.01 × 20 = 0.2 mg → 0.2 ÷ 0.1 = 2 mL",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001368"
       },
       "deck": "med-math",
       "deckTitle": "Med math"
@@ -1535,9 +1528,9 @@
       "number": 63,
       "set": 13,
       "setTitle": "Pediatrics I",
-      "stem": "4 kg infant, atropine 0.02 mg/kg (min 0.1 mg). Calculated vs given?",
-      "answer": "0.08 mg calculated → give 0.1 mg (1 mL of 0.1 mg/mL)",
-      "work": "0.02 × 4 = 0.08 → below the 0.1 mg floor → give 0.1 mg",
+      "stem": "A 4 kg infant needs atropine 0.02 mg/kg, with a 0.1 mg minimum dose. Calculated versus given, and the volume from 0.1 mg/mL?",
+      "answer": "0.08 mg calculated → give 0.1 mg (1 mL)",
+      "work": "0.02 × 4 = 0.08 mg, below the 0.1 mg floor → give 0.1 mg → 0.1 ÷ 0.1 = 1 mL",
       "formula": "weight",
       "domain": "medical",
       "trap": "floor",
@@ -1546,11 +1539,12 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001368"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "note": "RI 3.05P states the same rule for pediatric bradycardia: atropine 0.02 mg/kg IV [minimum dose 0.1 mg and maximum single dose 0.5 mg]. The floor exists because a sub-threshold dose can cause paradoxical bradycardia."
     },
     {
       "id": "mm-13-4",
@@ -1558,19 +1552,18 @@
       "number": 64,
       "set": 13,
       "setTitle": "Pediatrics I",
-      "stem": "15 kg child, amiodarone 5 mg/kg, 150 mg/3 mL. Dose and volume?",
-      "answer": "75 mg (1.5 mL)",
-      "work": "5 × 15 = 75 → 50 mg/mL → 1.5 mL",
+      "stem": "The same child, now in refractory VF. Amiodarone 5 mg/kg from a 150 mg/3 mL vial. Dose and volume?",
+      "answer": "100 mg (2 mL)",
+      "work": "5 × 20 = 100 mg → 150 ÷ 3 = 50 mg/mL → 100 ÷ 50 = 2 mL",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001368"
       },
       "deck": "med-math",
       "deckTitle": "Med math"
@@ -1581,19 +1574,18 @@
       "number": 65,
       "set": 13,
       "setTitle": "Pediatrics I",
-      "stem": "15 kg child, lidocaine 1 mg/kg, 2%. Dose and volume?",
-      "answer": "15 mg (0.75 mL)",
-      "work": "15 mg → 20 mg/mL → 0.75 mL",
+      "stem": "Same child, lidocaine 1 mg/kg as the amiodarone alternative, using 2% (20 mg/mL). Dose and volume?",
+      "answer": "20 mg (1 mL)",
+      "work": "1 × 20 = 20 mg → 20 ÷ 20 = 1 mL",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001368"
       },
       "deck": "med-math",
       "deckTitle": "Med math"
@@ -1604,24 +1596,23 @@
       "number": 66,
       "set": 14,
       "setTitle": "Pediatrics II",
-      "stem": "Peds calcium chloride 20 mg/kg, 12 kg, 10%. Dose and volume?",
-      "answer": "240 mg (2.4 mL)",
-      "work": "20 × 12 = 240 → 100 mg/mL → 2.4 mL",
+      "stem": "Pediatric calcium chloride 20 mg/kg IV for a 16 kg child, 10% (100 mg/mL). Dose and volume?",
+      "answer": "320 mg (3.2 mL)",
+      "work": "20 × 16 = 320 mg → 320 ÷ 100 = 3.2 mL",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "deck": "med-math",
       "deckTitle": "Med math",
-      "protocolRef": "4.18",
-      "note": "Found in RI v2026.02 protocol 4.18: calcium chloride 20 mg/kg IV for suspected beta-blocker or calcium-channel-blocker toxicity, may repeat x1. Given alongside glucagon 0.1 mg/kg IV (max 5 mg). RI requires MEDICAL CONTROL authorization for this dose at the AEMT-C level (protocol 4.18, Pediatric Toxicological Emergencies). The arithmetic is the same nationally; the permission is not."
+      "protocolRef": "4.18P",
+      "note": "RI 4.18P: for suspected beta-blocker or calcium-channel-blocker toxicity, calcium chloride 20 mg/kg IV or calcium gluconate 60 mg/kg IV, may repeat x1 — on MEDICAL CONTROL authorization."
     },
     {
       "id": "mm-14-2",
@@ -1629,24 +1620,23 @@
       "number": 67,
       "set": 14,
       "setTitle": "Pediatrics II",
-      "stem": "Peds calcium gluconate 60 mg/kg, 12 kg, 10%. Dose and volume?",
-      "answer": "720 mg (7.2 mL)",
-      "work": "60 × 12 = 720 → 100 mg/mL → 7.2 mL",
+      "stem": "Same 16 kg child, calcium gluconate 60 mg/kg IV instead, 10% (100 mg/mL). Dose and volume, and how does the volume compare with the chloride?",
+      "answer": "960 mg (9.6 mL) — 3× the chloride volume",
+      "work": "60 × 16 = 960 mg → 960 ÷ 100 = 9.6 mL. Calcium chloride at 20 mg/kg would be 3.2 mL, so the gluconate is 3× the dose and 3× the volume at the same 10% concentration",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "deck": "med-math",
       "deckTitle": "Med math",
-      "protocolRef": "4.18",
-      "note": "Found in RI v2026.02 protocol 4.18: calcium gluconate 60 mg/kg IV, the alternative to calcium chloride 20 mg/kg for beta-blocker or calcium-channel-blocker toxicity, may repeat x1. Appendix 09.01 lists the two as interchangeable. RI requires MEDICAL CONTROL authorization for this dose at the AEMT-C level (protocol 4.18, Pediatric Toxicological Emergencies). The arithmetic is the same nationally; the permission is not."
+      "protocolRef": "4.18P",
+      "note": "The 1:3 ratio is the point: calcium gluconate contains roughly one third the elemental calcium per gram, so an equivalent dose is three times larger. RI 4.18P lists them as alternatives at 20 mg/kg and 60 mg/kg respectively."
     },
     {
       "id": "mm-14-3",
@@ -1654,29 +1644,29 @@
       "number": 68,
       "set": 14,
       "setTitle": "Pediatrics II",
-      "stem": "Peds dextrose 0.5 g/kg, 24 kg, D25. Dose and volume?",
+      "stem": "An order reads dextrose 0.5 g/kg for a 24 kg child using D25 (0.25 g/mL). Dose and volume?",
       "answer": "12 g (48 mL)",
-      "work": "0.5 × 24 = 12 g → D25 = 0.25 g/mL → 48 mL",
+      "work": "0.5 × 24 = 12 g → 12 ÷ 0.25 = 48 mL",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "protocolRef": "2.10P",
       "ri": {
+        "stem": "RI 2.10P instead gives D10W 5 mL/kg to the same 24 kg child. Volume and grams?",
         "answer": "120 mL (12 g)",
-        "work": "5 × 24 = 120 mL → × 0.1 = 12 g",
-        "ref": "2.10P",
-        "stem": "RI peds D10 5 mL/kg for a 24 kg child. Volume and grams?"
+        "work": "5 × 24 = 120 mL → × 0.1 g/mL = 12 g — the same grams as the D25 order, in 2.5× the volume",
+        "ref": "2.10P"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "note": "D25 appears nowhere in RI v2026.02; RI carries D10 at AEMT and AEMT-C and D50 at Paramedic only. The D25 concentration is therefore presented as a given order and only the method is cited, with the RI equivalent in the ri block."
     },
     {
       "id": "mm-14-4",
@@ -1684,22 +1674,22 @@
       "number": 69,
       "set": 14,
       "setTitle": "Pediatrics II",
-      "stem": "Peds naloxone 0.1 mg/kg, 9 kg. Dose?",
+      "stem": "Pediatric naloxone 0.1 mg/kg for a 9 kg child, 2 mg single-dose maximum. Dose?",
       "answer": "0.9 mg",
-      "work": "0.1 × 9 = 0.9",
+      "work": "0.1 × 9 = 0.9 mg, under the 2 mg maximum → give 0.9 mg",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "4.18P"
     },
     {
       "id": "mm-14-5",
@@ -1707,9 +1697,9 @@
       "number": 70,
       "set": 14,
       "setTitle": "Pediatrics II",
-      "stem": "Peds glucagon 0.1 mg/kg IM (max 1 mg), 14 kg. Calculated vs given?",
-      "answer": "1.4 mg calculated → give 1 mg",
-      "work": "0.1 × 14 = 1.4 → capped at 1 mg",
+      "stem": "Pediatric glucagon 0.1 mg/kg IM for a 14 kg child, 1 mg maximum, reconstituted to 1 mg/mL. Calculated versus given, and volume?",
+      "answer": "1.4 mg calculated → give 1 mg (1 mL)",
+      "work": "0.1 × 14 = 1.4 mg, over the 1 mg maximum → give 1 mg → 1 ÷ 1 = 1 mL",
       "formula": "weight",
       "domain": "medical",
       "trap": "ceiling",
@@ -1718,11 +1708,12 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "2.10P"
     },
     {
       "id": "mm-15-1",
@@ -1730,22 +1721,22 @@
       "number": 71,
       "set": 15,
       "setTitle": "Fluid boluses",
-      "stem": "Peds NS bolus 20 mL/kg, 18 kg. Volume?",
-      "answer": "360 mL",
-      "work": "20 × 18 = 360",
+      "stem": "Pediatric shock, 14 kg. Isotonic crystalloid bolus at 20 mL/kg. Volume?",
+      "answer": "280 mL",
+      "work": "20 × 14 = 280 mL",
       "formula": "weight",
       "domain": "trauma",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001368"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "2.20P"
     },
     {
       "id": "mm-15-2",
@@ -1753,22 +1744,22 @@
       "number": 72,
       "set": 15,
       "setTitle": "Fluid boluses",
-      "stem": "Peds fluid max 60 mL/kg, 18 kg. Max total and remaining after first bolus?",
-      "answer": "1,080 mL max (720 mL remaining)",
-      "work": "60 × 18 = 1,080 → 1,080 − 360 = 720",
+      "stem": "Same 14 kg child. If total fluid is held to 60 mL/kg, what is the ceiling, how much remains after that first bolus, and how many 20 mL/kg boluses is that in all?",
+      "answer": "840 mL ceiling (560 mL remaining, 3 boluses total)",
+      "work": "60 × 14 = 840 mL → 840 − 280 = 560 mL remaining → 840 ÷ 280 = 3 boluses of 20 mL/kg",
       "formula": "weight",
       "domain": "trauma",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001368"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "2.20P"
     },
     {
       "id": "mm-15-3",
@@ -1776,22 +1767,22 @@
       "number": 73,
       "set": 15,
       "setTitle": "Fluid boluses",
-      "stem": "3 kg neonate, 10 mL/kg. Volume?",
+      "stem": "A 3 kg neonate in shock. RI 2.20P uses 10 mL/kg for patients under 3 months. Volume?",
       "answer": "30 mL",
-      "work": "10 × 3 = 30",
+      "work": "10 × 3 = 30 mL",
       "formula": "weight",
       "domain": "trauma",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "2.20P"
     },
     {
       "id": "mm-15-4",
@@ -1799,22 +1790,22 @@
       "number": 74,
       "set": 15,
       "setTitle": "Fluid boluses",
-      "stem": "Adult NS 500 mL bolus given three times. Total?",
+      "stem": "Adult hypotension. RI 2.20A gives lactated Ringer's 500 mL IV, repeated to a systolic of ≥ 100. After 3 boluses, total infused?",
       "answer": "1,500 mL",
-      "work": "500 × 3 = 1,500",
+      "work": "500 × 3 = 1,500 mL",
       "formula": "weight",
       "domain": "trauma",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "2.20A"
     },
     {
       "id": "mm-15-5",
@@ -1822,19 +1813,18 @@
       "number": 75,
       "set": 15,
       "setTitle": "Fluid boluses",
-      "stem": "4-2-1 maintenance rate, 26 kg child?",
-      "answer": "66 mL/hr",
-      "work": "First 10 kg × 4 = 40, next 10 × 2 = 20, last 6 × 1 = 6 → 66",
+      "stem": "Maintenance fluid by the 4-2-1 rule for a 32 kg child. Hourly rate?",
+      "answer": "72 mL/hr",
+      "work": "First 10 kg × 4 = 40; next 10 kg × 2 = 20; remaining 12 kg × 1 = 12 → 40 + 20 + 12 = 72 mL/hr",
       "formula": "weight",
       "domain": "trauma",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "deck": "med-math",
       "deckTitle": "Med math"
@@ -1845,19 +1835,18 @@
       "number": 76,
       "set": 16,
       "setTitle": "Drip rates",
-      "stem": "500 mL over 60 min, 10 gtt/mL set. gtt/min?",
-      "answer": "83 gtt/min",
-      "work": "(500 × 10) ÷ 60 = 83.3",
+      "stem": "600 mL over 60 minutes with a 10 gtt/mL set. Drip rate?",
+      "answer": "100 gtt/min",
+      "work": "(600 × 10) ÷ 60 = 100 gtt/min",
       "formula": "drip",
       "domain": "operations",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "deck": "med-math",
       "deckTitle": "Med math"
@@ -1868,19 +1857,18 @@
       "number": 77,
       "set": 16,
       "setTitle": "Drip rates",
-      "stem": "250 mL over 30 min, 15 gtt/mL set. gtt/min?",
-      "answer": "125 gtt/min",
-      "work": "(250 × 15) ÷ 30 = 125",
+      "stem": "200 mL over 20 minutes with a 15 gtt/mL set. Drip rate?",
+      "answer": "150 gtt/min",
+      "work": "(200 × 15) ÷ 20 = 150 gtt/min",
       "formula": "drip",
       "domain": "operations",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "deck": "med-math",
       "deckTitle": "Med math"
@@ -1891,19 +1879,18 @@
       "number": 78,
       "set": 16,
       "setTitle": "Drip rates",
-      "stem": "1,000 mL over 4 hr, 10 gtt/mL set. gtt/min?",
-      "answer": "42 gtt/min",
-      "work": "(1,000 × 10) ÷ 240 = 41.7",
+      "stem": "1,200 mL over 6 hours with a 10 gtt/mL set. Drip rate?",
+      "answer": "33 gtt/min",
+      "work": "6 hr = 360 min → (1,200 × 10) ÷ 360 = 33.3 → 33 gtt/min",
       "formula": "drip",
       "domain": "operations",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "deck": "med-math",
       "deckTitle": "Med math"
@@ -1914,9 +1901,9 @@
       "number": 79,
       "set": 16,
       "setTitle": "Drip rates",
-      "stem": "100 mL over 20 min, 60 gtt/mL microdrip. gtt/min?",
-      "answer": "300 gtt/min (not countable: run open or switch sets)",
-      "work": "(100 × 60) ÷ 20 = 300 → a microdrip can't realistically run that fast",
+      "stem": "150 mL over 30 minutes through a 60 gtt/mL microdrip. Drip rate, and is it deliverable?",
+      "answer": "300 gtt/min — not countable on a microdrip",
+      "work": "(150 × 60) ÷ 30 = 300 gtt/min. That is 5 drops per second: a microdrip cannot realistically run that fast, so use a macrodrip set or a pump",
       "formula": "drip",
       "domain": "operations",
       "trap": "equipment",
@@ -1925,8 +1912,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "deck": "med-math",
       "deckTitle": "Med math"
@@ -1937,9 +1924,9 @@
       "number": 80,
       "set": 16,
       "setTitle": "Drip rates",
-      "stem": "360 mL bolus over 15 min, 10 gtt/mL set. gtt/min?",
-      "answer": "240 gtt/min (use push-pull or pressure)",
-      "work": "(360 × 10) ÷ 15 = 240",
+      "stem": "A 500 mL bolus over 20 minutes with a 10 gtt/mL set. Drip rate, and how would you actually deliver it?",
+      "answer": "250 gtt/min — faster than gravity will run",
+      "work": "(500 × 10) ÷ 20 = 250 gtt/min. Beyond countable drip range, so this is a pressure-bag or push-pull delivery rather than a counted rate",
       "formula": "drip",
       "domain": "operations",
       "trap": "equipment",
@@ -1948,8 +1935,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "deck": "med-math",
       "deckTitle": "Med math"
@@ -1960,23 +1947,23 @@
       "number": 81,
       "set": 17,
       "setTitle": "Infusions over time",
-      "stem": "Amiodarone 150 mg in 100 mL over 10 min. mL/min?",
-      "answer": "10 mL/min",
-      "work": "100 ÷ 10 = 10",
+      "stem": "Amiodarone 150 mg in 100 mL D5W infused over 10 minutes. mL/min and the concentration in mg/mL?",
+      "answer": "10 mL/min (1.5 mg/mL)",
+      "work": "100 ÷ 10 = 10 mL/min; 150 ÷ 100 = 1.5 mg/mL",
       "formula": "drip",
       "domain": "operations",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "protocolRef": "3.07A / 09.02",
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "note": "RI appendix 09.02 Standard Concentrations for IV Admixtures lists \"Amiodarone (bolus) 150mg/100ml D5W\" at the AEMT-C and Paramedic levels; protocol 3.07A infuses it over 10 minutes."
     },
     {
       "id": "mm-17-2",
@@ -1984,23 +1971,23 @@
       "number": 82,
       "set": 17,
       "setTitle": "Infusions over time",
-      "stem": "Hydroxocobalamin 5 g in 250 mL over 15 min. mL/min and mL/hr?",
-      "answer": "16.7 mL/min (1,000 mL/hr)",
-      "work": "250 ÷ 15 = 16.7 → × 60 = 1,000",
+      "stem": "Hydroxocobalamin 5 g reconstituted in 200 mL and infused over 15 minutes. mL/min, mL/hr, and the resulting concentration?",
+      "answer": "13.33 mL/min (800 mL/hr, 25 mg/mL)",
+      "work": "200 ÷ 15 = 13.33 mL/min → × 60 = 800 mL/hr; 5,000 mg ÷ 200 mL = 25 mg/mL",
       "formula": "drip",
       "domain": "operations",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "DailyMed SPL: CYANOKIT (hydroxocobalamin) for injection — §2.3 Preparation of Solution for Infusion",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b"
       },
-      "protocolRef": "4.18/4.20",
+      "protocolRef": "4.18A / 09.02",
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "note": "Diluent volume resolved to 200 mL, not 250 mL. The CYANOKIT SPL §2.3 states \"Reconstitute the 5 g vial of hydroxocobalamin with 200 mL of diluent\" and that \"the line on the vial label represents 200 mL\", yielding 25 mg/mL — which is exactly the concentration RI appendix 09.02 lists (\"Hydroxocobalamin 5gm/200ml NS, 25 mg/ml\"). RI protocol 4.18A's narrative says \"in 250 ml NS\"; 5 g in 250 mL would be 20 mg/mL, contradicting RI's own appendix, so the label and appendix figure is used and the protocol narrative discrepancy is flagged for OEMS."
     },
     {
       "id": "mm-17-3",
@@ -2008,29 +1995,29 @@
       "number": 83,
       "set": 17,
       "setTitle": "Infusions over time",
-      "stem": "3% saline 3 mL/kg over 15 min, 70 kg. Volume and mL/min?",
-      "answer": "210 mL (14 mL/min)",
-      "work": "3 × 70 = 210 → ÷ 15 = 14",
+      "stem": "A 70 kg adult with 24% TBSA burns. Running the Parkland-derived first-8-hour rate, what volume goes in over a 60-minute transport, and the gtt/min with a 10 gtt/mL set?",
+      "answer": "420 mL (70 gtt/min at 420 mL/hr)",
+      "work": "Parkland: 4 × 70 × 24 = 6,720 mL/24 hr → half in the first 8 hr = 3,360 mL → 3,360 ÷ 8 = 420 mL/hr → over 60 min = 420 mL → (420 × 10) ÷ 60 = 70 gtt/min",
       "formula": "drip",
       "domain": "operations",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "protocolRef": "4.07A",
       "ri": {
-        "answer": "225 mL (50 gtt/min)",
-        "work": "300 × 0.75 hr = 225 mL → (225 × 10) ÷ 45 = 50 gtt/min",
-        "ref": "4.07A",
-        "stem": "RI adult burn fluids: LR 300 mL/hr. Volume over a 45-min transport, and gtt/min with a 10 gtt/mL set?"
+        "stem": "Same patient under RI 4.07A, which runs a flat lactated Ringer's rate instead of a weight-and-TBSA calculation. Volume over the same 60-minute transport, and gtt/min?",
+        "answer": "300 mL (50 gtt/min at 300 mL/hr)",
+        "work": "RI 4.07A: \"LACTATED RINGER'S at 300 ml/hr\" regardless of weight or TBSA → over 60 min = 300 mL → (300 × 10) ÷ 60 = 50 gtt/min. RI's flat rate is 120 mL/hr lower than the Parkland-derived figure for this patient",
+        "ref": "4.07A"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "note": "Both halves now test burn-fluid infusion over transport, so the comparison is head-to-head. The previous card paired a 3% hypertonic saline stem against an RI burn-fluid ri block, which compared two unrelated therapies."
     },
     {
       "id": "mm-17-4",
@@ -2038,19 +2025,18 @@
       "number": 84,
       "set": 17,
       "setTitle": "Infusions over time",
-      "stem": "Peds D10 5 mL/kg over 5 min for 20 kg. Volume and mL/min?",
-      "answer": "100 mL (20 mL/min)",
-      "work": "5 × 20 = 100 → ÷ 5 = 20",
+      "stem": "RI pediatric hypoglycemia: D10W 5 mL/kg over 5 minutes for a 20 kg child. Volume, mL/min, and grams delivered?",
+      "answer": "100 mL (20 mL/min, 10 g)",
+      "work": "5 × 20 = 100 mL → 100 ÷ 5 = 20 mL/min → 100 × 0.1 g/mL = 10 g",
       "formula": "drip",
       "domain": "operations",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "protocolRef": "2.10P",
       "deck": "med-math",
@@ -2062,30 +2048,30 @@
       "number": 85,
       "set": 17,
       "setTitle": "Infusions over time",
-      "stem": "Push-dose epi 1 mcg/kg (0.1 mL/kg of 10 mcg/mL), 15 kg. Volume and dose?",
-      "answer": "1.5 mL (15 mcg)",
-      "work": "0.1 × 15 = 1.5 mL → × 10 mcg/mL = 15 mcg",
+      "stem": "A 4.5 kg, 2-month-old infant in shock. The standard pediatric bolus is 20 mL/kg of isotonic crystalloid. Volume?",
+      "answer": "90 mL",
+      "work": "20 × 4.5 = 90 mL",
       "formula": "drip",
       "domain": "operations",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "AHA/AAP 2025 Guidelines Part 8: Pediatric Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001368"
       },
       "protocolRef": "2.20P",
       "ri": {
+        "stem": "Same 4.5 kg, 2-month-old under RI 2.20P. Lactated Ringer's bolus volume?",
         "answer": "45 mL",
-        "work": "Under 3 months → 10 mL/kg (not 20) → 10 × 4.5 = 45",
+        "work": "RI 2.20P: \"LACTATED RINGER'S 20 ml/kg IV bolus (10 ml/kg if < 3 months old)\" → at 2 months the reduced figure applies → 10 × 4.5 = 45 mL, half the standard bolus",
         "ref": "2.20P",
-        "stem": "RI peds shock: 4.5 kg, 2-month-old. LR bolus volume?",
         "trap": "age"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "note": "Both halves now test the same pediatric shock bolus on the same infant, so RI's under-3-months reduction is a true head-to-head divergence. The previous card paired a push-dose epinephrine stem against this ri block, which compared unrelated interventions."
     },
     {
       "id": "mm-18-1",
@@ -2093,27 +2079,28 @@
       "number": 86,
       "set": 18,
       "setTitle": "Burns & trauma",
-      "stem": "80 kg, 30% TBSA burns. 24-hr Parkland volume?",
-      "answer": "9,600 mL",
-      "work": "4 × 80 × 30 = 9,600",
+      "stem": "A 75 kg adult with 24% TBSA partial and full thickness burns. Parkland 24-hour volume?",
+      "answer": "7,200 mL",
+      "work": "4 × 75 × 24 = 7,200 mL over 24 hours",
       "formula": "parkland",
       "domain": "trauma",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "ri": {
-        "answer": "Parkland not used prehospital in RI",
-        "work": "RI 4.07: LR 300 mL/hr adult, 20 mL/kg/hr peds; 1,000 mL (adult) or 20 mL/kg (peds) bolus if hypotensive",
-        "ref": "4.07"
+        "stem": "Does RI use Parkland prehospital for this patient?",
+        "answer": "No — RI 4.07A runs a flat 300 mL/hr",
+        "work": "RI 4.07 does not use Parkland prehospital: 4.07A runs lactated Ringer's at 300 ml/hr for adults with a 1000 ml bolus if hypotensive or shocky, and 4.07P runs 20 ml/kg/hr for pediatrics with a 20 ml/kg bolus on the same trigger.",
+        "ref": "4.07A"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "4.07A"
     },
     {
       "id": "mm-18-2",
@@ -2121,27 +2108,28 @@
       "number": 87,
       "set": 18,
       "setTitle": "Burns & trauma",
-      "stem": "Same patient: first 8-hr volume and hourly rate?",
-      "answer": "4,800 mL (600 mL/hr)",
-      "work": "Half of 9,600 = 4,800 → ÷ 8 = 600",
+      "stem": "Same 75 kg patient with 24% TBSA. First 8-hour volume and the hourly rate it implies?",
+      "answer": "3,600 mL (450 mL/hr)",
+      "work": "24-hour total 4 × 75 × 24 = 7,200 mL → half in the first 8 hr = 3,600 mL → 3,600 ÷ 8 = 450 mL/hr",
       "formula": "parkland",
       "domain": "trauma",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "ri": {
-        "answer": "Parkland not used prehospital in RI",
-        "work": "RI 4.07: LR 300 mL/hr adult, 20 mL/kg/hr peds; 1,000 mL (adult) or 20 mL/kg (peds) bolus if hypotensive",
-        "ref": "4.07"
+        "stem": "And the RI 4.07A rate for the same patient?",
+        "answer": "300 mL/hr flat",
+        "work": "RI 4.07 does not use Parkland prehospital: 4.07A runs lactated Ringer's at 300 ml/hr for adults with a 1000 ml bolus if hypotensive or shocky, and 4.07P runs 20 ml/kg/hr for pediatrics with a 20 ml/kg bolus on the same trigger.",
+        "ref": "4.07A"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "4.07A"
     },
     {
       "id": "mm-18-3",
@@ -2149,19 +2137,18 @@
       "number": 88,
       "set": 18,
       "setTitle": "Burns & trauma",
-      "stem": "Adult rule of nines: both legs plus genitals?",
-      "answer": "37%",
-      "work": "18 + 18 + 1 = 37",
+      "stem": "Adult rule of nines: head plus both arms plus the genital area. Total TBSA?",
+      "answer": "28%",
+      "work": "head 9 + arms (9 × 2 = 18) + genitals 1 = 28%",
       "formula": "parkland",
       "domain": "trauma",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "deck": "med-math",
       "deckTitle": "Med math"
@@ -2172,19 +2159,18 @@
       "number": 89,
       "set": 18,
       "setTitle": "Burns & trauma",
-      "stem": "70 kg adult blood volume (70 mL/kg): total and 30% loss?",
-      "answer": "4,900 mL (1,470 mL lost)",
-      "work": "70 × 70 = 4,900 → × 0.3 = 1,470",
+      "stem": "Estimated blood volume for an 80 kg adult at 70 mL/kg. Total volume, and how much is a 25% loss?",
+      "answer": "5,600 mL (1,400 mL lost)",
+      "work": "70 × 80 = 5,600 mL → × 0.25 = 1,400 mL",
       "formula": "parkland",
       "domain": "trauma",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "deck": "med-math",
       "deckTitle": "Med math"
@@ -2195,27 +2181,28 @@
       "number": 90,
       "set": 18,
       "setTitle": "Burns & trauma",
-      "stem": "22 kg child, 15% TBSA. 24-hr, 8-hr, and hourly rate?",
-      "answer": "1,320 / 660 mL / 82.5 mL/hr",
-      "work": "4 × 22 × 15 = 1,320 → half = 660 → ÷ 8 = 82.5",
+      "stem": "An 18 kg child with 20% TBSA burns. Parkland 24-hour, first 8-hour, and hourly rate?",
+      "answer": "1,440 mL / 720 mL / 90 mL/hr",
+      "work": "4 × 18 × 20 = 1,440 mL → half = 720 mL → 720 ÷ 8 = 90 mL/hr",
       "formula": "parkland",
       "domain": "trauma",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "ri": {
-        "answer": "Parkland not used prehospital in RI",
-        "work": "RI 4.07: LR 300 mL/hr adult, 20 mL/kg/hr peds; 1,000 mL (adult) or 20 mL/kg (peds) bolus if hypotensive",
-        "ref": "4.07"
+        "stem": "RI 4.07P rate for the same 18 kg child?",
+        "answer": "360 mL/hr (20 mL/kg/hr)",
+        "work": "RI 4.07P runs lactated Ringer's at 20 ml/kg/hr → 20 × 18 = 360 mL/hr, with a 20 ml/kg bolus if hypotensive or shocky. That is 4× the Parkland-derived rate for this patient",
+        "ref": "4.07P"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "4.07P"
     },
     {
       "id": "mm-19-1",
@@ -2223,22 +2210,22 @@
       "number": 91,
       "set": 19,
       "setTitle": "Multi-step scenarios",
-      "stem": "176 lb patient, aspirin 324 mg from 81 mg tablets. Tablets?",
+      "stem": "A 154 lb patient with chest pain gets aspirin 324 mg, supplied as 81 mg chewable tablets. How many tablets?",
       "answer": "4 tablets",
-      "work": "324 ÷ 81 = 4 (weight doesn't matter: distractor)",
+      "work": "324 ÷ 81 = 4 tablets. The 154 lb (70 kg) weight is a distractor — aspirin is not weight-based",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "2.09A"
     },
     {
       "id": "mm-19-2",
@@ -2246,22 +2233,22 @@
       "number": 92,
       "set": 19,
       "setTitle": "Multi-step scenarios",
-      "stem": "Nitro 0.4 mg SL every 5 min × 3. Total?",
-      "answer": "1.2 mg",
-      "work": "0.4 × 3 = 1.2",
+      "stem": "Nitroglycerin 0.4 mg SL every 5 minutes, up to 3 doses. After 2 doses, how much has gone in and how much is left in the sequence?",
+      "answer": "0.8 mg given (0.4 mg left)",
+      "work": "0.4 × 2 = 0.8 mg given; 0.4 × (3 − 2) = 0.4 mg remaining",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "2.09A"
     },
     {
       "id": "mm-19-3",
@@ -2269,19 +2256,18 @@
       "number": 93,
       "set": 19,
       "setTitle": "Multi-step scenarios",
-      "stem": "198 lb patient in VF: amiodarone 300 then 150 mg. Total mg and mL?",
+      "stem": "A 176 lb patient in VF gets amiodarone 300 mg then 150 mg, drawn from 150 mg/3 mL vials. Total mg and total mL?",
       "answer": "450 mg (9 mL)",
-      "work": "300 + 150 = 450 → 50 mg/mL → 9 mL",
+      "work": "300 + 150 = 450 mg → 50 mg/mL → 450 ÷ 50 = 9 mL. Weight (80 kg) is a distractor — adult arrest amiodarone is a fixed dose",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "AHA 2025 Guidelines Part 9: Adult Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001376"
       },
       "deck": "med-math",
       "deckTitle": "Med math"
@@ -2292,29 +2278,29 @@
       "number": 94,
       "set": 19,
       "setTitle": "Multi-step scenarios",
-      "stem": "15 kg child in status: midazolam 0.2 mg/kg IN. First dose and remaining cumulative budget?",
-      "answer": "3 mg (0.6 mL); 12 mg remaining",
-      "work": "0.2 × 15 = 3 mg → 0.6 mL; max 1 mg/kg = 15 → 15 − 3 = 12",
+      "stem": "An 18 kg child in status epilepticus. An order reads midazolam 0.2 mg/kg IN from a 5 mg/mL vial, against a cumulative ceiling of 1 mg/kg. First dose, volume, and what remains of the budget?",
+      "answer": "3.6 mg (0.72 mL); 14.4 mg remaining",
+      "work": "0.2 × 18 = 3.6 mg → 3.6 ÷ 5 = 0.72 mL. Cumulative ceiling 1 × 18 = 18 mg → 18 − 3.6 = 14.4 mg left",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "protocolRef": "2.19P",
       "ri": {
-        "answer": "1.5 mg (0.3 mL); 13.5 mg remaining",
-        "work": "0.1 × 15 = 1.5 mg → ÷ 5 = 0.3 mL; max 1 mg/kg = 15 → 15 − 1.5 = 13.5",
-        "ref": "2.19P",
-        "stem": "15 kg child in status. RI midazolam 0.1 mg/kg. First dose (mg/mL) and remaining cumulative budget?"
+        "stem": "Same 18 kg child under RI 2.19P. First dose, volume, and remaining budget?",
+        "answer": "1.8 mg (0.36 mL); 16.2 mg remaining",
+        "work": "RI 2.19P: midazolam 0.1 mg/kg IV/IM/IN [2 mg maximum single dose] → 0.1 × 18 = 1.8 mg, under the cap → 1.8 ÷ 5 = 0.36 mL. Cumulative ceiling 18 mg → 18 − 1.8 = 16.2 mg left, so RI's smaller first dose leaves more headroom",
+        "ref": "2.19P"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "note": "The 0.2 mg/kg figure is a given order, not attributed to a dosing authority — see mm-11-1. The cumulative 1 mg/kg ceiling is from the AEMT-C block of RI 2.19P; the Paramedic block of the same protocol states 10 mg instead. See mm-11-5."
     },
     {
       "id": "mm-19-5",
@@ -2322,9 +2308,9 @@
       "number": 95,
       "set": 19,
       "setTitle": "Multi-step scenarios",
-      "stem": "88 lb anaphylaxis: kg, epi dose, and methylpred 2 mg/kg (max 60 mg)?",
-      "answer": "40 kg; epi 0.3 mg (0.3 mL); methylpred 60 mg",
-      "work": "88 ÷ 2.2 = 40 → over 30 kg so adult epi dose → 2 × 40 = 80 → capped at 60",
+      "stem": "A 99 lb child in anaphylaxis. Convert the weight, give epinephrine 1:1,000 IM by the RI weight band, then methylprednisolone 2 mg/kg (max 60 mg). All three values?",
+      "answer": "45 kg; epi 0.3 mg (0.3 mL); methylprednisolone 60 mg",
+      "work": "99 ÷ 2.2 = 45 kg → above the 30 kg band so epi 0.3 mg = 0.3 mL of 1 mg/mL → 2 × 45 = 90 mg, over the 60 mg maximum → give 60 mg",
       "formula": "weight",
       "domain": "medical",
       "trap": "threshold",
@@ -2333,11 +2319,12 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "2.04P"
     },
     {
       "id": "mm-20-1",
@@ -2345,22 +2332,22 @@
       "number": 96,
       "set": 20,
       "setTitle": "Max doses & traps",
-      "stem": "Adult atropine max 3 mg; four 0.5 mg doses given. Remaining?",
-      "answer": "1 mg",
-      "work": "4 × 0.5 = 2 → 3 − 2 = 1",
+      "stem": "Adult bradycardia. The AHA ceiling for atropine is 3 mg. After 3 doses of 0.5 mg, how much is left?",
+      "answer": "1.5 mg",
+      "work": "0.5 × 3 = 1.5 mg given → 3 − 1.5 = 1.5 mg remaining",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "AHA 2025 Guidelines Part 9: Adult Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001376"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "3.05A"
     },
     {
       "id": "mm-20-2",
@@ -2368,22 +2355,22 @@
       "number": 97,
       "set": 20,
       "setTitle": "Max doses & traps",
-      "stem": "Adult naloxone max 10 mg; three 2 mg doses given. Remaining?",
-      "answer": "4 mg",
-      "work": "3 × 2 = 6 → 10 − 6 = 4",
+      "stem": "RI caps naloxone at 10 mg total. After 2 doses of 2 mg, how much remains?",
+      "answer": "6 mg",
+      "work": "2 × 2 = 4 mg given → 10 − 4 = 6 mg remaining",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "deck": "med-math",
-      "deckTitle": "Med math"
+      "deckTitle": "Med math",
+      "protocolRef": "4.18A"
     },
     {
       "id": "mm-20-3",
@@ -2391,26 +2378,25 @@
       "number": 98,
       "set": 20,
       "setTitle": "Max doses & traps",
-      "stem": "Adult lorazepam max 10 mg; initial 4 mg given. 2 mg doses left?",
+      "stem": "An adult lorazepam ceiling of 10 mg, with 4 mg already given. How many further 2 mg doses fit?",
       "answer": "3 doses",
-      "work": "10 − 4 = 6 → 6 ÷ 2 = 3",
+      "work": "10 − 4 = 6 mg left → 6 ÷ 2 = 3 doses",
       "formula": "weight",
       "domain": "medical",
-      "trap": null,
       "scope": [
         "nremt-aemt",
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "NHTSA National EMS Education Standards (2021, rev. 2/2025) — Medication Administration, p. 33–34",
+        "url": "https://www.ems.gov/assets/EMS_Education_Standards_2021_Updated2_24_25forEO.pdf"
       },
       "protocolRef": "2.19A",
       "ri": {
+        "stem": "RI 2.19A opens at 2 mg instead, same 10 mg ceiling. How many further 2 mg doses?",
         "answer": "4 doses",
-        "work": "10 − 2 = 8 → 8 ÷ 2 = 4",
-        "ref": "2.19A",
-        "stem": "RI adult lorazepam: 2 mg doses, max 10 mg. After the first 2 mg, how many more doses?"
+        "work": "RI 2.19A: lorazepam 2 mg IV/IM, may repeat 2 mg every 5 min to a maximum of 10 mg → 10 − 2 = 8 mg → 8 ÷ 2 = 4 doses",
+        "ref": "2.19A"
       },
       "deck": "med-math",
       "deckTitle": "Med math"
@@ -2421,9 +2407,9 @@
       "number": 99,
       "set": 20,
       "setTitle": "Max doses & traps",
-      "stem": "Midazolam restraint, over 65, max 5 mg. Gave 5 mg IM. Remaining?",
+      "stem": "Delirium with agitation in a 71-year-old. RI 2.25 caps midazolam at 5 mg cumulative at age ≥ 65. You have given 5 mg IM. How much remains?",
       "answer": "0 mg",
-      "work": "Geriatric ceiling already reached",
+      "work": "5 − 5 = 0 mg. The geriatric ceiling is already reached, so no repeat is available",
       "formula": "weight",
       "domain": "medical",
       "trap": "age",
@@ -2432,15 +2418,15 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "protocolRef": "2.25",
       "ri": {
-        "answer": "5 mg; only in 10 min if SBP >100",
-        "work": "10 − 5 = 5 mg; repeat requires SBP >100",
+        "stem": "Same 5 mg IM in a 40-year-old. Remaining, and what must be true to repeat?",
+        "answer": "5 mg; only if SBP > 100",
+        "work": "RI 2.25: midazolam 2.5–5 mg IV or 5 mg IM/IN, \"may repeat PRN if the SBP >100 to a cumulative dose of 10 mg (5 mg if age ≥65)\" → 10 − 5 = 5 mg remaining, gated on SBP > 100",
         "ref": "2.25",
-        "stem": "RI agitated delirium: midazolam max 10 mg. You gave 5 mg IM. Remaining, and what must be true to repeat?",
         "trap": "threshold"
       },
       "deck": "med-math",
@@ -2452,9 +2438,9 @@
       "number": 100,
       "set": 20,
       "setTitle": "Max doses & traps",
-      "stem": "110 kg, diltiazem 0.25 mg/kg (max 25 mg). Calculated vs actual volume?",
-      "answer": "27.5 mg calculated → push 25 mg (5 mL)",
-      "work": "0.25 × 110 = 27.5 → capped at 25 → 5 mg/mL → 5 mL",
+      "stem": "A 106 kg adult in narrow-complex tachycardia. Diltiazem 0.25 mg/kg with a 25 mg ceiling, vial 5 mg/mL. Calculated dose versus what you push, and the volume?",
+      "answer": "26.5 mg calculated → push 25 mg (5 mL)",
+      "work": "0.25 × 106 = 26.5 mg, over the 25 mg ceiling → push 25 mg → 25 ÷ 5 = 5 mL",
       "formula": "weight",
       "domain": "medical",
       "trap": "ceiling",
@@ -2463,15 +2449,16 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT-C Medication Mathematics Question Bank",
-        "driveId": "1TQEZ0cYYB4SbfDyC10RHnnlLDVAH6mHca10NoBZgpyc"
+        "doc": "AHA 2025 Guidelines Part 9: Adult Advanced Life Support",
+        "url": "https://doi.org/10.1161/CIR.0000000000001376"
       },
       "protocolRef": "3.06A",
       "ri": {
-        "answer": "27.5 mg calculated → push 20 mg (4 mL)",
-        "work": "0.25 × 110 = 27.5 → capped at 20 → 5 mg/mL → 4 mL",
+        "stem": "Same 106 kg patient under RI 3.06A, whose FIRST-dose cap is 20 mg. Calculated versus actual, and volume?",
+        "answer": "26.5 mg calculated → push 20 mg (4 mL)",
+        "work": "0.25 × 106 = 26.5 mg, over RI's 20 mg first-dose maximum → push 20 mg → 20 ÷ 5 = 4 mL. RI's 25 mg figure applies only to the 0.35 mg/kg repeat",
         "ref": "3.06A",
-        "stem": "110 kg, diltiazem 0.25 mg/kg (RI first-dose max 20 mg). Calculated vs actual volume?"
+        "trap": "ceiling"
       },
       "deck": "med-math",
       "deckTitle": "Med math"
