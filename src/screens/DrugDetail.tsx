@@ -5,15 +5,17 @@ import { ConflictList, RiCallout } from '../components/Standards';
 import { isCarried } from '../data';
 import { color, space, type } from '../theme';
 
+// Wording follows the appendix 09.00 legend.
 const CODE: Record<FormularyCode, string> = {
-  R: 'Required', O: 'Optional', C: 'Choice', 'O/C': 'Optional (choice)', 'R/C': 'Required (choice)', P: "Patient's own", X: 'Not in scope',
+  R: 'Required', O: 'Optional', C: 'Choice', 'O/C': 'Optional (choice)', 'R/C': 'Required (choice)',
+  P: "Patient's own", TM: 'Monitor/titrate only', X: 'Not in scope',
 };
 
 // What the two scopes together mean for this drug. A drug can be outside the
 // national AEMT scope and still outside RI's AEMT-C scope — saying "know it for
 // RI AEMT-C" in that case would be wrong.
 function scopeNote(drug: DrugCard): string | null {
-  const riCarries = isCarried(drug.formulary.A) || isCarried(drug.formulary.AC);
+  const riCarries = drug.formulary.some((e) => isCarried(e.codes.A) || isCarried(e.codes.AC));
   // A drug can be in the national scope and carried at no RI level — the Model
   // authorises "Parenteral analgesia for pain" at AEMT, but RI stocks ketorolac
   // nowhere. Saying only "expect it on the NREMT" would leave a student thinking
@@ -64,14 +66,27 @@ export default function DrugDetail({ drug, onBack }: { drug: DrugCard; onBack: (
       ) : null}
 
       <Section title="RI formulary">
-        <View style={styles.grid}>
-          {(['E', 'A', 'AC'] as const).map((lvl) => (
-            <View key={lvl} style={styles.cell}>
-              <Text style={type.small}>{{ E: 'EMT', A: 'AEMT', AC: 'AEMT-C' }[lvl]}</Text>
-              <Text style={[type.body, { fontWeight: '600', color: drug.formulary[lvl] === 'X' ? color.muted : color.ink }]}>{CODE[drug.formulary[lvl]]}</Text>
+        {drug.formulary.length === 0 ? (
+          <Text style={[type.body, { color: color.muted }]}>Not listed in the RI protocols at any level.</Text>
+        ) : (
+          drug.formulary.map((entry) => (
+            // One block per appendix 09.00 row. EMR and Paramedic are stored but not
+            // shown — three columns is what fits a phone, and they aren't your levels.
+            <View key={`${entry.formulation}|${entry.minimumQuantity ?? ''}`} style={{ gap: space.s }}>
+              {drug.formulary.length > 1 ? <Text style={type.small}>{entry.formulation}</Text> : null}
+              <View style={styles.grid}>
+                {(['E', 'A', 'AC'] as const).map((lvl) => (
+                  <View key={lvl} style={styles.cell}>
+                    <Text style={type.small}>{{ E: 'EMT', A: 'AEMT', AC: 'AEMT-C' }[lvl]}</Text>
+                    <Text style={[type.body, { fontWeight: '600', color: entry.codes[lvl] === 'X' ? color.muted : color.ink }]}>{CODE[entry.codes[lvl]]}</Text>
+                  </View>
+                ))}
+              </View>
+              {entry.minimumQuantity ? <Text style={type.small}>Minimum: {entry.minimumQuantity}</Text> : null}
+              {entry.note ? <Text style={type.small}>{entry.note}</Text> : null}
             </View>
-          ))}
-        </View>
+          ))
+        )}
         {drug.supply ? <Text style={type.small}>Supply: {drug.supply}</Text> : null}
       </Section>
     </ScrollView>

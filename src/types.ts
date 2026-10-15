@@ -3,11 +3,33 @@
 // ri-aemt / ri-aemt-c come from the RI formulary (09.00). nremt-aemt marks textbook/national-only content.
 // 'reference' = carried at no level you practice under; kept for recognition only.
 export type Scope = 'nremt-aemt' | 'ri-aemt' | 'ri-aemt-c' | 'reference';
-// Formulary codes, RIDOH appendix 09.00: R required, O optional, P patient's own
-// supply, X not in scope. 'C' is Choice — the agency medical director picks among
-// interchangeable options in a class (appendix 09.01), NOT online medical control.
-// Authority to give lives in RiAuthority, read off the numbered protocol.
-export type FormularyCode = 'R' | 'O' | 'C' | 'O/C' | 'R/C' | 'P' | 'X';
+// Formulary codes, verbatim from the RIDOH appendix 09.00 legend:
+//   X  Not within scope
+//   R  Required
+//   C  Choice (interchangeable with another agent; service selects agent of choice)
+//   O  Optional (within scope if available)
+//   P  Within scope from patient's prescriptive stock
+//   TM Within scope to monitor and titrate a pre-existing infusion
+// 'C' is a stocking choice, NOT online medical control — authority to give lives
+// in RiAuthority, read off the numbered protocol. Appendix 09.01 lists the
+// interchangeable pairs (lorazepam/diazepam, CaCl/Ca gluconate, DuoDote/Mark-1).
+export type FormularyCode = 'R' | 'O' | 'C' | 'O/C' | 'R/C' | 'P' | 'TM' | 'X';
+
+// RI codes each FORMULATION separately, and they disagree: acetaminophen is R at
+// AEMT by mouth but X injectable, which is exactly the kind of thing an exam
+// traps on. One entry per appendix 09.00 row.
+export interface FormularyEntry {
+  formulation: string;            // "Acetaminophen (injectable)" — the appendix's own wording
+  minimumQuantity: string | null; // "Four (4) 500 mg tablets"
+  codes: {
+    EMR: FormularyCode;
+    E: FormularyCode;
+    A: FormularyCode;
+    AC: FormularyCode;   // the A/C column
+    P: FormularyCode;
+  };
+  note?: string;                  // only where the row needs explaining
+}
 export type Domain = 'airway' | 'cardiology' | 'trauma' | 'medical' | 'operations';
 export type Trap = 'ceiling' | 'floor' | 'threshold' | 'age' | 'equipment';
 export type Formula = 'conversion' | 'volume' | 'weight' | 'percent' | 'drip' | 'parkland';
@@ -76,7 +98,9 @@ export interface DrugCard extends Base {
   pearls: string[];      // general / national
   riPearls: string[];    // RI protocol detail, shown in the gold callout
   supply: string | null;
-  formulary: { E: FormularyCode; A: FormularyCode; AC: FormularyCode };
+  // One entry per appendix 09.00 row. Empty only when the drug appears nowhere in
+  // the RI protocols at all (terbutaline, activated charcoal).
+  formulary: FormularyEntry[];
   scopeVerified: boolean;
   national: NationalScope;   // national AEMT scope, with the evidence behind it
   riAuthority?: RiAuthority; // standing order vs medical control, per level

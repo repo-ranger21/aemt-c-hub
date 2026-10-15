@@ -39,11 +39,52 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "R",
-      "A": "R",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Acetaminophen (oral)",
+        "minimumQuantity": "Four (4) 500 mg tablets",
+        "codes": {
+          "EMR": "X",
+          "E": "R",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        }
+      },
+      {
+        "formulation": "Acetaminophen (oral suspension)",
+        "minimumQuantity": "One (1) 20 ml bottle (160 mg/5 ml)",
+        "codes": {
+          "EMR": "X",
+          "E": "R",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        }
+      },
+      {
+        "formulation": "Acetaminophen (rectal)",
+        "minimumQuantity": "Three (3) 325 mg or five (5) 120 mg",
+        "codes": {
+          "EMR": "X",
+          "E": "R",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        }
+      },
+      {
+        "formulation": "Acetaminophen (injectable)",
+        "minimumQuantity": "One (1) 1000 mg/100 ml premixed X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "O",
+          "P": "O"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -95,11 +136,30 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "R",
-      "A": "R",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Ibuprofen (oral)",
+        "minimumQuantity": "Eight (8) 200 mg tablets",
+        "codes": {
+          "EMR": "X",
+          "E": "R",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        }
+      },
+      {
+        "formulation": "Ibuprofen (oral suspension)",
+        "minimumQuantity": "One (1) 20 ml bottle (100 mg/5 ml)",
+        "codes": {
+          "EMR": "X",
+          "E": "R",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -148,11 +208,19 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "X"
-    },
+    "formulary": [
+      {
+        "formulation": "Ketorolac (injectable)",
+        "minimumQuantity": "60 mg (prefilled syringe/ampule/vial) X X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "X",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -199,11 +267,30 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "R",
-      "A": "R",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Aspirin (oral)",
+        "minimumQuantity": "Twenty (20) 81 mg tablets",
+        "codes": {
+          "EMR": "X",
+          "E": "R",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        }
+      },
+      {
+        "formulation": "Aspirin (oral)",
+        "minimumQuantity": "Four (4) 325 mg tablets",
+        "codes": {
+          "EMR": "X",
+          "E": "O",
+          "A": "O",
+          "AC": "O",
+          "P": "O"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -257,11 +344,19 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Fentanyl (injectable)",
+        "minimumQuantity": "300 mcg (vial/ampule) X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -318,11 +413,19 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "R",
-      "A": "R",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Albuterol 0.083% (inhalation)",
+        "minimumQuantity": "10 mg (2.5 mg unit dose bullets)",
+        "codes": {
+          "EMR": "X",
+          "E": "R",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -367,11 +470,7 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "X"
-    },
+    "formulary": [],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -418,11 +517,19 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "O",
-      "A": "O",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Ipratropium bromide (inhalation)",
+        "minimumQuantity": "0.5 mg unit dose or may be combined with",
+        "codes": {
+          "EMR": "X",
+          "E": "O",
+          "A": "O",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -466,11 +573,20 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "R",
-      "A": "R",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Oxygen (medical gas)",
+        "minimumQuantity": null,
+        "codes": {
+          "EMR": "R",
+          "E": "R",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        },
+        "note": "Not listed in appendix 09.00 — oxygen is carried as equipment at every level, not as a formulary medication."
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -506,11 +622,30 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Lidocaine (injectable)",
+        "minimumQuantity": "300 mg (prefilled syringe/vial) X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "R",
+          "P": "R"
+        }
+      },
+      {
+        "formulation": "Lidocaine (infusion)",
+        "minimumQuantity": "1 gm/250 ml or 2 gm/500 ml (premixed) X X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "X",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -556,11 +691,19 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "X"
-    },
+    "formulary": [
+      {
+        "formulation": "Procainamide (injectable)",
+        "minimumQuantity": "Two (2) 1 gm (vial/ampule) X X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "X",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -599,11 +742,19 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "X"
-    },
+    "formulary": [
+      {
+        "formulation": "Metoprolol (injectable)",
+        "minimumQuantity": "15 mg (vial) X X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "X",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -640,11 +791,30 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Amiodarone (injectable)",
+        "minimumQuantity": "450 mg (prefilled syringe/vial/ X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "R",
+          "P": "R"
+        }
+      },
+      {
+        "formulation": "Amiodarone (infusion)",
+        "minimumQuantity": "360 mg/200 ml (premixed bag) X X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "X",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -690,11 +860,30 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Diltiazem (injectable)",
+        "minimumQuantity": "50 mg (prefilled syringe/vial) X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "R",
+          "P": "R"
+        }
+      },
+      {
+        "formulation": "Diltiazem (infusion)",
+        "minimumQuantity": "100 mg (vial or other) X X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "X",
+          "P": "O"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -749,11 +938,30 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "P",
-      "A": "R",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Nitroglycerin (sublingual)",
+        "minimumQuantity": "4 mg (0.4 mg tablets, 0.4 mg metered dose",
+        "codes": {
+          "EMR": "X",
+          "E": "P",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        }
+      },
+      {
+        "formulation": "Nitroglycerin (infusion)",
+        "minimumQuantity": "50 mg (premixed/vial) X X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "X",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -813,11 +1021,19 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Furosemide (injectable)",
+        "minimumQuantity": "80 mg (prefilled syringe/vial/ampule) X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -862,11 +1078,19 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "O/C"
-    },
+    "formulary": [
+      {
+        "formulation": "Diazepam (injectable)",
+        "minimumQuantity": "20 mg (prefilled syringe/vial/ampule) X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "O/C",
+          "P": "O/C"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -909,11 +1133,19 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "O/C"
-    },
+    "formulary": [
+      {
+        "formulation": "Lorazepam (injectable)",
+        "minimumQuantity": "10 mg (prefilled syringe/vial) X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "O/C",
+          "P": "O/C"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -959,11 +1191,19 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Midazolam (injectable)",
+        "minimumQuantity": "20 mg (prefilled syringe/vial) X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1012,11 +1252,7 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "X"
-    },
+    "formulary": [],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1055,11 +1291,19 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "O"
-    },
+    "formulary": [
+      {
+        "formulation": "Hydroxocobalamin (infusion)",
+        "minimumQuantity": "Service optional/if available X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "O",
+          "P": "O"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1100,11 +1344,30 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "O/C",
-      "A": "O/C",
-      "AC": "O/C"
-    },
+    "formulary": [
+      {
+        "formulation": "DuoDote Antidote Kit",
+        "minimumQuantity": "Service optional/if available O/C O/C O/C O/C",
+        "codes": {
+          "EMR": "O/C",
+          "E": "O/C",
+          "A": "O/C",
+          "AC": "O/C",
+          "P": "O/C"
+        }
+      },
+      {
+        "formulation": "Mark-1 nerve agent antidote kit",
+        "minimumQuantity": "N/A O/C O/C O/C O/C",
+        "codes": {
+          "EMR": "O/C",
+          "E": "O/C",
+          "A": "O/C",
+          "AC": "O/C",
+          "P": "O/C"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1145,11 +1408,30 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "R",
-      "A": "R",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Naloxone (injectable/intranasal)",
+        "minimumQuantity": "10 mg (preﬁlled syringe/vial/ampule)",
+        "codes": {
+          "EMR": "X",
+          "E": "R",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        }
+      },
+      {
+        "formulation": "Naloxone (intranasal)",
+        "minimumQuantity": "10 mg (prefilled syringe/intranasal device)",
+        "codes": {
+          "EMR": "R",
+          "E": "X",
+          "A": "X",
+          "AC": "X",
+          "P": "X"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1190,11 +1472,30 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "R",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Dextrose 5% (injectable)",
+        "minimumQuantity": "One (1) 250 ml bag, One (1) 500 ml X X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "X",
+          "P": "R"
+        }
+      },
+      {
+        "formulation": "Dextrose 10% (injectable)",
+        "minimumQuantity": "Two (2) 250 ml bags X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1246,11 +1547,19 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "R",
-      "A": "R",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Glucagon (injectable)",
+        "minimumQuantity": "1 mg (vial)",
+        "codes": {
+          "EMR": "X",
+          "E": "R",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1292,11 +1601,19 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Sodium bicarbonate (injectable)",
+        "minimumQuantity": "150 mEq (prefilled syringe) X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1339,11 +1656,41 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Dexamethasone (injectable)",
+        "minimumQuantity": "10 mg (vial/ampule) X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "C",
+          "P": "R"
+        }
+      },
+      {
+        "formulation": "Hydrocortisone (injectable)",
+        "minimumQuantity": "100 mg (vial) X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "R",
+          "P": "R"
+        }
+      },
+      {
+        "formulation": "Methylprednisolone (injectable)",
+        "minimumQuantity": "125 mg (vial) X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1385,11 +1732,19 @@
       "doc": "AEMT & AEMT-Cardiac Drug Classes Study Notes (2025 Guide)",
       "driveId": "1IOvq7FwDo1FaGalklCVUjrSRvSRkHg2ugtZkCxaIxq0"
     },
-    "formulary": {
-      "E": "R",
-      "A": "R",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Oxymetazoline (nasal spray)",
+        "minimumQuantity": "10 ml (bottle)",
+        "codes": {
+          "EMR": "X",
+          "E": "R",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "protocolSource": {
       "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026)",
       "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
@@ -1411,11 +1766,41 @@
     "contraindications": [],
     "pearls": [],
     "supply": "1 mg/mL IM; 1 mg/10 mL IV",
-    "formulary": {
-      "E": "R",
-      "A": "R",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Epinephrine 1:10,000 (injectable)",
+        "minimumQuantity": "8 mg (prefilled syringe) X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        }
+      },
+      {
+        "formulation": "Epinephrine 1:1,000 (injectable)",
+        "minimumQuantity": "3 mg (auto-injector/prefilled syringe/ R R R R",
+        "codes": {
+          "EMR": "R",
+          "E": "R",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        }
+      },
+      {
+        "formulation": "Epinephrine 2.25% (inhalation)",
+        "minimumQuantity": "2 (two) 0.5ml (unit dose bullet) X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "scope": [
       "nremt-aemt",
       "ri-aemt",
@@ -1471,11 +1856,19 @@
     "contraindications": [],
     "pearls": [],
     "supply": "6 mg / 2 mL (3 mg/mL)",
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Adenosine (injectable)",
+        "minimumQuantity": "24 mg (prefilled syringe/vial) X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "scope": [
       "ri-aemt-c"
     ],
@@ -1526,11 +1919,19 @@
     "contraindications": [],
     "pearls": [],
     "supply": "1 mg / 10 mL (0.1 mg/mL)",
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Atropine sulfate (injectable)",
+        "minimumQuantity": "3 mg (prefilled syringe/vial) X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "scope": [
       "ri-aemt-c"
     ],
@@ -1575,11 +1976,19 @@
     "contraindications": [],
     "pearls": [],
     "supply": "4 mg / 2 mL (2 mg/mL)",
-    "formulary": {
-      "E": "R",
-      "A": "R",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Ondansetron",
+        "minimumQuantity": "8 mg (prefilled syringe/vial/ODT/liquid)",
+        "codes": {
+          "EMR": "X",
+          "E": "R",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "scope": [
       "ri-aemt",
       "ri-aemt-c"
@@ -1625,11 +2034,30 @@
     "contraindications": [],
     "pearls": [],
     "supply": "50 mg/mL",
-    "formulary": {
-      "E": "R",
-      "A": "R",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Diphenhydramine (injectable)",
+        "minimumQuantity": "50 mg (vial/ampule) X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "R",
+          "P": "R"
+        }
+      },
+      {
+        "formulation": "Diphenhydramine (oral)",
+        "minimumQuantity": "50 mg (tabs/caps/powder/elixir)",
+        "codes": {
+          "EMR": "X",
+          "E": "R",
+          "A": "R",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "scope": [
       "ri-aemt",
       "ri-aemt-c"
@@ -1670,11 +2098,19 @@
     "contraindications": [],
     "pearls": [],
     "supply": "100 mg/mL",
-    "formulary": {
-      "E": "X",
-      "A": "O",
-      "AC": "R"
-    },
+    "formulary": [
+      {
+        "formulation": "Thiamine (injectable)",
+        "minimumQuantity": "200 mg (vial/ampule) X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "O",
+          "AC": "R",
+          "P": "R"
+        }
+      }
+    ],
     "scope": [
       "ri-aemt",
       "ri-aemt-c"
@@ -1721,11 +2157,19 @@
     "contraindications": [],
     "pearls": [],
     "supply": "1 g / 10 mL (100 mg/mL)",
-    "formulary": {
-      "E": "X",
-      "A": "X",
-      "AC": "R/C"
-    },
+    "formulary": [
+      {
+        "formulation": "Calcium chloride 10% (injectable)",
+        "minimumQuantity": "2 gm (prefilled syringe/vial) X X",
+        "codes": {
+          "EMR": "X",
+          "E": "X",
+          "A": "X",
+          "AC": "R/C",
+          "P": "R/C"
+        }
+      }
+    ],
     "scope": [
       "ri-aemt-c"
     ],
@@ -1763,11 +2207,19 @@
     "contraindications": [],
     "pearls": [],
     "supply": null,
-    "formulary": {
-      "E": "X",
-      "A": "O",
-      "AC": "O"
-    },
+    "formulary": [
+      {
+        "formulation": "Nitrous oxide (50/50)",
+        "minimumQuantity": "N/A",
+        "codes": {
+          "EMR": "X",
+          "E": "O",
+          "A": "O",
+          "AC": "O",
+          "P": "O"
+        }
+      }
+    ],
     "scope": [
       "nremt-aemt",
       "ri-aemt",

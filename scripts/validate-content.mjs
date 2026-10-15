@@ -16,7 +16,7 @@ const load = (file) => JSON.parse(readFileSync(join(root, 'src/data', file), 'ut
 const SCOPES = new Set(['nremt-aemt', 'ri-aemt', 'ri-aemt-c', 'reference']);
 const DOMAINS = new Set(['airway', 'cardiology', 'trauma', 'medical', 'operations']);
 const TRAPS = new Set(['ceiling', 'floor', 'threshold', 'age', 'equipment']);
-const FORMULARY = new Set(['R', 'O', 'C', 'O/C', 'R/C', 'P', 'X']);
+const FORMULARY = new Set(['R', 'O', 'C', 'O/C', 'R/C', 'P', 'TM', 'X']);
 const FORMULAS = new Set(['conversion', 'volume', 'weight', 'percent', 'drip', 'parkland']);
 const NATIONAL_STATUS = new Set(['in', 'out']);
 const NATIONAL_BASIS = new Set(['sop-guidelines', 'curriculum-condition', 'common-formulary', 'beyond-aemt']);
@@ -116,20 +116,35 @@ for (const d of drugs) {
   }
 
   // Formulary and scope have to agree, or the "My AEMT-C scope" filter lies.
+  // One entry per appendix 09.00 row; carriage at a level means ANY formulation
+  // is carried there, since oral acetaminophen counts even though IV is out.
   const f = d.formulary;
-  if (!f || typeof f !== 'object') {
-    fail(where, 'missing formulary');
+  const carried = (code) => code !== undefined && code !== 'X' && code !== 'P';
+  const carriedAt = (lvl) => Array.isArray(f) && f.some((e) => carried(e?.codes?.[lvl]));
+  if (!Array.isArray(f)) {
+    fail(where, 'formulary must be an array of appendix 09.00 entries');
   } else {
-    for (const level of ['E', 'A', 'AC']) {
-      if (!FORMULARY.has(f[level])) fail(where, `formulary.${level} = "${f[level]}" is not a valid code`);
-    }
-    const carried = (code) => code !== undefined && code !== 'X' && code !== 'P';
+    f.forEach((e, i) => {
+      const at = `${where} formulary[${i}]`;
+      if (!e || typeof e !== 'object') return fail(at, 'entry must be an object');
+      if (!isText(e.formulation)) fail(at, 'missing formulation');
+      if (e.minimumQuantity !== null && !isText(e.minimumQuantity)) fail(at, 'minimumQuantity must be a string or null');
+      if (!e.codes || typeof e.codes !== 'object') return fail(at, 'missing codes');
+      for (const level of ['EMR', 'E', 'A', 'AC', 'P']) {
+        if (!FORMULARY.has(e.codes[level])) fail(at, `codes.${level} = "${e.codes[level]}" is not a valid code`);
+      }
+    });
+    // The appendix reuses a label across strengths — aspirin is "(oral)" twice,
+    // 81 mg Required and 325 mg Optional — so the row is identified by the pair.
+    const keys = f.map((e) => `${e?.formulation}\u0000${e?.minimumQuantity}`);
+    if (new Set(keys).size !== keys.length) fail(where, 'two formulary entries share a formulation AND minimum quantity');
+
     const expected = [];
-    if (carried(f.A)) expected.push('ri-aemt');
-    if (carried(f.AC)) expected.push('ri-aemt-c');
+    if (carriedAt('A')) expected.push('ri-aemt');
+    if (carriedAt('AC')) expected.push('ri-aemt-c');
     const declared = d.scope.filter((s) => s.startsWith('ri-'));
     if (expected.sort().join() !== declared.slice().sort().join()) {
-      fail(where, `scope [${declared}] does not match formulary A=${f.A} AC=${f.AC}, which implies [${expected}]`);
+      fail(where, `scope [${declared}] does not match the formulary, which implies [${expected}]`);
     }
     if (d.national?.status === 'in' && !d.scope.includes('nremt-aemt')) {
       fail(where, 'national.status is "in" but scope omits nremt-aemt');
@@ -146,8 +161,8 @@ for (const d of drugs) {
         if (a[lvl] !== null && a[lvl] !== undefined && !AUTHORITY.has(a[lvl])) {
           fail(where, `riAuthority.${lvl} = "${a[lvl]}" is not a valid authority`);
         }
-        if (a[lvl] && !carried(f[lvl])) {
-          fail(where, `riAuthority.${lvl} is set but formulary.${lvl}="${f[lvl]}" is not carried`);
+        if (a[lvl] && !carriedAt(lvl)) {
+          fail(where, `riAuthority.${lvl} is set but no formulation is carried at ${lvl}`);
         }
       }
       if ((a.A || a.AC) && !isText(a.protocolRef)) {
