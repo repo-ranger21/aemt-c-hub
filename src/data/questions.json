@@ -9086,7 +9086,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 2.08 Adult Respiratory Distress (Asthma/COPD/RAD)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "choices": [
         {
@@ -9113,7 +9114,8 @@
           "error": "adjacent-fact",
           "rationale": "A pneumothorax is sudden and one-sided — sharp pain and absent breath sounds on that side. Nothing here is sudden, and the chest findings are symmetrical."
         }
-      ]
+      ],
+      "protocolRef": "2.08A"
     },
     {
       "id": "resp-102",
@@ -9133,7 +9135,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 2.08 Adult Respiratory Distress (Asthma/COPD/RAD)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "protocolRef": "2.08A",
       "ri": {
@@ -9178,7 +9181,7 @@
       "setTitle": "Respiratory emergencies",
       "stem": "A \"silent chest\" in an asthma patient means what?",
       "answer": "Pre-respiratory-arrest, not improvement",
-      "work": "Airflow is too poor to even make a wheeze",
+      "work": "RI 2.08A NOTES, verbatim: \"A ‘silent chest’ in the asthmatic patient is a pre-respiratory arrest indicator.\" Airflow is too poor to make a wheeze.",
       "domain": "airway",
       "trap": null,
       "scope": [
@@ -9186,7 +9189,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 2.08 Adult Respiratory Distress — NOTES",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "choices": [
         {
@@ -9213,7 +9217,8 @@
           "error": "adjacent-fact",
           "rationale": "A pneumothorax would silence one side. A silent chest in asthma is bilateral, and it is about flow rather than air in the pleural space."
         }
-      ]
+      ],
+      "protocolRef": "2.08A"
     },
     {
       "id": "resp-104",
@@ -9233,10 +9238,10 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 2.08 Adult Respiratory Distress / Procedure 7.01 CPAP",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "protocolRef": "2.08A / 7.01",
-      "verify": "UNRESOLVED IN v2026.02 (re-checked 15 Oct 2026): 2.08A states 5-10 cmH2O for asthma/COPD/RAD; procedure 7.01 step 6 states 3-5 cmH2O for asthma or COPD and reserves 5-10 for pulmonary edema, near-drowning, aspiration or pneumonia. The two RI documents disagree for the same indication. Needs OEMS clarification — this is not a lookup failure.",
       "note": "RI v2026.02 gives two different pressures for this exact indication. Protocol 2.08A (Respiratory Distress — Asthma/COPD/RAD) says \"consider continuous positive airway pressure (CPAP) at 5-10 cmH2O\". Procedure 7.01 step 6 says to titrate upward from zero to a maximum \"3-5 cmH20 for asthma or COPD\", reserving the higher range for pulmonary edema, near-drowning, aspiration and pneumonia. Know both numbers: 2.08A = 5-10 cmH2O, 7.01 = 3-5 cmH2O for asthma/COPD. Which one your service treats as authoritative is a question for your medical director, and it is a fair thing to ask in class. On the national exam, CPAP pressure is not tested to a RI-specific number.",
       "choices": [
         {
@@ -9263,7 +9268,8 @@
           "error": "common-confusion",
           "rationale": "More of a treatment that has not worked. The question asks specifically for the next non-drug step, which is positive pressure."
         }
-      ]
+      ],
+      "verify": "UNRESOLVED IN v2026.02 (re-checked 15 Oct 2026): 2.08A states 5-10 cmH2O for asthma/COPD/RAD; procedure 7.01 step 6 states 3-5 cmH2O for asthma or COPD and reserves 5-10 for pulmonary edema, near-drowning, aspiration or pneumonia. The two RI documents disagree for the same indication. Needs OEMS clarification — this is not a lookup failure."
     },
     {
       "id": "resp-105",
@@ -9310,7 +9316,8 @@
           "correct": true,
           "rationale": "High-flow oxygen can blunt the hypoxic drive in a chronic retainer. Support ventilation — and never withhold oxygen from a patient who needs it. The answer is to assist breathing, not to turn the oxygen down and walk away."
         }
-      ]
+      ],
+      "verify": "Hypoxic drive: see resp-hypoxic-drive. No RI or federal source found."
     },
     {
       "id": "resp-106",
@@ -9357,7 +9364,8 @@
           "correct": true,
           "rationale": "About twice as long, an I:E ratio near 1:2. It lengthens further in asthma as air struggles to get out, and shortens in tachypnoea."
         }
-      ]
+      ],
+      "verify": "The I:E ratio of normal spontaneous breathing has no RI or federal source. RI’s only I:E figure is a ventilation instruction inside procedure 7.07 Cricothyrotomy."
     },
     {
       "id": "resp-107",
@@ -9377,7 +9385,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 2.08 Pediatric Respiratory Distress (Asthma/RAD/Croup)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "protocolRef": "2.08P",
       "ri": {
@@ -9430,7 +9439,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 2.08 Pediatric Respiratory Distress (Asthma/RAD/Croup)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "choices": [
         {
@@ -9457,7 +9467,8 @@
           "error": "adjacent-fact",
           "rationale": "A real differential for fever and drooling. Laying any of these children flat is wrong — it worsens obstruction, and position of comfort is the rule."
         }
-      ]
+      ],
+      "protocolRef": "2.08P"
     },
     {
       "id": "resp-109",
@@ -9477,7 +9488,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 2.08 Pediatric Respiratory Distress (Asthma/RAD/Croup)",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "choices": [
         {
@@ -9504,7 +9516,8 @@
           "correct": true,
           "rationale": "Bronchiolitis, usually RSV. Care is largely supportive; nebulised epinephrine is not typically helpful unless the child is in extremis."
         }
-      ]
+      ],
+      "protocolRef": "2.08P"
     },
     {
       "id": "resp-110",
@@ -9524,7 +9537,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+        "doc": "NHLBI (NIH) — Pleural Disorders — Causes and Risk Factors",
+        "url": "https://www.nhlbi.nih.gov/health/pleural-disorders/causes"
       },
       "choices": [
         {
@@ -9571,7 +9585,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+        "doc": "NHLBI (NIH) — Pleural Disorders — Causes and Risk Factors",
+        "url": "https://www.nhlbi.nih.gov/health/pleural-disorders/causes"
       },
       "choices": [
         {
@@ -9618,7 +9633,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+        "doc": "NHLBI (NIH) — Venous Thromboembolism — Causes and Risk Factors",
+        "url": "https://www.nhlbi.nih.gov/health/venous-thromboembolism/causes"
       },
       "choices": [
         {
@@ -9692,7 +9708,8 @@
           "error": "inverted",
           "rationale": "The other one. Wheeze comes from the lower airway and is usually expiratory; stridor comes from above the cords and is heard on inspiration."
         }
-      ]
+      ],
+      "verify": "Stridor versus wheeze: RI uses both terms but defines neither. Needs a source for the definitions."
     },
     {
       "id": "resp-114",
@@ -9704,7 +9721,7 @@
       "setTitle": "Respiratory emergencies",
       "stem": "Target SpO2 range for supplemental oxygen therapy?",
       "answer": "94-99%",
-      "work": "Avoid pushing to 100%",
+      "work": "RI 1.01, verbatim: with \"a SpO2 of <94%, oxygen should be administered via appropriate delivery device to maintain the SpO2 in a range of 94-99%\", titrated to the lowest concentration that holds it there.",
       "domain": "airway",
       "trap": null,
       "scope": [
@@ -9712,7 +9729,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 1.01 Routine Patient Care",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "choices": [
         {
@@ -9739,7 +9757,8 @@
           "correct": true,
           "rationale": "94–99%. Enough to correct hypoxia without pushing to 100%, where the extra oxygen buys nothing and may do harm."
         }
-      ]
+      ],
+      "protocolRef": "1.01"
     },
     {
       "id": "eh-101",

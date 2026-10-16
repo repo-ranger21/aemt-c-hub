@@ -2154,10 +2154,11 @@
     "title": "Four ways breathing fails",
     "domain": "airway",
     "body": [
-      "Upper airway obstruction: foreign body, trauma, inflammation (epiglottitis, croup).",
-      "Lower airway obstruction: bronchospasm, mucus, obstructive lung disease.",
-      "Chest wall impairment: trauma, pneumothorax, hemothorax, neuromuscular disease.",
-      "Neurologic control problems: brainstem injury, stroke, drugs that blunt the respiratory drive."
+      "NHLBI groups the causes by what the failure interrupts rather than by anatomy. AIR CANNOT GET IN: weakness after a stroke, collapsed airways, or something blocking the windpipe.",
+      "AIR CANNOT GET OUT: asthma narrowing the airways, or COPD filling them with mucus.",
+      "THE LUNG CANNOT HOLD AIR OR EXCHANGE IT: a collapsed lung or air leaking into the space around it after chest injury; or fluid in the lungs from pneumonia, ARDS, drowning, heart failure or severe head injury, making transfer between air sacs and blood harder.",
+      "THE PUMP FAILS: spinal cord injury, muscular dystrophy, poor blood flow to the diaphragm, cardiogenic shock or sepsis leaving the breathing muscles unable to do the work.",
+      "THE CONTROLLER FAILS: in opioid overdose \"the brain doesn’t respond to rising carbon dioxide\", so CO2 climbs while oxygen falls."
     ],
     "tags": [
       "pathophysiology",
@@ -2168,9 +2169,11 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      "doc": "NHLBI (NIH) — Respiratory Failure — Causes and Risk Factors",
+      "url": "https://www.nhlbi.nih.gov/health/respiratory-failure/causes"
     },
-    "chapter": 17
+    "chapter": 17,
+    "note": "Rebuilt on NHLBI’s own grouping. Worth knowing what that page does NOT do: it never uses the terms hypoxemic, hypercapnic, V/Q mismatch, hypoventilation or impaired diffusion. Those belong to the textbook framing and have no federal source yet, so this card teaches NHLBI’s categories instead of renaming them."
   },
   {
     "id": "resp-gas-exchange",
@@ -2194,7 +2197,8 @@
     "source": {
       "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
     },
-    "chapter": 17
+    "chapter": 17,
+    "verify": "Type I and Type II alveolar cells, surfactant and the V/Q match are textbook anatomy and physiology. NHLBI’s respiratory pages do not carry them at this depth, and RI carries no anatomy at all. Needs the Tier 3 A&P sourcing decision."
   },
   {
     "id": "resp-hypoxic-drive",
@@ -2218,7 +2222,8 @@
     "source": {
       "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
     },
-    "chapter": 17
+    "chapter": 17,
+    "verify": "Hypoxic drive appears nowhere in the RI protocols (zero hits) and is not described on the NHLBI respiratory pages. Needs the Tier 3 A&P sourcing decision."
   },
   {
     "id": "resp-vent-mechanics",
@@ -2240,7 +2245,8 @@
     "source": {
       "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
     },
-    "chapter": 17
+    "chapter": 17,
+    "verify": "RI does contain \"an I:E ratio of 1:2 or 1:3\" — but in procedure 7.07 Cricothyrotomy, step 8, describing how to ventilate through a transtracheal catheter. That says nothing about normal spontaneous breathing, so citing it here would misattribute. The respiratory acidosis/alkalosis half needs the pathophysiology sourcing decision."
   },
   {
     "id": "resp-copd",
@@ -2250,10 +2256,11 @@
     "title": "COPD: chronic bronchitis vs emphysema",
     "domain": "airway",
     "body": [
-      "Chronic bronchitis: mucus-gland overgrowth, productive cough 3+ months/year for 2+ years.",
-      "Emphysema: alveolar wall destruction from lost surfactant, irreversible; the most common form of COPD.",
-      "Acute COPD picture: pursed-lip breathing, barrel chest, tripod position, days of worsening dyspnea.",
-      "Dry lungs — pair with pulmonary edema's wet lungs for the breath-sound gut check; treat the patient, not just the sounds."
+      "CHRONIC BRONCHITIS (NHLBI): \"caused by repeated or constant irritation and inflammation in the lining of the airways\", with \"a lot of thick mucus\" forming in the airways, making it hard to breathe.",
+      "EMPHYSEMA (NHLBI): \"develops when there is damage to the walls between many of the air sacs in the lungs.\" NHLBI does not attribute that damage to lost surfactant, and neither should you — surfactant appears nowhere in its account of COPD.",
+      "NEITHER IS \"THE COMMON ONE\". NHLBI says most people with COPD have a mix of both, in varying proportions. Treating them as two separate diseases to tell apart is a textbook convenience, not what walks through the door.",
+      "FIELD PICTURE (RI 2.08A recognition): shortness of breath, pursed lip breathing, wheezing or rhonchi, prolonged expiratory phase, accessory muscle use, increased rate and effort, fever, cough.",
+      "Dry lungs — pair with pulmonary edema’s wet lungs for the breath-sound gut check, and treat the patient rather than the sounds."
     ],
     "tags": [
       "high-yield"
@@ -2263,9 +2270,11 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      "doc": "NHLBI (NIH) — COPD",
+      "url": "https://www.nhlbi.nih.gov/health/copd"
     },
-    "chapter": 17
+    "chapter": 17,
+    "note": "Two corrections on re-sourcing. The previous card said emphysema is \"alveolar wall destruction from lost surfactant\" and \"the most common form of COPD\". NHLBI supports neither claim: it gives no cause for the wall damage, never mentions surfactant in connection with COPD, and states that most patients have both conditions mixed."
   },
   {
     "id": "resp-asthma",
@@ -2275,9 +2284,11 @@
     "title": "Asthma: the reversible triad",
     "domain": "airway",
     "body": [
-      "Bronchospasm plus mucus production plus airway edema: all three, and all reversible.",
-      "Status asthmaticus: a severe attack that doesn't respond to conventional treatment, a dire emergency.",
-      "A silent chest in an asthmatic isn't improvement, it's a pre-respiratory-arrest sign."
+      "THE THREE COMPONENTS (EPR-3): acute symptoms \"usually arise from bronchial smooth muscle contraction (bronchoconstriction)\"; as disease becomes more persistent, airflow is further limited by airway edema, \"mucus hypersecretion and the formation of inspissated mucus plugs\", and structural remodelling.",
+      "REVERSIBLE — BUT NOT ALWAYS FULLY. EPR-3 describes \"widespread but variable airflow obstruction that is often reversible\", and warns that \"Reversibility of airflow limitation may be incomplete in some patients with asthma.\" Airway remodelling can leave permanent change that current therapy does not reverse.",
+      "SILENT CHEST (RI 2.08A, NOTES, verbatim): \"A ‘silent chest’ in the asthmatic patient is a pre-respiratory arrest indicator.\" It is not improvement — there is no longer enough airflow to make a wheeze.",
+      "RI 2.08A LADDER: albuterol 2.5–5 mg with ipratropium 500 mcg on the first dose via SVN, up to 4 doses; methylprednisolone 125 mg IV; CPAP 5–10 cmH2O for a patient not responding to initial therapy; epinephrine 1:1,000 0.3 mg IM for the asthmatic in extremis, on Medical Control at AEMT-C.",
+      "RI also warns that asthmatics drop their pressure after going onto positive pressure, because preload falls — and that a rising EtCO2 is acceptable rather than something to hyperventilate away."
     ],
     "tags": [
       "high-yield"
@@ -2287,9 +2298,11 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      "doc": "NHLBI (NIH) — Expert Panel Report 3, Section 2: Definition, Pathophysiology and Pathogenesis of Asthma, and Natural History of Asthma (2007)",
+      "url": "https://www.nhlbi.nih.gov/files/docs/guidelines/03_sec2_def.pdf"
     },
-    "chapter": 17
+    "chapter": 17,
+    "note": "The previous card called all three components reversible without qualification. EPR-3 is more careful: obstruction is \"often reversible\" and reversibility \"may be incomplete in some patients\"."
   },
   {
     "id": "resp-pulmonary-edema",
@@ -2299,10 +2312,11 @@
     "title": "Pulmonary edema: wet lungs",
     "domain": "airway",
     "body": [
-      "Fluid floods the alveoli and lung tissue, cutting gas exchange.",
-      "Cardiogenic: left heart can't keep up with the right, back-pressure floods into the lungs.",
-      "Noncardiogenic causes: smoke/toxic fume inhalation, chest trauma, high-altitude exposure.",
-      "Classic picture: dyspnea, orthopnea, fatigue, reduced exercise tolerance, crackles."
+      "RECOGNITION (RI 3.01, verbatim list): respiratory distress, dyspnea on exertion, orthopnea, bilateral crackles on auscultation, jugular venous distention, peripheral edema, diaphoresis, hypotension, shock, chest pain or discomfort.",
+      "Fluid floods the alveoli and lung tissue, so gas exchange falls — the wet-lung counterpart to COPD’s dry lungs.",
+      "RI 3.01 LADDER: upright as blood pressure allows; CPAP up to 10 cmH2O for distress, crackles or SpO2 under 92% provided the SBP is at least 90; nitroglycerin 0.4 mg SL every 5 minutes once the SBP is above 100.",
+      "AEMT-C ADDITION: on a transport of 30 minutes or more, for a normotensive patient who takes oral furosemide, their own daily dose (maximum 80 mg) may be given IV instead.",
+      "Note the two different pressure floors in one protocol: CPAP needs SBP ≥ 90, nitroglycerin needs SBP > 100. They are not the same number and the protocol does not treat them as such."
     ],
     "tags": [],
     "scope": [
@@ -2310,9 +2324,11 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 3.01 Acute Decompensated Heart Failure / Pulmonary Edema",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "chapter": 17
+    "chapter": 17,
+    "note": "Rebuilt on RI 3.01. The previous card’s noncardiogenic causes (smoke inhalation, chest trauma, high altitude) are clinically real but appear in neither RI 3.01 nor the NHLBI pages checked, so they are held out until they have a source of their own."
   },
   {
     "id": "resp-pneumo-effusion",
@@ -2322,9 +2338,11 @@
     "title": "Pneumothorax vs pleural effusion",
     "domain": "airway",
     "body": [
-      "Spontaneous pneumothorax: air in the pleural space; tall thin young males at higher risk.",
-      "Sharp pleuritic pain, unilaterally decreased/absent breath sounds, local hyperresonance to percussion; tracheal deviation is a late sign.",
-      "Pleural effusion: fluid outside the lung; decreased breath sounds over the fluid, dull to percussion, patient usually feels better sitting upright."
+      "ONE SPACE, TWO PROBLEMS (NHLBI): pleural effusion and pneumothorax occur when injury or illness causes \"fluid, pus, blood, air, or other gases to build up in the pleural space\". Air gives a pneumothorax; fluid gives an effusion.",
+      "WHO GETS A SPONTANEOUS PNEUMOTHORAX (NHLBI): \"Men, especially those who are taller than average, are more likely than women to have a spontaneous pneumothorax, often without underlying lung disease.\" Pneumothorax is commonest at ages 15–34 and again over 55, and smoking tobacco or marijuana raises the risk.",
+      "EFFUSION MECHANISM (NHLBI): fluid collects when it \"enters the pleural space faster than the body can reabsorb it\", which is why heart, kidney or liver failure produce them.",
+      "AT THE BEDSIDE the percussion note separates them: air is hyperresonant, fluid is dull. Breath sounds fall on the affected side either way, and an effusion patient often prefers sitting up.",
+      "Both sit on RI 2.08A’s own differential for respiratory distress, alongside asthma, COPD, anaphylaxis, aspiration, pneumonia, pulmonary embolus, CHF, hyperventilation and inhaled toxin."
     ],
     "tags": [
       "high-yield"
@@ -2334,9 +2352,11 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      "doc": "NHLBI (NIH) — Pleural Disorders — Causes and Risk Factors",
+      "url": "https://www.nhlbi.nih.gov/health/pleural-disorders/causes"
     },
-    "chapter": 17
+    "chapter": 17,
+    "note": "The previous card said \"tall thin young males\". NHLBI says men \"taller than average\", gives two age peaks (15–34 and over 55) rather than one young band, and does not mention build. The percussion findings are standard physical-examination technique and are not stated by NHLBI or RI; they are retained as exam technique rather than cited to either."
   },
   {
     "id": "resp-pe",
@@ -2346,9 +2366,10 @@
     "title": "Pulmonary embolism",
     "domain": "airway",
     "body": [
-      "A clot (usually from a leg or pelvic vein) lodges in a pulmonary artery and blocks blood flow, a V/Q mismatch.",
-      "Risk factors: immobilization, recent surgery, pregnancy, prior PE, obesity, oral contraceptives, cancer, long-distance travel, sickle cell disease.",
-      "Signs: sudden dyspnea, tachycardia, tachypnea, pleuritic chest pain, hypoxia, sometimes hemoptysis."
+      "MECHANISM (NHLBI): a clot forms in a deep vein — \"usually in the lower leg, thigh, or pelvis\" — and \"Pulmonary embolism occurs when a clot breaks loose and travels through the bloodstream to the lungs\", where it \"blocks blood flow to the lungs\".",
+      "RISK FACTORS NHLBI NAMES: prolonged immobility, including \"after surgery or while traveling long distances\"; surgery or trauma; a history of blood clots; cancer and its treatment; obesity; increasing age; family history; infection and inflammation. Before menopause, women are at higher risk than men.",
+      "FIELD SIGNS: sudden dyspnea, tachycardia, tachypnea, pleuritic chest pain and hypoxia, sometimes haemoptysis. Breath sounds are usually present and equal, which is what separates it from a pneumothorax on examination.",
+      "On RI 2.08A’s differential for respiratory distress as \"pulmonary embolus\" — there is no RI prehospital treatment protocol specific to PE, so care is supportive and the priority is recognising it."
     ],
     "tags": [],
     "scope": [
@@ -2356,9 +2377,11 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      "doc": "NHLBI (NIH) — Venous Thromboembolism — Causes and Risk Factors",
+      "url": "https://www.nhlbi.nih.gov/health/venous-thromboembolism/causes"
     },
-    "chapter": 17
+    "chapter": 17,
+    "note": "Oral contraceptives and sickle cell disease were listed as risk factors on the previous card. Neither appears on the NHLBI venous thromboembolism pages checked, so both are held out pending their own source. Pregnancy appears only in that page’s meta description and not its body, so it is left out too."
   },
   {
     "id": "resp-peds-upper-airway",
@@ -2368,10 +2391,12 @@
     "title": "Croup vs epiglottitis vs bronchiolitis",
     "domain": "airway",
     "body": [
-      "Bronchiolitis: under 2 y/o (peak 3-6 mo), viral (RSV), wheeze/crackles, gradual onset, largely supportive care.",
-      "Croup: 6 mo-6 y/o, viral, barking cough plus stridor, gradual onset with cold symptoms.",
-      "Epiglottitis: usually over 2 y/o, bacterial, sudden onset, toxic-appearing, drooling, tripod; avoid airway manipulation and suctioning.",
-      "Always consider a foreign body first in a child who went from eating to short of breath."
+      "RI 2.08P SETS THE AGES AND THE FINDINGS. Bronchiolitis: under 2 years, peaking 3–6 months, with poor feeding or fussiness, increasing coryza and congestion, low-grade fever, cough, fine crackles and fine diffuse wheezing.",
+      "CROUP: 6 months to 6 years, peaking under 4, following an upper respiratory infection, with low-grade fever, coryza, a \"barking\" cough and varying respiratory distress.",
+      "ASTHMA/RAD: over 2 years, with wheezing, cough, chest tightness and a prolonged expiratory phase.",
+      "EPIGLOTTITIS: over 2 years, fever, toxic or ill appearing, favouring an upright position, drooling, stridor. Avoid airway manipulation and suctioning — let secretions drain, keep the child calm.",
+      "RI TREATMENT for stridor at rest: nebulised epinephrine (2.25% solution 0.5 mL in 3 mL NS, or 1 mg/mL 5 mg), may repeat once; dexamethasone 0.6 mg/kg PO/IM/IV to a 10 mg maximum. Oxygen if the SpO2 is 92% or below.",
+      "Always consider a foreign body first in a child who went from eating to short of breath — the one cause that needs no fever and no prodrome."
     ],
     "tags": [
       "high-yield"
@@ -2381,9 +2406,11 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 2.08 Pediatric Respiratory Distress (Asthma/RAD/Croup)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
-    "chapter": 17
+    "chapter": 17,
+    "note": "Rebuilt directly on RI 2.08P, which carries the whole differential with ages and findings in one block. The foreign-body line is retained as clinical judgement; RI does not state it in this protocol."
   },
   {
     "id": "resp-breath-sounds",
@@ -2409,7 +2436,8 @@
     "source": {
       "doc": "AEMT textbook Ch 17: Respiratory Emergencies (lecture slides)"
     },
-    "chapter": 17
+    "chapter": 17,
+    "verify": "RI uses stridor, wheeze, rhonchi and crackles throughout but never defines them. No federal source checked defines the set either. The terms are standard nomenclature; the definitions need a source before this card can be cited."
   },
   {
     "id": "resp-o2-cpap",
