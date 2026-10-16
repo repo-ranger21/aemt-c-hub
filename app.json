@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "aemt-c-hub",
+    "name": "AEMT-C Hub",
     "slug": "aemt-c-hub",
+    "description": "AEMT cognitive exam and Rhode Island AEMT-Cardiac study app from American Safety Programs & Training.",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,7 +12,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#FFFFFF",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"

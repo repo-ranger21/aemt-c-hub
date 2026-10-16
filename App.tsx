@@ -7,6 +7,7 @@ import Drugs from './src/screens/Drugs';
 import DrugDetail from './src/screens/DrugDetail';
 import Topics from './src/screens/Topics';
 import Drill from './src/screens/Drill';
+import { AppHeader } from './src/components/Brand';
 import { loadReviews, saveReviews, type ReviewMap } from './src/lib/review';
 import type { DrugCard } from './src/types';
 import { color, space } from './src/theme';
@@ -51,6 +52,7 @@ export default function App() {
     <SafeAreaProvider>
       <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
         <StatusBar style="dark" />
+        <AppHeader />
         <View style={{ flex: 1 }}>{screen}</View>
         <View style={styles.tabs} accessibilityRole="tablist">
           {TABS.map((t) => {

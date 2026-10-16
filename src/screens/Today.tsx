@@ -1,6 +1,7 @@
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { questions } from '../data';
 import { isDue, type ReviewMap } from '../lib/review';
+import { BrandLockup } from '../components/Brand';
 import { Button, Section } from '../components/Ui';
 import { color, space, type } from '../theme';
 
@@ -25,6 +26,7 @@ export default function Today({ reviews, onStart }: { reviews: ReviewMap; onStar
 
   return (
     <ScrollView contentContainerStyle={styles.wrap}>
+      <BrandLockup />
       <Text style={styles.big}>{due}</Text>
       <Text style={type.body}>questions due today</Text>
       <View style={{ flexDirection: 'row', marginTop: space.l }}>

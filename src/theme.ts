@@ -1,3 +1,10 @@
+// Sampled from the American Safety Programs & Training logo. Used for brand
+// chrome only — the clinical palette below keeps its own meanings.
+export const brand = {
+  red: '#E8372B',
+  navy: '#323C6B',
+};
+
 // Star of Life blue for the national standard, Rhode Island anchor gold for state protocol.
 export const color = {
   paper: '#F7F9FB',
@@ -12,6 +19,12 @@ export const color = {
   riTint: '#FBF4E4',
   trap: '#B3261E',
   good: '#2E7D4F',
+  // Graded-answer states. Tints are kept pale enough that the option text stays
+  // at full contrast on top of them, and the result is never carried by colour
+  // alone — the letter badge becomes a tick or a cross as well.
+  goodTint: '#F1F9F4',
+  bad: '#C0392B',
+  badTint: '#FDF2F1',
   ecgGridLight: '#E4EDF6',
   ecgGridDark: '#B9CBE0',
 };
