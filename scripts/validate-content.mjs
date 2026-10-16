@@ -24,6 +24,16 @@ const NATIONAL_BASIS = new Set(['sop-guidelines', 'curriculum-condition', 'commo
 // convention must not, because no federal source enumerates AEMT medications.
 const BASIS_NEEDS_CITATION = new Set(['sop-guidelines', 'curriculum-condition']);
 const AUTHORITY = new Set(['standing-order', 'medical-control', 'both']);
+// Mirrors ErrorMode in src/types.ts. Every distractor names the mistake that
+// produces it, which is what lets the app explain a wrong answer instead of
+// just marking it.
+const ERROR_MODES = new Set([
+  'no-conversion', 'inverted', 'wrong-magnitude', 'ignored-ceiling', 'ignored-floor',
+  'single-vs-total', 'wrong-concentration', 'adult-peds', 'ri-answer', 'adjacent-fact',
+  'common-confusion',
+]);
+const POPULATIONS = new Set(['adult', 'pediatric']);
+const BODY_SYSTEMS = new Set(['CNS', 'Respiratory', 'CV', 'GI/GU', 'Musculoskeletal', 'Endocrine', 'Other']);
 const REGULARITY = new Set(['regular', 'irregular', 'irregularly-irregular']);
 const P_WAVES = new Set(['normal', 'inverted', 'absent', 'sawtooth', 'fibrillatory', 'dissociated']);
 const DROPPED = new Set(['wenckebach', 'fixed-ratio', 'bigeminy']);
@@ -96,6 +106,47 @@ for (const d of drugs) {
     if (!Array.isArray(d[field])) fail(where, `${field} must be an array`);
   }
   if (!isTextList(d.indications)) fail(where, 'needs at least one indication');
+
+  // Dosage, adverse effects, interactions and onset/duration come from the ASPT
+  // guide. They are optional per-drug because the guide genuinely has holes —
+  // adenosine carries no dosing, ondansetron no indications — but where a block
+  // exists it has to be well formed, so a parser regression shows up here rather
+  // than as a blank section on a phone in the back of a truck.
+  if (d.dosing !== undefined) {
+    if (!Array.isArray(d.dosing)) fail(where, 'dosing must be an array');
+    else d.dosing.forEach((b, i) => {
+      const at = `${where} dosing[${i}]`;
+      if (!POPULATIONS.has(b?.population)) fail(at, `population "${b?.population}" must be adult or pediatric`);
+      if (b?.indication !== null && !isText(b?.indication)) fail(at, 'indication must be a string or null');
+      if (!isTextList(b?.doses)) fail(at, 'needs at least one dose line');
+    });
+  }
+  if (d.adverse !== undefined) {
+    if (!Array.isArray(d.adverse)) fail(where, 'adverse must be an array');
+    else d.adverse.forEach((a, i) => {
+      const at = `${where} adverse[${i}]`;
+      if (!BODY_SYSTEMS.has(a?.system)) fail(at, `system "${a?.system}" is not a body system`);
+      if (!isText(a?.effects)) fail(at, 'missing effects');
+    });
+  }
+  if (d.interactions !== undefined && !Array.isArray(d.interactions)) {
+    fail(where, 'interactions must be an array');
+  }
+  if (d.pharmacokinetics) {
+    const pk = d.pharmacokinetics;
+    for (const k of ['onset', 'peak', 'duration']) {
+      if (pk[k] !== null && !isText(pk[k])) fail(where, `pharmacokinetics.${k} must be a string or null`);
+    }
+    if (!pk.onset && !pk.peak && !pk.duration) fail(where, 'pharmacokinetics is present but entirely empty');
+  }
+  // Protocol-first indications displace the label's wording rather than deleting
+  // it. If labelIndications is present it must carry content, and a card may not
+  // claim a guide source without having taken indications from it.
+  if (d.labelIndications !== undefined && !isTextList(d.labelIndications)) {
+    fail(where, 'labelIndications must be a non-empty array when present');
+  }
+  if (d.guideSource && !isText(d.guideSource.doc)) fail(where, 'guideSource needs a doc');
+
   const n = d.national;
   if (!n || typeof n !== 'object') {
     fail(where, 'missing national');
@@ -226,6 +277,48 @@ for (const q of questions) {
     if (!isText(q.ri.ref)) warn(where, 'ri block has no protocol number — add ref so the RI answer can be checked');
   }
   if (isText(q.verify)) warn(where, `unresolved: ${q.verify}`);
+
+  // Four options, one right, and a reason attached to every one of them. The
+  // rules are strict on purpose: a distractor with no error mode is a guess
+  // dressed as a question, and that is exactly the criticism this schema exists
+  // to answer. A correct choice carries no error mode; a wrong one must.
+  //
+  // Required, not optional: every question in the bank carries a full set, and
+  // a new one that does not is a flip card smuggled into a graded drill.
+  if (q.choices === undefined) {
+    fail(where, 'needs 4 choices — every question is answered and graded, not self-scored');
+  } else {
+    const at = `${where} choices`;
+    if (!Array.isArray(q.choices) || q.choices.length !== 4) {
+      fail(at, `must be exactly 4 options, found ${Array.isArray(q.choices) ? q.choices.length : 'none'}`);
+    } else {
+      const ids = q.choices.map((c) => c?.id);
+      if (ids.join(',') !== 'a,b,c,d') fail(at, `ids must be a,b,c,d in order — found ${ids.join(',')}`);
+      const correct = q.choices.filter((c) => c?.correct === true);
+      if (correct.length !== 1) fail(at, `exactly one option must be correct, found ${correct.length}`);
+      const texts = q.choices.map((c) => String(c?.text ?? '').trim().toLowerCase());
+      if (new Set(texts).size !== texts.length) fail(at, 'two options have the same text');
+      for (const c of q.choices) {
+        const ca = `${at}[${c?.id}]`;
+        if (!isText(c?.text)) fail(ca, 'missing text');
+        if (!isText(c?.rationale)) fail(ca, 'every option needs a rationale, including the correct one');
+        if (c?.correct === true) {
+          if (c.error !== undefined) fail(ca, 'the correct option must not carry an error mode');
+        } else {
+          if (!ERROR_MODES.has(c?.error)) fail(ca, `distractor error "${c?.error}" is not a known error mode`);
+        }
+      }
+      // The whole point of a computed distractor is that it is the number a real
+      // mistake produces. If the correct answer text shows up in a distractor,
+      // the generator has leaked.
+      const right = q.choices.find((c) => c.correct)?.text?.trim().toLowerCase();
+      for (const c of q.choices) {
+        if (!c.correct && right && c.text?.trim().toLowerCase() === right) {
+          fail(`${at}[${c.id}]`, 'distractor is identical to the correct answer');
+        }
+      }
+    }
+  }
 
   // Rhythm strips must be renderable by RhythmStrip.tsx.
   if (q.strip) {

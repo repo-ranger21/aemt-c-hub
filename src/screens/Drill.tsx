@@ -1,11 +1,12 @@
 import { useMemo, useState } from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { questionFile, questions } from '../data';
-import type { CalcQuestion } from '../types';
+import type { CalcQuestion, Choice } from '../types';
 import { grade, isDue, type ReviewMap } from '../lib/review';
 import { Button, Chip } from '../components/Ui';
 import { NationalLabel, RiCallout } from '../components/Standards';
 import { RhythmStrip } from '../components/RhythmStrip';
+import { ChoiceList, shuffleChoices } from '../components/Choices';
 import { color, space, type } from '../theme';
 
 const SESSION = 20;
@@ -31,15 +32,27 @@ export default function Drill({ reviews, onGrade }: { reviews: ReviewMap; onGrad
   const queue = useMemo(() => buildQueue(mode, deck, reviews), [mode, deck, seed]); // freeze queue for the session
   const [i, setI] = useState(0);
   const [shown, setShown] = useState(false);
+  // The option committed to on a four-option question. Setting it is what grades
+  // the question — there is no self-assessment, which is the whole point.
+  const [chosen, setChosen] = useState<Choice | null>(null);
 
   const q = queue[i];
-  const restart = (m: Mode, d = deck) => { setMode(m); setDeck(d); setSeed((s) => s + 1); setI(0); setShown(false); };
+  const reset = () => { setShown(false); setChosen(null); };
+  const restart = (m: Mode, d = deck) => { setMode(m); setDeck(d); setSeed((s) => s + 1); setI(0); reset(); };
 
   const mark = (result: 'got' | 'missed') => {
     onGrade({ ...reviews, [q.id]: grade(reviews[q.id], q.id, result) });
-    setShown(false);
+    reset();
     setI((n) => n + 1);
   };
+
+  // Committing to an option grades it immediately and records the result; the
+  // reader then reads why, and moves on when they are ready.
+  const commit = (c: Choice) => {
+    setChosen(c);
+    onGrade({ ...reviews, [q.id]: grade(reviews[q.id], q.id, c.correct ? 'got' : 'missed') });
+  };
+  const advance = () => { reset(); setI((n) => n + 1); };
 
   const modes = (
     <View style={styles.chips}>
@@ -70,6 +83,11 @@ export default function Drill({ reviews, onGrade }: { reviews: ReviewMap; onGrad
   }
 
   const trap = q.trap ?? q.ri?.trap ?? null;
+  // A question with options is graded by the answer you pick. One without is
+  // still a flip card, which is how the not-yet-converted part of the bank runs.
+  const options = q.choices?.length === 4 ? shuffleChoices(q.choices, q.id, seed) : null;
+  const revealed = options ? chosen !== null : shown;
+
   return (
     <ScrollView contentContainerStyle={styles.wrap}>
       {modes}
@@ -77,20 +95,41 @@ export default function Drill({ reviews, onGrade }: { reviews: ReviewMap; onGrad
       <Text style={type.small}>
         {i + 1} of {queue.length}. {q.kind === 'calc' ? `Set ${q.set}, ${q.setTitle}` : q.deckTitle}
       </Text>
-      {trap ? <Text style={[type.small, { color: color.trap, fontWeight: '700' }]}>Watch for: {TRAP_NAMES[trap]}</Text> : null}
+      {/* The trap hint is a study aid, not an exam aid: it gives away which way
+          the question bites, so it stays out of the way until the answer is in. */}
+      {trap && (!options || revealed) ? (
+        <Text style={[type.small, { color: color.trap, fontWeight: '700' }]}>Watch for: {TRAP_NAMES[trap]}</Text>
+      ) : null}
       {q.strip ? <RhythmStrip params={q.strip} /> : null}
       <Text style={styles.stem}>{q.stem}</Text>
 
-      {!shown ? (
+      {options ? (
+        <View style={{ gap: space.l }}>
+          {!revealed ? (
+            <Text style={type.small}>
+              {q.kind === 'calc'
+                ? 'Work it on paper first, no calculator. Pick one — it locks in.'
+                : 'Pick one. It locks in, so commit before you look.'}
+            </Text>
+          ) : (
+            <Text style={[styles.verdict, { color: chosen?.correct ? color.good : color.bad }]}>
+              {chosen?.correct ? 'Correct' : 'Not correct'}
+            </Text>
+          )}
+          <ChoiceList choices={options} chosen={chosen?.id ?? null} onChoose={commit} />
+        </View>
+      ) : !shown ? (
         <>
           <Text style={type.small}>{q.kind === 'calc' ? 'Work it on paper first, no calculator, about 60 seconds.' : 'Say your answer out loud, then check.'}</Text>
           <View style={{ flexDirection: 'row' }}><Button label="Show answer" onPress={() => setShown(true)} /></View>
         </>
-      ) : (
+      ) : null}
+
+      {revealed ? (
         <View style={{ gap: space.l }}>
           <View style={styles.national}>
             <NationalLabel />
-            <Text style={styles.answer}>{q.answer}</Text>
+            {!options ? <Text style={styles.answer}>{q.answer}</Text> : null}
             <Text style={type.body}>{q.work}</Text>
             {q.formula ? <Text style={type.small}>{questionFile.formulas[q.formula]}</Text> : null}
           </View>
@@ -108,12 +147,20 @@ export default function Drill({ reviews, onGrade }: { reviews: ReviewMap; onGrad
           {q.note ? <Text style={type.small}>{q.note}</Text> : null}
           {q.verify ? <Text style={[type.small, { color: color.trap }]}>Check with your instructor: {q.verify}</Text> : null}
 
-          <View style={{ flexDirection: 'row', gap: space.m }}>
-            <Button label="Missed it" tone="bad" onPress={() => mark('missed')} />
-            <Button label="Got it" tone="good" onPress={() => mark('got')} />
-          </View>
+          {/* Graded questions have already been recorded by the choice itself.
+              Only the flip cards still need the reader to score themselves. */}
+          {options ? (
+            <View style={{ flexDirection: 'row' }}>
+              <Button label={i + 1 === queue.length ? 'Finish' : 'Next question'} onPress={advance} />
+            </View>
+          ) : (
+            <View style={{ flexDirection: 'row', gap: space.m }}>
+              <Button label="Missed it" tone="bad" onPress={() => mark('missed')} />
+              <Button label="Got it" tone="good" onPress={() => mark('got')} />
+            </View>
+          )}
         </View>
-      )}
+      ) : null}
     </ScrollView>
   );
 }
@@ -123,6 +170,7 @@ const styles = StyleSheet.create({
   chips: { flexDirection: 'row', flexWrap: 'wrap', gap: space.s },
   row: { flexDirection: 'row', gap: space.s },
   stem: { fontSize: 20, lineHeight: 28, fontWeight: '600', color: color.ink },
+  verdict: { fontSize: 15, fontWeight: '700', letterSpacing: 0.3, textTransform: 'uppercase' },
   answer: { fontSize: 22, lineHeight: 28, fontWeight: '700', color: color.national },
   national: { borderLeftWidth: 3, borderLeftColor: color.national, paddingLeft: space.m, gap: space.xs },
 });
