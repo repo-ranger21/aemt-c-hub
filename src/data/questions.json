@@ -8534,7 +8534,8 @@
           "error": "adjacent-fact",
           "rationale": "No resuscitation ratio uses a single breath per cycle. The compression figure is right; the ventilation figure is not."
         }
-      ]
+      ],
+      "verify": "The 30:2 adult ratio has no verified source yet. RI’s only instance of \"30:2\" is in appendix 08.01.4 Cardiac Arrest — for K9 partners, alongside instructions on positioning barrel-chested dogs. The national figure belongs to AHA 2025 Part 7 (Adult Basic Life Support), whose DOI could not be confirmed on Crossref; Parts 6, 8 and 9 are already cited elsewhere in this file and Part 7 should join them once verified."
     },
     {
       "id": "cardiac-138",
@@ -8554,7 +8555,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 3.02 Chest Pain — Acute Coronary Syndrome — STEMI",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "ri": {
         "answer": "Transmit to the PCI center; scene ≤10 min if STEMI",
@@ -8586,7 +8588,9 @@
           "correct": true,
           "rationale": "Within 10 minutes of patient contact, then transmit or notify so the receiving centre can act on it. The prehospital tracing is what activates a cath lab before arrival."
         }
-      ]
+      ],
+      "protocolRef": "3.02",
+      "note": "RI 3.02 says to acquire a multi-lead ECG, transmit it to Medical Control, and \"Limit on scene time to ≤ 10 minutes\". Note that RI’s ten minutes is SCENE TIME, not time-to-12-lead — the same number measuring a different interval from the national figure this question asks for."
     },
     {
       "id": "cardiac-139",
@@ -8606,7 +8610,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 3.01 Acute Decompensated Heart Failure / Pulmonary Edema",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "ri": {
         "answer": "No: RI requires SBP >100",
@@ -8638,7 +8643,8 @@
           "error": "common-confusion",
           "rationale": "The opposite is true: nitroglycerin is a mainstay in acute heart failure with pulmonary oedema. What rules it out here is the pressure, not the diagnosis."
         }
-      ]
+      ],
+      "protocolRef": "3.01"
     },
     {
       "id": "cardiac-140",
@@ -8658,7 +8664,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 3.01 Acute Decompensated Heart Failure / Pulmonary Edema",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "ri": {
         "answer": "SBP >100",
@@ -8690,7 +8697,8 @@
           "error": "common-confusion",
           "rationale": "Assisting with a prescribed medication still requires the patient to meet the criteria. A prescription says the drug is theirs, not that this pressure is safe for it."
         }
-      ]
+      ],
+      "protocolRef": "3.01"
     },
     {
       "id": "cardiac-141",
@@ -8710,7 +8718,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+        "doc": "NHLBI (NIH) — JNC 7 Express: The Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure",
+        "url": "https://www.nhlbi.nih.gov/files/docs/guidelines/express.pdf"
       },
       "choices": [
         {
@@ -8784,7 +8793,8 @@
           "error": "inverted",
           "rationale": "Left-sided failure backs fluid into the lungs, which is why it brings crackles and orthopnoea. Clear lungs with distended neck veins points the other way."
         }
-      ]
+      ],
+      "verify": "Left-sided versus right-sided heart failure. NHLBI’s heart failure page mentions both but explicitly does not say what happens in each — it never names the lungs as a site of fluid buildup. RI 3.01 lists crackles, JVD and peripheral oedema together without splitting them by side. The distinction needs its own source."
     },
     {
       "id": "cardiac-143",
@@ -8831,7 +8841,8 @@
           "correct": true,
           "rationale": "Blood pressure in both arms. A dissection that involves the origin of a subclavian produces a marked difference between the two sides."
         }
-      ]
+      ],
+      "verify": "Checking blood pressure in both arms is standard physical examination technique. Neither JNC 7 Express nor the RI protocols describe it, and no federal source checked gives the manoeuvre or the size of difference that would support a dissection."
     },
     {
       "id": "iv-144",

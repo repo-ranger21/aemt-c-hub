@@ -1617,10 +1617,11 @@
     "title": "Angina vs heart attack",
     "domain": "cardiology",
     "body": [
-      "ACS covers any symptoms of acute myocardial ischemia: angina and MI are treated alike in the field.",
-      "Angina: brief, predictable (stable) or not (unstable), eases with rest or nitro.",
-      "AMI: any time, lasts longer than minutes, may not ease with rest or nitro.",
-      "Women, diabetics, and older adults often present atypically: weakness, nausea, dyspnea, fatigue."
+      "RECOGNITION (RI 3.02): chest pain or discomfort consistent with a cardiac cause, \"or other known or suspected anginal equivalent including fatigue, nausea, dyspnea, dizziness (common symptoms in women)\". RI names the atypical presentation in the protocol itself rather than leaving it to a footnote.",
+      "STEMI CRITERIA (RI 3.02, verbatim): \"ST elevation in ≥2 contiguous leads of ≥ 2mm in males or ≥ 1.5mm in females in leads V2-V3 and/or of ≥1 mm in other contiguous chest leads or the limb leads.\" The male and female thresholds differ, and only in V2–V3.",
+      "POSTERIOR MI: ST depression greater than 1 mm in V1–V3 with a dominant R wave (R/S ratio above 1) in V2 and upright T waves. New left bundle branch block counts too, but \"must be evaluated in context\".",
+      "ANGINA VS INFARCTION is a distinction of duration and reversibility, not of field treatment — ACS covers the whole spectrum of acute myocardial ischaemia and the protocol is the same.",
+      "RI 3.02 ACTIONS: acquire a multi-lead (≥12 lead) ECG and transmit it to Medical Control; limit on-scene time to 10 minutes or less."
     ],
     "tags": [],
     "scope": [
@@ -1628,7 +1629,8 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 3.02 Chest Pain — Acute Coronary Syndrome — STEMI",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
     "chapter": 18
   },
@@ -1672,9 +1674,11 @@
     "title": "Cardiogenic shock",
     "domain": "cardiology",
     "body": [
-      "The pump can't push enough blood, usually after an MI.",
-      "Clues vs hypovolemic shock: chest pain, JVD, crackles, dysrhythmias, peripheral edema.",
-      "Position of comfort, oxygen to SpO₂ >94%, IV at TKO, keep warm, early ALS."
+      "The pump cannot move enough blood, most often after an infarction.",
+      "RI 3.01 RECOGNITION puts the findings together: respiratory distress, orthopnea, bilateral crackles, jugular venous distention, peripheral edema, diaphoresis, hypotension, shock, chest pain. Crackles and distended neck veins are what separate this from hypovolemia — the tank is full and the pump has stopped moving it.",
+      "RI 3.01 ROUTES IT OUT: \"If the patient is hypotensive or has signs of cardiogenic shock or poor perfusion, manage per the age appropriate General Shock and Hypotension Protocol\" (2.20A for adults).",
+      "Oxygen to the RI 1.01 target of 94–99%, upright as the pressure allows, keep them warm, and get ALS moving early.",
+      "Note the pressure floors in 3.01: CPAP needs an SBP of at least 90, nitroglycerin needs above 100. A cardiogenic-shock patient is usually under both."
     ],
     "tags": [],
     "scope": [
@@ -1682,7 +1686,8 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 3.01 Acute Decompensated Heart Failure / Pulmonary Edema, with 2.20A General Shock and Hypotension",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
     "chapter": 18
   },
@@ -1724,8 +1729,11 @@
     "title": "Hypertensive emergency",
     "domain": "cardiology",
     "body": [
-      "SBP over 180, DBP 120 or higher, or a rapid rise, with signs of organ damage (headache, confusion, chest pain).",
-      "Head elevated, IV access, rapid transport."
+      "THE NUMBERS (NHLBI High Blood Pressure): the hypertensive crisis category is \"Higher than 180 systolic pressure OR Higher than 120 diastolic pressure\" — either one, not both.",
+      "WHAT MAKES IT AN EMERGENCY (JNC 7 Express): acute target-organ damage. Patients \"with marked BP elevations and acute target-organ damage\" need hospitalisation and parenteral therapy; patients \"with markedly elevated BP but without acute target organ damage\" are an urgency and usually do not.",
+      "EXAMPLES JNC 7 NAMES as acute target-organ damage: encephalopathy, myocardial infarction, unstable angina, pulmonary oedema, eclampsia, stroke, head trauma, life-threatening arterial bleeding, and aortic dissection.",
+      "So the number alone does not make the emergency. A chronically hypertensive patient can sit above 180 and be entirely well; what changes the category is evidence that an organ is suffering right now.",
+      "FIELD CARE: head elevated, IV access, rapid transport. RI has no hypertensive-emergency protocol — its only SBP ≥ 185 / DBP ≥ 110 figures belong to protocol 2.13 IV Thrombolytics, which is about eligibility for stroke thrombolysis, not about treating pressure."
     ],
     "tags": [],
     "scope": [
@@ -1733,9 +1741,11 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+      "doc": "NHLBI (NIH) — JNC 7 Express: The Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure",
+      "url": "https://www.nhlbi.nih.gov/files/docs/guidelines/express.pdf"
     },
-    "chapter": 18
+    "chapter": 18,
+    "note": "Two sources, deliberately. JNC 7 Express draws the emergency/urgency line at acute target-organ damage but gives no numeric threshold for the crisis categories; the 180/120 figures come from the NHLBI High Blood Pressure page, which gives the numbers but never mentions organ damage. Neither document carries both halves."
   },
   {
     "id": "card-aorta",
@@ -1745,9 +1755,10 @@
     "title": "Aortic dissection",
     "domain": "cardiology",
     "body": [
-      "Sudden tearing pain in the chest or between the shoulder blades.",
-      "Check BP in both arms; a big difference supports dissection.",
-      "Main cause: uncontrolled hypertension. Rapid transport."
+      "Sudden tearing pain in the chest or between the shoulder blades, classically migrating as the dissection extends.",
+      "JNC 7 Express lists aortic dissection among the forms of acute target-organ damage that make a markedly elevated blood pressure a hypertensive EMERGENCY rather than an urgency — which is the federal basis for the link between uncontrolled hypertension and dissection.",
+      "RI names it only once, inside a differential list alongside myocardial infarction and myocarditis. There is no RI dissection protocol: recognition and rapid transport are the whole of the prehospital job.",
+      "Treat it as a hypertensive emergency in the making and move — this is not a patient to work up on scene."
     ],
     "tags": [],
     "scope": [
@@ -1755,9 +1766,11 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+      "doc": "NHLBI (NIH) — JNC 7 Express: The Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure",
+      "url": "https://www.nhlbi.nih.gov/files/docs/guidelines/express.pdf"
     },
-    "chapter": 18
+    "chapter": 18,
+    "note": "The \"check blood pressure in both arms\" manoeuvre is standard physical examination and is stated by neither JNC 7 nor RI. It is retained on the matching question as exam technique and flagged there, not cited to either source."
   },
   {
     "id": "card-devices",
@@ -1767,9 +1780,10 @@
     "title": "Cardiac devices",
     "domain": "cardiology",
     "body": [
-      "Pacemaker and ICD: palpable bump under the skin, usually upper chest.",
-      "Wearable defibrillator vest: can shock on its own; follow its voice prompts.",
-      "LVAD: continuous flow, so the patient may have no palpable pulse; follow RI 3.08 and the device team's instructions."
+      "Pacemaker and ICD: a palpable bump under the skin, usually upper chest. An ICD can discharge while you are touching the patient; it will not harm you.",
+      "Wearable defibrillator vest: it can shock on its own, and it talks — follow its voice prompts.",
+      "VENTRICULAR ASSIST DEVICE: RI 3.08 exists specifically for these patients. Continuous-flow devices mean there may be no palpable pulse and no reliable blood pressure, so the usual perfusion checks mislead.",
+      "With a VAD, the device team is part of the assessment. Follow RI 3.08 and contact them — they know the pump, its alarms, and its controller in a way no field protocol can substitute for."
     ],
     "tags": [],
     "scope": [
@@ -1777,7 +1791,8 @@
       "ri-aemt-c"
     ],
     "source": {
-      "doc": "AEMT textbook Ch 18: Cardiovascular Emergencies (lecture slides)"
+      "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 3.08 Care of the Patient with a Ventricular Assist Device (VAD)",
+      "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
     },
     "chapter": 18
   },
