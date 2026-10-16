@@ -10284,9 +10284,9 @@
       "deckTitle": "Endocrine & hematologic emergencies",
       "set": 0,
       "setTitle": "Endocrine & hematologic emergencies",
-      "stem": "Normal nonfasting blood glucose range?",
-      "answer": "70-120 mg/dL",
-      "work": "RI treats bG ≤60 mg/dL as hypoglycemia needing action",
+      "stem": "Which blood glucose values change what you do under RI 2.10A?",
+      "answer": "≤60 mg/dL and ≥250 mg/dL",
+      "work": "RI 2.10A routes by three bands: ≤60 mg/dL treat for hypoglycemia, 60–249 mg/dL recheck only if the condition changes, ≥250 mg/dL the hyperglycemia row (normal saline 500 mL if dehydrated without CHF, then 150 mL/hr).",
       "domain": "medical",
       "trap": null,
       "scope": [
@@ -10294,34 +10294,37 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "AEMT textbook Ch 21: Endocrine and Hematologic Emergencies (lecture slides)"
+        "doc": "RI Statewide EMS Protocols v2026.02 (eff. 6/1/2026) — 2.10 Adult Diabetic Emergencies",
+        "url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/StatewideEmergencyMedicalServices.pdf"
       },
       "choices": [
         {
           "id": "a",
-          "text": "60–100 mg/dL",
-          "error": "common-confusion",
-          "rationale": "This borrows the normal heart-rate range. It also puts the lower bound at 60, which is the figure RI treats as hypoglycaemia needing action."
+          "text": "70–120 mg/dL",
+          "error": "adjacent-fact",
+          "rationale": "The range this question used to teach, and nothing publishes it. NIDDK puts normal fasting at 99 mg/dL or below, so 120 sits above the normal ceiling, and the 70 floor appears in no federal or RI document. It is also the wrong kind of number — a range you do nothing about."
         },
         {
           "id": "b",
-          "text": "80–180 mg/dL",
-          "error": "adjacent-fact",
-          "rationale": "Closer to a post-meal target range for a known diabetic than to a normal nonfasting value."
+          "text": "≤60 mg/dL only",
+          "error": "single-vs-total",
+          "rationale": "The hypoglycemia band is right and it is half the answer. RI 2.10A has a second action band at 250 mg/dL and above, where a dehydrated patient without CHF gets a 500 mL saline bolus."
         },
         {
           "id": "c",
-          "text": "70-120 mg/dL",
+          "text": "≤60 mg/dL and ≥250 mg/dL",
           "correct": true,
-          "rationale": "70–120 mg/dL nonfasting. RI treats a blood glucose of 60 mg/dL or below as hypoglycaemia requiring action."
+          "rationale": "These are the two thresholds that change care. Below 60 you treat — oral glucose if the patient is awake and alert, glucagon or D10 if not. At 250 and above you move to the hyperglycemia row. Everything between is recheck-only if the condition changes."
         },
         {
           "id": "d",
-          "text": "100–140 mg/dL",
+          "text": "≤80 mg/dL and ≥200 mg/dL",
           "error": "adjacent-fact",
-          "rationale": "The upper half is plausible but the floor is too high — a glucose of 80 mg/dL is entirely normal and would be called low by this range."
+          "rationale": "200 mg/dL is real but it is a diagnostic threshold — NIDDK uses it for a random glucose that, with symptoms, diagnoses diabetes. It is a laboratory number, not a field action point, and RI acts at 250."
         }
-      ]
+      ],
+      "note": "The \"70–120 mg/dL normal nonfasting range\" taught in many AEMT texts has no federal or state source behind it. NIDDK publishes diagnostic thresholds rather than a field range — fasting 99 mg/dL or below is normal, 100–125 prediabetes, 126 or above diabetes — and for a random nonfasting glucose it gives no normal value at all, only 200 mg/dL or above as diagnostic. RI names no normal band either. Learn the numbers that change care.",
+      "protocolRef": "2.10A"
     },
     {
       "id": "eh-113",
