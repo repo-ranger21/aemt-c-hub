@@ -1,9 +1,37 @@
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
-import type { DrugCard, FormularyCode } from '../types';
+import type { DoseBlock, DrugCard, FormularyCode } from '../types';
 import { Bullets, Button, Section } from '../components/Ui';
 import { ConflictList, RiCallout } from '../components/Standards';
 import { isCarried } from '../data';
 import { color, space, type } from '../theme';
+
+// Dosing is the thing a medic actually opens the card for, so it gets the most
+// structure: population first, then what you are treating, then the dose. The
+// adult and paediatric blocks are visually separated because mixing them up is
+// the single most consequential error on this screen.
+function Dosing({ blocks }: { blocks: DoseBlock[] }) {
+  const groups = (['adult', 'pediatric'] as const)
+    .map((p) => [p, blocks.filter((b) => b.population === p)] as const)
+    .filter(([, bs]) => bs.length);
+
+  return (
+    <View style={{ gap: space.m }}>
+      {groups.map(([population, bs]) => (
+        <View key={population} style={styles.doseGroup}>
+          <Text style={styles.doseHead}>{population === 'adult' ? 'Adult' : 'Pediatric'}</Text>
+          {bs.map((b, i) => (
+            <View key={`${b.indication ?? ''}-${i}`} style={{ gap: 2 }}>
+              {b.indication ? <Text style={styles.doseFor}>{b.indication}</Text> : null}
+              {b.doses.map((dose) => (
+                <Text key={dose} style={styles.dose}>{dose}</Text>
+              ))}
+            </View>
+          ))}
+        </View>
+      ))}
+    </View>
+  );
+}
 
 // Wording follows the appendix 09.00 legend.
 const CODE: Record<FormularyCode, string> = {
@@ -51,6 +79,42 @@ export default function DrugDetail({ drug, onBack }: { drug: DrugCard; onBack: (
       <Section title="How it works"><Text style={type.body}>{drug.mechanism}</Text></Section>
       <Section title="Indications"><Bullets items={drug.indications} /></Section>
       {drug.contraindications.length ? <Section title="Contraindications"><Bullets items={drug.contraindications} /></Section> : null}
+
+      {drug.dosing?.length ? (
+        <Section title="Dosage and administration"><Dosing blocks={drug.dosing} /></Section>
+      ) : null}
+
+      {drug.pharmacokinetics ? (
+        <Section title="Duration of action">
+          <View style={styles.grid}>
+            {([['Onset', drug.pharmacokinetics.onset], ['Peak', drug.pharmacokinetics.peak], ['Duration', drug.pharmacokinetics.duration]] as const)
+              .filter(([, v]) => v)
+              .map(([label, v]) => (
+                <View key={label} style={styles.cell}>
+                  <Text style={type.small}>{label}</Text>
+                  <Text style={[type.body, { fontWeight: '600' }]}>{v}</Text>
+                </View>
+              ))}
+          </View>
+        </Section>
+      ) : null}
+
+      {drug.adverse?.length ? (
+        <Section title="Adverse reactions">
+          <View style={{ gap: space.xs }}>
+            {drug.adverse.map((a, i) => (
+              <Text key={`${a.system}-${i}`} style={type.body}>
+                <Text style={{ fontWeight: '700' }}>{a.system}: </Text>{a.effects}
+              </Text>
+            ))}
+          </View>
+        </Section>
+      ) : null}
+
+      {drug.interactions?.length ? (
+        <Section title="Drug interactions"><Bullets items={drug.interactions} /></Section>
+      ) : null}
+
       {general.length ? <Section title="Pearls"><Bullets items={general} /></Section> : null}
 
       {drug.conflicts?.length ? (
@@ -89,6 +153,16 @@ export default function DrugDetail({ drug, onBack }: { drug: DrugCard; onBack: (
         )}
         {drug.supply ? <Text style={type.small}>Supply: {drug.supply}</Text> : null}
       </Section>
+
+      {/* The label's own indication wording, kept for the pharmacology but placed
+          last: it is written for inpatient use and reads wrong as a field
+          indication, which is why the protocol indication leads the card. */}
+      {drug.labelIndications?.length ? (
+        <Section title="On the FDA label">
+          <Bullets items={drug.labelIndications} />
+          <Text style={[type.small, { marginTop: space.xs }]}>{drug.source.doc}</Text>
+        </Section>
+      ) : null}
     </ScrollView>
   );
 }
@@ -97,4 +171,8 @@ const styles = StyleSheet.create({
   wrap: { padding: space.l, gap: space.xl, paddingBottom: 48 },
   grid: { flexDirection: 'row', gap: space.s },
   cell: { flex: 1, padding: space.s, borderWidth: 1, borderColor: color.rule, borderRadius: 6, backgroundColor: color.surface },
+  doseGroup: { gap: space.s, borderLeftWidth: 3, borderLeftColor: color.rule, paddingLeft: space.m },
+  doseHead: { fontSize: 11, fontWeight: '700', letterSpacing: 0.8, textTransform: 'uppercase', color: color.muted },
+  doseFor: { fontSize: 13, fontWeight: '600', color: color.muted },
+  dose: { fontSize: 16, lineHeight: 23, fontWeight: '600', color: color.ink },
 });

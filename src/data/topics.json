@@ -1941,12 +1941,12 @@
     "conflicts": [
       {
         "topic": "Who can place it",
-        "nremt": "Pending re-verification against the National EMS Scope of Practice Model — ems.gov is currently refusing automated requests, so this half is not asserted",
+        "nremt": "National EMS Scope of Practice Model 2019 (DOT HS 812 666), §VI Interpretive Guidelines, IV. Skill — Medication Administration — Routes, p. 35: \"Intraosseous – initiation, peds or adult\" is marked at AEMT and Paramedic, and not at EMR or EMT",
         "ri": "RI 1.07 Advanced EMT Scope of Practice lists \"Establishing intravenous and intraosseous vascular access\" and \"Administration medications via the IV/IO route\""
       }
     ],
     "protocolRef": "7.44",
-    "note": "Rebuilt from RI procedure 7.44, with the scope line verified verbatim against RI 1.07. Three corrections to the previous card: the specific centimetre landmarks are not RI figures — RI defers to the device manufacturer's FDA-approved insertion sites; the arrest point that an IO above the diaphragm can serve as PRIMARY access was missing; and the contraindication list (fractured bone, infection, previously used bone) and complication list are not stated in 7.44, so they are replaced with what RI does state and need their own source before returning. Procedure number: RI v2026.02 numbers this inconsistently — one table of contents lists IO as 07.45 and another as 07.44, while the procedure page itself is headed 7.44. The page heading is used here. The national half of the conflict is unverified because ems.gov blocks automated requests; the Scope of Practice Model needs a browser fetch."
+    "note": "Rebuilt from RI procedure 7.44, with the scope line verified verbatim against RI 1.07. Three corrections to the previous card: the specific centimetre landmarks are not RI figures — RI defers to the device manufacturer's FDA-approved insertion sites; the arrest point that an IO above the diaphragm can serve as PRIMARY access was missing; and the contraindication list (fractured bone, infection, previously used bone) and complication list are not stated in 7.44, so they are replaced with what RI does state and need their own source before returning. Procedure number: RI v2026.02 numbers this inconsistently — one table of contents lists IO as 07.45 and another as 07.44, while the procedure page itself is headed 7.44. The page heading is used here. The national half is now verified against the Scope of Practice Model 2019 itself (p. 35), which places IO initiation at AEMT and Paramedic only. National and RI agree on this one."
   },
   {
     "id": "ph-names",

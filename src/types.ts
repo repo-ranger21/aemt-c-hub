@@ -91,14 +91,52 @@ interface Base {
   verify?: string;  // unresolved item to check against RI protocol
 }
 
+// One dosing instruction, kept in the shape a medic reads it: who the patient is,
+// what you are treating, then the dose. Splitting population from indication is
+// what lets the card show "peds, seizures" without the reader scanning an adult
+// block first — and it is where most of the exam traps live.
+export interface DoseBlock {
+  population: 'adult' | 'pediatric';
+  indication: string | null;   // null when the drug has a single indication
+  doses: string[];
+}
+
+// Onset / peak / duration. Separate fields rather than prose because the three
+// get compared across drugs constantly (why midazolam over diazepam, and so on).
+export interface Pharmacokinetics {
+  onset: string | null;
+  peak: string | null;
+  duration: string | null;
+}
+
+// Adverse effects grouped by body system, which is how both the guide and the
+// exam organise them.
+export type BodySystem = 'CNS' | 'Respiratory' | 'CV' | 'GI/GU' | 'Musculoskeletal' | 'Endocrine' | 'Other';
+export interface AdverseEffect {
+  system: BodySystem;
+  effects: string;
+}
+
 export interface DrugCard extends Base {
   kind: 'drug';
   name: string;
   brand: string[];
   class: string;
   mechanism: string;
+  // The field indication, protocol-referenced — what you are actually treating
+  // when you reach for this. Leads the card.
   indications: string[];
+  // The FDA label's own indication wording, kept underneath. It is the primary
+  // source for the pharmacology but it is written for inpatient use, so it
+  // reads wrong as a field indication: amiodarone's label calls it prophylaxis
+  // of recurring VF refractory to other therapy, which is not what an arrest
+  // looks like from the floor.
+  labelIndications?: string[];
   contraindications: string[];
+  adverse: AdverseEffect[];
+  interactions: string[];
+  dosing: DoseBlock[];
+  pharmacokinetics: Pharmacokinetics | null;
   pearls: string[];      // general / national
   riPearls: string[];    // RI protocol detail, shown in the gold callout
   supply: string | null;
@@ -139,6 +177,35 @@ export interface TopicCard extends Base {
   conflicts?: Conflict[];
 }
 
+// Why a distractor is wrong. For med math these are computed, not invented: the
+// generator derives each wrong option by applying the named error to the same
+// variables that produce the right one, so "what a student who forgot to convert
+// pounds would get" is an actual number, not a plausible-looking one.
+export type ErrorMode =
+  | 'no-conversion'      // skipped lb→kg, g→mg, mg→mcg
+  | 'inverted'           // flipped the ratio (mL/mg for mg/mL, or ÷ instead of ×)
+  | 'wrong-magnitude'    // off by a factor of 10, 100 or 1,000
+  | 'ignored-ceiling'    // computed past a stated maximum
+  | 'ignored-floor'      // computed under a stated minimum
+  | 'single-vs-total'    // single dose where cumulative was asked, or the reverse
+  | 'wrong-concentration'// used the other vial strength on the truck
+  | 'adult-peds'         // applied the adult figure to a child, or the reverse
+  | 'ri-answer'          // correct under RI protocol, not the national/NREMT answer
+  | 'adjacent-fact'      // a real fact about something else (recall questions)
+  | 'common-confusion';  // the classic mix-up for this topic
+
+export interface Choice {
+  id: 'a' | 'b' | 'c' | 'd';
+  text: string;
+  // Exactly one choice per question sets this. Absent means a distractor.
+  correct?: true;
+  // Why this is the answer, or — for a distractor — the specific mistake that
+  // produces it. Shown after the learner commits, for every option.
+  rationale: string;
+  // Absent on the correct choice; names the error on every distractor.
+  error?: ErrorMode;
+}
+
 export interface CalcQuestion extends Base {
   kind: 'calc' | 'recall';   // calc = med math, recall = flip card
   deck: string;
@@ -149,6 +216,11 @@ export interface CalcQuestion extends Base {
   stem: string;
   answer: string;
   work: string;     // shown on reveal
+  // Four options, one correct, each carrying its own rationale. Optional on the
+  // type only while the rebuild is in flight — the validator requires a complete
+  // well-formed set wherever the field is present, and the drill treats a
+  // question without choices as not yet converted.
+  choices?: Choice[];
   formula?: Formula;       // med math only
   trap: Trap | null;
   protocolRef?: string;  // RI protocol number, e.g. "2.10P"
