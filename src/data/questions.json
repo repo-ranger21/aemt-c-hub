@@ -5158,7 +5158,7 @@
           "rationale": "8 × 10 = 80/min. The 6-second method is the one that still works when the rhythm is irregular, because it averages across the whole strip."
         }
       ],
-      "verify": "The 6-second counting method (count the QRS complexes in six seconds and multiply by ten) is bedside teaching practice, not a measurement standard. It does not appear in AHA/ACCF/HRS Part I, which covers recording technology rather than interpretation technique. The arithmetic is trivially correct and uncontroversial; what is missing is a citable authority that teaches the method."
+      "verify": "The 6-second counting method (count the QRS complexes in six seconds and multiply by ten) is bedside teaching practice, not a measurement standard. It does not appear in AHA/ACCF/HRS Part I, which covers recording technology rather than interpretation technique. The arithmetic is trivially correct and uncontroversial; what is missing is a citable authority that teaches the method. Part III was checked too and covers conduction disturbances only, so it adds nothing here."
     },
     {
       "id": "ecg-103",
@@ -5206,7 +5206,7 @@
           "rationale": "300 is the numerator of the large-box method, not a rate. Here it would need dividing by the 4 large boxes that 20 small boxes make, which also gives 75."
         }
       ],
-      "verify": "The 1,500 method has the same problem as the 6-second method: it is a technique for estimating rate from small boxes, derived from the 25 mm/s paper speed but not stated anywhere in AHA/ACCF/HRS Part I. Note the method itself falls out of the standard — 1,500 small boxes is one minute at 25 mm/s — so it may be presentable as derivation rather than needing its own source."
+      "verify": "The 1,500 method has the same problem as the 6-second method: it is a technique for estimating rate from small boxes, derived from the 25 mm/s paper speed but not stated anywhere in AHA/ACCF/HRS Part I. Note the method itself falls out of the standard — 1,500 small boxes is one minute at 25 mm/s — so it may be presentable as derivation rather than needing its own source. Part III was checked too and adds nothing here."
     },
     {
       "id": "ecg-104",
@@ -5254,7 +5254,7 @@
           "rationale": "The floor is right and the ceiling is twice where it belongs. A PR of 0.40 s is a marked first-degree block, not a normal finding."
         }
       ],
-      "verify": "Normal PR interval values are NOT in AHA/ACCF/HRS Part I. The document was read end to end, including its reference list: it gives the 25 mm/s recording speed but no numeric normal value for the PR interval, QRS duration or QT, and no amplitude calibration figure. The 0.12–0.20 s range currently comes from the Jones & Bartlett text. Part III (Intraventricular Conduction Disturbances, Surawicz et al. 2009, 10.1016/j.jacc.2008.12.013) is the likeliest home for QRS duration and should be checked; the PR range needs its own source."
+      "verify": "Normal PR interval is in NEITHER Part I nor Part III. Both were read: Part I gives the 25 mm/s recording speed and no interval norms; Part III gives QRS duration thresholds and a preexcitation PR criterion (<120 ms) but no normal PR range. The 0.12-0.20 s figure remains textbook-only and needs a different authority."
     },
     {
       "id": "ecg-105",
@@ -7519,7 +7519,7 @@
       "setTitle": "ECG & dysrhythmias",
       "stem": "Name the three ECG findings of Wolff-Parkinson-White.",
       "answer": "PR under 0.12 s, QRS often over 0.12 s, and a delta wave",
-      "work": "The bundle of Kent bypasses the AV node, so the normal delay never happens and the PR is short. The delta wave is the slurred upstroke where the ventricle depolarized early through the accessory path.",
+      "work": "AHA/ACCF/HRS Part III gives the preexcitation criterion directly: a PR \"less than 120 ms during sinus rhythm in adults\" (under 90 ms in children). The accessory pathway bypasses the AV node, so the normal delay never happens; the delta wave is the slurred upstroke where the ventricle depolarised early through it, and the QRS widens past the 120 ms that Part III sets for complete bundle branch block.",
       "domain": "cardiology",
       "trap": null,
       "scope": [
@@ -7527,7 +7527,8 @@
         "ri-aemt-c"
       ],
       "source": {
-        "doc": "Introduction to Basic Cardiac Dysrhythmias, 5th ed. (lecture outlines)"
+        "doc": "AHA/ACCF/HRS Recommendations for the Standardization and Interpretation of the Electrocardiogram, Part III: Intraventricular Conduction Disturbances (Surawicz et al., Circulation 2009;119:e235-e240)",
+        "url": "https://doi.org/10.1161/CIRCULATIONAHA.108.191095"
       },
       "choices": [
         {
